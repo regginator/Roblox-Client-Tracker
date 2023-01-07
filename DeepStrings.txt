@@ -20828,6 +20828,7 @@ LastPageIndex
 LastPlaceId
 LastReported
 LastResetOn
+LastResetOnISO
 LastResetView
 LastRetriedOn
 LastRunDate
@@ -20896,6 +20897,7 @@ LayoutChangeHint
 LayoutDirection
 LayoutDirty
 LayoutErrors
+LayoutHasBeenReset
 LayoutInfo
 LayoutNode
 LayoutOrder
@@ -24315,6 +24317,7 @@ OnlineGame
 OnLinkedScriptsUpdated
 OnlyLoginItems
 OnlyNetworkHumanoidStatePropertyReplication
+OnlyRecordRegistryResetWhenReset
 OnlyReportPauseMetricsToKibanaWhenPauseIsEnabled
 OnlyStartPageItems
 OnMousePart
@@ -30298,7 +30301,6 @@ RobloxConversation
 RobloxCookieEngineMutex
 RobloxCrashDumpUploaderMutex
 RobloxCustom
-RobloxCustomWidgets.BrickColor359
 RobloxDefault
 RobloxDiagnosticsView
 RobloxDirectDownload
@@ -30729,6 +30731,7 @@ SafeZoneOffset
 SafeZoneOffsets
 SafeZoneOffsetsChanged
 SafeZoneOffsetsInputWidget
+SAHAEBVQByteAr
 SAHAEBVQByteArray
 SAHAEBVQString
 SAHPEAVQWidget
@@ -36379,7 +36382,6 @@ Studio.App.RobloxChatWidget.DisabledChatMessage
 Studio.App.RobloxChatWidget.FailedSendAMessage
 Studio.App.RobloxChatWidget.NotFriendErrorMessage
 Studio.App.RobloxChatWidget.SendAMessage
-Studio.App.RobloxCustomWidgets.BrickCo
 Studio.App.RobloxCustomWidgets.BrickColor
 Studio.App.RobloxCustomWidgets.BrickColor1
 Studio.App.RobloxCustomWidgets.BrickColor1001
