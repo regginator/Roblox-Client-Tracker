@@ -1,10 +1,9 @@
 local ProfileQRCode = script:FindFirstAncestor("ProfileQRCode")
 local Packages = ProfileQRCode.Parent
 local LuaSocialLibrariesDeps = require(Packages.LuaSocialLibrariesDeps)
+local HttpRequest = LuaSocialLibrariesDeps.httpRequest
 local RODUX_KEY = require(ProfileQRCode.Common.Constants).RODUX_KEY
 local Lumberyak = require(Packages.Lumberyak)
-
-local HttpRequest = LuaSocialLibrariesDeps.httpRequest
 
 local logger = Lumberyak.Logger.new(nil, "ProfileQRCode")
 local httpLogger = logger:new("ProfileQRCode Networking")
