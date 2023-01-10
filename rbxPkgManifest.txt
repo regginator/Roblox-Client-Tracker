@@ -24,7 +24,7 @@ StudioFonts.zip
 947488
 1990526
 WebView2.zip
-4fb8fa66abbf5474ba46cf250cba6378
+04fc8dc6d3dd5b44a87db574274b2c31
 80620
 157624
 WebView2RuntimeInstaller.zip
@@ -32,15 +32,15 @@ WebView2RuntimeInstaller.zip
 1732215
 1834125
 RobloxStudio.zip
-d282b7d110957066295965601375793b
+f892fb7df71b4f6741b7933e594c43ff
 55970103
 107322190
 Libraries.zip
-cae3bf074648eab6fe4961f4ea9aa97a
+01391c513beaed694920e5593298bccc
 7268326
 18051360
 LibrariesQt5.zip
-3e7f05781d7f7243ab361ce66bc72408
+6ce2fefe3c69bcd9cd9fa1e5f3d0b6ca
 13315657
 34281144
 content-avatar.zip
