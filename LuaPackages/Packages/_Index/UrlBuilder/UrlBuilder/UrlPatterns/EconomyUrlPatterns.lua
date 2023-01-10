@@ -2,7 +2,6 @@ return function(UrlBuilder)
 	local EconomyPatterns = {
 		paymentsGateway = {
 			getUpsellProduct = UrlBuilder.fromString("apis:payments-gateway/v1/products/get-upsell-product"),
-			preparePayment = UrlBuilder.fromString("apis:payments-gateway/v1/prepare-payment")
 		},
 		purchaseWarning = {
 			getPurchaseWarning = function(mobileProductId: string?, productId: number?, is13To17ScaryModalEnabled: boolean?)

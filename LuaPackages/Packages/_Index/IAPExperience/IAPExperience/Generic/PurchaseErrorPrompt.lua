@@ -58,12 +58,7 @@ function ErrorPrompt:getErrorMessage(locMap: {[string]: string}, errorType: any?
 		return locMap.premiumPlatformUnavailable
 	elseif errorType == PurchaseErrorType.AlreadyPremium then
 		return locMap.alreadyPremium
-	elseif errorType == PurchaseErrorType.PurchaseLimit then
-		return locMap.purchaseLimitText
-	elseif errorType == PurchaseErrorType.ParentalLimit then
-		return locMap.parentalLimitText
 	end
-
 	return locMap.unknownText
 end
 
@@ -114,12 +109,6 @@ function ErrorPrompt:render()
 			},
 			alreadyPremium = {
 				key = LOC_KEY:format("AlreadyPremium")
-			},
-			purchaseLimitText = {
-				key = LOC_KEY:format("Text.PurchaseLimit")
-			},
-			parentalLimitText = {
-				key = LOC_KEY:format("Text.ParentalLimit")
 			},
 		},
 		render = function(locMap: {[string]: string})

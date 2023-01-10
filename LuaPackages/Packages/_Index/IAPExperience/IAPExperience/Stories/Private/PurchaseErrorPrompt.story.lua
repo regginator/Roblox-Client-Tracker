@@ -66,8 +66,6 @@ return {
 			PurchaseErrorType.Under13,
 			PurchaseErrorType.PremiumPlatformUnavailable,
 			PurchaseErrorType.AlreadyPremium,
-			PurchaseErrorType.PurchaseLimit,
-			PurchaseErrorType.ParentalLimit,
 		},
 		showController = true,
 	},

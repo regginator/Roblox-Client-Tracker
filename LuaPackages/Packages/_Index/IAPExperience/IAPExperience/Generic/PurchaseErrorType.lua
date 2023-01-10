@@ -77,17 +77,7 @@ local rawKeyToRawValue = {
     --[[ PurchaseErrorType.AlreadyPremium
     The user is being prompted to purchase premium but is already premium.
     ]]--
-    AlreadyPremium = "AlreadyPremium",
-
-     --[[ PurchaseErrorType.PurchaseLimit
-    The user passed their daily/monthly limit for purchasing robux.
-    ]]--
-    PurchaseLimit = "PurchaseLimit",
-
-    --[[ PurchaseErrorType.ParentalLimit
-    The user passed their parental limit for purchasing robux.
-    ]]--
-    ParentalLimit = "ParentalLimit",
+    AlreadyPremium = "AlreadyPremium"
 }
 
 -- The values here correspond to values in the requested web view.
