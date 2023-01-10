@@ -7,8 +7,6 @@ local Rodux = dependencies.Rodux
 local UIBlox = dependencies.UIBlox
 local LocalizationProvider = dependencies.LocalizationProvider
 local Mock = dependencies.Mock
-local UnitTestHelpers = dependencies.UnitTestHelpers
-local mockNavigation = UnitTestHelpers.mockNavigation
 
 local mockLocalization = Mock.MagicMock.new({ name = "Localization" })
 mockLocalization.Format = function(_, key, _)
@@ -34,9 +32,7 @@ local createTreeWithProviders = function(element, config)
 				localizationProvider = Roact.createElement(LocalizationProvider, {
 					localization = mockLocalization,
 				}, {
-					myElement = if config.navigation
-						then Roact.createElement(element, config.props)
-						else mockNavigation(Roact.createElement(element, config.props)),
+					myElement = Roact.createElement(element, config.props),
 				}),
 			}),
 		}),

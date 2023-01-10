@@ -32,6 +32,9 @@ local IsExperienceOlderThanOneWeek = require(InGameMenu.Utility.IsExperienceOlde
 local GetFriends = require(InGameMenu.Thunks.GetFriends)
 local SocialDependencies = require(InGameMenu.SocialDependencies)
 local RoduxShareLinks = SocialDependencies.RoduxShareLinks
+local NetworkingShareLinks = SocialDependencies.NetworkingShareLinks
+local RoduxNetworking = SocialDependencies.RoduxNetworking
+local NetworkStatus = RoduxNetworking.Enum.NetworkStatus
 local UrlBuilder = SocialDependencies.UrlBuilder
 
 local InviteFriendsList = require(script.InviteFriendsList)
@@ -51,8 +54,12 @@ local Flags = InGameMenu.Flags
 local GetFFlagUsePageSearchAnimation = require(Flags.GetFFlagUsePageSearchAnimation)
 local GetFFlagShareInviteLinkContextMenuV3Enabled = require(Flags.GetFFlagShareInviteLinkContextMenuV3Enabled)
 local GetFFlagLuaAppNewShareSheet = require(CorePackages.Workspace.Packages.ExternalContentSharingProtocol).Flags.GetFFlagLuaAppNewShareSheet
+local GetFFlagShareInviteLinkContextMenuV3DisableIconFixEnabled =
+	require(InGameMenu.Flags.GetFFlagShareInviteLinkContextMenuV3DisableIconFixEnabled)
 local GetFFlagShareInviteLinkContextMenuV3ConsoleFix =
 	require(InGameMenu.Flags.GetFFlagShareInviteLinkContextMenuV3ConsoleFix)
+local GetFFlagShareInviteLinkContextMenuV3CopiedTooltipEnabled =
+	require(InGameMenu.Flags.GetFFlagShareInviteLinkContextMenuV3CopiedTooltipEnabled)
 
 local ACTIONS_ICON_PADDING = 10
 
@@ -299,7 +306,12 @@ function InviteFriendsPage:getActions()
 		return {
 			ShareIcon = if self:shouldShowShareInviteLink(self.props.gameInfo) then Roact.createElement(ShareInviteLinkButton, {
 				layoutOrder = 1,
-				fetchShareInviteLinkAndOpenShareSheet = self.shareInviteLinkButtonOnActivated,
+				onActivated = if GetFFlagShareInviteLinkContextMenuV3CopiedTooltipEnabled()
+					then nil
+					else self.shareInviteLinkButtonOnActivated,
+				fetchShareInviteLinkAndOpenShareSheet = if GetFFlagShareInviteLinkContextMenuV3CopiedTooltipEnabled()
+					then self.shareInviteLinkButtonOnActivated
+					else nil,
 			}) else nil,
 			SearchIcon = Roact.createElement(IconButton, {
 				layoutOrder = GetFFlagShareInviteLinkContextMenuV3Enabled() and 2 or 1,
@@ -327,7 +339,15 @@ function InviteFriendsPage:getActions()
 		}),
 		ShareIcon = if self:shouldShowShareInviteLink(self.props.gameInfo) then Roact.createElement(ShareInviteLinkButton, {
 			layoutOrder = 1,
-			fetchShareInviteLinkAndOpenShareSheet = self.shareInviteLinkButtonOnActivated,
+			onActivated = if GetFFlagShareInviteLinkContextMenuV3CopiedTooltipEnabled()
+				then nil
+				else self.shareInviteLinkButtonOnActivated,
+			fetchShareInviteLinkAndOpenShareSheet = if GetFFlagShareInviteLinkContextMenuV3CopiedTooltipEnabled()
+				then self.shareInviteLinkButtonOnActivated
+				else nil,
+			isDisabled = if GetFFlagShareInviteLinkContextMenuV3DisableIconFixEnabled()
+				then nil
+				else if self.props.fetchShareInviteLinkNetworkStatus == NetworkStatus.Fetching then true else false,
 		}) else nil,
 		SearchIcon = Roact.createElement(IconButton, {
 			layoutOrder = GetFFlagShareInviteLinkContextMenuV3Enabled() and 2 or 1,
@@ -403,6 +423,9 @@ if GetFFlagShareInviteLinkContextMenuV3Enabled() then
 			canCaptureFocus = canCaptureFocus,
 			shouldForgetPreviousSelection = state.menuPage ~= Constants.InviteFriendsPageKey,
 			shareInviteLink = state.shareLinks.Invites.ShareInviteLink,
+			fetchShareInviteLinkNetworkStatus = if GetFFlagShareInviteLinkContextMenuV3DisableIconFixEnabled()
+				then nil
+				else NetworkingShareLinks.GenerateLink.getStatus(state, RoduxShareLinks.Enums.LinkType.ExperienceInvite.rawValue()),
 			gameInfo = state.gameInfo,
 			serverType = state.serverType,
 		}

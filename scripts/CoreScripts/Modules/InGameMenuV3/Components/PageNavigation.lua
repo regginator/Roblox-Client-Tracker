@@ -52,6 +52,8 @@ local NetworkStatus = RoduxNetworking.Enum.NetworkStatus
 local NetworkingShareLinks = SocialDependencies.NetworkingShareLinks
 local GetFFlagShareInviteLinkContextMenuV3Enabled =
 	require(InGameMenu.Flags.GetFFlagShareInviteLinkContextMenuV3Enabled)
+local GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled =
+	require(InGameMenu.Flags.GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled)
 
 local GetFFlagLuaAppNewShareSheet =
 	require(CorePackages.Workspace.Packages.ExternalContentSharingProtocol).Flags.GetFFlagLuaAppNewShareSheet
@@ -93,7 +95,8 @@ function renderMenu(props, actions)
 					text = localized[index],
 					icon = (page.actionKey and actions[page.actionKey].selected and page.iconOn) or page.icon,
 					leftPaddingOffset = 7,
-					disabled = if page.actionKey
+					disabled = if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled()
+							and page.actionKey
 							and actions[page.actionKey]
 						then
 							actions[page.actionKey].disabled
@@ -151,12 +154,14 @@ if GetFFlagShareInviteLinkContextMenuV3Enabled() then
 			})
 			openShareSheet(linkId)
 
-			if self.props.enableCopiedFeedback then
-				self:setState({ showCopiedText = true })
+			if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled() then
+				if self.props.enableCopiedFeedback then
+					self:setState({ showCopiedText = true })
 
-				delay(1, function()
-					self:setState({ showCopiedText = false })
-				end)
+					delay(1, function()
+						self:setState({ showCopiedText = false })
+					end)
+				end
 			end
 		end
 	end
@@ -193,8 +198,19 @@ if GetFFlagShareInviteLinkContextMenuV3Enabled() then
 		local actions = {
 			shareServerLink = GetFFlagShareInviteLinkContextMenuV3Enabled()
 					and {
-						disabled = self.props.fetchShareInviteLinkNetworkStatus == NetworkStatus.Fetching or self.state.showCopiedText,
-						selected = if self.props.enableCopiedFeedback
+						isDisabled = if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled()
+							then nil
+							else
+								if self.props.fetchShareInviteLinkNetworkStatus == NetworkStatus.Fetching
+									then true
+									else false,
+						disabled = if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled()
+							then
+								if self.props.fetchShareInviteLinkNetworkStatus == NetworkStatus.Fetching or self.state.showCopiedText
+									then true
+									else false
+							else nil,
+						selected = if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled() and self.props.enableCopiedFeedback
 							then self.state.showCopiedText
 							else false,
 						onActivated = function()
@@ -208,7 +224,7 @@ if GetFFlagShareInviteLinkContextMenuV3Enabled() then
 								props.fetchShareInviteLink()
 							else
 								openShareSheet(self.props.shareInviteLink.linkId)
-								if self.props.enableCopiedFeedback then
+								if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled() and self.props.enableCopiedFeedback then
 									self:setState({ showCopiedText = true })
 
 									delay(1, function()
@@ -406,11 +422,13 @@ else
 	end
 end
 
-PageNavigation = InGameMenuPolicy.connect(function(appPolicy, props)
-	return {
-		enableCopiedFeedback = appPolicy.enableCopiedFeedback(),
-	}
-end)(PageNavigation)
+if GetFFlagShareInviteLinkContextMenuV3CopiedTextEnabled() then
+	PageNavigation = InGameMenuPolicy.connect(function(appPolicy, props)
+		return {
+			enableCopiedFeedback = appPolicy.enableCopiedFeedback(),
+		}
+	end)(PageNavigation)
+end
 
 return RoactRodux.UNSTABLE_connect2(function(state, props)
 	return {

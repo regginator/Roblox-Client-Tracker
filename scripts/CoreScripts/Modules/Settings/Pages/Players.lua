@@ -93,6 +93,7 @@ local GetFFlagSubscriptionFailureRejoin = require(RobloxGui.Modules.Flags.GetFFl
 local GetFFlagInviteTextTruncateFix = require(RobloxGui.Modules.Flags.GetFFlagInviteTextTruncateFix)
 local GetFFlagSelfViewSettingsEnabled = require(RobloxGui.Modules.Settings.Flags.GetFFlagSelfViewSettingsEnabled)
 local GetFFlagVoiceRecordingIndicatorsEnabled = require(RobloxGui.Modules.Flags.GetFFlagVoiceRecordingIndicatorsEnabled)
+local FFlagPlayersTranslationUpdate = game:DefineFastFlag("PlayersTranslationUpdate", false)
 
 local isEngineTruncationEnabledForIngameSettings = require(RobloxGui.Modules.Flags.isEngineTruncationEnabledForIngameSettings)
 
@@ -810,7 +811,11 @@ local function Initialize()
 
 		textLabel.Font = Enum.Font.SourceSansSemibold
 		textLabel.AutoLocalize = false
-		textLabel.Text = RobloxTranslator:FormatByKey("Feature.SettingsHub.Action.MuteAll")
+		if FFlagPlayersTranslationUpdate then
+			textLabel.Text = RobloxTranslator:FormatByKey("Feature.SettingsHub.Action.MuteAll")
+		else
+			textLabel.Text = "Mute All"
+		end
 
 		icon.Size = UDim2.new(0, 24, 0, 24)
 		icon.Position = UDim2.new(0, 18, 0, 18)
@@ -1136,8 +1141,12 @@ local function Initialize()
 			muteAllButton = createMuteAllButton()
 			muteAllButton.Activated:connect(function()
 				muteAllState = not muteAllState
-				local text = muteAllState and RobloxTranslator:FormatByKey("Feature.SettingsHub.Action.UnmuteAll") or RobloxTranslator:FormatByKey("Feature.SettingsHub.Action.MuteAll")
-				muteAllButton.TextLabel.Text = text
+				if FFlagPlayersTranslationUpdate then
+					local text = muteAllState and RobloxTranslator:FormatByKey("Feature.SettingsHub.Action.UnmuteAll") or RobloxTranslator:FormatByKey("Feature.SettingsHub.Action.MuteAll")
+					muteAllButton.TextLabel.Text = text
+				else
+					muteAllButton.TextLabel.Text = muteAllState and "Unmute All" or "Mute All"
+				end
 				if GetFFlagOldMenuNewIcons() then
 					muteAllButton.Icon.Image = VoiceChatServiceManager:GetIcon(muteAllState and "MuteAll" or "UnmuteAll", "Misc")
 				end

@@ -1,5 +1,5 @@
-game:DefineFastFlag("UseVoiceExitBetaLanguageV2", false)
+game:DefineFastFlag("UseVoiceExitBetaLanguage", false)
 
 return function()
-	return game:GetFastFlag("UseVoiceExitBetaLanguageV2")
+	return game:GetFastFlag("UseVoiceExitBetaLanguage")
 end

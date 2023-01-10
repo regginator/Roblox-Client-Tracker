@@ -11,6 +11,9 @@ local RoduxNetworking = network.RoduxNetworking
 local NetworkingSponsoredEvents = network.NetworkingSponsoredEvents
 local types = require(VirtualEvents.types)
 local EventGridContainer = require(script.Parent.EventGridContainer)
+local useActiveVirtualEvents = require(VirtualEvents.Hooks.useActiveVirtualEvents)
+
+local getFFlagEnableVirtualEvents = require(VirtualEvents.Parent.SharedFlags).getFFlagEnableVirtualEvents
 
 local LoadingStateContainer = UIBlox.App.Container.LoadingStateContainer
 local UIBloxRetrievalStatus = UIBlox.App.Loading.Enum.RetrievalStatus
@@ -28,11 +31,13 @@ end
 
 export type Props = {
 	mockDataStatus: string?,
+	onEventTileActivated: ((virtualEvent: types.VirtualEvent) -> ())?,
 }
 
 local function EventsPage(props: Props)
 	local dispatch = useDispatch()
 	local navigation = useNavigation()
+	local _virtualEvents, virtualEventsFetchingStatus = useActiveVirtualEvents()
 	local sponsoredEvents = useSelector(selectSponsoredEvents)
 	local sponsoredEventsFetchingStatus = useSelector(selectSponsoredEventsFetchingStatus)
 	local localized = useLocalization({
@@ -40,7 +45,11 @@ local function EventsPage(props: Props)
 	})
 
 	if props.mockDataStatus then
-		sponsoredEventsFetchingStatus = props.mockDataStatus
+		if getFFlagEnableVirtualEvents() then
+			virtualEventsFetchingStatus = props.mockDataStatus
+		else
+			sponsoredEventsFetchingStatus = props.mockDataStatus
+		end
 	end
 
 	local dispatchFetchSponsoredEvents = React.useCallback(function()
@@ -59,18 +68,33 @@ local function EventsPage(props: Props)
 		})
 	end, { navigation })
 
-	local renderOnLoaded = React.useCallback(function()
-		return React.createElement("Frame", {
-			Position = UDim2.new(0, 0, 0, TOP_PADDING),
-			Size = UDim2.new(1, 0, 1, -TOP_PADDING),
-			BackgroundTransparency = 1,
-		}, {
-			EventGridContainer = React.createElement(EventGridContainer, {
-				sponsoredEvents = sponsoredEvents,
-				onButtonActivated = onButtonActivated,
-			}),
-		})
-	end, { sponsoredEvents, onButtonActivated } :: { any })
+	local renderOnLoaded
+	if getFFlagEnableVirtualEvents() then
+		renderOnLoaded = React.useCallback(function()
+			return React.createElement("Frame", {
+				Position = UDim2.new(0, 0, 0, TOP_PADDING),
+				Size = UDim2.new(1, 0, 1, -TOP_PADDING),
+				BackgroundTransparency = 1,
+			}, {
+				EventGridContainer = React.createElement(EventGridContainer, {
+					onEventTileActivated = props.onEventTileActivated,
+				}),
+			})
+		end, { props.onEventTileActivated } :: { any })
+	else
+		renderOnLoaded = React.useCallback(function()
+			return React.createElement("Frame", {
+				Position = UDim2.new(0, 0, 0, TOP_PADDING),
+				Size = UDim2.new(1, 0, 1, -TOP_PADDING),
+				BackgroundTransparency = 1,
+			}, {
+				EventGridContainer = React.createElement(EventGridContainer, {
+					sponsoredEvents = sponsoredEvents,
+					onButtonActivated = onButtonActivated,
+				}),
+			})
+		end, { sponsoredEvents, onButtonActivated } :: { any })
+	end
 
 	local renderOnFailed = React.useCallback(function()
 		return React.createElement(EmptyState, {
@@ -85,8 +109,15 @@ local function EventsPage(props: Props)
 		end
 	end, {})
 
+	local fetchingStatus
+	if getFFlagEnableVirtualEvents() then
+		fetchingStatus = virtualEventsFetchingStatus
+	else
+		fetchingStatus = sponsoredEventsFetchingStatus
+	end
+
 	return React.createElement(LoadingStateContainer, {
-		dataStatus = UIBloxRetrievalStatus.fromRawValue(sponsoredEventsFetchingStatus),
+		dataStatus = UIBloxRetrievalStatus.fromRawValue(fetchingStatus),
 		renderOnFailed = renderOnFailed,
 		renderOnLoaded = renderOnLoaded,
 	})

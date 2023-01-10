@@ -4,10 +4,14 @@ local Cryo = require(VirtualEvents.Parent.Cryo)
 local React = require(VirtualEvents.Parent.React)
 local UIBlox = require(VirtualEvents.Parent.UIBlox)
 local types = require(VirtualEvents.types)
+local findFirstImageInMedia = require(VirtualEvents.Common.findFirstImageInMedia)
+local useVirtualEventMedia = require(VirtualEvents.Hooks.useVirtualEventMedia)
 
 local useStyle = UIBlox.Core.Style.useStyle
 local Interactable = UIBlox.Core.Control.Interactable
 local LoadableImage = UIBlox.App.Loading.LoadableImage
+
+local getFFlagEnableVirtualEvents = require(VirtualEvents.Parent.SharedFlags).getFFlagEnableVirtualEvents
 
 local defaultProps = {
 	size = UDim2.fromScale(1, 1),
@@ -15,20 +19,28 @@ local defaultProps = {
 
 export type Props = {
 	imageUrl: string,
-	context: types.SponsoredEvent,
+	context: types.SponsoredEvent | types.VirtualEvent,
 	layoutOrder: number?,
 	size: UDim2?,
-	onActivated: ((context: types.SponsoredEvent) -> ())?,
+	onActivated: ((context: types.SponsoredEvent | types.VirtualEvent) -> ())?,
 }
 
 local function EventTile(props: Props)
 	props = Cryo.Dictionary.join(defaultProps, props)
 
 	local style = useStyle()
+	local media = if getFFlagEnableVirtualEvents()
+		then useVirtualEventMedia(props.context :: types.VirtualEvent)
+		else nil
+	local firstImage = if media then findFirstImageInMedia(media) else nil
 
 	local onActivated = React.useCallback(function()
 		if props.onActivated then
-			props.onActivated(props.context)
+			if getFFlagEnableVirtualEvents() then
+				props.onActivated(props.context :: types.VirtualEvent)
+			else
+				props.onActivated(props.context :: types.SponsoredEvent)
+			end
 		end
 	end, { props.context })
 
@@ -40,7 +52,7 @@ local function EventTile(props: Props)
 		onStateChanged = onStateChanged,
 
 		AutoButtonColor = false,
-		Size = UDim2.fromScale(1, 1),
+		Size = if getFFlagEnableVirtualEvents() then props.size else UDim2.fromScale(1, 1),
 		BackgroundColor3 = style.Theme.PlaceHolder.Color,
 		BackgroundTransparency = style.Theme.PlaceHolder.Transparency,
 		BorderSizePixel = 0,
@@ -51,7 +63,7 @@ local function EventTile(props: Props)
 		EventImage = React.createElement(LoadableImage, {
 			ZIndex = 1,
 			Size = UDim2.fromScale(1, 1),
-			Image = props.imageUrl,
+			Image = if getFFlagEnableVirtualEvents() then firstImage else props.imageUrl,
 			BackgroundTransparency = 1,
 			LayoutOrder = props.layoutOrder,
 			showFailedStateWhenLoadingFailed = true,

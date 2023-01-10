@@ -4,8 +4,6 @@ local Packages = SocialLuaAnalytics.Parent
 local LuaSocialLibrariesDeps = require(Packages.LuaSocialLibrariesDeps)
 local SocialLibrariesPackage = LuaSocialLibrariesDeps.SocialLibraries.config({})
 
-local getFFlagAddFriendsFullSearchbarAnalytics = require(Packages.SharedFlags).getFFlagAddFriendsFullSearchbarAnalytics
-
 return {
 	t = require(Packages.t),
 	tutils = require(Packages.tutils),
@@ -19,6 +17,4 @@ return {
 	Rodux = require(Packages.Rodux),
 	RoactRodux = require(Packages.RoactRodux),
 	Dash = require(Packages.Dash),
-
-	getFFlagAddFriendsFullSearchbarAnalytics = getFFlagAddFriendsFullSearchbarAnalytics,
 }

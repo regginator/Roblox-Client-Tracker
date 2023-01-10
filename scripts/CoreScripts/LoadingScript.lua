@@ -75,8 +75,6 @@ local loadErrorHandlerFromEngine = game:GetEngineFeature("LoadErrorHandlerFromEn
 
 local FFlagShowVerifiedBadgeOnLoadingScreen = require(RobloxGui.Modules.Flags.FFlagShowVerifiedBadgeOnLoadingScreen)
 
-local FFlagRemoveMandatoryFiveSecondWait = game:DefineFastFlag("RemoveMandatoryFiveSecondWait", false)
-
 local debugMode = false
 
 local startTime = tick()
@@ -1055,7 +1053,7 @@ local function handleRemoveDefaultLoadingGui(instant)
 end
 
 local function handleFinishedReplicating()
-	if FFlagRemoveMandatoryFiveSecondWait or #ReplicatedFirst:GetChildren() == 0 then
+	if #ReplicatedFirst:GetChildren() == 0 then
 		if game:IsLoaded() then
 			waitForCharacterLoaded()
 			handleRemoveDefaultLoadingGui()
@@ -1069,7 +1067,7 @@ local function handleFinishedReplicating()
 			end)
 		end
 	else
-		wait(5) -- some games don't have custom loading screens, but still have Instances under ReplicatedFirst, and are stuck on loading screen longer because of it.
+		wait(5) -- make sure after 5 seconds we remove the default gui, even if the user doesn't
 		handleRemoveDefaultLoadingGui()
 	end
 end

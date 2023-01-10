@@ -1,5 +1,5 @@
-game:DefineFastFlag("PeekViewClipFramePositionFromBottom_v2", false)
+game:DefineFastFlag("PeekViewClipFramePositionFromBottom", false)
 
 return function()
-	return game:GetFastFlag("PeekViewClipFramePositionFromBottom_v2")
+	return game:GetFastFlag("PeekViewClipFramePositionFromBottom")
 end

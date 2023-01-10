@@ -8,7 +8,6 @@ local AnalyticsService = game:GetService("RbxAnalyticsService")
 local LocalizationService = game:GetService("LocalizationService")
 local HttpRbxApiService = game:GetService("HttpRbxApiService")
 local HttpService = game:GetService("HttpService")
-local VRService = game:GetService("VRService")
 
 local create = require(RobloxGui:WaitForChild("Modules"):WaitForChild("Common"):WaitForChild("Create"))
 local ErrorPrompt = require(RobloxGui.Modules.ErrorPrompt)
@@ -41,7 +40,6 @@ local noHardcodedStringInLuaKickMessage = game:GetEngineFeature("NoHardcodedStri
 local FFlagCoreScriptShowTeleportPrompt = require(RobloxGui.Modules.Flags.FFlagCoreScriptShowTeleportPrompt)
 
 local enableUserPrivacyUnauthorizedMessage = game:GetEngineFeature("EnableUserPrivacyUnauthorizedMessage")
-local FFlagVRFixErrorPrompt = require(RobloxGui.Modules.Flags.FFlagVRFixErrorPrompt)
 
 local function safeGetFInt(name, defaultValue)
 	local success, result = pcall(function()
@@ -353,11 +351,7 @@ local updateFullScreenEffect = {
 		promptOverlay.Transparency = 1
 	end,
 	[ConnectionPromptState.RECONNECT_DISCONNECT] = function()
-		if FFlagVRFixErrorPrompt and VRService.VREnabled then
-			RunService:SetRobloxGuiFocused(false)
-		else
-			RunService:SetRobloxGuiFocused(true)
-		end
+		RunService:SetRobloxGuiFocused(true)
 		promptOverlay.Active = true
 		promptOverlay.Transparency = 1
 	end,
@@ -372,11 +366,7 @@ local updateFullScreenEffect = {
 		promptOverlay.Transparency = 0.3
 	end,
 	[ConnectionPromptState.RECONNECT_DISABLED_DISCONNECT] = function()
-		if FFlagVRFixErrorPrompt and VRService.VREnabled then
-			RunService:SetRobloxGuiFocused(false)
-		else
-			RunService:SetRobloxGuiFocused(true)
-		end
+		RunService:SetRobloxGuiFocused(true)
 		promptOverlay.Active = true
 		promptOverlay.Transparency = 1
 	end,
@@ -386,20 +376,12 @@ local updateFullScreenEffect = {
 		promptOverlay.Transparency = 0.3
 	end,
 	[ConnectionPromptState.RECONNECT_DISABLED] = function()
-		if FFlagVRFixErrorPrompt and VRService.VREnabled then
-			RunService:SetRobloxGuiFocused(false)
-		else
-			RunService:SetRobloxGuiFocused(true)
-		end
+		RunService:SetRobloxGuiFocused(true)
 		promptOverlay.Active = true
 		promptOverlay.Transparency = 1
 	end,
 	[ConnectionPromptState.OUT_OF_MEMORY] = function()
-		if FFlagVRFixErrorPrompt and VRService.VREnabled then
-			RunService:SetRobloxGuiFocused(false)
-		else
-			RunService:SetRobloxGuiFocused(true)
-		end
+		RunService:SetRobloxGuiFocused(true)
 		promptOverlay.Active = true
 		promptOverlay.Transparency = 1
 	end,
