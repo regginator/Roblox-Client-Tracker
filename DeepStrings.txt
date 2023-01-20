@@ -7448,6 +7448,7 @@ BackpackItem
 BackpackItemProp
 BackParamA
 BackParamB
+BackPressureThr
 BackPressureThrottling
 BackPressureThrottling]
 BackSurface
@@ -38106,6 +38107,7 @@ StudioFixFloatingPluginsDockedNotShowingGUI
 StudioFixLaunchUrlWithBrowserCrash
 StudioFixLogoutMenuDependency
 StudioFixPlaceIdInSessionTracker
+StudioFixPluginCorruptionOnListenChangeVisibility
 StudioFixSameVersionChannelUpdateProblem
 StudioFixSecondaryScreenMaxSizeBug
 StudioFixShareModalTextCutOff
