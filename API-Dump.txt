@@ -2052,7 +2052,7 @@ Class HumanoidDescription : Instance
 	Function void HumanoidDescription:SetEquippedEmotes(Array equippedEmotes)
 	Event HumanoidDescription.EmotesChanged(Dictionary newEmotes)
 	Event HumanoidDescription.EquippedEmotesChanged(Array newEquippedEmotes)
-Class IKControl : Instance [NotBrowsable]
+Class IKControl : Instance
 	Property Instance IKControl.ChainRoot
 	Property bool IKControl.Enabled
 	Property Instance IKControl.EndEffector

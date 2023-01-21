@@ -38578,10 +38578,7 @@
             ],
             "MemoryCategory": "Animation",
             "Name": "IKControl",
-            "Superclass": "Instance",
-            "Tags": [
-                "NotBrowsable"
-            ]
+            "Superclass": "Instance"
         },
         {
             "Members": [
