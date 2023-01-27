@@ -34,37 +34,14 @@ afterEach(function()
 	createOrGetProfileShareUrl.Mock.clear()
 end)
 
-it("SHOULD call endpoint once", function()
-	renderHookWithProviders(function()
-		return useGetProfileShareUrl()
-	end, {
-		store = mockStore(mockState()),
-	})
-
-	expect(createOrGetProfileShareUrlMock).toHaveBeenCalledTimes(1)
-end)
-
-it("SHOULD call endpoint only once even if re-rendering occurs", function()
+it("SHOULD provide function to call endpoint", function()
 	local helper = renderHookWithProviders(function()
 		return useGetProfileShareUrl()
 	end, {
 		store = mockStore(mockState()),
 	})
 
-	helper.rerender({})
+	helper.result()
 
 	expect(createOrGetProfileShareUrlMock).toHaveBeenCalledTimes(1)
-end)
-
-it("SHOULD return loaded informtion correctly", function()
-	local helper = renderHookWithProviders(function()
-		return useGetProfileShareUrl()
-	end, {
-		store = mockStore(mockState()),
-	})
-
-	expect(helper.result).toEqual({
-		linkId = LINK_ID,
-		shortUrl = SHORT_LINK_URL,
-	})
 end)
