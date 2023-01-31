@@ -11085,6 +11085,7 @@ Corrupted.
 CORRUPTION
 CorruptPanelDetectionLeeway
 CorruptPanelDetectionUpperbound
+CorruptPanelTopLeftLeeway
 CoSetProxyBlanket
 Costruttore
 CoTaskMemAlloc
@@ -13092,6 +13093,7 @@ DEPRECATED_aboutToRestoreLayout
 DEPRECATED_addPackageHash
 DEPRECATED_Authenticator
 DEPRECATED_AutomaticScriptRecoveryManager
+DEPRECATED_checkObjectCorrupted
 DEPRECATED_clearFindResultLocation
 DEPRECATED_cloudEditConnectionAborted
 DEPRECATED_cloudEditConnectionEstablished
@@ -13807,6 +13809,7 @@ DistanceFilterHighShelfFrequency
 DistanceFilterLowShelfAttenuationDb
 DistanceFilterLowShelfFrequency
 DistanceFromCharacter
+DistanceFromTopLeft
 DistanceLowerLimit
 DistanceMetricP1
 DistanceScale
@@ -16894,6 +16897,7 @@ FromStepSignal
 FromString
 FromStringWithFlagType
 FromTeamCreate
+FromTopLeft
 FromVideoStream
 FrontAccessory
 FrontendProcessingUsesLaunchIntent
@@ -24451,6 +24455,7 @@ OnlyLoginItems
 OnlyNetworkHumanoidStatePropertyReplication
 OnlyRecordRegistryResetWhenReset
 OnlyReportPauseMetricsToKibanaWhenPauseIsEnabled
+OnlySaveWhenNotCorrupt
 OnlyStartPageItems
 OnMousePart
 OnNetworkRouteChanged
@@ -25105,6 +25110,7 @@ Parameters
 PARAMETERS
 ParamIndex
 ParentAdded
+ParentAtTopLeft
 ParentDSPs
 ParentInstance
 ParentName
@@ -25829,6 +25835,7 @@ PEAVQListWidget
 PEAVQListWidgetItem
 PEAVQMainWindow
 PEAVQMutex
+PEAVQObjec
 PEAVQObject
 PEAVQPaintDevice
 PEAVQPainter
@@ -27375,6 +27382,7 @@ Procurar...
 ProducePartialResultsOnNetworkThread
 ProductInfo
 ProductLocationRestriction
+ProductName
 ProductPurchaseDecision
 ProductPurchasePrompted
 ProductType
@@ -28346,6 +28354,7 @@ QTableWidget
 QTableWidgetItem
 QTabWidget
 QtConcurrent
+QTCoordinates
 QtDMConnection
 QTemporaryDir
 QTemporaryFile
@@ -29926,6 +29935,7 @@ ReportTeleportEarlyReturn
 ReportTeleportMethodAnalytics_
 ReportTeleportSignal
 ReportTextScraperHttpFailureMessageHundredthsPercentage
+ReportThemeData
 ReportTime
 ReportTimeoutStatistics2
 ReportToDiagByCountryCode
@@ -30079,6 +30089,7 @@ ResetPlaceFilters
 ResetPlaceFilters]
 ResetPlaceIdInAppSession
 ResetPlayerGuiOnSpawn
+ResetRequested
 ResetStream
 ResetUnsignaledRecvStream.
 ResetWaypoints
@@ -33016,6 +33027,19 @@ SlowDnsPlatformRequestThresholdMs
 SlowDownDecoder
 SlowHttpRequest
 SlowHttpRequest]
+SM_CMONITORS
+SM_CXBORDER
+SM_CXFIXEDFRAME
+SM_CXMINIMIZED
+SM_CXSCREEN
+SM_CXSIZEFRAME
+SM_CYCAPTION
+SM_CYFIXEDFRAME
+SM_CYMINIMIZED
+SM_CYSCREEN
+SM_CYSIZEFRAME
+SM_XVIRTUALSCREEN
+SM_YVIRTUALSCREEN
 SM2_Ciphertext
 SMALL_CAP_SIZE
 SmallFirstProbePacket
@@ -33125,7 +33149,6 @@ SOCKET_FAMILY_NOT_SUPPORTED
 SOCKET_PORT_ALREADY_IN_USE
 SOCKET_PORT_PRIVILEGED
 SocketAccessError
-SocketConnection
 SocketDisconnect
 SocketMessageStream
 SocketReadyRead
@@ -38119,6 +38142,7 @@ StudioDefaultStreamingTemplatePlaceId
 StudioDeprecateBrowserTrackerLayer
 StudioDeprecateDisableTeamCreateSetting
 StudioDetectCorruptLayout
+StudioDetectCorruptRefactorAndNewAlgorithm
 StudioDevforumUrl
 StudioDeviceEmulator
 StudioDeviceEmulatorAddNotchBetaDevices
@@ -38441,6 +38465,7 @@ StudioReportWindowsAudioServiceStatusesHundredthsPercent
 StudioRequested
 StudioRequireUserInactiveOnShutdown
 StudioResendDisconnectNotificationInterval
+StudioResetLayoutWhenMarkedAsCorruptPreviously
 StudioResourceId
 StudioRestoreLayoutBeforeAddingIDEDoc
 StudioRestorePluginPanelAfterReload
@@ -42175,6 +42200,7 @@ UWorkspaceApplyEditRequest
 UWorkspaceApplyEditResponse
 UWorkspaceDidChangeConfigurationNotification
 UXImprovementAddSearchBar
+UxTheme.dll
 VAccessory
 VAccoutrement
 VAccumulator
