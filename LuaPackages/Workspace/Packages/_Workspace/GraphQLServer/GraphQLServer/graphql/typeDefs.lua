@@ -173,4 +173,13 @@ type VirtualEventsPage {
   cursor: String
   virtualEvents: [VirtualEvent]
 }
+
+type RsvpResponse {
+  rsvpStatus: RsvpStatus
+  isUserFirstRsvp: Boolean
+}
+
+type Mutation {
+  virtualEventRsvp(id: ID!, rsvpStatus: RsvpStatus!): RsvpResponse
+}
 ]]
