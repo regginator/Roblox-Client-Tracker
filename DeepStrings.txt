@@ -380,6 +380,7 @@ AddDisplayNameToGetFriendsResult
 AddedFoundItem
 AddEncodedSink
 AddFadeToImageCarousel
+AddGameInstanceIdToSessionTracking
 AddGlobalPointsField
 AddGlobalPointsTag
 AddIceCandidate
@@ -1985,7 +1986,6 @@ AudioDecoderFallback
 AudioDecoderFramesReady
 AudioDecoderIlbcImpl
 AudioDecoderIsacT
-AudioDecoderMultiChannelOpus
 AudioDevice
 AudioDeviceBuffer
 AudioDeviceBufferTimer
@@ -8090,6 +8090,7 @@ BPu_fD9B`uXfD9BpuQ
 BQByteArray
 BQPersistentModelIndex
 BQTextFormat
+BRD.FFH2BPJ
 BreakAccoutrementCycles
 BreakGroup
 BreakJoints
@@ -13355,7 +13356,6 @@ DeserializePacketsJob
 DeserializeReportGroup
 DeserializeScriptProfilerString
 DeserializeTrackerDataOnRCC
-DesignSystem.DesignTok
 DesignSystem.DesignToken
 DesignVector
 DesiredAngle
@@ -16804,6 +16804,7 @@ FormFactor
 FormFactorPart
 Formulaire
 Formulario
+ForNoSupport
 ForPosition
 ForQuickAccess
 ForReadyRead
@@ -39173,6 +39174,7 @@ SymGetLineFromAddrW64
 SymGetModuleBase64
 SymGetSymFromAddr64
 SymInitialize
+SymmetricTrackerDataReplication
 SyncAvatarFetch
 SyncAvatarFetchFailed
 SyncCallbackDesc
@@ -44105,6 +44107,7 @@ VoiceChatRetryMultistreamSubscriptionsStepMilliSeconds
 VoiceChatRollOffMaxDistance
 VoiceChatRollOffMinDistance
 VoiceChatRollOffMode
+VoiceChatS
 VoiceChatSdpParseError
 VoiceChatSdpSerializationError
 VoiceChatService

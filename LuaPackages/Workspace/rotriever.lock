@@ -240,6 +240,7 @@ dependencies = [
     "Lumberyak Lumberyak 0.1.0",
     "Otter Otter 0.1.0",
     "PermissionsProtocol PermissionsProtocol 0.1.0",
+    "ProfileQRCode ProfileQRCode 0.1.0",
     "Promise Promise 0.1.0",
     "React React 0.1.0",
     "ReactRoblox ReactRoblox 0.1.0",
@@ -277,6 +278,7 @@ dependencies = [
     "AppCommonLib AppCommonLib 0.1.0",
     "ArgCheck ArgCheck 0.1.0",
     "Http Http 0.1.0",
+    "Lumberyak Lumberyak 0.1.0",
     "Promise Promise 0.1.0",
     "Result Result 0.1.0",
     "Rodux Rodux 0.1.0",
@@ -420,6 +422,10 @@ dependencies = ["SocialReducerAdaptors SocialReducerAdaptors 0.1.0"]
 [[package]]
 name = "Localization"
 version = "0.1.0"
+dependencies = [
+    "Lumberyak Lumberyak 0.1.0",
+    "SharedFlags SharedFlags 0.1.0",
+]
 
 [[package]]
 name = "Loggers"
@@ -577,9 +583,11 @@ version = "0.1.0"
 dependencies = [
     "AppCommonLib AppCommonLib 0.1.0",
     "Http Http 0.1.0",
+    "Lumberyak Lumberyak 0.1.0",
     "Promise Promise 0.1.0",
     "Result Result 0.1.0",
     "Rodux Rodux 0.1.0",
+    "SharedFlags SharedFlags 0.1.0",
     "UnitTestHelpers UnitTestHelpers 0.1.0",
     "tutils tutils 0.1.0",
 ]
@@ -1050,6 +1058,10 @@ version = "0.1.0"
 [[package]]
 name = "Style"
 version = "0.1.0"
+dependencies = [
+    "Lumberyak Lumberyak 0.1.0",
+    "SharedFlags SharedFlags 0.1.0",
+]
 
 [[package]]
 name = "SystemInfoProtocol"
