@@ -262,7 +262,7 @@ Class AvatarEditorService : Instance [NotCreatable] [Service] [NotReplicated]
 	Function bool AvatarEditorService:NoPromptDeleteOutfit(int64 outfitId) {RobloxScriptSecurity}
 	Function bool AvatarEditorService:NoPromptRenameOutfit(int64 outfitId, string name) {RobloxScriptSecurity}
 	Function bool AvatarEditorService:NoPromptSaveAvatar(HumanoidDescription humanoidDescription, Enum.HumanoidRigType rigType, Dictionary saveDict, int64 gearAssetId = 0) {RobloxScriptSecurity}
-	Function bool AvatarEditorService:NoPromptSaveAvatarThumbnailCustomization(int thumbnailType, int64 emoteAssetId, float cameraDistanceScale, float yRotDeg, float fieldOfViewDeg = 0) {RobloxScriptSecurity}
+	Function bool AvatarEditorService:NoPromptSaveAvatarThumbnailCustomization(Enum.AvatarThumbnailCustomizationType thumbnailType, int64 emoteAssetId, float cameraDistanceScale, float yRotDeg, float fieldOfViewDeg = 0) {RobloxScriptSecurity}
 	Function bool AvatarEditorService:NoPromptSetFavorite(int64 itemId, Enum.AvatarItemType itemType, bool shouldFavorite) {RobloxScriptSecurity}
 	Function bool AvatarEditorService:NoPromptUpdateOutfit(int64 outfitId, HumanoidDescription humanoidDescription, Enum.HumanoidRigType rigType) {RobloxScriptSecurity}
 	Function void AvatarEditorService:PerformCreateOutfitWithDescription(HumanoidDescription humanoidDescription, string name) {RobloxScriptSecurity}
@@ -826,6 +826,8 @@ Class ContentProvider : Instance [NotCreatable] [Service] [NotReplicated]
 	Property int ContentProvider.RequestQueueSize [ReadOnly]
 	Function int ContentProvider:CalculateNumTrianglesInMesh(string meshId) {RobloxScriptSecurity} [Yields]
 	Function int ContentProvider:CalculateNumTrianglesInMeshSync(string meshId) {RobloxScriptSecurity}
+	Function Enum.AssetFetchStatus ContentProvider:GetAssetFetchStatus(Content contentId)
+	Function RBXScriptSignal ContentProvider:GetAssetFetchStatusChangedSignal(Content contentId)
 	Function Array ContentProvider:GetDetailedFailedRequests() {RobloxScriptSecurity}
 	Function Array ContentProvider:GetFailedRequests() {RobloxScriptSecurity}
 	Function Array ContentProvider:ListEncryptedAssets()
@@ -886,7 +888,6 @@ Class AirController : ControllerBase [NotBrowsable]
 	Property float AirController.OrientationMaxTorque
 	Property float AirController.OrientationSpeedFactor
 	Property Vector3 AirController.VectorForce
-	Property bool AirController.CancelAirMomentum
 	Property bool AirController.MaintainAngularMomentum
 	Property bool AirController.MaintainLinearMomentum
 	Property float AirController.MoveMaxForce
@@ -1158,10 +1159,6 @@ Class DraggerService : Instance [NotCreatable] [Service] [NotReplicated]
 	Property bool DraggerService.PivotSnapToGeometry {RobloxScriptSecurity} [ReadOnly]
 	Property bool DraggerService.ShowHover [ReadOnly]
 	Property bool DraggerService.ShowPivotIndicator [NotReplicated]
-Class DynamicTextureAlpha : Instance [NotCreatable] [NotReplicated]
-	Function DynamicTextureLayerAlpha DynamicTextureAlpha:CreateLayer()
-Class DynamicTextureLayerAlpha : Instance [NotCreatable] [NotReplicated]
-	Property int DynamicTextureLayerAlpha.ZIndex
 Class EulerRotationCurve : Instance
 	Property Enum.RotationOrder EulerRotationCurve.RotationOrder
 	Function Array EulerRotationCurve:GetAnglesAtTime(float time)
@@ -5031,6 +5028,9 @@ Enum AspectType
 Enum AssetFetchStatus
 	EnumItem AssetFetchStatus.Success : 0
 	EnumItem AssetFetchStatus.Failure : 1
+	EnumItem AssetFetchStatus.None : 2
+	EnumItem AssetFetchStatus.Loading : 3
+	EnumItem AssetFetchStatus.TimedOut : 4
 Enum AssetType
 	EnumItem AssetType.Image : 1
 	EnumItem AssetType.TShirt : 2
@@ -5157,6 +5157,9 @@ Enum AvatarPromptResult
 	EnumItem AvatarPromptResult.Success : 1
 	EnumItem AvatarPromptResult.PermissionDenied : 2
 	EnumItem AvatarPromptResult.Failed : 3
+Enum AvatarThumbnailCustomizationType
+	EnumItem AvatarThumbnailCustomizationType.Closeup : 1
+	EnumItem AvatarThumbnailCustomizationType.FullBody : 2
 Enum Axis
 	EnumItem Axis.X : 0
 	EnumItem Axis.Y : 1

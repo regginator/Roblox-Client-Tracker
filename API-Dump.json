@@ -4955,8 +4955,8 @@
                         {
                             "Name": "thumbnailType",
                             "Type": {
-                                "Category": "Primitive",
-                                "Name": "int"
+                                "Category": "Enum",
+                                "Name": "AvatarThumbnailCustomizationType"
                             }
                         },
                         {
@@ -15499,6 +15499,44 @@
                 },
                 {
                     "MemberType": "Function",
+                    "Name": "GetAssetFetchStatus",
+                    "Parameters": [
+                        {
+                            "Name": "contentId",
+                            "Type": {
+                                "Category": "DataType",
+                                "Name": "Content"
+                            }
+                        }
+                    ],
+                    "ReturnType": {
+                        "Category": "Enum",
+                        "Name": "AssetFetchStatus"
+                    },
+                    "Security": "None",
+                    "ThreadSafety": "Unsafe"
+                },
+                {
+                    "MemberType": "Function",
+                    "Name": "GetAssetFetchStatusChangedSignal",
+                    "Parameters": [
+                        {
+                            "Name": "contentId",
+                            "Type": {
+                                "Category": "DataType",
+                                "Name": "Content"
+                            }
+                        }
+                    ],
+                    "ReturnType": {
+                        "Category": "DataType",
+                        "Name": "RBXScriptSignal"
+                    },
+                    "Security": "None",
+                    "ThreadSafety": "Unsafe"
+                },
+                {
+                    "MemberType": "Function",
                     "Name": "GetDetailedFailedRequests",
                     "Parameters": [
                     ],
@@ -16769,24 +16807,6 @@
         },
         {
             "Members": [
-                {
-                    "Category": "Movement",
-                    "MemberType": "Property",
-                    "Name": "CancelAirMomentum",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ThreadSafety": "ReadSafe",
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "bool"
-                    }
-                },
                 {
                     "Category": "Movement",
                     "MemberType": "Property",
@@ -21859,58 +21879,6 @@
             "Tags": [
                 "NotCreatable",
                 "Service",
-                "NotReplicated"
-            ]
-        },
-        {
-            "Members": [
-                {
-                    "MemberType": "Function",
-                    "Name": "CreateLayer",
-                    "Parameters": [
-                    ],
-                    "ReturnType": {
-                        "Category": "Class",
-                        "Name": "DynamicTextureLayerAlpha"
-                    },
-                    "Security": "None",
-                    "ThreadSafety": "Unsafe"
-                }
-            ],
-            "MemoryCategory": "Instances",
-            "Name": "DynamicTextureAlpha",
-            "Superclass": "Instance",
-            "Tags": [
-                "NotCreatable",
-                "NotReplicated"
-            ]
-        },
-        {
-            "Members": [
-                {
-                    "Category": "Data",
-                    "MemberType": "Property",
-                    "Name": "ZIndex",
-                    "Security": {
-                        "Read": "None",
-                        "Write": "None"
-                    },
-                    "Serialization": {
-                        "CanLoad": true,
-                        "CanSave": true
-                    },
-                    "ThreadSafety": "ReadSafe",
-                    "ValueType": {
-                        "Category": "Primitive",
-                        "Name": "int"
-                    }
-                }
-            ],
-            "MemoryCategory": "Instances",
-            "Name": "DynamicTextureLayerAlpha",
-            "Superclass": "Instance",
-            "Tags": [
-                "NotCreatable",
                 "NotReplicated"
             ]
         },
@@ -93778,6 +93746,18 @@
                 {
                     "Name": "Failure",
                     "Value": 1
+                },
+                {
+                    "Name": "None",
+                    "Value": 2
+                },
+                {
+                    "Name": "Loading",
+                    "Value": 3
+                },
+                {
+                    "Name": "TimedOut",
+                    "Value": 4
                 }
             ],
             "Name": "AssetFetchStatus"
@@ -94302,6 +94282,19 @@
                 }
             ],
             "Name": "AvatarPromptResult"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Closeup",
+                    "Value": 1
+                },
+                {
+                    "Name": "FullBody",
+                    "Value": 2
+                }
+            ],
+            "Name": "AvatarThumbnailCustomizationType"
         },
         {
             "Items": [
