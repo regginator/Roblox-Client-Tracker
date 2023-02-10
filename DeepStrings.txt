@@ -5179,7 +5179,6 @@ AVMessageBusService
 AVMessageBusServiceProp
 AVMessageData
 AVMessageDigest
-AVMessageHa
 AVMessageHandler
 AVMessageHandlerWithTask
 AVMessageLayoutComponent
@@ -10356,6 +10355,7 @@ Colaboraci
 Colisiones
 COLLAB1643CheckDMExistsBeforeCallbackInLocalPlacePublishRequestMediator
 COLLAB1915FixUncopylockedTeamCreate
+COLLAB2109StartPageCannotOpenNonRootPlace
 COLLAB2194ConnectionMonitor
 COLLAB2194NewConnectionIndicator
 COLLAB2264PreemptiveLoadNTCRecentGamesOnStartUp
@@ -11188,6 +11188,7 @@ CouldNotReadTextureError
 CoUninitialize
 CountCells
 CountChanged
+CountedObject
 Counter.boxprc
 Counter.closed
 Counter.counterprc
@@ -26251,7 +26252,6 @@ PEB_W1AEAPEB_WPEAD3AEAPEAD
 PebbleName
 PEBD01W4ConnectionType
 PEBD1AEAPEBDPEA_W3AEAPEA_W
-PEBD1AEAPEBDPEAD
 PEBD1AEAPEBDPEAD3AEAPEAD
 PEBD2W4ShortcutContext
 PEBDAEBV62

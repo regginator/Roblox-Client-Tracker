@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-3e5fe9b596870a01a0cbe84c4a374717
+7c41b3a4239e14912ea48a81b68add88
 QtitanDocking.dll
-301e348b4fbc4ae818dc32d3c03c52b8
+c62345936b26f49bb4d4f21e4e8231d1
 QtitanRibbon.dll
-8d7e2766dd4733b11710b92d1442cd48
+39c07ad673865c56bfa0165f21a351db
 ReflectionMetadata.xml
 f59a3ce4baab6fb094aa2ec6fb578306
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-092d76b2e31c4d3c8fd5f455bae2c031
+6d8c43f15ea5bdcf0b3ab9e23e2862ba
 RobloxStudioRibbon.xml
 067e1f9d7fb77b5b99db943437a03b59
 d3dcompiler_47.dll
@@ -1945,7 +1945,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-b4e2edd6054a0d80d5c2c8c528d41f7c
+afd0dd40bffc696e826ef02990d93f06
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -12725,7 +12725,7 @@ f50bf4bcaa7bd9a2d57d926ef9685988
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\Components\Presentation\PlayerListSorter.spec.lua
 ccaa0fe663b6f487e51e10e09b174672
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\Components\Presentation\PlayerNameTag.lua
-b53c79e29aa02ab0b26179a976afcab9
+2f3e5afc10faf4c1a8f61e224e9863a4
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\Components\Presentation\PlayerNameTag.spec.lua
 2bd9510c576441dd9932d536c2c058b5
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\Components\Presentation\StatEntry.lua
@@ -12800,8 +12800,6 @@ ExtraContent\scripts\CoreScripts\Modules\PlayerList\Flags\FFlagPlayerListFixMobi
 d4bbb49e8398e0497cb1679ace822c84
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\Flags\FFlagShowVerifiedBadgeOnDropDownPlayerHeader.lua
 42db96d6ac0cd87361577ac5637abc35
-ExtraContent\scripts\CoreScripts\Modules\PlayerList\Flags\FFlagShowVerifiedBadgeOnPlayerList.lua
-bc53f2c40709b1727a342d09af9819bc
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\FormatStatString.lua
 893a9be027c94d30e85d487a3b6a9be9
 ExtraContent\scripts\CoreScripts\Modules\PlayerList\GetFakeNeutralTeam.lua
@@ -31365,7 +31363,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-dbe5414476558dcd4fbcd3617d29bdf7
+8cc06901a8d7f30564c4c97a5a2844bd
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png
