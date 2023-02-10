@@ -5179,6 +5179,7 @@ AVMessageBusService
 AVMessageBusServiceProp
 AVMessageData
 AVMessageDigest
+AVMessageHa
 AVMessageHandler
 AVMessageHandlerWithTask
 AVMessageLayoutComponent
@@ -16116,7 +16117,6 @@ FFlagCOLLAB2781FixTeamCreateStatusChildPlaces
 FFlagDebugLanguageServiceRcConfigLookupForceEnable
 FFlagDebugStudioCoreScriptBuilderExecutable
 FFlagEditorExportHistory
-FFlagFixCheckboxDrawing
 FFlagLCQualityValidation
 FFlagResolveTabifyPluginCorruption
 FFlagRolloutDuplicateRobloxTelemetryCountersEnabled
@@ -16434,7 +16434,6 @@ FixAttachmentCrashOnDMClosing
 FixBaseScriptHangOnShutdown
 FixBoneCrash1
 FixCacheImageInvalidation
-FixCheckboxDrawing
 FixClimbUpMoveToFalseReached
 FixControlBufferLen
 FixCountOfUnreadNotificationError
@@ -26252,6 +26251,7 @@ PEB_W1AEAPEB_WPEAD3AEAPEAD
 PebbleName
 PEBD01W4ConnectionType
 PEBD1AEAPEBDPEA_W3AEAPEA_W
+PEBD1AEAPEBDPEAD
 PEBD1AEAPEBDPEAD3AEAPEAD
 PEBD2W4ShortcutContext
 PEBDAEBV62
