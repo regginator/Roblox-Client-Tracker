@@ -1985,6 +1985,7 @@ AudioDecoderFallback
 AudioDecoderFramesReady
 AudioDecoderIlbcImpl
 AudioDecoderIsacT
+AudioDecoderMultiChannelOpus
 AudioDevice
 AudioDeviceBuffer
 AudioDeviceBufferTimer
@@ -11188,7 +11189,6 @@ CouldNotReadTextureError
 CoUninitialize
 CountCells
 CountChanged
-CountedObject
 Counter.boxprc
 Counter.closed
 Counter.counterprc
@@ -13355,6 +13355,7 @@ DeserializePacketsJob
 DeserializeReportGroup
 DeserializeScriptProfilerString
 DeserializeTrackerDataOnRCC
+DesignSystem.DesignTok
 DesignSystem.DesignToken
 DesignVector
 DesiredAngle

@@ -206,14 +206,14 @@ describe("showMore button behavior", function()
 end)
 
 describe("QR code banner behavior", function()
-	local instance, cleanup
-	local handleOpenProfileQRCodePageSpy = jest.fn()
+	local instance, cleanup, navigation
 
 	beforeEach(function()
+		navigation = {
+			navigate = jest.fn(),
+		}
 		instance, cleanup = createInstance({}, {
-			handleOpenProfileQRCodePage = function()
-				handleOpenProfileQRCodePageSpy()
-			end,
+			navigation = navigation,
 		})
 	end)
 
@@ -235,14 +235,15 @@ describe("QR code banner behavior", function()
 		end)
 	end)
 
-	it("SHOULD call handleOpenProfileQRCodePage when clicked", function()
+	it("SHOULD call navigate to QR Code Page when clicked", function()
 		local banner = RhodiumHelpers.findFirstInstance(instance, {
 			Name = "QRCodeBanner",
 		})
 
 		if getFFlagProfileQRCodeReducerEnabled() then
 			RhodiumHelpers.clickInstance(banner)
-			expect(handleOpenProfileQRCodePageSpy).toHaveBeenCalledTimes(1)
+			expect(navigation.navigate).toHaveBeenCalledTimes(1)
+			expect(navigation.navigate).toHaveBeenCalledWith(EnumScreens.ProfileQRCodePage)
 		end
 	end)
 

@@ -89,6 +89,7 @@ return {
 	FormFactor = require(Packages.FormFactor).Enums.FormFactor,
 	SocialLibraries = SocialLibrariesPackage,
 	SocialLuaAnalytics = SocialLuaAnalytics,
+	ProfileQRCode = require(Packages.ProfileQRCode),
 
 	UniversalAppPolicy = require(Packages.UniversalAppPolicy).UniversalAppPolicy,
 	tutils = require(Packages.tutils),

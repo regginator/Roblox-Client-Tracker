@@ -272,17 +272,6 @@ function AddFriendsContainer:init()
 		end
 	end
 
-	self.handleOpenProfileQRCodePage = if getFFlagAddFriendsNewEmptyStateAndBanners()
-		then function()
-			--TODO SOCGRAPH-626: add analytics
-
-			local navigateToLuaAppPages = self.props.navigateToLuaAppPages
-			if navigateToLuaAppPages then
-				navigateToLuaAppPages[EnumScreens.ProfileQRCodePage]()
-			end
-		end
-		else nil
-
 	self.fireContactImporterAnalyticsEvents = function()
 		self.props.analytics:navigate("ConnectWithFriends")
 		self.props.analytics:buttonClick(ButtonClickEvents.ConnectWithFriends, {
@@ -334,7 +323,9 @@ function AddFriendsContainer:render()
 		refreshPage = self.refreshPage,
 		handleNavigateDownToViewUserProfile = self.handleNavigateDownToViewUserProfile,
 		handleOpenLearnMoreLink = if contactImporterAndPYMKEnabled then self.handleOpenLearnMore else nil,
-		navigation = if contactImporterAndPYMKEnabled or getFFlagAddFriendsSearchbarIXPEnabled()
+		navigation = if contactImporterAndPYMKEnabled
+				or getFFlagAddFriendsSearchbarIXPEnabled()
+				or getFFlagAddFriendsNewEmptyStateAndBanners()
 			then self.props.navigation
 			else nil,
 		contactImporterAndPYMKEnabled = contactImporterAndPYMKEnabled,
@@ -363,9 +354,6 @@ function AddFriendsContainer:render()
 			else nil,
 		fireSearchbarPressedEvent = if getFFlagAddFriendsFullSearchbarAnalytics()
 			then self.fireSearchbarPressedEvent
-			else nil,
-		handleOpenProfileQRCodePage = if getFFlagAddFriendsNewEmptyStateAndBanners()
-			then self.handleOpenProfileQRCodePage
 			else nil,
 		openProfilePeekView = self.props.openProfilePeekView,
 	})

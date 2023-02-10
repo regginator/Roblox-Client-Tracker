@@ -274,6 +274,12 @@ function AddFriendsPage:init()
 			end
 		end
 		else nil
+
+	self.openProfileQRCodePage = if getFFlagAddFriendsNewEmptyStateAndBanners()
+		then function()
+			self.props.navigation.navigate(EnumScreens.ProfileQRCodePage)
+		end
+		else nil
 end
 
 function AddFriendsPage:didMount()
@@ -357,7 +363,7 @@ function AddFriendsPage:render()
 						bannerIcon = Images["icons/graphic/scanqr_large"],
 						bannerTitle = localized.qrCodeBannerTitle,
 						bannerText = localized.qrCodeBannerText,
-						onActivated = self.props.handleOpenProfileQRCodePage,
+						onActivated = self.openProfileQRCodePage,
 						hasInfoButton = false,
 					})
 					else nil

@@ -110,6 +110,7 @@ return {
 	GetFFlagLuaAppInfiniteHomePage = require(script.GetFFlagLuaAppInfiniteHomePage),
 	getFFlagProfileQRCodePageEnabled = require(script.getFFlagProfileQRCodePageEnabled),
 	getFFlagProfileQRCodePageSoothsayerAccessEnabled = require(script.getFFlagProfileQRCodePageSoothsayerAccessEnabled),
+	GetFFlagLuaAppWorkspaceUseLumberyakLogger = require(script.GetFFlagLuaAppWorkspaceUseLumberyakLogger),
 	getFFlagProfileQRCodeFriendRequestContextInfoEnabled = require(
 		script.getFFlagProfileQRCodeFriendRequestContextInfoEnabled
 	),
