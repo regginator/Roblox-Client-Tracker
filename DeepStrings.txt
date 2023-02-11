@@ -1706,6 +1706,7 @@ AssetOnlyLoadTime_Mobile_Country_
 AssetOnlyLoadTime_NonLuobu
 AssetPatchSettings
 AssetPatchSettings.OutputPath
+AssetPatchSettingsProp
 AssetPermissionsDataRequestStepSize
 AssetProxyOverrideViewModel
 AssetProxyOverrideWidget
@@ -2620,6 +2621,7 @@ AVActionItemDelegate
 AVActionsQuickOpenProvider
 AVActionsSearchContextHandler
 AVActionsSearchResult
+AVActorProp
 AVAdapterEncodedImageCallback
 AVAdaptionLogic
 AVAdaptiveModeLevelEstimatorAgc
@@ -2877,6 +2879,7 @@ AVAppQoSInstance
 AVAppSettings
 AVAppStorage
 AVAppStorageService
+AVAppStorageServiceProp
 AVAppUpdateService
 AVAppUpdateServiceProp
 AVArbiterItem
@@ -2895,6 +2898,7 @@ AVAssetImportService
 AVAssetImportSession
 AVAssetManagerService
 AVAssetPatchSettings
+AVAssetPatchSettingsProp
 AVAssetProxyOverrideViewModel
 AVAssetProxyOverrideWidget
 AVAssetResourceController
@@ -3214,6 +3218,7 @@ AVBackgroundNoise
 AVBackpack
 AVBackpackItem
 AVBackpackItemProp
+AVBackpackProp
 AVbad_alloc
 AVbad_any_cast
 AVbad_array_new_length
@@ -3309,6 +3314,7 @@ AVBlockBlockContact_New
 AVBlockGroupParser
 AVBlockHeaderParser
 AVBlockMesh
+AVBlockMeshProp
 AVBlockMoreParser
 AVBlockProcessor
 AVBlockProcessorImpl
@@ -3440,6 +3446,7 @@ AVBvhParallelMidPhase
 AVBvhTreeComponentCollection
 AVBvhTreeMidPhaseCollection
 AVCacheableContentProvider
+AVCacheableContentProviderProp
 AVCalibrateDeviceScalingDialog
 AVCalibrateDeviceScalingVerb
 AVCallback
@@ -3696,6 +3703,7 @@ AVConcat_x86_avx
 AVConeHandleAdornment
 AVConeHandleAdornmentProp
 AVConfiguration
+AVConfigurationProp
 AVConfigureServerService
 AVconnection
 AVConnection
@@ -3754,6 +3762,7 @@ AVControllerBase
 AVControllerManager
 AVControllerProp
 AVControllerService
+AVControllerServiceProp
 AVConvexBuilder
 AVConvexDecompInterface
 AVConvolution
@@ -3780,6 +3789,7 @@ AVConvolutionDepthWise3D_final
 AVConvolutionThread
 AVCookieManager
 AVCookiesService
+AVCookiesServiceProp
 AVCoordinateFrame
 AVCoordinatorJob
 AVCopyConverter
@@ -3788,6 +3798,7 @@ AVCopyVerb
 AVCoreGuiService
 AVCoreMemoryStatsItem
 AVCorePackages
+AVCorePackagesProp
 AVCoreScript
 AVCoreScriptBuilder
 AVCorescriptConfigurer
@@ -3795,6 +3806,7 @@ AVCoreScriptDebuggingManagerHelper
 AVCoreScriptSyncService
 AVCoreScriptSyncServiceProp
 AVCornerWedgeInstance
+AVCornerWedgePartProp
 AVCornerWedgePoly
 AVCpuOveruseMetricsObserver
 AVCrashReporter
@@ -3854,6 +3866,7 @@ AVCSG3Reporting
 AVCSG3ReportingBase
 AVCSG3SeparateTask
 AVCSGDictionaryService
+AVCSGDictionaryServiceProp
 AVCSGMeshFactory
 AVCSGMeshFactorySgCore
 AVCSGMeshSgCore
@@ -3891,6 +3904,7 @@ AVCylinderEmitterShapeSampler
 AVCylinderHandleAdornment
 AVCylinderHandleAdornmentProp
 AVCylinderMesh
+AVCylinderMeshProp
 AVCylindricalConstraint
 AVDataChannel
 AVDataChannelController
@@ -4192,6 +4206,7 @@ AVEmbeddedWebBrowser
 AVEmbeddedWebBrowserWindows2
 AVEmitterShapeSampler
 AVEmotesPages
+AVEmotesPagesProp
 AVEmptyCryptStringImpl
 AVEmptyToolTipDelegate
 AVEmptyToolTipRequest
@@ -4370,6 +4385,7 @@ AVFlagProp
 AVFlagStand
 AVFlagStandProp
 AVFlagStandService
+AVFlagStandServiceProp
 AVFlangeSoundEffect
 AVFlatten_final
 AVFlatten_final_avx
@@ -4386,6 +4402,7 @@ AVFloatCurveKey
 AVFloatParser
 AVFloorWire
 AVFlyweightService
+AVFlyweightServiceProp
 AVFmodAudioDevice
 AVFmodAudioSinkOutput
 AVFolderProp
@@ -4426,6 +4443,7 @@ AVFrequencyDelayLine
 AVFrequencyDelayLineCPU
 AVFrequencyDelayLineCPU_Async
 AVFriendPages
+AVFriendPagesProp
 AVFriendService
 AVFriendServiceProp
 AVfunc_base
@@ -4467,12 +4485,14 @@ AVgeneric_error_category
 AVGenericJob
 AVGenericNumberHandler
 AVGenericResourceController
+AVGenericSettingsProp
 AVGenericSlotWrapper
 AVGenericTask
 AVGenericTelemetryEnabledJob
 AVGeometry
 AVGeometryD3D11
 AVGeometryGL
+AVGeometryProp
 AVGeometryService
 AVGeometryVulkan
 AVGetIsCurrentVersionTask
@@ -4556,6 +4576,7 @@ AVH264EncoderSpecificSettings
 AVHammerTool
 AVHandleAdornment
 AVHandlesBase
+AVHandlesBaseProp
 AVHandlesProp
 AVHapticService
 AVHapticServiceProp
@@ -4583,13 +4604,16 @@ AVHighlightEntry
 AVHighlightFormatProvider
 AVHingeAutoJointSurfacePair
 AVHingeConstraint
+AVHintProp
 AVHistogram
 AVHistoryDropdown
 AVHistoryIdPath
 AVHitTestFilter
+AVHoleProp
 AVHolePunchedLineEdit
 AVHopperBin
 AVHopperBinProp
+AVHopperProp
 AVHSRDataContentProvider
 AVhttp_status_error
 AVHttpClientStatsReporter
@@ -4621,6 +4645,7 @@ AVHumanoidBodyPartAssetRequirement
 AVHumanoidChangedSignalData
 AVHumanoidClothesAssetRequirement
 AVHumanoidController
+AVHumanoidControllerProp
 AVHumanoidDefaultAnimations
 AVHumanoidDefaultBodyParts
 AVHumanoidDefaultBodyPartsR15
@@ -4833,6 +4858,7 @@ AVinvalid_option_value
 AVinvalid_service_owner
 AVinvalid_syntax
 AVInventoryPages
+AVInventoryPagesProp
 AVIObjectDetector
 AVios_base
 AVIPAddress
@@ -5040,6 +5066,7 @@ AVlock_error
 AVLockTool
 AVLodDataEntity
 AVLodDataService
+AVLodDataServiceProp
 AVlogic_error
 AVLogicError
 AVLoginManager
@@ -5079,6 +5106,7 @@ AVLuauScriptHighlighter
 AVLuauScriptTextProvider
 AVLuauSemanticHighlighter
 AVLuaWebService
+AVLuaWebServiceProp
 AVLuaWidgetUISink
 AVMainCrashLogManager
 AVManageCollaboratorsAction
@@ -5086,10 +5114,13 @@ AVManagedWorldJointInstance
 AVManageEmulationDeviceDialog
 AVManageEmulationDevVerb
 AVManualGlue
+AVManualGlueProp
 AVManualJointHelper
 AVManualJointSurfacePair
 AVManualSurfaceJointInstance
+AVManualSurfaceJointInstanceProp
 AVManualWeld
+AVManualWeldProp
 AVMarkerCurve
 AVMarkerItem
 AVMarketplaceApiClient
@@ -5233,6 +5264,7 @@ AVMonoMixDsp
 AVMoreFontsButton
 AVMotor6DJoint
 AVMotorFeature
+AVMotorFeatureProp
 AVMotorJoint
 AVMouseCommand
 AVMouseService
@@ -5266,6 +5298,7 @@ AVNavigationContext
 AVNavigationService
 AVNearendDetector
 AVNegateOperation
+AVNegateOperationProp
 AVNegateSelectionVerb
 AVNetEqController
 AVNetEqControllerFactory
@@ -5299,6 +5332,7 @@ AVnoncopyable
 AVNonCreatableBaseCreator
 AVNonPacedPacketSender
 AVNonReplicatedCSGDictionaryService
+AVNonReplicatedCSGDictionaryServiceProp
 AVNoop_final
 AVNotificationManager
 AVNotificationService
@@ -5506,6 +5540,7 @@ AVPlayerEmulatorService
 AVPlayerGui
 AVPlayerLocaleLocalizationServiceTranslatorInstance
 AVPlayerMouse
+AVPlayerMouseProp
 AVPlayerScripts
 AVPlayerScriptsProp
 AVPlayersDataManager
@@ -5916,6 +5951,7 @@ AVRepeatingTaskBase
 AVReplicatedFirst
 AVReplicatedFirstProp
 AVReplicatedStorage
+AVReplicatedStorageProp
 AVReplicationDataBlob
 AVReplicationDataBlock
 AVReplicationDataPreBlob
@@ -6013,6 +6049,7 @@ AVRobloxPropertiesTreeWidget
 AVRobloxPropertiesWidget
 AVRobloxQuickAccessConfig
 AVRobloxReplicatedStorage
+AVRobloxReplicatedStorageProp
 AVRobloxReportView
 AVRobloxRibbonMainWindow
 AVRobloxSavingStateDialog
@@ -6042,8 +6079,11 @@ AVRopeConstraint
 AVRotateAxisCommand
 AVRotateJoint
 AVRotatePJoint
+AVRotatePProp
+AVRotateProp
 AVRotateSelectionVerb
 AVRotateVJoint
+AVRotateVProp
 AVRotationCurve
 AVRotationCurveKey
 AVRTCAudioSourceStats
@@ -6155,7 +6195,9 @@ AVRtpVideoStreamReceiverFrameTransformerDelegate
 AVRtxReceiveStream
 AVRunDragger
 AVRunningAverageItemDouble
+AVRunningAverageItemDoubleProp
 AVRunningAverageItemInt
+AVRunningAverageItemIntProp
 AVRunningBase
 AVRunningNoPhysics
 AVRunningSlave
@@ -6205,6 +6247,7 @@ AVScreenSpaceUIStreamer
 AVScriptAssetPropertyItem
 AVScriptBreakpointsComponent
 AVScriptBuilder
+AVScriptBuilderProp
 AVScriptChangeService
 AVScriptCloneTracker
 AVScriptCloneWatcher
@@ -6310,6 +6353,7 @@ AVServerScraperJob
 AVServerScriptService
 AVServerStatsItem
 AVServerStorage
+AVServerStorageProp
 AVservice_already_exists
 AVServiceInstance
 AVServiceProvider
@@ -6375,6 +6419,7 @@ AVShareModalStartPageController
 AVShareModalWindow
 AVShirtGraphic
 AVShorelineUpgraderService
+AVShorelineUpgraderServiceProp
 AVShortcutDelegate
 AVShortcutsModel
 AVShowConstraintDetailsVerb
@@ -6430,6 +6475,7 @@ AVSmoothingFilterImpl
 AVSmoothTerrainManualJointSurfacePair
 AVSmoothVoxelsUpgraderService
 AVSnapAttachmentVerb
+AVSnapProp
 AVSnippetCategoryItem
 AVSnippetCodeEditor
 AVSnippetCodeSampleView
@@ -6454,6 +6500,7 @@ AVSoftmax_final
 AVSoftplus
 AVSoftplus_final
 AVSolidModelContentProvider
+AVSolidModelContentProviderProp
 AVSolverInterface
 AVSoundEffect
 AVSoundEmitter
@@ -6478,6 +6525,7 @@ AVSpatialFilter
 AVSpatialGridHierarchicalPrimInternalsCache
 AVSpatialGridPrimitiveBase
 AVSpawnerService
+AVSpawnerServiceProp
 AVSpawnLocation
 AVSpecialShape
 AVSphereEmitterShapeSampler
@@ -6506,14 +6554,19 @@ AVStandardCursorPages
 AVStandardEnumPropertyDescriptor
 AVStandardEventIngest
 AVStandardPages
+AVStandardPagesProp
 AVStandardPropertyDescriptor
 AVStandardRefPropertyDescriptor
 AVStandardRequestFactory
 AVStarterCharacterScripts
+AVStarterCharacterScriptsProp
 AVStarterGear
+AVStarterGearProp
 AVStarterGuiService
+AVStarterPackProp
 AVStarterPackService
 AVStarterPlayerScripts
+AVStarterPlayerScriptsProp
 AVStarterPlayerService
 AVStartPageController
 AVStartPageDocumentPanel
@@ -6654,7 +6707,6 @@ AVTargetsParser
 AVTargetTransferRateObserver
 AVtask_canceled
 AVTaskGroup
-AVTaskQueu
 AVTaskQueueBase
 AVTaskQueueFactory
 AVTaskQueueJob
@@ -6691,6 +6743,7 @@ AVTerrainRegion
 AVTestService
 AVTetraShapeRetriever
 AVTextBoxService
+AVTextBoxServiceProp
 AVTextboxWidget
 AVTextChannel
 AVTextChannelProp
@@ -6743,6 +6796,7 @@ AVTimePositionPropertyItem
 AVtimer_queue_base
 AVTimerEventHandler
 AVTimerService
+AVTimerServiceProp
 AVTimerTickerJob
 AVTimeSliceParser
 AVTimestampScaler
@@ -6778,9 +6832,12 @@ AVToolTipRequest
 AVTopMenuBar
 AVTorsionSpringConstraint
 AVTotalCountTimeIntervalItem
+AVTotalCountTimeIntervalItemProp
 AVTotalPlayerCountJob
 AVTouchInputService
+AVTouchInputServiceProp
 AVTouchTransmitter
+AVTouchTransmitterProp
 AVTPoseAdjusterEngineV01
 AVTPoseAdjusterEngineV02
 AVTracerService
@@ -6890,6 +6947,7 @@ AVUndoChangesToPackagesVerb
 AVUndoVerb
 AVUngroupSelectionVerb
 AVUnionOperation
+AVUnionOperationProp
 AVUnionSelectionVerb
 AVUniversalConstraint
 AVUniverse
@@ -6952,9 +7010,11 @@ AVUserPluginsModel
 AVUserService
 AVUserServiceProp
 AVUserStorageService
+AVUserStorageServiceProp
 AVvalidation_error
 AVvalue_semantic
 AVValueBase
+AVValueBaseProp
 AVValueDiff
 AVValueTableDiff
 AVvariables_map
@@ -6980,6 +7040,7 @@ AVVectorForce
 AVVectorPropertyItem
 AVVectorVelocityConstraintImplementation
 AVVehicleController
+AVVehicleControllerProp
 AVVehicleSeat
 AVVelocityConstraintImplementation
 AVVelocityMotor
@@ -7067,6 +7128,8 @@ AVVirtualUserProp
 AVVisibilityCheckDispatcher
 AVVisibilityParamsProvider
 AVVisibilityService
+AVVisibilityServiceProp
+AVVisitProp
 AVVisualEngine
 AVVoERtcpObserver
 AVVoiceChannel
@@ -7120,6 +7183,7 @@ AVWebRtcVoiceEngine
 AVWebRtcVoiceMediaChannel
 AVWebSocket
 AVWebSocketCurl
+AVWedgePartProp
 AVWedgePoly
 AVWeightedClusterFit
 AVWeightSortedItem
@@ -7127,6 +7191,7 @@ AVWeldAutoJointSurfacePair
 AVWeldConstraint
 AVWeldConstraintTool
 AVWeldJoint
+AVWeldProp
 AVWhatsNewController
 AVWhatsNewWindow
 AVWidgetSizeProvider
@@ -7145,6 +7210,7 @@ AVWorkspaceInterpolatorInterface
 AVWorkspaceStatsItem
 AVWorldCFrameDiff
 AVWorldModel
+AVWorldModelProp
 AVWorldRoot
 AVWorldRootProp
 AVWorldTouchCollector
@@ -15017,6 +15083,7 @@ EnableTouchHandlingFixV2
 EnableTrackingAccessoryDestoyedWithLiveSignals
 EnableTrimCookieForPortHandling
 EnableUniversalAppUserAgentOnMacAndWin32
+EnableUniverseIdInServingRequest
 EnableUserInputPlaybackPlugin
 EnableUserPrivacyUnauthorizedMessage
 EnableVerboseFailedUrl
@@ -19474,7 +19541,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaTp
+HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9

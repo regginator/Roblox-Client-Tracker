@@ -1878,6 +1878,7 @@ RBX::Accoutrement
 RBX::ActionStation<class RBX::BasePart>
 RBX::ActionStation<class RBX::Part>
 RBX::Actor
+RBX::ActorProp
 RBX::Adorn
 RBX::Ads::AdDataInterface
 RBX::Ads::AdGui
@@ -1951,6 +1952,7 @@ RBX::AppQoSImplInterface
 RBX::AppQoSInstance
 RBX::AppStorage
 RBX::AppStorageService
+RBX::AppStorageServiceProp
 RBX::AppUpdateService
 RBX::AppUpdateServiceProp
 RBX::ArcHandles
@@ -2034,6 +2036,7 @@ RBX::AssetImport::UploadTexturePackRequest
 RBX::AssetImport::UploadTextureRequest
 RBX::AssetImportSession
 RBX::AssetPatchSettings
+RBX::AssetPatchSettingsProp
 RBX::AssetService
 RBX::AssetServiceProp
 RBX::AssetSoundEffect
@@ -2058,6 +2061,7 @@ RBX::AvatarEditorServiceProp
 RBX::Backpack
 RBX::BackpackItem
 RBX::BackpackItemProp
+RBX::BackpackProp
 RBX::BadgeService
 RBX::BadgeServiceProp
 RBX::Ball
@@ -2080,6 +2084,7 @@ RBX::BindableFunction
 RBX::BindableFunctionProp
 RBX::Block
 RBX::BlockMesh
+RBX::BlockMeshProp
 RBX::BloomEffect
 RBX::BloomEffectProp
 RBX::BlurEffect
@@ -2106,6 +2111,7 @@ RBX::BSPMesh
 RBX::BubbleChatConfiguration
 RBX::BulletConvexDecompositionResult
 RBX::CacheableContentProvider
+RBX::CacheableContentProviderProp
 RBX::Camera
 RBX::CameraCapture
 RBX::CameraPanLeftCommand
@@ -2203,6 +2209,7 @@ RBX::CommandService
 RBX::ConeHandleAdornment
 RBX::ConeHandleAdornmentProp
 RBX::Configuration
+RBX::ConfigurationProp
 RBX::ConfigureServerService
 RBX::Connector
 RBX::ConstrainedValue<__int64>
@@ -2250,15 +2257,19 @@ RBX::ControllerBase
 RBX::ControllerManager
 RBX::ControllerProp
 RBX::ControllerService
+RBX::ControllerServiceProp
 RBX::CookieManager
 RBX::CookiesService
+RBX::CookiesServiceProp
 RBX::CoreGuiService
 RBX::CorePackages
+RBX::CorePackagesProp
 RBX::CoreScript
 RBX::CorescriptConfigurer
 RBX::CoreScriptSyncService
 RBX::CoreScriptSyncServiceProp
 RBX::CornerWedgeInstance
+RBX::CornerWedgePartProp
 RBX::CornerWedgePoly
 RBX::CrashReporter
 RBX::Creatable<class RBX::Folder>::Deleter<class RBX::Folder>
@@ -3290,6 +3301,7 @@ RBX::CSG3::detail::CSG3Reporting
 RBX::CSG3::detail::CSG3ReportingBase
 RBX::CSG3Mesh::CSG3Mesh
 RBX::CSGDictionaryService
+RBX::CSGDictionaryServiceProp
 RBX::CSGMesh
 RBX::CSGMeshFactory
 RBX::CSGMeshFactorySgCore
@@ -3310,6 +3322,7 @@ RBX::CustomParticleEmitter
 RBX::CylinderHandleAdornment
 RBX::CylinderHandleAdornmentProp
 RBX::CylinderMesh
+RBX::CylinderMeshProp
 RBX::DataModel
 RBX::DataModel::GenericJob
 RBX::DataModel::SerializationException
@@ -4039,6 +4052,7 @@ RBX::EditSelectionVerb
 RBX::Effect
 RBX::EmbeddedAuthorizationDialog
 RBX::EmotesPages
+RBX::EmotesPagesProp
 RBX::EquationDisplay
 RBX::EulerRotationCurve
 RBX::EulerRotationCurveProp
@@ -4113,9 +4127,11 @@ RBX::FlagProp
 RBX::FlagStand
 RBX::FlagStandProp
 RBX::FlagStandService
+RBX::FlagStandServiceProp
 RBX::FloatCurve
 RBX::FloorWire
 RBX::FlyweightService
+RBX::FlyweightServiceProp
 RBX::Folder
 RBX::FolderProp
 RBX::ForceField
@@ -4124,6 +4140,7 @@ RBX::FormFactorPart
 RBX::Frame
 RBX::FreeJoint
 RBX::FriendPages
+RBX::FriendPagesProp
 RBX::FriendService
 RBX::FriendServiceProp
 RBX::FunctionalTest
@@ -4140,9 +4157,11 @@ RBX::GameSettings
 RBX::GameTool
 RBX::GcJob
 RBX::GenericNumberHandler
+RBX::GenericSettingsProp
 RBX::GenericTelemetryEnabledJob
 RBX::Geom::Cylinder
 RBX::Geometry
+RBX::GeometryProp
 RBX::GeometryService
 RBX::GfxBinding
 RBX::GfxPart
@@ -4311,10 +4330,12 @@ RBX::HammerTool
 RBX::HandleAdornment
 RBX::Handles
 RBX::HandlesBase
+RBX::HandlesBaseProp
 RBX::HandlesProp
 RBX::HapticService
 RBX::HapticServiceProp
 RBX::Hat
+RBX::HatProp
 RBX::HeartbeatInstance
 RBX::HeartbeatTask
 RBX::HeightmapImporterService
@@ -4324,10 +4345,13 @@ RBX::HiddenSurfaceRemovalAssetProp
 RBX::Highlight
 RBX::HingeAutoJointSurfacePair
 RBX::Hint
+RBX::HintProp
 RBX::HitTestFilter
 RBX::Hole
+RBX::HoleProp
 RBX::HopperBin
 RBX::HopperBinProp
+RBX::HopperProp
 RBX::HSRDataContentProvider
 RBX::http_status_error
 RBX::HttpClientStatsReporter
@@ -4377,6 +4401,7 @@ RBX::HumanoidAssetRequirement
 RBX::HumanoidBodyPartAssetRequirement
 RBX::HumanoidClothesAssetRequirement
 RBX::HumanoidController
+RBX::HumanoidControllerProp
 RBX::HumanoidDefaultAnimations
 RBX::HumanoidDefaultBodyParts
 RBX::HumanoidDefaultBodyPartsR15
@@ -4469,6 +4494,7 @@ RBX::IntHandler
 RBX::Intrusive::Set<class RBX::BasePart,class RBX::PhysicsService>::Hook
 RBX::Intrusive::Set<class RBX::BasePart,class RBX::PhysicsService>::NextRef
 RBX::InventoryPages
+RBX::InventoryPagesProp
 RBX::IPipelined
 RBX::IPluginApiHost
 RBX::IPluginElementHost
@@ -4569,6 +4595,7 @@ RBX::LocalStorageServiceProp
 RBX::LockTool
 RBX::LodDataEntity
 RBX::LodDataService
+RBX::LodDataServiceProp
 RBX::LoginService
 RBX::LoginServiceProp
 RBX::LogService
@@ -4628,12 +4655,16 @@ RBX::LuaSourceContainer
 RBX::LuaStatsItem
 RBX::LuaToolVerb
 RBX::LuaWebService
+RBX::LuaWebServiceProp
 RBX::ManagedWorldJointInstance
 RBX::ManualGlue
+RBX::ManualGlueProp
 RBX::ManualJointHelper
 RBX::ManualJointSurfacePair
 RBX::ManualSurfaceJointInstance
+RBX::ManualSurfaceJointInstanceProp
 RBX::ManualWeld
+RBX::ManualWeldProp
 RBX::MarkerCurve
 RBX::MarketplaceApiClient
 RBX::MarketplaceService
@@ -4689,6 +4720,7 @@ RBX::Motor
 RBX::Motor6D
 RBX::Motor6DJoint
 RBX::MotorFeature
+RBX::MotorFeatureProp
 RBX::MotorJoint
 RBX::Mouse
 RBX::MouseCommand
@@ -4701,6 +4733,7 @@ RBX::MultipleDocumentInterfaceInstance
 RBX::NavigationContext
 RBX::NavigationService
 RBX::NegateOperation
+RBX::NegateOperationProp
 RBX::Network::CFrameAcknowledgementItem
 RBX::Network::Client
 RBX::Network::Client::IxpChangedListener
@@ -4941,6 +4974,7 @@ RBX::NonCreatableCreator<class RBX::VisibilityService>
 RBX::NonCreatableCreator<class RBX::VRService>
 RBX::NonCreatableCreator<class StudioUserPreferences>
 RBX::NonReplicatedCSGDictionaryService
+RBX::NonReplicatedCSGDictionaryServiceProp
 RBX::NotificationService
 RBX::NullVerb
 RBX::NumberHandler
@@ -4964,6 +4998,7 @@ RBX::ParabolaAdornmentProp
 RBX::ParameterizeHandler
 RBX::Part
 RBX::PART::Wedge
+RBX::PART::WedgePartProp
 RBX::PartAdornment
 RBX::PartByLocalCharacter
 RBX::PartDragTool
@@ -4996,6 +5031,7 @@ RBX::PlayerEmulatorService
 RBX::PlayerGui
 RBX::PlayerLocaleLocalizationServiceTranslatorInstance
 RBX::PlayerMouse
+RBX::PlayerMouseProp
 RBX::Players
 RBX::PlayerScripts
 RBX::PlayerScriptsProp
@@ -6065,7 +6101,6 @@ RBX::Reflection::BoundProp<class RBX::Vector3,1>::BoundPropGetSet<class RBX::Exp
 RBX::Reflection::BoundProp<class RBX::Vector3,1>::BoundPropGetSet<class RBX::Rocket>
 RBX::Reflection::BoundProp<class RBX::Vector3,1>::BoundPropGetSet<class RBX::Value<class RBX::Vector3> >
 RBX::Reflection::BoundProp<class std::string,1>
-RBX::Reflection::BoundProp<class std::string,1>::BoundPropGetSet<class RBX::AssetPatchSettings>
 RBX::Reflection::BoundProp<class std::string,1>::BoundPropGetSet<class RBX::PatchMapping>
 RBX::Reflection::BoundProp<class std::string,1>::BoundPropGetSet<class RBX::Player>
 RBX::Reflection::BoundProp<class std::string,1>::BoundPropGetSet<class RBX::ProximityPrompt>
@@ -7798,6 +7833,8 @@ RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,enu
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::RigType>::GetSetImpl<enum RBX::RigType (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64,void (__cdecl RBX::AssetImport::ImporterRootSettings::*)(enum RBX::RigType) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,float>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,float>::GetImpl<float (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64>
+RBX::Reflection::PropDescriptor<class RBX::AssetPatchSettings,class std::string >
+RBX::Reflection::PropDescriptor<class RBX::AssetPatchSettings,class std::string >::GetSetImpl<class std::string (__cdecl RBX::AssetPatchSettingsProp::*)(void)const __ptr64,void (__cdecl RBX::AssetPatchSettingsProp::*)(class std::string) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::Atmosphere,class RBX::Color3>
 RBX::Reflection::PropDescriptor<class RBX::Atmosphere,class RBX::Color3>::GetSetImpl<class RBX::Color3 const & __ptr64 (__cdecl RBX::Atmosphere::*)(void)const __ptr64,void (__cdecl RBX::Atmosphere::*)(class RBX::Color3 const & __ptr64) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::Atmosphere,float>
@@ -10317,6 +10354,7 @@ RBX::RenderStatsCommand
 RBX::ReplicatedFirst
 RBX::ReplicatedFirstProp
 RBX::ReplicatedStorage
+RBX::ReplicatedStorageProp
 RBX::RESTRICTED_ILegacyStudioBridge
 RBX::RESTRICTED_IStudioServiceHost
 RBX::RESTRICTED_LegacyStudioBridge
@@ -10327,6 +10365,7 @@ RBX::RobloxAudioDevice
 RBX::RobloxAudioDeviceModule
 RBX::RobloxPluginGuiService
 RBX::RobloxReplicatedStorage
+RBX::RobloxReplicatedStorageProp
 RBX::Rocket
 RBX::RomarkAudioDevice
 RBX::RomarkAudioDeviceModule
@@ -10335,15 +10374,20 @@ RBX::RotateAxisCommand
 RBX::RotateJoint
 RBX::RotateP
 RBX::RotatePJoint
+RBX::RotatePProp
+RBX::RotateProp
 RBX::RotateSelectionVerb
 RBX::RotateV
 RBX::RotateVJoint
+RBX::RotateVProp
 RBX::RotationCurve
 RBX::RtMessagingService
 RBX::RtMessagingTransport
 RBX::RtMessagingTransportAbstract<class RBX::details::RtMessagingTransportNone>
 RBX::RtMessagingTransportAbstract<class RBX::VoiceChatMessagingTransportAudioInterleaved>
 RBX::RunDragger
+RBX::RunningAverageItemDoubleProp
+RBX::RunningAverageItemIntProp
 RBX::RunService
 RBX::RunStateVerb
 RBX::RuntimeScriptService
@@ -10379,6 +10423,7 @@ RBX::ScreenGui
 RBX::ScreenshotHud
 RBX::Script
 RBX::ScriptBuilder
+RBX::ScriptBuilderProp
 RBX::ScriptChangeService
 RBX::ScriptContext
 RBX::ScriptEditor::ApiDocView
@@ -10517,6 +10562,7 @@ RBX::SeparateTask
 RBX::Serializer::InstanceSanitizationError
 RBX::ServerScriptService
 RBX::ServerStorage
+RBX::ServerStorageProp
 RBX::Service
 RBX::ServiceInstance
 RBX::ServiceProvider
@@ -10538,6 +10584,7 @@ RBX::Settings
 RBX::Shirt
 RBX::ShirtGraphic
 RBX::ShorelineUpgraderService
+RBX::ShorelineUpgraderServiceProp
 rbx::signal<void __cdecl(class std::shared_ptr<class RBX::Player>,class std::shared_ptr<struct RBX::Reflection::Tuple const >)>
 rbx::signal<void __cdecl(class std::shared_ptr<struct RBX::Reflection::Tuple const >)>
 RBX::SignalrNotificationManager
@@ -10562,9 +10609,11 @@ RBX::SmoothClusterGeometry
 RBX::SmoothTerrainManualJointSurfacePair
 RBX::SmoothVoxelsUpgraderService
 RBX::Snap
+RBX::SnapProp
 RBX::SocialService
 RBX::SocialServiceProp
 RBX::SolidModelContentProvider
+RBX::SolidModelContentProviderProp
 RBX::Solver::Constraint
 RBX::Solver::ConstraintAchievePosition
 RBX::Solver::ConstraintAlign2Axes
@@ -10659,6 +10708,7 @@ RBX::SpanningTree
 RBX::Sparkles
 RBX::SpatialFilter
 RBX::SpawnerService
+RBX::SpawnerServiceProp
 RBX::SpawnLocation
 RBX::SpecialShape
 RBX::SphereHandleAdornment
@@ -10668,11 +10718,16 @@ RBX::StandalonePluginScripts
 RBX::StandardCursorPages
 RBX::StandardEventIngest
 RBX::StandardPages
+RBX::StandardPagesProp
 RBX::StarterCharacterScripts
+RBX::StarterCharacterScriptsProp
 RBX::StarterGear
+RBX::StarterGearProp
 RBX::StarterGuiService
+RBX::StarterPackProp
 RBX::StarterPackService
 RBX::StarterPlayerScripts
+RBX::StarterPlayerScriptsProp
 RBX::StarterPlayerService
 RBX::Stats::CoreMemoryStatsItem
 RBX::Stats::DeveloperTagStatsItem
@@ -11006,6 +11061,7 @@ RBX::Text::FontProvider
 RBX::Text::GetTextBoundsParams
 RBX::TextBox
 RBX::TextBoxService
+RBX::TextBoxServiceProp
 RBX::TextChannel
 RBX::TextChannelProp
 RBX::TextChatCommand
@@ -11035,12 +11091,16 @@ RBX::ThreadPool
 RBX::TiltSelectionVerb
 RBX::TimeHandler
 RBX::TimerService
+RBX::TimerServiceProp
 RBX::TimerTickerJob
 RBX::Tool
 RBX::ToolMouseCommand
 RBX::TopMenuBar
+RBX::TotalCountTimeIntervalItemProp
 RBX::TouchInputService
+RBX::TouchInputServiceProp
 RBX::TouchTransmitter
+RBX::TouchTransmitterProp
 RBX::TPoseAdjusterEngineV01
 RBX::TPoseAdjusterEngineV02
 RBX::TracerService
@@ -11094,6 +11154,7 @@ RBX::UITableLayout
 RBX::UITableLayoutProp
 RBX::UITextSizeConstraint
 RBX::UnionOperation
+RBX::UnionOperationProp
 RBX::UnlockAllVerb
 RBX::UnlockedPartByLocalCharacter
 RBX::UnsecuredStudioGame
@@ -11104,6 +11165,7 @@ RBX::UsernameHandler
 RBX::UserService
 RBX::UserServiceProp
 RBX::UserStorageService
+RBX::UserStorageServiceProp
 RBX::Value<bool>
 RBX::Value<class RBX::BinaryString>
 RBX::Value<class RBX::BrickColor>
@@ -11112,9 +11174,11 @@ RBX::Value<class RBX::CoordinateFrame>
 RBX::Value<class RBX::Ray>
 RBX::Value<class RBX::Vector3>
 RBX::ValueBase
+RBX::ValueBaseProp
 RBX::Vector3Curve
 RBX::Vector3CurveProp
 RBX::VehicleController
+RBX::VehicleControllerProp
 RBX::VehicleSeat
 RBX::VelocityMotor
 RBX::Verb
@@ -11145,7 +11209,9 @@ RBX::VirtualInputManager
 RBX::VirtualUser
 RBX::VirtualUserProp
 RBX::VisibilityService
+RBX::VisibilityServiceProp
 RBX::Visit
+RBX::VisitProp
 RBX::VoiceChatInternal
 RBX::VoiceChatManager
 RBX::VoiceChatMessagingTransportAudioInterleaved
@@ -11170,6 +11236,7 @@ RBX::Weld
 RBX::WeldAutoJointSurfacePair
 RBX::WeldConstraintTool
 RBX::WeldJoint
+RBX::WeldProp
 RBX::WindowsDeviceEnumerator
 RBX::WireframeHandleAdornment
 RBX::WireframeHandleAdornmentProp
@@ -11178,6 +11245,7 @@ RBX::Workspace
 RBX::WorkspaceInterpolatorInterface
 RBX::WorkspaceStatsItem
 RBX::WorldModel
+RBX::WorldModelProp
 RBX::WorldRoot
 RBX::WorldRootProp
 RBX::WorldTouchCollector
@@ -11383,8 +11451,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x5839cbb0::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x720c3886::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xf1574a56::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xdb62b960::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -14996,8 +15064,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x5839cbb0::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x720c3886::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xf1574a56::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xdb62b960::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter

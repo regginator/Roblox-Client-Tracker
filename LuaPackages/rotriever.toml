@@ -60,7 +60,7 @@ tutils = { git = "https://github.com/Roblox/tutils" }
 
 InGameMenuDependencies = { git = "https://github.com/Roblox/in-game-menu-dependencies", rev = "master" }
 
-RoactGamepad = "github.com/roblox/roact-gamepad@0.5.9"
+RoactGamepad = "github.com/roblox/roact-gamepad@0.5.10"
 
 [dev_dependencies]
 Jest = "github.com/roblox/jest-roblox@3.2.1"
@@ -111,7 +111,7 @@ RoactRodux = "github.com/Roblox/roact-rodux@0.5.1"
 InfiniteScroller = "github.com/Roblox/infinite-scroller@0.9.5"
 
 [config.patch."github.com/roblox/roact-gamepad"]
-RoactGamepad = "github.com/Roblox/roact-gamepad@0.5.9"
+RoactGamepad = "github.com/Roblox/roact-gamepad@0.5.10"
 
 [config.patch."github.com/roblox/virtualized-list-lua"]
 VirtualizedList = "github.com/roblox/virtualized-list-lua@1.1.2"
