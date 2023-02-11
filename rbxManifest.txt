@@ -5,7 +5,7 @@ f1ffdfbbf016d1c27827115bb8a9fb8f
 BuiltInPlugins\DepFiles\AlignmentTool.d
 1c60be25767bcfc7ee9e2ece6456b530
 BuiltInPlugins\DepFiles\AnimationClipEditor.d
-52da61da67f0ca801ee1b5447ee87933
+34d9971e6671f1bfdead1ad3fe2bca32
 BuiltInPlugins\DepFiles\AssetImporter.d
 4717592a3cb343ee0098bb3cbc54b5d9
 BuiltInPlugins\DepFiles\AssetManager.d
@@ -93,7 +93,7 @@ ddfb88060611f1c4edb595d36c9daf16
 BuiltInPlugins\Optimized_Embedded_Signature\AlignmentTool.rbxm
 000de520337f4e67b549dd1e86aac179
 BuiltInPlugins\Optimized_Embedded_Signature\AnimationClipEditor.rbxm
-055eae84cbf554bb6139b34616913182
+a3213119f6d746a637d96639d97de5c6
 BuiltInPlugins\Optimized_Embedded_Signature\AssetImporter.rbxm
 8293a4f56b0fa4c8851d18c9c6eb22a3
 BuiltInPlugins\Optimized_Embedded_Signature\AssetManager.rbxm
@@ -167,7 +167,7 @@ c06556db79c3705f687f1c1c8faf157a
 BuiltInPlugins\Optimized_Embedded_Signature\TerrainEditor.rbxm
 afeb8e9faaba089c15afe254c3caf458
 BuiltInPlugins\Optimized_Embedded_Signature\TerrainToolsV2.rbxm
-1f44bc555fb9644f96f7d80981fd4e9b
+417584204e9215a5979f0205d2033b27
 BuiltInPlugins\Optimized_Embedded_Signature\Toolbox.rbxm
 041880335bbe60b09bab087eede1471d
 BuiltInPlugins\Optimized_Embedded_Signature\UIEditor.rbxm
@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-a4cb333bd6a45bad8cc4f7b0c48d37b5
+1e11d15229637ffaf3cb0492aa967fa1
 QtitanDocking.dll
-4c557b161549f51426ac71194472a315
+1ab604888657615e960c3691d7676b0b
 QtitanRibbon.dll
-d8880a1ec98af6c47e20a0e410a11a4a
+4d6587caaada7e60f1b4c99626af2242
 ReflectionMetadata.xml
 f59a3ce4baab6fb094aa2ec6fb578306
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-8a4699fe0649f6a56c5c3d2d5fa18177
+f644ae43d6cc9194979249ed6a07e451
 RobloxStudioRibbon.xml
 067e1f9d7fb77b5b99db943437a03b59
 d3dcompiler_47.dll
@@ -1945,7 +1945,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-8004749721a0244eb305bee2840021e1
+b18aa181602b028d38d0e73e1690d5bd
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -9449,7 +9449,7 @@ ae74843fc0beece192979b35e75feaf8
 ExtraContent\scripts\CoreScripts\CoreScripts\NetworkPause.lua
 734fe382349b78ac3497aec9be59ffd8
 ExtraContent\scripts\CoreScripts\CoreScripts\NotificationScript2.lua
-2f994d71dafca445fb5a6606685ac257
+819b0d405d8d296f0243174e13afb334
 ExtraContent\scripts\CoreScripts\CoreScripts\PerformanceStatsManagerScript.lua
 6b97f0eaedd2343bd47a73982d178fd4
 ExtraContent\scripts\CoreScripts\CoreScripts\PipInitialize.lua
@@ -31395,7 +31395,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-55f9b42753718cfaaf226b4735dc9a37
+07fa27e5666a6ac50e21c2170b5438e8
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png

@@ -3382,7 +3382,6 @@ AVbtDispatcher
 AVbtEmptyAlgorithm
 AVbtGImpactCollisionAlgorithm
 AVbtGImpactCompoundShape
-AVbtGImpactConvexDecompositionShape
 AVbtGImpactShapeInterface
 AVbtGImpactTriangleCallback
 AVbtGjkConvexCast
@@ -6655,6 +6654,7 @@ AVTargetsParser
 AVTargetTransferRateObserver
 AVtask_canceled
 AVTaskGroup
+AVTaskQueu
 AVTaskQueueBase
 AVTaskQueueFactory
 AVTaskQueueJob
@@ -16426,7 +16426,6 @@ FirstValidPort
 FitWithinMaxSize
 FixAccoutrementWeldCreationForCloudEdit3
 FixAddAppSessionCommonPoints
-FixAdPortalTeleportDataError
 FixAdRequestResponseMismatch
 FixAndroidGetAddrinfoHintFlags
 FixAssemblyNOUAPIFixedMislabel
@@ -18403,6 +18402,7 @@ GptR8GqtMH
 GPULightCullData
 GPULightRenderData
 GpuVariance
+GpuVsCpuBoundTelemetry
 GqNqNqNqNqNqNqNqNqNq.
 GQtPUWUuQD
 GrabCursor.png
@@ -19474,7 +19474,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT
+HwngSmldAskhBcraMaweNegsOgnaTp
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -20242,7 +20242,7 @@ InstanceHits
 InstanceId
 InstanceID
 InstanceInsert
-InstanceIsHiddenBySettingsDMLock
+InstanceIsHiddenBySettingsDMLock2
 InstanceItem
 InstanceMesh
 InstanceNew
@@ -42510,6 +42510,7 @@ VAirController
 Val.toFixed
 VAliasCollisionSolver
 VAliasRequestResult
+ValidateBeforeInitScreenSize
 ValidateCageMeshIntersection
 ValidateCageNonManifoldAndHoles
 ValidateFreeOsMemAllocationBytes
