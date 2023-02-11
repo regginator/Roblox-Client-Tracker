@@ -830,6 +830,7 @@ AICOCompletionResponseHttpErrorOther
 AICOCompletionResponseParseError
 AICOCompletionResponseSuccess
 AICOFunctionContextFilter
+AICOInputDebounceTimeMs
 AICOInverseTrigger
 AICOKeyPressEnter
 AICOKeyPressShiftEnter
@@ -5808,6 +5809,7 @@ AVQTableWidget
 AVQTableWidgetItem
 AVQTabWidget
 AVQTextBlock
+AVQTextBlockFormat
 AVQTextBlockUserData
 AVQTextBrowser
 AVQTextCharFormat
@@ -7999,6 +8001,7 @@ BlockByNumber
 BlockCharFormat
 BlockCurrent
 BlockedToolWeldCFrame
+BlockFormat
 BlockingSaveOrPublish
 BlockingSaveOrPublishFailure
 BlockTeleportOnMenuOpen
@@ -8115,6 +8118,7 @@ BottomBarSize
 BottomImage
 BottomLeft
 BottomLeftControl
+BottomMargin
 BottomMoreButtonClicked
 BottomParamA
 BottomParamB
@@ -12440,6 +12444,8 @@ DebrisServiceProp
 DebugAdditionalEnablePhaseTracking
 DebugAdorns
 DebugAdornsDisabled
+DebugAICOPrint
+DebugAICOPrintVerbose
 DebugAllowHttpInNetworkedDMs
 DebugAllowLocalRccKicks
 DebugAllowMultiRotationInterpolation
@@ -23248,6 +23254,7 @@ MixLevelsOutput
 MkvStreamWriter
 MLCodeAssistanceController
 MLCodeCompleteRequestTokens
+MLCodeCompletion
 MLCodeCompletionHttpRequest
 MLCodeCompletionTimeRateLimitTimeMs
 MLCompletion
@@ -28109,6 +28116,7 @@ QEAAXAEBVQSizeF
 QEAAXAEBVQString
 QEAAXAEBVQStringList
 QEAAXAEBVQSurfaceFormat
+QEAAXAEBVQTextBlockFormat
 QEAAXAEBVQTextCharFormat
 QEAAXAEBVQTextCursor
 QEAAXAEBVQTextOption
@@ -28615,6 +28623,7 @@ QtDMConnection
 QTemporaryDir
 QTemporaryFile
 QTextBlock
+QTextBlockFormat
 QTextBlockUserData
 QTextBrowser
 QTextCharFormat
@@ -29228,7 +29237,6 @@ ReceivedGlobasTime
 ReceivedHeightInPixels
 ReceivedJoinTelemetry
 ReceivedKbps
-ReceivedMLCompletion
 ReceivedPerSec
 ReceivedPlayer
 ReceivedWidthInPixels
@@ -30409,6 +30417,7 @@ RespawnLocation
 RespawnTime
 RespectCanCollide
 RespectFilteringEnabled
+Responding
 ResponseBody
 ResponseData
 ResponseDialog
