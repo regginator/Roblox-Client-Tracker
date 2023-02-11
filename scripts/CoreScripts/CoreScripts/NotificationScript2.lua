@@ -37,7 +37,7 @@ local success, result = pcall(function()
 	return settings():GetFFlag("UseNotificationsLocalization")
 end)
 local FFlagUseNotificationsLocalization = success and result
-local FFlagBadgeNotificationHttpFix = game:DefineFastFlag("BadgeNotificationHttpFix", false)
+local FFlagBadgeNotificationHttpFix2 = game:DefineFastFlag("BadgeNotificationHttpFix2", false)
 
 local GetFixGraphicsQuality = require(RobloxGui.Modules.Flags.GetFixGraphicsQuality)
 local EnableInGameMenuV3 = require(RobloxGui.Modules.InGameMenuV3.Flags.GetFFlagEnableInGameMenuV3)
@@ -856,40 +856,59 @@ local function onBadgeAwarded(userId, creatorId, badgeId)
 		BadgeBlacklist[badgeId] = true
 		local creatorName = ""
 		if game.CreatorType == Enum.CreatorType.Group then
-			local groupInfo = GroupService:GetGroupInfoAsync(creatorId)
+			local groupInfo -- inline with FFlagBadgeNotificationsHttpFix
+
+			if FFlagBadgeNotificationHttpFix2 then
+				local success
+				success, groupInfo = pcall(function()
+					return GroupService:GetGroupInfoAsync(creatorId)
+				end)
+				if not success then creatorName = "" end
+			else
+				groupInfo = GroupService:GetGroupInfoAsync(creatorId)
+			end
+
 			if groupInfo then
 				creatorName = groupInfo.Name
 			end
 		elseif game.CreatorType == Enum.CreatorType.User then
-			creatorName = Players:GetNameFromUserIdAsync(creatorId)
+
+			if FFlagBadgeNotificationHttpFix2 then
+				local success
+				success, creatorName = pcall(function()
+					return Players:GetNameFromUserIdAsync(creatorId)
+				end)
+				if not success then creatorName = "" end
+			else
+				creatorName = Players:GetNameFromUserIdAsync(creatorId)
+			end
 		end
 
-		local success = true
-		local badgeInfo
-		if FFlagBadgeNotificationHttpFix then
+		local badgeInfo -- inline with FFlagBadgeNotificationHttpFix
+		if FFlagBadgeNotificationHttpFix2 then
+			local success
 			success, badgeInfo = pcall(function()
 				return BadgeService:GetBadgeInfoAsync(badgeId)
 			end)
+			if not success then return end -- could not get info from network
 		else
 			badgeInfo = BadgeService:GetBadgeInfoAsync(badgeId)
 		end
-	
-		if success then
-			local badgeAwardText = RobloxTranslator:FormatByKey(
-				"NotificationScript2.onBadgeAwardedDetail",
-				{ RBX_NAME = LocalPlayer.Name, CREATOR_NAME = creatorName, BADGE_NAME = badgeInfo.DisplayName }
-			)
-			local badgeTitle = LocalizedGetString("NotificationScript2.onBadgeAwardedTitle")
 
-			sendNotificationInfo({
-				GroupName = "BadgeAwards",
-				Title = badgeTitle,
-				Text = badgeAwardText,
-				DetailText = badgeAwardText,
-				Image = BADGE_IMG,
-				Duration = DEFAULT_NOTIFICATION_DURATION,
-			})
-		end
+		local badgeAwardText = RobloxTranslator:FormatByKey(
+			"NotificationScript2.onBadgeAwardedDetail",
+			{ RBX_NAME = LocalPlayer.Name, CREATOR_NAME = creatorName, BADGE_NAME = badgeInfo.DisplayName }
+		)
+		local badgeTitle = LocalizedGetString("NotificationScript2.onBadgeAwardedTitle")
+
+		sendNotificationInfo({
+			GroupName = "BadgeAwards",
+			Title = badgeTitle,
+			Text = badgeAwardText,
+			DetailText = badgeAwardText,
+			Image = BADGE_IMG,
+			Duration = DEFAULT_NOTIFICATION_DURATION,
+		})
 	end
 end
 
