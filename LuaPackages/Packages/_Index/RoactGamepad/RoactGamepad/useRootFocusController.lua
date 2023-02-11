@@ -14,12 +14,14 @@ local React = require(Packages.React)
 
 local FocusController = require(script.Parent.FocusController)
 
-local function useRootFocusController()
+type FocusController = typeof(FocusController.createPublicApiWrapper()())
+
+local function useRootFocusController(): FocusController
 	local ref = React.useRef(nil)
 	if ref.current == nil then
 		ref.current = FocusController.createPublicApiWrapper()
 	end
-	return ref.current
+	return ref.current :: any
 end
 
 return useRootFocusController

@@ -62,22 +62,23 @@ local function Panel3D(providedProps: Props)
 		WorkspacePortal = React.createElement(Roact.Portal, {
 			target = props.parent,
 		}, {
-			GUIPart = React.createElement("Part", {
-				Name = props.panelName .. "_Part",
-				ref = basePart,
-				Anchored = true,
-				CFrame = props.offset * CFrame.Angles(math.rad(props.tilt), 0, 0),
-				Size = Vector3.new(
-					props.partSize.X,
-					props.partSize.Y,
-					if UIBloxConfig.vrApplyHeadScale then 0.05 else 0
-				),
-				Transparency = 1,
-				Color = Color3.new(0, 0, 0),
-				CanCollide = false,
-				CanTouch = false,
-				CanQuery = not props.hidden,
-			}),
+			GUIPart = if props.hidden
+				then nil
+				else React.createElement("Part", {
+					Name = props.panelName .. "_Part",
+					ref = basePart,
+					Anchored = true,
+					CFrame = props.offset * CFrame.Angles(math.rad(props.tilt), 0, 0),
+					Size = Vector3.new(
+						props.partSize.X,
+						props.partSize.Y,
+						if UIBloxConfig.vrApplyHeadScale then 0.05 else 0
+					),
+					Transparency = 1,
+					Color = Color3.new(0, 0, 0),
+					CanCollide = false,
+					CanTouch = false,
+				}),
 		}),
 		AppUI = React.createElement("SurfaceGui", {
 			Name = props.panelName .. "_SurfaceGui",

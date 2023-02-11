@@ -9,12 +9,18 @@ local React = require(Packages.React)
 
 local createRefCache = require(script.Parent.createRefCache)
 
-local function useRefCache()
+type Ref = { current: any }
+
+export type RefCache = {
+	[any]: Ref
+}
+
+local function useRefCache(): RefCache
 	local ref = React.useRef(nil)
 	if ref.current == nil then
 		ref.current = createRefCache()
 	end
-	return ref.current
+	return ref.current :: any
 end
 
 return useRefCache
