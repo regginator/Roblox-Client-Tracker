@@ -16804,7 +16804,6 @@ FormFactor
 FormFactorPart
 Formulaire
 Formulario
-ForNoSupport
 ForPosition
 ForQuickAccess
 ForReadyRead
@@ -44107,7 +44106,6 @@ VoiceChatRetryMultistreamSubscriptionsStepMilliSeconds
 VoiceChatRollOffMaxDistance
 VoiceChatRollOffMinDistance
 VoiceChatRollOffMode
-VoiceChatS
 VoiceChatSdpParseError
 VoiceChatSdpSerializationError
 VoiceChatService
