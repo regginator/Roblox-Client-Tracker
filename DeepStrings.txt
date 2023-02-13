@@ -21562,7 +21562,6 @@ LinkingProtocol
 LinkingProtocolCore
 LinkingProtocolCore]
 LinkingProtocolImpl
-LinkingProtocolInflu
 LinkingProtocolInfluxHundredthsPercentage
 LinkingProtocolInfluxPriorityHundredthsPercentage
 LinkingProtocolLogUsingRobloxTelemetry
@@ -22186,7 +22185,6 @@ LuaStepIntervalMsOverrideEnabled
 LuaToolVerb
 LuauAllowIndexClassParameters
 LuauAutocompleteCheckTimeoutMs
-LuauAutocompleteStringContent
 LuauBuiltInMetatableNoBadSynthetic
 LuauCheckGetInfoIndex
 LuauCheckRecursionLimit
@@ -22255,7 +22253,6 @@ LuauTypeInferTypePackLoopLimit
 LuauTypeMaximumStringifierLength
 LuauTypeReductionCartesianProductLimit
 LuauTypeReductionRecursionLimit
-LuauUnifyAnyTxnLog
 LuauUninhabitedSubAnything2
 LuauVisitRecursionLimit
 LuauWatchdog
@@ -44077,6 +44074,7 @@ VoiceChatClientLogHundredthsPercent
 VoiceChatClientLogSizeLimit
 VoiceChatDetailedRemoveErrors
 VoiceChatDeviceRecordedDataReadIntervalMs
+VoiceChatDisablePublishPauseRequest
 VoiceChatEnableApiSecurityCheck
 VoiceChatEnableBlockTelemetry
 VoiceChatEnabledForPlaceOnRcc
@@ -44244,6 +44242,7 @@ VoiceChatUpdateSourcesOnSeparateThread
 VoiceChatUseCustomAudioDeviceProd5
 VoiceChatV3BlockingForAll
 VoiceChatValidMgrSingletonUse
+VoiceChatVerifyUserUpdates
 VoiceChatVerifyUserUpdatesByMatching
 VoiceChatVerifyUserUpdatesByMatchingV2
 VoiceChatVersionOverride
