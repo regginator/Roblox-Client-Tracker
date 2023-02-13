@@ -4763,6 +4763,7 @@ AVILSPEditor
 AVILSPServer
 AVILuaCalloutTarget
 AVImageAssetPropertyItem
+AVImageDataExperimental
 AVImageHandleAdornment
 AVImageHandleAdornmentProp
 AVImageLabel
@@ -6780,7 +6781,7 @@ AVTextureCompositor
 AVTextureD3D11
 AVTextureDownloadBuffer
 AVTextureGL
-AVTextureGuiAlpha
+AVTextureGuiExperimental
 AVTextureId
 AVTexturePackGenerator
 AVTextureProxy
@@ -7518,6 +7519,7 @@ AXVRegion3int16
 AXVRTCError
 AXVruntime_error
 AXVSystemAddress
+AXVTextureId
 AXVVariant
 AXVVector2
 AXVVector3
@@ -16506,7 +16508,7 @@ FirstTimeOpenLocation
 FirstTimeUser
 FirstValidPort
 FitWithinMaxSize
-FixAccoutrementWeldCreationForCloudEdit3
+FixAccoutrementWeldCreationForCloudEdit4
 FixAddAppSessionCommonPoints
 FixAdRequestResponseMismatch
 FixAndroidGetAddrinfoHintFlags
@@ -16584,6 +16586,7 @@ FixScalingValueRename
 FixScreenGuiRenderIn3DClipping
 FixScreenGuiUIScaleClipping
 FixScreenScaleAlwaysBeingOne
+FixSeatOccupant
 FixSessionResultOverride
 FixShiftScrolling
 FixShiftSelectExtraSelectionBoxes
@@ -19753,6 +19756,7 @@ ImageButtons
 ImageButtons.
 ImageColor3
 ImageConversionFlag
+ImageDataExperimental
 ImageHandleAdornment
 ImageHandleAdornmentProp
 ImageInPlace
@@ -25224,6 +25228,7 @@ PackageUIService
 PackageUnlinkUseDiffFilter
 PackageUploadThrottleAllowedPackages
 PackageUploadThrottleTimeMin
+PackageUrlConstructionUsesAssetId
 PackageUtilities
 PackageUtilities]
 PackageVersion
@@ -27334,6 +27339,7 @@ PooledVBIBPercent3
 PopDcLatencyRtt
 PopDebugGroup
 PopGroupMarkerEXT
+PopulateFromImageAsync
 Populating
 PopupBarAction
 PopupImagePicker
@@ -33978,6 +33984,7 @@ StartTeamCreateSession
 StartTeamTest
 StartTeamTestVerb
 StartTextScraper
+StartTimer2RcvdSignalRPublishingCompletedMs
 StartTrackKern
 STARTUP_OTHER_FAILURE
 StartupAnalytics
@@ -39969,7 +39976,7 @@ TextureFetchDuration
 TextureFetchEnd
 TextureFetchStart
 TextureFormatFilterString
-TextureGuiAlpha
+TextureGuiExperimental
 TextureHalfFloat
 TextureLayout
 TextureLength
@@ -43757,6 +43764,7 @@ VignetteEnabled
 VIkControl
 VIKeyValueStorage
 VikingHelmet.mesh
+VImageDataExperimental
 VImageHandleAdornment
 VImageLabel
 VImageResourceController
@@ -44260,7 +44268,6 @@ VoiceChatVersionOverride
 VoiceChatVolumeThousandths
 VoiceChatWaitForSignalRJoinStageMetrics
 VoiceEnabled
-VoiceExperienceIdFromLu
 VoiceExperienceIdFromLua
 VoiceNotifications
 VoiceServiceEnableDefaultVoice
@@ -44825,7 +44832,7 @@ VTextSource
 VTextureCompositorJob
 VTextureD3D11
 VTextureGL
-VTextureGuiAlpha
+VTextureGuiExperimental
 VTextureId
 VTextureProxy
 VTextureRef

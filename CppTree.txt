@@ -3461,6 +3461,7 @@ RBX::Described<class RBX::HandleAdornment,class RBX::PVAdornment>
 RBX::Described<class RBX::HandlesBase,class RBX::PartAdornment>
 RBX::Described<class RBX::HSRDataContentProvider,class RBX::CacheableContentProvider>
 RBX::Described<class RBX::HttpRequestWrapper,class RBX::Instance>
+RBX::Described<class RBX::ImageDataExperimental,class RBX::Instance>
 RBX::Described<class RBX::InstanceAdornment,class RBX::GuiBase3d>
 RBX::Described<class RBX::InventoryPages,class RBX::Pages>
 RBX::Described<class RBX::JointInstance,class RBX::Instance>
@@ -3567,7 +3568,7 @@ RBX::Described<class RBX::TeleportService,class RBX::ServiceInstance>
 RBX::Described<class RBX::TemporaryCageMeshProvider,class RBX::ServiceInstance>
 RBX::Described<class RBX::TextFilterResultInstance,class RBX::Instance>
 RBX::Described<class RBX::TextService,class RBX::ServiceInstance>
-RBX::Described<class RBX::TextureGuiAlpha,class RBX::GuiLayerCollector>
+RBX::Described<class RBX::TextureGuiExperimental,class RBX::GuiLayerCollector>
 RBX::Described<class RBX::ThirdPartyUserService,class RBX::ServiceInstance>
 RBX::Described<class RBX::TouchInputService,class RBX::ServiceInstance>
 RBX::Described<class RBX::TrackerLodController,class RBX::Instance>
@@ -4446,6 +4447,7 @@ RBX::IJointOwner
 RBX::IkControl
 RBX::IKeyValueStorage
 RBX::ILocalizationServiceStatReporter
+RBX::ImageDataExperimental
 RBX::ImageHandleAdornment
 RBX::ImageHandleAdornmentProp
 RBX::ImageLabel
@@ -4897,6 +4899,7 @@ RBX::NonCreatableCreator<class RBX::GlobalAdvancedSettings>
 RBX::NonCreatableCreator<class RBX::GlobalBasicSettings>
 RBX::NonCreatableCreator<class RBX::GuiService>
 RBX::NonCreatableCreator<class RBX::HSRDataContentProvider>
+RBX::NonCreatableCreator<class RBX::ImageDataExperimental>
 RBX::NonCreatableCreator<class RBX::JointsService>
 RBX::NonCreatableCreator<class RBX::KeyboardService>
 RBX::NonCreatableCreator<class RBX::KeyframeSequenceProvider>
@@ -4963,7 +4966,7 @@ RBX::NonCreatableCreator<class RBX::TeleportAsyncResult>
 RBX::NonCreatableCreator<class RBX::TeleportService>
 RBX::NonCreatableCreator<class RBX::TemporaryCageMeshProvider>
 RBX::NonCreatableCreator<class RBX::TextService>
-RBX::NonCreatableCreator<class RBX::TextureGuiAlpha>
+RBX::NonCreatableCreator<class RBX::TextureGuiExperimental>
 RBX::NonCreatableCreator<class RBX::ThirdPartyUserService>
 RBX::NonCreatableCreator<class RBX::TouchInputService>
 RBX::NonCreatableCreator<class RBX::TrackerLodController>
@@ -6214,6 +6217,7 @@ RBX::Reflection::BoundYieldFuncDesc<class RBX::Humanoid,bool __cdecl(class std::
 RBX::Reflection::BoundYieldFuncDesc<class RBX::Humanoid,class std::shared_ptr<struct RBX::Reflection::Tuple const > __cdecl(__int64),1>
 RBX::Reflection::BoundYieldFuncDesc<class RBX::Humanoid,void __cdecl(class std::shared_ptr<class RBX::HumanoidDescription>),1>
 RBX::Reflection::BoundYieldFuncDesc<class RBX::Humanoid,void __cdecl(class std::shared_ptr<class RBX::HumanoidDescription>,enum RBX::AssetTypeVerification),2>
+RBX::Reflection::BoundYieldFuncDesc<class RBX::ImageDataExperimental,void __cdecl(class RBX::TextureId),1>
 RBX::Reflection::BoundYieldFuncDesc<class RBX::InsertService,__int64 __cdecl(__int64),1>
 RBX::Reflection::BoundYieldFuncDesc<class RBX::InsertService,class std::shared_ptr<class RBX::Instance> __cdecl(__int64),1>
 RBX::Reflection::BoundYieldFuncDesc<class RBX::InsertService,class std::shared_ptr<class RBX::MeshPart> __cdecl(class RBX::MeshId,enum RBX::CollisionFidelity,enum RBX::RenderFidelity),3>
@@ -8581,6 +8585,10 @@ RBX::Reflection::PropDescriptor<class RBX::IkControl,float>
 RBX::Reflection::PropDescriptor<class RBX::IkControl,float>::GetSetImpl<float (__cdecl RBX::IkControl::*)(void)const __ptr64,void (__cdecl RBX::IkControl::*)(float) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::IkControl,int>
 RBX::Reflection::PropDescriptor<class RBX::IkControl,int>::GetSetImpl<int (__cdecl RBX::IkControl::*)(void)const __ptr64,void (__cdecl RBX::IkControl::*)(int) __ptr64>
+RBX::Reflection::PropDescriptor<class RBX::ImageDataExperimental,class RBX::TextureId>
+RBX::Reflection::PropDescriptor<class RBX::ImageDataExperimental,class RBX::TextureId>::GetImpl<class RBX::TextureId (__cdecl RBX::ImageDataExperimental::*)(void)const __ptr64>
+RBX::Reflection::PropDescriptor<class RBX::ImageDataExperimental,class RBX::Vector2>
+RBX::Reflection::PropDescriptor<class RBX::ImageDataExperimental,class RBX::Vector2>::GetSetImpl<class RBX::Vector2 (__cdecl RBX::ImageDataExperimental::*)(void)const __ptr64,void (__cdecl RBX::ImageDataExperimental::*)(class RBX::Vector2) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::ImageHandleAdornment,class RBX::TextureId>
 RBX::Reflection::PropDescriptor<class RBX::ImageHandleAdornment,class RBX::TextureId>::GetSetImpl<class RBX::TextureId (__cdecl RBX::ImageHandleAdornmentProp::*)(void)const __ptr64,void (__cdecl RBX::ImageHandleAdornmentProp::*)(class RBX::TextureId) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::ImageHandleAdornment,class RBX::Vector2>
@@ -9400,10 +9408,10 @@ RBX::Reflection::PropDescriptor<class RBX::TextSource,__int64>::GetImpl<__int64 
 RBX::Reflection::PropDescriptor<class RBX::TextSource,__int64>::GetSetImpl<__int64 (__cdecl RBX::TextSource::*)(void)const __ptr64,void (__cdecl RBX::TextSource::*)(__int64) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::TextSource,bool>
 RBX::Reflection::PropDescriptor<class RBX::TextSource,bool>::GetSetImpl<bool (__cdecl RBX::TextSource::*)(void)const __ptr64,void (__cdecl RBX::TextSource::*)(bool) __ptr64>
-RBX::Reflection::PropDescriptor<class RBX::TextureGuiAlpha,class RBX::TextureId>
-RBX::Reflection::PropDescriptor<class RBX::TextureGuiAlpha,class RBX::TextureId>::GetImpl<class RBX::TextureId (__cdecl RBX::TextureGuiAlpha::*)(void)const __ptr64>
-RBX::Reflection::PropDescriptor<class RBX::TextureGuiAlpha,class RBX::Vector2>
-RBX::Reflection::PropDescriptor<class RBX::TextureGuiAlpha,class RBX::Vector2>::GetSetImpl<class RBX::Vector2 (__cdecl RBX::TextureGuiAlpha::*)(void)const __ptr64,void (__cdecl RBX::TextureGuiAlpha::*)(class RBX::Vector2) __ptr64>
+RBX::Reflection::PropDescriptor<class RBX::TextureGuiExperimental,class RBX::TextureId>
+RBX::Reflection::PropDescriptor<class RBX::TextureGuiExperimental,class RBX::TextureId>::GetImpl<class RBX::TextureId (__cdecl RBX::TextureGuiExperimental::*)(void)const __ptr64>
+RBX::Reflection::PropDescriptor<class RBX::TextureGuiExperimental,class RBX::Vector2>
+RBX::Reflection::PropDescriptor<class RBX::TextureGuiExperimental,class RBX::Vector2>::GetSetImpl<class RBX::Vector2 (__cdecl RBX::TextureGuiExperimental::*)(void)const __ptr64,void (__cdecl RBX::TextureGuiExperimental::*)(class RBX::Vector2) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::Tool,bool>
 RBX::Reflection::PropDescriptor<class RBX::Tool,bool>::GetSetImpl<bool (__cdecl RBX::Tool::*)(void)const __ptr64,void (__cdecl RBX::Tool::*)(bool) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::Tool,class RBX::CoordinateFrame>
@@ -10301,6 +10309,7 @@ RBX::Reflection::YieldFuncDesc<class RBX::HeightmapImporterService>
 RBX::Reflection::YieldFuncDesc<class RBX::HttpRbxApiService>
 RBX::Reflection::YieldFuncDesc<class RBX::HttpService>
 RBX::Reflection::YieldFuncDesc<class RBX::Humanoid>
+RBX::Reflection::YieldFuncDesc<class RBX::ImageDataExperimental>
 RBX::Reflection::YieldFuncDesc<class RBX::InsertService>
 RBX::Reflection::YieldFuncDesc<class RBX::KeyframeSequenceProvider>
 RBX::Reflection::YieldFuncDesc<class RBX::LocalizationService>
@@ -11096,7 +11105,7 @@ RBX::TextScraper::ServiceScraperJob
 RBX::TextService
 RBX::TextServiceProp
 RBX::TextSource
-RBX::TextureGuiAlpha
+RBX::TextureGuiExperimental
 RBX::TexturePackGenerator
 RBX::TextureProxyBase
 RBX::ThirdPartyUserService
@@ -11465,8 +11474,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xd5976dd6::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xffa29ee0::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x467651be::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x6c43a288::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -14416,6 +14425,7 @@ std::_Ref_count<class RBX::HttpResponse>
 std::_Ref_count<class RBX::HUMAN::HumanoidState>
 std::_Ref_count<class RBX::HumanoidAssetRequirement>
 std::_Ref_count<class RBX::IAdornableCollector>
+std::_Ref_count<class RBX::ImageDataExperimental>
 std::_Ref_count<class RBX::IntegrityCheckedProcessor::Detail::ClientProcessorJob<struct RBX::LocalizationTableAnalyticsSender::Entry,struct RBX::LocalizationTableAnalyticsSender::Entry> >
 std::_Ref_count<class RBX::IntegrityCheckedProcessor::Detail::NonNetworkedProcessorJob<struct RBX::LocalizationTableAnalyticsSender::Entry,struct RBX::LocalizationTableAnalyticsSender::Entry> >
 std::_Ref_count<class RBX::IntegrityCheckedProcessor::Detail::ServerProcessorJob<struct RBX::LocalizationTableAnalyticsSender::Entry,struct RBX::LocalizationTableAnalyticsSender::Entry> >
@@ -14586,7 +14596,7 @@ std::_Ref_count<class RBX::TeleportAsyncResult>
 std::_Ref_count<class RBX::TeleportService>
 std::_Ref_count<class RBX::TemporaryCageMeshProvider>
 std::_Ref_count<class RBX::TextService>
-std::_Ref_count<class RBX::TextureGuiAlpha>
+std::_Ref_count<class RBX::TextureGuiExperimental>
 std::_Ref_count<class RBX::ThirdPartyUserService>
 std::_Ref_count<class RBX::TimeCurve>
 std::_Ref_count<class RBX::TokenHttpRequest>
@@ -15080,8 +15090,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xd5976dd6::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xffa29ee0::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x467651be::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x6c43a288::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter
