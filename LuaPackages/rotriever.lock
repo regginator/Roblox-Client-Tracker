@@ -76,6 +76,7 @@ dependencies = [
     "AvatarExperienceDeps AvatarExperienceDeps b9c8ce15 git+https://github.com/roblox/avatar-experience-deps#master",
     "Cryo Cryo 1.0.1 url+https://github.com/roblox/cryo",
     "Dash Dash 0.1.9 url+https://github.com/roblox/dash",
+    "DataLoader DataLoader 0.2.0 url+https://github.com/roblox/data-loader-lua",
     "DeveloperTools DeveloperTools 0.2.4 url+https://github.com/roblox/developer-tools",
     "ExperienceChat ExperienceChat a147b962 git+https://github.com/roblox/lua-experience-chat#v3.3.7",
     "ExperienceChat_New ExperienceChat ff27333b git+https://github.com/roblox/lua-experience-chat#v3.3.9",
@@ -142,6 +143,16 @@ name = "Dash"
 version = "0.1.9"
 commit = "48dd78d2e51e25c900fd3f400f4a6dc7fc1e2a24"
 source = "url+https://github.com/roblox/dash"
+
+[[package]]
+name = "DataLoader"
+version = "0.2.0"
+commit = "c9e329eedf1a7c3bd39e0d4b28945ebcbf6f404a"
+source = "url+https://github.com/roblox/data-loader-lua"
+dependencies = [
+    "LuauPolyfill LuauPolyfill 1.2.3 url+https://github.com/roblox/luau-polyfill",
+    "Promise <patched> Promise 8c520dea git+https://github.com/roblox/promise-upgrade#v0.1.0",
+]
 
 [[package]]
 name = "DebugUtils"

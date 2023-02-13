@@ -831,7 +831,7 @@ AICOCompletionResponseParseError
 AICOCompletionResponseSuccess
 AICOFunctionContextFilter
 AICOInputDebounceTimeMs
-AICOInverseTrigger
+AICOInverseTrigger2
 AICOKeyPressEnter
 AICOKeyPressShiftEnter
 AICOMLAutocompleteEmptyResponse
@@ -3335,6 +3335,7 @@ AVBodyThrust
 AVBodyThrustProp
 AVBodyVelocity
 AVBoneInstance
+AVBooleanCompleter
 AVBoolParser
 AVBoolPropertyItem
 AVBoundChunk
@@ -3568,6 +3569,7 @@ AVChunkMeshShape
 AVCircleRadialNormal
 AVClassDescriptor
 AVClassListWidget
+AVClassNameCompleter
 AVClearSelectionVerb
 AVClearUnusedLuaRefsJob
 AVClickDetector
@@ -4233,6 +4235,7 @@ AVEncoderStreamFactory
 AVEncoderSwitchRequestCallback
 AVEncodeUsageResource
 AVEntityProperties
+AVEnumCompleter
 AVEnumDescriptor
 AVEnumItem
 AVEnumPins
@@ -4282,6 +4285,7 @@ AVExperienceAuthService
 AVExperienceInviteOptions
 AVExperienceInviteOptionsProp
 AVExplicitWeldJoint
+AVExplorerCompleter
 AVExplorerTreeWidget
 AVExplorerTreeWidgetItem
 AVExplorerWidget
@@ -4364,6 +4368,7 @@ AVFilterDescendantsListLegacy
 AVFilterDescendents
 AVFilterHumanoidNameOcclusion
 AVFilterHumanoidParts
+AVFilteringCompleter
 AVFilterInvisibleNonColliding
 AVFilterPrimitiveList
 AVFilterSameAssembly
@@ -5799,6 +5804,7 @@ AVQStandardItemModel
 AVQStatusBar
 AVQStatusTipEvent
 AVQStringList
+AVQStringListModel
 AVQStringRef
 AVQStyledItemDelegate
 AVQStyleOptionViewItem
@@ -6699,6 +6705,7 @@ AVSystemOutputLogView
 AVSystemOutputModel
 AVTableListPtrTranslator
 AVTablePtrTranslator
+AVTagCompleter
 AVTagParser
 AVTagsParser
 AVTanH_final
@@ -10684,6 +10691,8 @@ CompletionDocs
 CompletionItem
 CompletionItemKind
 CompletionItemTag
+CompletionMode
+CompletionPrefix
 CompletionsRequest
 CompletionTriggerKind
 ComplexControl
@@ -21182,7 +21191,6 @@ Kundendienst.
 Kundensupport.
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 L^N6LfN6LlN6LdN6Ly
-L^P1qt.qml.connections.warning
 LA_SHAPE_MAX
 LABEL_LITERAL
 LabelArray
@@ -21243,6 +21251,7 @@ LastTryAtClosingSuccess
 LastUpdated
 LastUsedAssetDirectory
 LastUsedModificationMethod
+LastUserText
 LastVisitedUrl
 LastVisitedUrlHost
 LatchedSignal
@@ -28228,6 +28237,7 @@ QEAAXW4ChildIndicatorPolicy
 QEAAXW4ColorDialogOption
 QEAAXW4ColorGroup
 QEAAXW4ColorRole
+QEAAXW4CompletionMode
 QEAAXW4CompositionMode
 QEAAXW4ContextMenuPolicy
 QEAAXW4ControlImageSize
@@ -28587,6 +28597,7 @@ QStringList_contains
 QStringList_join
 QStringList_removeDuplicates
 QStringList_sort
+QStringListModel
 QStringRef
 QStyledItemDelegate
 QStyleOption
@@ -43337,6 +43348,7 @@ VException
 VExperienceAuthService
 VExperienceInviteOptions
 VExperimentationProtocolCore
+VExplorerFilter
 VExplosion
 VExportSelectionForUploadVerbHelper
 VExpression
@@ -44185,7 +44197,6 @@ VoiceChatRetryMultistreamSubscriptionsStepMilliSeconds
 VoiceChatRollOffMaxDistance
 VoiceChatRollOffMinDistance
 VoiceChatRollOffMode
-VoiceChatS
 VoiceChatSdpParseError
 VoiceChatSdpSerializationError
 VoiceChatService
@@ -44249,6 +44260,7 @@ VoiceChatVersionOverride
 VoiceChatVolumeThousandths
 VoiceChatWaitForSignalRJoinStageMetrics
 VoiceEnabled
+VoiceExperienceIdFromLu
 VoiceExperienceIdFromLua
 VoiceNotifications
 VoiceServiceEnableDefaultVoice
