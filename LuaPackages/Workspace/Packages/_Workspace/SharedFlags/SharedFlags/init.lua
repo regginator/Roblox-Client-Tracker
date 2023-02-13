@@ -26,6 +26,7 @@ return {
 	GetFFlagLuaAppUseOmniRecDefaultPolicy = require(script.GetFFlagLuaAppUseOmniRecDefaultPolicy),
 	ConvertUniverseIdToString = require(script.ConvertUniverseIdToString),
 	getFFlagLuaAppDiscoverPageGrid = require(script.getFFlagLuaAppDiscoverPageGrid),
+	getFFlagLuaAppGridPageLayoutPolicy = require(script.getFFlagLuaAppGridPageLayoutPolicy),
 
 	-- Social
 	GetFFlagLuaAppEnableSquadPage = require(script.GetFFlagLuaAppEnableSquadPage),

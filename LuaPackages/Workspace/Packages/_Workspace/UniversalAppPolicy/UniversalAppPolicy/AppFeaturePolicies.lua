@@ -15,7 +15,7 @@ local GetFFlagEnableTopBarVRPolicyOverride = SharedFlags.GetFFlagEnableTopBarVRP
 local isRunningInStudio = require(Packages.AppCommonLib).isRunningInStudio
 local GetFFlagUseVoiceExitBetaLanguage = SharedFlags.GetFFlagUseVoiceExitBetaLanguage
 local GetFFlagVRAvatarExperienceNoLandingPage = SharedFlags.GetFFlagVRAvatarExperienceNoLandingPage
-local getFFlagLuaAppDiscoverPageGrid = SharedFlags.getFFlagLuaAppDiscoverPageGrid
+local getFFlagLuaAppGridPageLayoutPolicy = SharedFlags.getFFlagLuaAppGridPageLayoutPolicy
 
 local FFlagUseGUACforDUARPolicy = game:DefineFastFlag("UseGUACforDUARPolicy", false)
 local FFlagOpenCreateGamesInExternalBrowser = game:DefineFastFlag("OpenCreateGamesInExternalBrowser", false)
@@ -338,7 +338,7 @@ local function AppFeaturePolicies(policy): any
 			return policy.UseGridHomePage or false
 		end,
 		useGridPageLayout = function()
-			return if getFFlagLuaAppDiscoverPageGrid() then (policy.UseGridPageLayout or false) else nil
+			return if getFFlagLuaAppGridPageLayoutPolicy() then (policy.UseGridPageLayout or false) else nil
 		end,
 		getUseHoverTile = function()
 			return policy.UseHoverTile or false
@@ -398,7 +398,7 @@ local function AppFeaturePolicies(policy): any
 		end,
 		getShouldSkipAvatarLandingPage = function()
 			if GetFFlagVRAvatarExperienceNoLandingPage() then
-				return getVRDefaultPolicy("ShouldSkipAvatarLandingPage", false)
+				return getVRDefaultPolicy("ShouldSkipAvatarLandingPage", true)
 			else
 				return false
 			end
