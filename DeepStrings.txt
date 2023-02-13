@@ -6773,6 +6773,7 @@ AVTextureCompositor
 AVTextureD3D11
 AVTextureDownloadBuffer
 AVTextureGL
+AVTextureGuiAlpha
 AVTextureId
 AVTexturePackGenerator
 AVTextureProxy
@@ -21561,6 +21562,7 @@ LinkingProtocol
 LinkingProtocolCore
 LinkingProtocolCore]
 LinkingProtocolImpl
+LinkingProtocolInflu
 LinkingProtocolInfluxHundredthsPercentage
 LinkingProtocolInfluxPriorityHundredthsPercentage
 LinkingProtocolLogUsingRobloxTelemetry
@@ -39674,6 +39676,7 @@ TempNewSkyRemovalBehaviorEnabled
 TemporaryCageMeshId
 TemporaryCageMeshProvider
 TemporaryDocumentPanel
+TemporaryId
 TemporaryInstanceSuperStrength
 TemporaryItems
 TemporaryLoggingRccTeamCreateFinalSave
@@ -39958,6 +39961,7 @@ TextureFetchDuration
 TextureFetchEnd
 TextureFetchStart
 TextureFormatFilterString
+TextureGuiAlpha
 TextureHalfFloat
 TextureLayout
 TextureLength
@@ -44810,6 +44814,7 @@ VTextSource
 VTextureCompositorJob
 VTextureD3D11
 VTextureGL
+VTextureGuiAlpha
 VTextureId
 VTextureProxy
 VTextureRef

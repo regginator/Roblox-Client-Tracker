@@ -1685,6 +1685,9 @@ Class SurfaceGui : SurfaceGuiBase
 	Property Vector2 SurfaceGui.CanvasSize
 	Property float SurfaceGui.PixelsPerStud
 	Property Enum.SurfaceGuiSizingMode SurfaceGui.SizingMode
+Class TextureGuiAlpha : LayerCollector [NotCreatable] [NotReplicated]
+	Property Vector2 TextureGuiAlpha.Size
+	Property Content TextureGuiAlpha.TemporaryId [ReadOnly]
 Class GuiBase3d : GuiBase [NotCreatable]
 	Property BrickColor GuiBase3d.Color [<📁> LoadOnly] [Hidden] [NotReplicated] [Deprecated]
 	Property Color3 GuiBase3d.Color3
