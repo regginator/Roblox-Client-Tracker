@@ -8098,7 +8098,6 @@ BootcampCLI57567
 BootcampCLI58696
 BootcampCLI59824
 BootcampCLI59866
-BootcampCLI62230
 BootcampCLI63919
 BootcampCLI65612
 BootcampCLI65711
@@ -21183,6 +21182,7 @@ Kundendienst.
 Kundensupport.
 KYULPhCBFoD3mw5mygYqAeFlHdSL2k3MnDG
 L^N6LfN6LlN6LdN6Ly
+L^P1qt.qml.connections.warning
 LA_SHAPE_MAX
 LABEL_LITERAL
 LabelArray
@@ -25476,7 +25476,7 @@ PassThroughModifyVS
 PassThroughNoOpVS
 PassThroughPosVS
 PassThroughVS
-PassTrackerDataSharedPointer
+PassTrackerDataSharedPointer2
 PasswordBasedMAC
 PasswordResetRequired
 PasswordShown
@@ -30714,7 +30714,6 @@ Roblox.Hybrid
 Roblox.Hybrid.Bridge.emitEvent
 Roblox.Hybrid.Bridge.nativeCallback
 Roblox.Studio
-Roblox_beginLiveScripting
 Roblox_closeDocument
 Roblox_findColor3
 Roblox_findExecutablePosition
@@ -39561,6 +39560,7 @@ TeleportData
 Teleported
 TeleportedIn
 TeleportEmptySpawnLocation
+TeleportEnableTrustedTeleportFlow
 TeleportErrorDebugInfluxHundredthsPercentage
 TeleportErrorDebugUniverseIds
 TeleportErrorDebugUserIds
@@ -41077,6 +41077,7 @@ TriStateBoolean
 Troubleshooting
 TrowelTexture.png
 TRUEVISION
+TrustedTeleport
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 TryInstallPlugin
@@ -44074,7 +44075,6 @@ VoiceChatClientLogHundredthsPercent
 VoiceChatClientLogSizeLimit
 VoiceChatDetailedRemoveErrors
 VoiceChatDeviceRecordedDataReadIntervalMs
-VoiceChatDisablePublishPauseRequest
 VoiceChatEnableApiSecurityCheck
 VoiceChatEnableBlockTelemetry
 VoiceChatEnabledForPlaceOnRcc
@@ -44185,6 +44185,7 @@ VoiceChatRetryMultistreamSubscriptionsStepMilliSeconds
 VoiceChatRollOffMaxDistance
 VoiceChatRollOffMinDistance
 VoiceChatRollOffMode
+VoiceChatS
 VoiceChatSdpParseError
 VoiceChatSdpSerializationError
 VoiceChatService
@@ -44242,7 +44243,6 @@ VoiceChatUpdateSourcesOnSeparateThread
 VoiceChatUseCustomAudioDeviceProd5
 VoiceChatV3BlockingForAll
 VoiceChatValidMgrSingletonUse
-VoiceChatVerifyUserUpdates
 VoiceChatVerifyUserUpdatesByMatching
 VoiceChatVerifyUserUpdatesByMatchingV2
 VoiceChatVersionOverride
