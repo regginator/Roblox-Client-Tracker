@@ -183,7 +183,6 @@ AcceptDrops
 AcceptedToFirstPacketProcessMs
 AcceptedToGameLoadTime
 AcceptedToGameLoadTimeMs
-AcceptJoinAttemptIdFromWeb
 AcceptMode
 AcceptRichText
 AcceptsColumn
@@ -8593,6 +8592,7 @@ CalloutLocationId
 CalloutPersistence
 CalloutService
 CalloutTarget
+CallServerStopToSignal
 CallStackDebuggersList
 CallStackTreeWidget
 CallStackWidget
@@ -16570,6 +16570,7 @@ FixInconsistentResolutionScale
 FixInterpolationMovementCallbacks
 FixItemInQueueTimeMetric
 FixJointHierarchyCrash
+FixJumpLinkAcrossCeilingAndWall
 FixLadderSearchDepth
 FixLayeredCLothingExporter
 FixLCClothesNotReset
@@ -17162,8 +17163,6 @@ Funktionserkl
 Funktionsname
 Funzionalit
 Funzionamento
-FutureIsBrightPhase2GL3
-FutureIsBrightPhase2GLES3
 FutureIsBrightPhase3Vulkan
 FuzzyWeightModel
 FXCompositing
@@ -19569,7 +19568,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT0
+HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -29794,7 +29793,6 @@ RenderGPU_
 RenderGpuTextureCompressor
 RenderGrassDetailStrands
 RenderGrassHeightScaler
-RenderHalfresShadowsGlsles
 RenderHint
 RenderHints
 RenderIGHandleBufferInitialSize
@@ -29866,7 +29864,6 @@ RenderShadowMapDepthCacheMinNodes
 RenderShadowMapDepthCacheRecycleFrames
 RenderShadowMapDisabler2
 RenderShadowMapDisablerThreshold
-RenderShadowUseLastLOD
 RenderStats
 RenderStatsAction
 RenderStatsBuffers
@@ -30434,7 +30431,6 @@ ResolutionEdited
 ResolutionPreview
 ResolutionPreviewToggled
 ResolutionUnit
-ResolveAbuseReportDepOnNetwork
 ResolveColor
 ResolvedIp
 ResolveStateForUser
@@ -44263,7 +44259,6 @@ VoiceChatSessionMultiSubFailedTooManyRetries
 VoiceChatSessionMultiSubFailure
 VoiceChatSessionMultiSubRetry
 VoiceChatSessionPubFailure
-VoiceChatSessionSubF
 VoiceChatSessionSubFailedTooManyRetries
 VoiceChatSessionSubFailure
 VoiceChatSessionTokenRequestFailure
