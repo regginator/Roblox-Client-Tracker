@@ -2442,7 +2442,11 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::File>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FileMesh>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FileSyncItem>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FileSyncService>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Attachment> >
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::BasePart> >
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Constraints::Constraint> >
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Constraints::NoCollisionConstraint> >
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Constraints::WeldConstraint> >
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Instance> >
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::PVInstance> >
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Fire>
@@ -4121,7 +4125,11 @@ RBX::FillTool
 RBX::FilterDescendantsList
 RBX::FilterDescendantsListLegacy
 RBX::FilterDescendents
+RBX::FilteredSelection<class RBX::Attachment>
 RBX::FilteredSelection<class RBX::BasePart>
+RBX::FilteredSelection<class RBX::Constraints::Constraint>
+RBX::FilteredSelection<class RBX::Constraints::NoCollisionConstraint>
+RBX::FilteredSelection<class RBX::Constraints::WeldConstraint>
 RBX::FilteredSelection<class RBX::Instance>
 RBX::FilteredSelection<class RBX::PVInstance>
 RBX::FilterHumanoidNameOcclusion
@@ -11484,8 +11492,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x756acde5::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x5f5f3ed3::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x9a12ffb3::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xb0270c85::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -13785,7 +13793,11 @@ std::_Ref_count_resource<class RBX::FileMesh * __ptr64,class RBX::Creatable<clas
 std::_Ref_count_resource<class RBX::FileSyncItem * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FileSyncItem> >
 std::_Ref_count_resource<class RBX::FileSyncService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FileSyncService> >
 std::_Ref_count_resource<class RBX::FillTool * __ptr64,class RBX::Creatable<class RBX::MouseCommand>::Deleter<class RBX::FillTool> >
+std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::Attachment> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Attachment> > >
 std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::BasePart> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::BasePart> > >
+std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::Constraints::Constraint> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Constraints::Constraint> > >
+std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::Constraints::NoCollisionConstraint> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Constraints::NoCollisionConstraint> > >
+std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::Constraints::WeldConstraint> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Constraints::WeldConstraint> > >
 std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::Instance> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::Instance> > >
 std::_Ref_count_resource<class RBX::FilteredSelection<class RBX::PVInstance> * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::FilteredSelection<class RBX::PVInstance> > >
 std::_Ref_count_resource<class RBX::Fire * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Fire> >
@@ -15104,8 +15116,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x756acde5::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x5f5f3ed3::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x9a12ffb3::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xb0270c85::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter
