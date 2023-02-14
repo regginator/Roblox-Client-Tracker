@@ -18,6 +18,7 @@ return {
 	getFFlagVirtualEventsGraphQL = require(script.getFFlagVirtualEventsGraphQL),
 	getFFlagHorizontalMediaOnEventDetailsPage = require(script.getFFlagHorizontalMediaOnEventDetailsPage),
 	getFFlagHideAttendanceCountsForBoringEvents = require(script.getFFlagHideAttendanceCountsForBoringEvents),
+	getFFlagSendAttendanceCountWithTrackingEvents = require(script.getFFlagSendAttendanceCountWithTrackingEvents),
 
 	-- LuaApp
 	getFFlagLuaProfileShareWithDesktopPolicy = require(script.getFFlagLuaProfileShareWithDesktopPolicy),
