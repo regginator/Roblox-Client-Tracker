@@ -10,10 +10,8 @@ return {
 		script.getFFlagFixVerifiedBadgeExperienceDetailsPageOrdering
 	),
 	getFFlagVBXboxReducerFix = require(script.getFFlagVBXboxReducerFix),
-	getFFlagHardcodeChannelForVirtualEventVisits = require(script.getFFlagHardcodeChannelForVirtualEventVisits),
 	getFFlagFixVirtualEventsChannelCasing = require(script.getFFlagFixVirtualEventsChannelCasing),
 	GetFFlagFixGameDetailsAutomaticSize = require(script.GetFFlagFixGameDetailsAutomaticSize),
-	getFFlagShowClientFirstInFacePile = require(script.getFFlagShowClientFirstInFacePile),
 	getFFlagRemoveEventsPageFromMoreTab = require(script.getFFlagRemoveEventsPageFromMoreTab),
 	getFFlagVirtualEventsGraphQL = require(script.getFFlagVirtualEventsGraphQL),
 	getFFlagHorizontalMediaOnEventDetailsPage = require(script.getFFlagHorizontalMediaOnEventDetailsPage),
