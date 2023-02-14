@@ -13026,6 +13026,7 @@ DebugVisualizationImprovements
 DebugVisualizeAllPropertyChanges
 DebugVisualizePropertyWhitelist
 DebugVisualizerTrackRotationPredictions
+DebugVoiceChatCust
 DebugVoiceChatCustomLogFile
 DebugVoiceChatDisablePublishPauseRequest
 DebugVoiceChatDisableSubscribePauseRequest
@@ -21581,6 +21582,7 @@ LinkEnabledLabel
 LinkEnabledPlainTextEdit
 LinkFromContextMenu
 LinkingProtocol
+LinkingProtocolCo
 LinkingProtocolCore
 LinkingProtocolCore]
 LinkingProtocolImpl
@@ -23600,7 +23602,6 @@ MovingHumanoid
 MovingNoPhysicsBase
 MovingPrimitives
 MovingPrimitivesCount
-Mp`.qt.qml.connections.warning
 MP8BasePart
 MpCehiHzreSzNTczkc9d
 MPEAUCachedContent
@@ -42341,6 +42342,7 @@ UserDataFolderLocalAppData
 UserDataResult
 UserDataStoreService
 UserDialog
+UserDynamicThumbstickMoveOverButtons
 UserEmotesEnabled
 UserEmoteToRunThresholdChange
 UserEnableCameraToggleNotification
