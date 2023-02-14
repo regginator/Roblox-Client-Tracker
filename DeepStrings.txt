@@ -3580,6 +3580,7 @@ AVClientAppSettings
 AVClientDataModel
 AVClientQueue
 AVClientReplicator
+AVClientReplicatorProp
 AVClientScraperJob
 AVClientServerDemultiplexStream
 AVClientServerToggleFTUE
@@ -3605,6 +3606,7 @@ AVCloudLocalizationTable
 AVClumpBase
 AVClumpBinding
 AVClusterPacketCache
+AVClusterPacketCacheProp
 AVClusterParser
 AVCmdAddCursorAbove
 AVCmdAddCursorBelow
@@ -4573,6 +4575,7 @@ AVGuiBase3d
 AVGuiButton
 AVGuiCluster
 AVGuidRegistryService
+AVGuidRegistryServiceProp
 AVGuiImageButton
 AVGuiLabel
 AVGuiLayerCollector
@@ -5321,9 +5324,12 @@ AVNetworkInterface
 AVNetworkJoinProcessorJob
 AVNetworkManager
 AVNetworkManagerBase
+AVNetworkMarkerProp
 AVNetworkOwnerJob
+AVNetworkPeerProp
 AVNetworkPhysicsParallelReceiveJob
 AVNetworkSenderScheduleJob
+AVNetworkServerProp
 AVNetworkSettings
 AVNetworkStateEstimateObserver
 AVNetworkStatsCommand
@@ -6359,6 +6365,7 @@ AVServerPlayersStateInitVerb
 AVServerProcessor
 AVServerQueue
 AVServerReplicator
+AVServerReplicatorProp
 AVServerScraperJob
 AVServerScriptService
 AVServerStatsItem
@@ -7405,6 +7412,7 @@ AW4ScrollBarInset
 AW4ScrollBarPolicy
 AW4ScrollingDirection
 AW4SelectionBehavior
+AW4ServiceVisibility
 AW4SG_OBJECT_TYPE
 AW4SignalBehavior
 AW4SizeConstraint
@@ -8159,6 +8167,7 @@ BoundingClientRect
 BoundingGeometry
 BoundingRect
 BoundPropGetSet
+BoundsParams
 BoundToPartCount
 BoundToPlaceSessionModel
 BoundYieldFuncDesc
@@ -9316,6 +9325,7 @@ CLI64234Hundredths
 CLI64234Max
 CLI64234Metrics
 CLI64234Throw
+CLI66862LocalServerRandomPort2
 ClickablePrompt
 ClickableWhenViewportHidden
 ClickButton1
@@ -14486,6 +14496,7 @@ EAAXUIceControllerEvent
 EAAXVStringView
 EAAXVUDim2
 EAAXW42345
+EAAXW45234
 EAAXW4GuiType
 EAAXW4LegacyPartType
 EAAXW4LogState
@@ -21878,7 +21889,6 @@ LocalScript.
 LocalScriptLargeAction
 LocalScripts
 LocalSdpSet
-LocalServerRandomPort
 LocalShadow
 LocalSimulationTouched
 LocalSimulationValidation
@@ -22207,7 +22217,6 @@ LuaStepIntervalMsOverrideEnabled
 LuaToolVerb
 LuauAllowIndexClassParameters
 LuauAutocompleteCheckTimeoutMs
-LuauBuiltInMetatableNoBadSynthetic
 LuauCheckGetInfoIndex
 LuauCheckRecursionLimit
 LuauClassTypeVarsInSubstitution
@@ -22239,7 +22248,6 @@ LuauKnowsTheDataModel3
 LuauLexMapComputeTime
 LuauMaintainScopesInUnifier
 LuauMatchReturnsOptionalString
-LuauMaybeGenericIntersectionTypes
 LuaUnalteredChatMessage
 LuauNegatedClassTypes
 LuauNegatedFunctionTypes
@@ -24077,7 +24085,10 @@ NewExperiencesEnableTeamCreateBetaFeatureRoleSet
 NewExperiencesEnableTeamCreateBetaFeatureRolloutPercent
 NewExperiencesEnableTeamCreateBetaFeatureUrl
 NewExplorerFiltering
-NewExplorerFiltering_Dev
+NewExplorerFilteringBetaFeature
+NewExplorerFilteringBetaFeatureRoleSet
+NewExplorerFilteringBetaFeatureRolloutPercent
+NewExplorerFilteringBetaFeatureUrl
 NewExplorerFilteringOnboardingUrl
 NewFeatureAlerts
 NewFirstTimeReleaseCallout
@@ -31333,6 +31344,7 @@ SAXPEAVQStyle
 SAXPEBDP6AXAEAVQDataStream
 SAXW4ApplicationAttribute
 SAXW4HighDpiScaleFactorRoundingPolicy
+SBT654_ContextualServiceVisibility_Dev
 Scalability
 Scale_Green.png
 ScaleButton.png
@@ -32333,6 +32345,7 @@ ServiceType
 ServiceUse2022Materials
 ServiceVariantBoundToPartCount
 ServiceVariantCount
+ServiceVisibility
 Servicio...
 Servizio...
 ServoMaxForce
@@ -33220,6 +33233,7 @@ SimLevitationOrthogonalVelocityReductionFactor
 SimLevitationStaticFrictionMultiplier
 SimLevitationStopVelCutoffThou
 SimModelLodFixMarchingCubeColor
+SimModelLodFixMarchingCubeColor2
 SimModelLodFixSpottyColor
 SimModelLodPrintMeshStorageBytes
 SimModelLodUseSmallerMesh
@@ -34582,6 +34596,8 @@ Studio.App.BetaFeatures.NewCharacterControllerTitle
 Studio.App.BetaFeatures.NewExperiencesEnableTeamCreate
 Studio.App.BetaFeatures.NewExperiencesEnableTeamCreateDesc
 Studio.App.BetaFeatures.NewExperiencesEnableTeamCreateDescNew
+Studio.App.BetaFeatures.NewExplorerFilteringDescription
+Studio.App.BetaFeatures.NewExplorerFilteringTitle
 Studio.App.BetaFeatures.NewFeaturesForChannelUserWarning1
 Studio.App.BetaFeatures.NewFontUIDescription
 Studio.App.BetaFeatures.NewFontUITitle
@@ -44144,6 +44160,7 @@ VoiceChatFmodToWebrtcMinBufferMs
 VoiceChatGetUsers2SubscriptionsStartMs
 VoiceChatHttpResultBodyEmptyTelemetry
 VoiceChatHttpResultErrorCode
+VoiceChatHttpResultStatusCod
 VoiceChatHttpResultStatusCode200
 VoiceChatHttpResultStatusCode200WithNoBody
 VoiceChatHttpResultStatusCode400
@@ -45607,6 +45624,7 @@ WithApplicationUpdateIfAvailable
 WithAutoRotateOff
 WithAutoRotateOn
 WithCameraRelativeRotation
+WithChildren
 WithConfig
 WithDescendantsAndSets
 WithDstu34311

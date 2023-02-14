@@ -66877,6 +66877,28 @@
                         "Category": "Primitive",
                         "Name": "string"
                     }
+                },
+                {
+                    "Category": "Reflection",
+                    "MemberType": "Property",
+                    "Name": "ServiceVisibility",
+                    "Security": {
+                        "Read": "RobloxSecurity",
+                        "Write": "RobloxSecurity"
+                    },
+                    "Serialization": {
+                        "CanLoad": true,
+                        "CanSave": true
+                    },
+                    "Tags": [
+                        "Hidden",
+                        "NotReplicated"
+                    ],
+                    "ThreadSafety": "ReadSafe",
+                    "ValueType": {
+                        "Category": "Enum",
+                        "Name": "ServiceVisibility"
+                    }
                 }
             ],
             "MemoryCategory": "Instances",
@@ -101297,6 +101319,23 @@
                 }
             ],
             "Name": "ServerAudioBehavior"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Always",
+                    "Value": 0
+                },
+                {
+                    "Name": "Off",
+                    "Value": 1
+                },
+                {
+                    "Name": "WithChildren",
+                    "Value": 2
+                }
+            ],
+            "Name": "ServiceVisibility"
         },
         {
             "Items": [
