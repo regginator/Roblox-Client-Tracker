@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-6bdb9504ee64f789ab1e204641db2a24
+050dca395c9eab4c9cddc0bb93a72746
 QtitanDocking.dll
-a7434d56706d03947080186583434faf
+afd837579f7c1e2390227803293c61df
 QtitanRibbon.dll
-63aed1781f1522d65f633bee01c41ebb
+bb44be1fabfaadf1218044722c294bab
 ReflectionMetadata.xml
 f59a3ce4baab6fb094aa2ec6fb578306
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-0fe431ecdac46799c7a086d73851e13b
+9d226c6462d7689f0f6ccb09a37bb505
 RobloxStudioRibbon.xml
 067e1f9d7fb77b5b99db943437a03b59
 d3dcompiler_47.dll
@@ -1945,7 +1945,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-a4db434d3885ff9484e1e959cf6fff8f
+264c2aeff6943c7c60b5438aecf3703c
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -16165,7 +16165,7 @@ ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\Experi
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\llama.lua
 33c34f93b5aaf07466901a4c6c69f432
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\lock.toml
-a45e91aee058b5c0eba0ff32127cb504
+7faf51f108661a680db59e0c405bb6f3
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\Lumberyak.lua
 30e200bf53f25240f653a6ba2ed6b0cc
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\Otter.lua
@@ -16727,7 +16727,7 @@ ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\Experi
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\llama.lua
 33c34f93b5aaf07466901a4c6c69f432
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\lock.toml
-23c31f2c43b9d3dd30fd90dbee0a30b2
+c79bb751085b88997e4edba2c2602c5d
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\Lumberyak.lua
 30e200bf53f25240f653a6ba2ed6b0cc
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\Otter.lua
@@ -17567,7 +17567,7 @@ ExtraContent\LuaPackages\Packages\_Index\IAPExperience\IAPExperience\Utility\moc
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\IAPExperience\Utility\StoryMiddleware.lua
 cb0682505faf867357bd24f53e34e572
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\lock.toml
-71fce147fb62a4c50b3baf1a038e06ce
+d9e08e6cb30960fe5f64864ea12b511b
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\Otter.lua
 1ca2b34086fc8eb7b9485c282da7c9cd
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\Roact.lua
@@ -17621,7 +17621,7 @@ ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\Cryo.lua
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\InGameMenuDependencies\init.lua
 41a0e9fd5ceb1af80726a10a4532f3ab
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\lock.toml
-6ef4400936970e5798aef4c850e4fa9f
+6238c5b6b991b23dc4c3b63bee11de06
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\Mock.lua
 1f355faeb2070a2a34e05bdaaaf1c2f6
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\Otter.lua
@@ -18825,7 +18825,7 @@ ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\AssetCard.lua
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\InfiniteScroller.lua
 5d1c9568317aabf56df9f6707df07802
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\lock.toml
-ae54871811a7a68f2bcc0c949a177480
+299cfc026ae76cdf83beb52456a1d9d5
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\LuaChatDeps\init.lua
 e6e8b42ef0d4cbdedc27db9bae5c7de5
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\RoduxNetworking.lua
@@ -18839,7 +18839,7 @@ abdb50dcc274c79b9f91cfeaf0c468cf
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\HttpRequest.lua
 4a9de254bdbee60d243f0824471d153e
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\lock.toml
-d45b1f197c1528061be84f2deb3514ad
+41627bab6e4dcb7dbc2977451678d252
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\LuaProfileDeps\init.lua
 c698d3fe3ffce31bcd96ff54919e8a55
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\NetworkingBlocking.lua
@@ -20157,7 +20157,7 @@ ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\FitFrame.lua
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\IAPExperience.lua
 a85a4079e43842b395ac58d503896530
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\lock.toml
-b88db78d765121068c1c6571a7264b35
+f23ca5fc1592538afa5784cb563e9c4e
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\Otter.lua
 1ca2b34086fc8eb7b9485c282da7c9cd
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\PolicyProvider.lua
@@ -21109,7 +21109,7 @@ ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\Cryo.lua
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\enumerate.lua
 f7ee4943722cd506bb8c73488bae8f08
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\lock.toml
-b2a9381a5e163491c518e755e385f82a
+27dd408084d1e0fe1cc28a1f55fe15e4
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\React.lua
 a42d08308acf5da0c02c5149b429bc03
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\Roact.lua
@@ -21117,7 +21117,7 @@ bc20e7dc42f88580d602119eabdd8c14
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\asFocusable.lua
 aceb1d85e1745bf9d06b7abc5a01975f
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\Config.lua
-9959133965b301e5ddcb73d724645ac7
+2dfb9c89dcb65b04c06d04e3c3944bb1
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\createFocusableCache.lua
 3ba83df191978c16b5da3f401213c969
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\createRefCache.lua
@@ -21139,7 +21139,7 @@ a128038ae9d536903743e415683b105b
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\init.lua
 8c4527ed0745774ecd5683c03c88da07
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\Input.lua
-42f9bbc56a60911384fd9a978791d1ae
+71ecc708328b7758389e812c31dc662e
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\InputBindingKind.lua
 80c101ac13eb34f0cd52a8f766587d2a
 ExtraContent\LuaPackages\Packages\_Index\RoactGamepad\RoactGamepad\inputBindingsEqual.lua
@@ -21333,7 +21333,7 @@ ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\asset-card\asset-card
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\asset-card\asset-card\init.lua
 cfc3a1bfe92eb55706d4fae0d0beebad
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\lock.toml
-2cafbdd5d191542f0d5742ce5a0f43dd
+fb7152fe6f6aa01bb369fc507bf7bee3
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\Roact.lua
 bc20e7dc42f88580d602119eabdd8c14
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\Rodux.lua
@@ -23473,7 +23473,7 @@ ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\GenericPagination.lua
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\llama.lua
 33c34f93b5aaf07466901a4c6c69f432
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\lock.toml
-b35271b589e538f69c3e729b5e4b68e8
+a91948a8dabbbf12cc98e2b9d8f47ee7
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\LuauPolyfill.lua
 6fe4ab4b393c2d0df63575488d70dd17
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\Lumberyak.lua
@@ -24113,7 +24113,7 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\FitFrame.lua
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\InfiniteScroller.lua
 5d1c9568317aabf56df9f6707df07802
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\lock.toml
-2b41ce8e3243076211418813993ec6e7
+6f60d95dc935706f7e229ad47442f709
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\LuauPolyfill.lua
 3522656c7252df46aad524835e9264a2
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\Otter.lua
@@ -24451,7 +24451,7 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\App\Loading\Enum\RenderOn
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\App\Loading\Enum\RetrievalStatus.lua
 2b9d307a22cf5c84077ebb17b6fddbdc
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\App\Loading\LoadableImage.lua
-db8895172c29dcbf8cc1f27ce44da8ff
+970dde34c6ae805f02c75970cceaca3c
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\App\Loading\LoadingSpinner.lua
 99348145363c252d8ae3f50f5998c6f3
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\App\Loading\ShimmerPanel.lua
@@ -24891,7 +24891,7 @@ e4bee9a462c084df801e90692acc3406
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\UIBloxConfig.lua
 0574e280c53e0b5fe35b520dc57b315c
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\UIBloxDefaultConfig.lua
-55ef0cddbbee94b7ea0986c12b686583
+fc8225f50e50f897622f22c5c4880d67
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\__snapshots__\isReactTagProp.snap.lua
 85df9f75a9973fbd45c7e7f7de0b07e8
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\bind.lua
@@ -24918,6 +24918,8 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\lerp.lua
 a0054e3560396d4ba599ac41ab516b08
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\memoize.lua
 fed9b54c952b31b043d57318d977c225
+ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\MockContentProvider.lua
+ecae4129badaecc2bf726bac4849c399
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\mockStyleComponent.lua
 1f7c7e66ab28c29d1cee10a64dfd7a30
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\setDefault.lua
@@ -24945,7 +24947,7 @@ dae2ab54e746fa41a84b25bdb9bed6cb
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\DebugUtils.lua
 abdb50dcc274c79b9f91cfeaf0c468cf
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\lock.toml
-6401f1ebb0dec082a8e47931f321d835
+9b5a59d7783ec6f99fef58f0d592dd7d
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\Roact.lua
 bc20e7dc42f88580d602119eabdd8c14
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\RoactNavigation.lua
@@ -25377,9 +25379,9 @@ a8be76dbf4c427c4e6d302a784edb7f2
 ExtraContent\LuaPackages\Rodux.lua
 c29c2a795fe0422d41ff208a7946fb1c
 ExtraContent\LuaPackages\rotriever.lock
-c0f22d596b9b9306b0278b22e1eef548
+afba3f72a313fd161e375259811b2c9e
 ExtraContent\LuaPackages\rotriever.toml
-e980f0f493eec63901d1763e51635a06
+fd6c1dd304e88440919c51cb7049572b
 ExtraContent\LuaPackages\Symbol.lua
 92b25b826606541531177caaf35da790
 ExtraContent\LuaPackages\Thumbnailing.lua
@@ -28833,7 +28835,7 @@ ecd84232f3592b1b07ec60387da4ab27
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\RobloxAppLocales\RobloxAppLocales\Locales\el-gr.lua
 1c5b891255782c66a843d2f51ec3857f
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\RobloxAppLocales\RobloxAppLocales\Locales\en-us.lua
-735eceb8b331654b5f2dfbf1bdaeeace
+32c053988c9fc6233277f07915e1ef08
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\RobloxAppLocales\RobloxAppLocales\Locales\es-es.lua
 68418dd77ae663d231611d8fe4f5b9b4
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\RobloxAppLocales\RobloxAppLocales\Locales\et-ee.lua
@@ -29164,6 +29166,8 @@ ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\g
 2d0ba786636c234cb76accdfdc7609f3
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\getFFlagRemoveEventsPageFromMoreTab.lua
 ef3aafef483ee424c74b23de5c02d6de
+ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\getFFlagSendAttendanceCountWithTrackingEvents.lua
+873ca43f5c95b70de9541e33d1839f53
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\GetFFlagShareGetPlatformTargetImpl.lua
 7bd5bab4cb45d5e98cdca2f97e9e746e
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\getFFlagShowClientFirstInFacePile.lua
@@ -29213,7 +29217,7 @@ f2b20e3eb929f292312dc89e5ce75bd8
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\getFStringSocialUserSearchResultsPageLayer.lua
 01d7547df0002858d30b5b28c84f00c6
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\init.lua
-caeaa5f4b6f25baa75e1d46fc9dac716
+b4ed82d0d8028918e984e6436ad8bfb9
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\isNewFriendsEndpointsEnabled.lua
 2a43941c6e06a137403dc7fc839e7a57
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\SharedFlags\SharedFlags\isSubjectToDesktopPolicies.lua
@@ -30986,12 +30990,18 @@ ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEven
 4cd8c1a47ed536fbd1f583975fd15648
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventHostName.test.lua
 36dad025e8b36153762e95fb5e87993e
+ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventNotificationsModal.lua
+9c675d70d10be17ddc8e76787b43a791
+ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventNotificationsModal.story.lua
+3281493f924a46b1da8fa0199ff3bd80
+ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventNotificationsModal.test.lua
+39d03bf6df630948863facfa80f58c85
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventRow.lua
-ee7eafcf4575d0c67113fbd6c48e3377
+93275ba1a878db0d3ec73da77b3d6b7c
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventRow.story.lua
-676621196226e42df555aefd687d0b14
+c48506e9852247e60573211d13d636b4
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventRow.test.lua
-4c1867fa1cc8ced8a8d80f09ba8c357e
+aa5bab9eb875fc2d71309e5973fb22b0
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventRowCounter.lua
 354cbe039cc2dc93faa02c79fcc9ef0e
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Components\EventRowCounter.story.lua
@@ -31077,7 +31087,7 @@ ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEven
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\Hooks\useVirtualEventMedia.test.lua
 e00b9cb5a4f5b073a636e98a520eadcb
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\init.lua
-01efb6c0a3d2d30aa1ebb07d2d030579
+44f7e50667dc784d247dafc8bc337603
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\init.storybook.lua
 71ef863a46e40d27cd15594290a93764
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\installReducer.lua
@@ -31137,7 +31147,7 @@ ea3f65bc4ebf6b0d53a1eb5dcb8a57b3
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\types.lua
 026477a8e0fb18b0a1f60e05febe9618
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualEvents\VirtualEvents\withMockProviders.lua
-443ef4676050ca8cbde6bfbefc73df2d
+aaba284bae3f0c121b785b9fa51e98e3
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\VirtualizedList\VirtualizedList\init.lua
 904819236fb2c499ec77f8930a5d6b2a
 ExtraContent\LuaPackages\Workspace\Packages\Analytics.lua
@@ -31415,7 +31425,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-81b6c2357cb21cd1f137e9c88dccbd65
+84e8bd0a5ba684fc47a7a481bd605e0a
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png

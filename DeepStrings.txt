@@ -2009,7 +2009,7 @@ AudioDevicesImpl
 AudioDeviceTelemetry
 AudioDeviceWindowsCore
 AudioDiscoveryPermCheckMaxAssetIdsPerRequest
-AudioDownloaResolution
+AudioDownloaVideoFrameTrace
 AudioDrift
 AudioDriftLowerThresholdMs
 AudioDriftSampleRateRatio
@@ -5369,7 +5369,7 @@ AVObserverInterface
 AVOcclusionThread
 AVOffice2016Style
 AVOfficeStyle
-AVoiceChatValidMgrSingletonUse
+AVoiceChatEnableTaskStatsLogging
 AvoidDivisionByZeroForZeroComponentSize
 AvoidedPayloads
 AvoidPayloadSizeStatistics
@@ -5867,7 +5867,6 @@ AVQVBoxLayout
 AVQWheelEvent
 AVQWidgetAction
 AVQWidgetPluginGui
-AVQXmlStreamAttribute
 AVQXmlStreamAttributes
 AVRakPeerCrypto
 AVRakPeerInterface
@@ -6012,7 +6011,6 @@ AVRESTRICTED_RuiDialog
 AVRESTRICTED_RuiDialogButtonWatcher
 AVRESTRICTED_RuiHyperlink
 AVRESTRICTED_RuiImageButtonHoverWatcher
-AVRESTRICTED_RuiLoadingAnimation
 AVRESTRICTED_RuiSecondaryButton
 AVRESTRICTED_RuiStripedTableWidget
 AVRESTRICTED_StudioService
@@ -8289,8 +8287,8 @@ BrushOrigin
 BrushStyle
 BrutalLegendTest
 BruteForceAllSlow
-BSetResolutionScale
 BStudio.App.FBXAnimatedHeadImporter.FailureException1
+BtextContext
 BTextureMode
 BtnBackground.png
 BtPoolAllocatorInitFailure
@@ -15010,6 +15008,7 @@ EnableGImageDetectsExif
 EnableGuiAccess
 EnableGuiDevEnv
 EnableHardwareTelemetry
+EnableHarmonyV2API
 EnableHttpRbxApiServiceWhiteListAccountInformation
 EnableHttpRbxApiServiceWhiteListAccountSettings
 EnableInfluxKeyValidate
@@ -19570,7 +19569,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT0BoE
+HwngSmldAskhBcraMaweNegsOgnaT0
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -23601,6 +23600,7 @@ MovingHumanoid
 MovingNoPhysicsBase
 MovingPrimitives
 MovingPrimitivesCount
+Mp`.qt.qml.connections.warning
 MP8BasePart
 MpCehiHzreSzNTczkc9d
 MPEAUCachedContent
@@ -25355,6 +25355,7 @@ ParallelLuaAllocateVMPerNumActors
 ParallelLuaAnalytics
 ParallelLuaAnalytics2
 ParallelLuaAnalyticsRate
+ParallelLuaDisableThrottling
 ParallelLuaMaxCycles
 ParallelLuaMaxSingleThreadLanes
 ParallelLuaStaticallyPoolVMStatesPerCoreMax
@@ -27636,8 +27637,10 @@ ProcessFinished
 ProcessGuiFS
 Processing
 Processing...
+ProcessingAvg
 ProcessingConfigPerDC
 ProcessingFinished
+ProcessingMax
 ProcessingReportGroup
 ProcessingScreenshot
 ProcessingStarted
@@ -29384,7 +29387,6 @@ Ref_count_resource
 RefactorExplorerEventProcessingChain
 RefactorGetProgram
 RefactorHumanoidDefaultAssetsForAvatarEditor
-RefactorLoadingAnimation
 RefactorMoonbeamDownloader
 RefCounted
 RefCounted.h
@@ -30074,6 +30076,7 @@ ReplicatorReadVariantLimit
 ReplicatorReportJoinDelayThresholdMs
 Replicators
 ReplicatorSeparateVarThresholds
+ReplicatorStoresTrackerDataPayload
 ReplicatorTimeInJoinQueue
 ReplicatorTimeout
 ReplicatorTopContainerCountLimit
@@ -30516,7 +30519,6 @@ RESTRICTED_RuiDialogVLayout
 RESTRICTED_RuiDialogWarningHLayout
 RESTRICTED_RuiHyperlink
 RESTRICTED_RuiImageButtonHoverWatcher
-RESTRICTED_RuiLoadingAnimation
 RESTRICTED_RuiSecondaryButton
 RESTRICTED_StudioService
 RESTRICTED_StudioServiceHost
@@ -32629,6 +32631,7 @@ SetRemoteContent
 SetRemoteContent_w
 SetRemoteDescription
 SetRemoteDescription.
+SetResolutionScale
 SetRobloxGuiFocused
 SetRobloxLocaleId
 SetRotateIncrementVerb
@@ -40942,7 +40945,6 @@ TPoserBlockyAdjustment2
 TQQQQQQ1Tq
 Tracciamento
 TraceMessage
-TracerServ
 TracerService
 TracerService]
 TracingTransport
@@ -40955,6 +40957,7 @@ TrackerAnimationStreamSource
 TrackerAnimationStreamSourceTrace
 TrackerAnimationStreamSourceTrace]
 TrackerData
+TrackerDataParallelSerializationBatchSize
 TrackerDataRecvCheckReplicationContainer
 TrackerDataSenderMaxBandwidthBps
 TrackerError
@@ -41163,6 +41166,7 @@ TShirtAccessory
 TTTTTTTTTT
 TTTTTTTTTTTTTTTTTTT
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TunableEffectRate
 TunableImpactRate
 TurboBuildersClub
 TurnAddMultiMapping
@@ -43623,7 +43627,6 @@ VideoExtrapolationMode
 VideoFrame
 VideoFrame]
 VideoFrameAction
-VideoFrameTrace
 VideoFrameTrace]
 VideoHighCpuThresholdMHz
 VideoHighMemAudioBufferHeadroomFactor
@@ -43727,7 +43730,7 @@ VideoUploadMaxAttemps
 VideoUploadRetryInitialDelayMs
 VideoUseDSAMetricsRCC
 VideoUseDynamicAVSyncParams
-VideoUseThreadPool
+VideoUseThreadPool2
 VIdSerializer
 VIdWithDirection
 View.currentIndex]
@@ -44221,6 +44224,8 @@ VoiceChatRefactorWorkerThread
 VoiceChatReflectionVisible
 VoiceChatRemovedFromSession
 VoiceChatRenderMode
+VoiceChatReportTaskStats
+VoiceChatReportTaskStatsIntervalMs
 VoiceChatRequestTrace
 VoiceChatRequestTrace]
 VoiceChatResetMultistreamSubscriptionsV2
@@ -44281,6 +44286,12 @@ VoiceChatSubscriptionRemoveInitiated2CompleteMs
 VoiceChatSubscriptionRemoveStart2CompletedMs
 VoiceChatSubscriptionRemoveStart2InitiatedMs
 VoiceChatSupported
+VoiceChatTask
+VoiceChatTaskCallback
+VoiceChatTaskJob
+VoiceChatTaskSignalR
+VoiceChatTaskStatsTelemetry
+VoiceChatTaskStatsTelemetryThrottleHundrethsPercent
 VoiceChatTokenRequest
 VoiceChatTokenThrottleMs
 VoiceChatUpdateSourcesIntervalMs
