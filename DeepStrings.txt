@@ -18848,7 +18848,6 @@ HandlesBase
 HandlesProp
 HandlesStyle
 HandlesVisualStyleEnum
-HandleTextureCreationFailure2
 HandleWeld
 HandleWidth
 HangDetection
@@ -33437,7 +33436,6 @@ SmoothClusterDepthVS
 SmoothClusterFS_
 SmoothClusterGrass
 SmoothClusterGrassTasks
-SmoothClusterHardenChecks
 SmoothClusterHQFS_
 SmoothClusterHQVS_
 SmoothClusterShadowFS_
@@ -44265,6 +44263,7 @@ VoiceChatSessionMultiSubFailedTooManyRetries
 VoiceChatSessionMultiSubFailure
 VoiceChatSessionMultiSubRetry
 VoiceChatSessionPubFailure
+VoiceChatSessionSubF
 VoiceChatSessionSubFailedTooManyRetries
 VoiceChatSessionSubFailure
 VoiceChatSessionTokenRequestFailure
