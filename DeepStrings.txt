@@ -593,6 +593,7 @@ AEBUbtDispatcherInfo
 AEBUCompletionItem
 AEBUContextInfo
 AEBUConversionOptions
+AEBUFindUpOptions
 AEBUHttpResponseProxy
 AEBUQMetaObject
 AEBURTCConfiguration
@@ -4488,6 +4489,7 @@ AVGemm_final
 AVGeneralBrowserDialog
 AVGeneralProcessor
 AVgeneric_error_category
+AVGenericDataModelJob
 AVGenericJob
 AVGenericNumberHandler
 AVGenericResourceController
@@ -5473,6 +5475,7 @@ AVPartOperationAsset
 AVPartOperationAssetProp
 AVPartTool
 AVPasteVerb
+AVPatchBundlerFileWatch
 AVPatchMapping
 AVPathFilterWidget
 AVPathfindingLink
@@ -6698,6 +6701,7 @@ AVSyncBuffer
 AVSyncCallbackDescriptor
 AVSynchronousMethodCall
 AVSyncInstanceToFsVerb
+AVSyncScriptBuilder
 AVsystem_category
 AVsystem_error
 AVsystem_error_category
@@ -11218,6 +11222,7 @@ CorePackage
 CorePackages
 CoreScript
 CoreScriptBuilder
+CoreScriptConverter
 CoreScriptDebuggingManagerHelper
 CoreScriptIdentifier
 CoreScriptLocalization
@@ -11331,6 +11336,7 @@ CountSkinned
 CountTimeout
 CountWidth
 Covariance
+CoverageInfo
 CoverageRef
 CPGSConstraintAlign2AxesCompliantCacheFix
 CPlayAudioVideoInPlugins
@@ -11676,6 +11682,7 @@ CSArrayIn.push
 CSArrayOut
 CSArrayOut.push
 CsatCompletedSurveyIds
+CSCUsePrintf
 CsFilterMessageSignalRateLimitCapacity
 CsFilterMessageSignalRateLimitDuration
 CsFilterMessageSignalRatePermyriad
@@ -12501,6 +12508,7 @@ DebugAvatarProfilerShutAfterJoinTime
 DebugAvatarProfilerStreamEvents
 DebugAvatarProfilerUpdatesPerFrame
 DebugAvatarProfilerVisualIndicatorEnabled
+DebugBinaryIncludeFilePath
 DebugBreak
 DebugBreakOnExcessivelyLoudAudio
 DebugBreakOnFMODErrors
@@ -12831,6 +12839,7 @@ DebugPrintLagServer
 DebugPrintMidPhaseStats
 DebugPrintPatchTree
 DebugPrintTattletaleReporting
+DebugPrintTreeAfterLoad
 DebugProfilerCaptureTime
 DebugProfilerFramesToCapture
 DebugPublishAssetsInBatches
@@ -16543,6 +16552,7 @@ FixedVector
 FixedWidth
 FixEmptyFolderContributesToTrackweight
 FixErrorSessionThrottling
+FixExtraContentLookup
 FixFirstPersonMouseCursorSnapping_CenterPos
 FixFirstPersonMouseCursorSnapping_ForceCursor
 FixForBulkPresenceNotifications
@@ -25233,6 +25243,7 @@ PackageUtilities
 PackageUtilities]
 PackageVersion
 PackageVersionId
+PackAsSource
 PackBindings
 PackedStringLength
 PacketArrivalDelay
@@ -25500,6 +25511,8 @@ PasteAtOriginalLocation
 PasteIntoAtOriginalLocation
 PasteRegion
 PatchBegin
+PatchBundlerFileWatch
+PatchBundlerFileWatch]
 PatchConfigParseException
 PatchDeploymentParseException
 PatchMapping
@@ -26036,6 +26049,7 @@ PEAVPartDragTool
 PEAVPartDropTool
 PEAVPartOperation
 PEAVPartOperationAsset
+PEAVPatchBundlerFileWatch
 PEAVPatchMapping
 PEAVPathfindingLink
 PEAVPathfindingModifier
@@ -26241,6 +26255,7 @@ PEAVSurfaceGui
 PEAVSurfaceLight
 PEAVSurfaceSelection
 PEAVSwimController
+PEAVSyncScriptBuilder
 PEAVSystem
 PEAVTaskSchedulerSettings
 PEAVTeamCreateData
@@ -26477,6 +26492,7 @@ PerformanceControlChangeTunableEagerly
 PerformanceControlExecution
 PerformanceControlExecution]
 PerformanceControlFixBugForMPExit
+PerformanceControlFixTextureManagerUnregisterIxpCallback
 PerformanceControlHundredthPercentageSent
 PerformanceControlImpactStates
 PerformanceControlIXPIntegrationEnabled
@@ -26723,6 +26739,7 @@ PingBackDisconnectTimeLimitSecondsGamePlay
 PingBackDisconnectTimeLimitSecondsTC
 PingInterval
 PInitResData
+PipelineParseFilesystemStepRulesFix
 PirateHat.mesh
 PitchMaxTorque
 PitchShiftSoundEffect
@@ -29037,6 +29054,7 @@ RAW_UNDERLINE_POSITION
 RAW_UNDERLINE_THICKNESS
 RAW_X_HEIGHT
 RawBwUsedKBps
+RawBytecode
 RawJoinData
 RawPeerNotFound
 RaycastAddToFilterEnabled
@@ -29642,6 +29660,7 @@ RemotePopToReadTimeReportingThresholdMS
 RemoteQueueToSerializeTime
 RemoteRecvToPopTime
 RemoteSdpSet
+RemoteStandardOut
 RemoteSysStats
 RemoteSystemOutputController
 RemoveAccessories
@@ -33984,7 +34003,6 @@ StartTeamCreateSession
 StartTeamTest
 StartTeamTestVerb
 StartTextScraper
-StartTimer2RcvdSignalRPublishingCompletedMs
 StartTrackKern
 STARTUP_OTHER_FAILURE
 StartupAnalytics
@@ -39281,10 +39299,12 @@ SyncMapEntriesModifiedSerial
 SyncQObjectWithGst
 SyncRelativeDelay
 SyncronizePlaybackDSPS
+SyncScriptBuilder
 SyncScriptBuilder.CoverageInfo
 SyncScriptBuilder.DebugInfo
 SyncScriptBuilder.PackAsSource
 SyncScriptBuilder.RawBytecode
+SyncScriptBuilderNormalizeSource
 SyncTimePosition
 SyncUpdate
 SYNTAX_ERROR
@@ -39558,6 +39578,7 @@ TelemetryJSON
 TelemetrySID
 TelemetryThrottleHundredthPercent
 TelephoneNumber
+TeleportAddRootPlaceId
 TeleportAllErrors
 TeleportAllErrorsLogging
 TeleportAsync
@@ -43444,6 +43465,7 @@ VGameProtocolCore
 VGameSettings
 VGAReporterState
 VGeneratePreviewJob
+VGenericDataModelJob
 VGenericJob
 VGenericNumberHandler
 VGenericSlotWrapper
@@ -44339,6 +44361,7 @@ VPartDragTool
 VPartDropTool
 VPartOperation
 VPartOperationAsset
+VPatchBundlerFileWatch
 VPatchMapping
 VPathfindingLink
 VPathfindingModifier
@@ -44793,6 +44816,7 @@ VSurfaceLight
 VSurfaceSelection
 VSVertexBufferMaxCount
 VSwimController
+VSyncScriptBuilder
 VSystemAddress
 VTargetsParser
 VTaskQueue

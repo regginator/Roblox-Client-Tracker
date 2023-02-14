@@ -3009,6 +3009,7 @@ Class ParticleEmitter : Instance
 	Function void ParticleEmitter:Clear()
 	Function void ParticleEmitter:Emit(int particleCount = 16)
 	Function void ParticleEmitter:FastForward(int numFrames) {RobloxScriptSecurity}
+Class PatchBundlerFileWatch : Instance [NotCreatable] [Service] [NotReplicated]
 Class PatchMapping : Instance [NotCreatable] [NotReplicated]
 	Property bool PatchMapping.FlattenTree
 	Property string PatchMapping.PatchId
@@ -3594,6 +3595,11 @@ Class ScreenshotHud : Instance [NotCreatable] [NotReplicated]
 	Property bool ScreenshotHud.Visible
 Class ScriptBuilder : Instance [NotCreatable] [NotReplicated]
 Class CoreScriptBuilder : ScriptBuilder [NotCreatable] [NotReplicated]
+Class SyncScriptBuilder : ScriptBuilder [NotCreatable] [NotReplicated]
+	Property bool SyncScriptBuilder.CoverageInfo
+	Property bool SyncScriptBuilder.DebugInfo
+	Property bool SyncScriptBuilder.PackAsSource
+	Property bool SyncScriptBuilder.RawBytecode
 Class ScriptChangeService : Instance [NotCreatable] [Service] [NotReplicated]
 	Event ScriptChangeService.ScriptAdded(LuaSourceContainer script) {RobloxScriptSecurity}
 	Event ScriptChangeService.ScriptBeingRemoved(LuaSourceContainer script) {RobloxScriptSecurity}

@@ -2391,6 +2391,7 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CorePackages>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CoreScript>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CoreScriptSyncService>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CornerWedgeInstance>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CSC::SyncScriptBuilder>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CSGDictionaryService>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CurveAnimation>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CustomEvent>
@@ -2581,6 +2582,7 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PART::Wedge>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Part>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PartOperation>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PartOperationAsset>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PatchBundlerFileWatch>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PatchMapping>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Path>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PathfindingLink>
@@ -2972,6 +2974,7 @@ RBX::Creator<class RBX::Constraints::WeldConstraint>
 RBX::Creator<class RBX::ControllerManager>
 RBX::Creator<class RBX::CoreScriptSyncService>
 RBX::Creator<class RBX::CornerWedgeInstance>
+RBX::Creator<class RBX::CSC::SyncScriptBuilder>
 RBX::Creator<class RBX::CSGDictionaryService>
 RBX::Creator<class RBX::CurveAnimation>
 RBX::Creator<class RBX::CustomEvent>
@@ -3096,6 +3099,7 @@ RBX::Creator<class RBX::PART::Wedge>
 RBX::Creator<class RBX::Part>
 RBX::Creator<class RBX::PartOperation>
 RBX::Creator<class RBX::PartOperationAsset>
+RBX::Creator<class RBX::PatchBundlerFileWatch>
 RBX::Creator<class RBX::PatchMapping>
 RBX::Creator<class RBX::PathfindingLink>
 RBX::Creator<class RBX::PathfindingModifier>
@@ -3296,6 +3300,7 @@ RBX::Creator<class Studio::ToastNotificationService>
 RBX::Creator<class TeamCreateService>
 RBX::CredStoreSecureStorage
 RBX::CRenderSettings
+RBX::CSC::SyncScriptBuilder
 RBX::CSG2SeparateTask
 RBX::CSG3::CSG3SeparateTask
 RBX::CSG3::detail::CSG3Reporting
@@ -3675,6 +3680,7 @@ RBX::DescribedCreatable<class RBX::Constraints::WeldConstraint,class RBX::Instan
 RBX::DescribedCreatable<class RBX::ControllerManager,class RBX::Instance>
 RBX::DescribedCreatable<class RBX::CoreScriptSyncService,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::CornerWedgeInstance,class RBX::BasePart>
+RBX::DescribedCreatable<class RBX::CSC::SyncScriptBuilder,class RBX::ScriptBuilder>
 RBX::DescribedCreatable<class RBX::CSGDictionaryService,class RBX::FlyweightService>
 RBX::DescribedCreatable<class RBX::CurveAnimation,class RBX::AnimationClip>
 RBX::DescribedCreatable<class RBX::CustomEvent,class RBX::Instance>
@@ -3799,6 +3805,7 @@ RBX::DescribedCreatable<class RBX::Part,class RBX::FormFactorPart>
 RBX::DescribedCreatable<class RBX::PART::Wedge,class RBX::FormFactorPart>
 RBX::DescribedCreatable<class RBX::PartOperation,class RBX::TriangleMeshPart>
 RBX::DescribedCreatable<class RBX::PartOperationAsset,class RBX::Instance>
+RBX::DescribedCreatable<class RBX::PatchBundlerFileWatch,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::PatchMapping,class RBX::Instance>
 RBX::DescribedCreatable<class RBX::PathfindingLink,class RBX::Instance>
 RBX::DescribedCreatable<class RBX::PathfindingModifier,class RBX::Instance>
@@ -4159,6 +4166,7 @@ RBX::GamePlacesPages
 RBX::GameSettings
 RBX::GameTool
 RBX::GcJob
+RBX::GenericDataModelJob
 RBX::GenericNumberHandler
 RBX::GenericSettingsProp
 RBX::GenericTelemetryEnabledJob
@@ -5013,6 +5021,7 @@ RBX::PartOperation
 RBX::PartOperationAsset
 RBX::PartOperationAssetProp
 RBX::PartTool
+RBX::PatchBundlerFileWatch
 RBX::PatchMapping
 RBX::Path
 RBX::PathfindingLink
@@ -6045,6 +6054,7 @@ RBX::Reflection::BoundProp<__int64,1>
 RBX::Reflection::BoundProp<__int64,1>::BoundPropGetSet<class RBX::CharacterMesh>
 RBX::Reflection::BoundProp<__int64,1>::BoundPropGetSet<class RBX::ConstrainedValue<__int64> >
 RBX::Reflection::BoundProp<bool,1>
+RBX::Reflection::BoundProp<bool,1>::BoundPropGetSet<class RBX::CSC::SyncScriptBuilder>
 RBX::Reflection::BoundProp<bool,1>::BoundPropGetSet<class RBX::DebugSettings>
 RBX::Reflection::BoundProp<bool,1>::BoundPropGetSet<class RBX::Explosion>
 RBX::Reflection::BoundProp<bool,1>::BoundPropGetSet<class RBX::Fire>
@@ -11474,8 +11484,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x467651be::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x6c43a288::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x756acde5::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x5f5f3ed3::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -11953,6 +11963,7 @@ std::_Func_base<bool,struct RBX::LSP::LuauModules const & __ptr64,struct Luau::P
 std::_Func_base<bool,struct RBX::SharedTableKeyPointer const & __ptr64,class RBX::Reflection::Variant const & __ptr64>
 std::_Func_base<bool,struct StartGameStatistics & __ptr64>
 std::_Func_base<bool>
+std::_Func_base<class boost::filesystem::path,class boost::filesystem::path const & __ptr64,struct RBX::FindUpOptions const & __ptr64>
 std::_Func_base<class RBX::Reflection::Variant,class RBX::Reflection::Variant const & __ptr64>
 std::_Func_base<class RBX::Reflection::Variant,class RBX::Reflection::Variant,float>
 std::_Func_base<class RBX::Reflection::Variant,class std::shared_ptr<class RBX::Descriptors::IPropertyDescriptor>,class RBX::Instance * __ptr64>
@@ -13032,6 +13043,7 @@ std::_Ref_count_obj2<class RBX::FixedHandler>
 std::_Ref_count_obj2<class RBX::FocusedPromptData>
 std::_Ref_count_obj2<class RBX::GcJob>
 std::_Ref_count_obj2<class RBX::GeneratePreviewJob>
+std::_Ref_count_obj2<class RBX::GenericDataModelJob>
 std::_Ref_count_obj2<class RBX::GenericNumberHandler>
 std::_Ref_count_obj2<class RBX::GenericTelemetryEnabledJob>
 std::_Ref_count_obj2<class RBX::GfxGui>
@@ -13719,6 +13731,7 @@ std::_Ref_count_resource<class RBX::CorePackages * __ptr64,class RBX::Creatable<
 std::_Ref_count_resource<class RBX::CoreScript * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CoreScript> >
 std::_Ref_count_resource<class RBX::CoreScriptSyncService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CoreScriptSyncService> >
 std::_Ref_count_resource<class RBX::CornerWedgeInstance * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CornerWedgeInstance> >
+std::_Ref_count_resource<class RBX::CSC::SyncScriptBuilder * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CSC::SyncScriptBuilder> >
 std::_Ref_count_resource<class RBX::CSGDictionaryService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CSGDictionaryService> >
 std::_Ref_count_resource<class RBX::CurveAnimation * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CurveAnimation> >
 std::_Ref_count_resource<class RBX::CustomEvent * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::CustomEvent> >
@@ -13927,6 +13940,7 @@ std::_Ref_count_resource<class RBX::PartDragTool * __ptr64,class RBX::Creatable<
 std::_Ref_count_resource<class RBX::PartDropTool * __ptr64,class RBX::Creatable<class RBX::MouseCommand>::Deleter<class RBX::PartDropTool> >
 std::_Ref_count_resource<class RBX::PartOperation * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PartOperation> >
 std::_Ref_count_resource<class RBX::PartOperationAsset * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PartOperationAsset> >
+std::_Ref_count_resource<class RBX::PatchBundlerFileWatch * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PatchBundlerFileWatch> >
 std::_Ref_count_resource<class RBX::PatchMapping * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PatchMapping> >
 std::_Ref_count_resource<class RBX::Path * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Path> >
 std::_Ref_count_resource<class RBX::PathfindingLink * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::PathfindingLink> >
@@ -15090,8 +15104,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x467651be::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x6c43a288::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x756acde5::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x5f5f3ed3::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter
