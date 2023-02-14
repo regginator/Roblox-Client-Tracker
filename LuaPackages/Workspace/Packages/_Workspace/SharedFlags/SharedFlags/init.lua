@@ -126,4 +126,5 @@ return {
 		script.GetFFlagPhoneVerificationWebviewShouldBeFullscreen
 	),
 	getFFlagSocialOnboardingExperimentEnabled = require(script.getFFlagSocialOnboardingExperimentEnabled),
+	getFFlagDebugLuaAppAlwaysUseGamepad = require(script.getFFlagDebugLuaAppAlwaysUseGamepad),
 }
