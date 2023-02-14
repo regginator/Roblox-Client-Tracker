@@ -839,6 +839,7 @@ AICOMLAutocompleteKeyPressEquals
 AICOMLAutocompleteKeyPressOther
 AICOMLAutocompleteKeyPressRightBracket
 AICOMLAutocompleteKeyPressWhitespace
+AICOMLAutocompleteResponseTime
 AimdRateControl
 AinCorrectExpectedRequestCount
 AinPointsThrottleValue
@@ -8167,7 +8168,6 @@ BoundingClientRect
 BoundingGeometry
 BoundingRect
 BoundPropGetSet
-BoundsParams
 BoundToPartCount
 BoundToPlaceSessionModel
 BoundYieldFuncDesc
@@ -15668,6 +15668,7 @@ ExperimentalSolverIsEnabled
 Experimentation
 Experimentation.ExposureTest.AccessLayer
 Experimentation.ExposureTest.ExposureLayer
+ExperimentationProtocolCor
 ExperimentationProtocolCore
 ExperimentationProtocolCore]
 ExperimentCache
@@ -21327,6 +21328,7 @@ LayerLoadingStatusChanged
 Layers.data
 LayersForBTID
 LayersForUserId
+LayerVariablesResponse
 LayoutChanged
 LayoutChangeHint
 LayoutDirection
@@ -29997,8 +29999,6 @@ ReplicatedSelected
 ReplicatedStorage
 ReplicateInstanceDestroySetting
 ReplicateTrackerData_Dev
-ReplicateVoiceChatService
-ReplicateVoiceChatServiceNoCloudEdit
 Replicating
 Replication
 ReplicationCoalescing
@@ -41006,7 +41006,7 @@ TrackerStreamAnimationTrace]
 TrackerTelemetryEventRate
 TrackEvent
 TrackEventWithArgs
-TrackFacsRepInPhy
+TrackFacsRepInPhy2
 TrackHttpRequest
 TrackHttpRequest]
 TrackingInfoValid
@@ -44160,7 +44160,6 @@ VoiceChatFmodToWebrtcMinBufferMs
 VoiceChatGetUsers2SubscriptionsStartMs
 VoiceChatHttpResultBodyEmptyTelemetry
 VoiceChatHttpResultErrorCode
-VoiceChatHttpResultStatusCod
 VoiceChatHttpResultStatusCode200
 VoiceChatHttpResultStatusCode200WithNoBody
 VoiceChatHttpResultStatusCode400
