@@ -2728,6 +2728,7 @@ Class BasePart : PVInstance [NotCreatable] [NotBrowsable]
 	Function Instance BasePart:GetRootPart() {🧬Safe}
 	Function Objects BasePart:GetTouchingParts()
 	Function Vector3 BasePart:GetVelocityAtPosition(Vector3 position) {🧬Safe}
+	Function Instance BasePart:IntersectAsync(Objects parts, Enum.CollisionFidelity collisionfidelity = "Default", Enum.RenderFidelity renderFidelity = "Automatic") [Yields]
 	Function bool BasePart:IsGrounded() {🧬Safe}
 	Function void BasePart:MakeJoints()
 	Function bool BasePart:Resize(Enum.NormalId normalId, int deltaAmount)
@@ -2835,6 +2836,7 @@ Class PartOperation : TriangleMeshPart
 	Property float PartOperation.SmoothingAngle {✏️PluginSecurity}
 	Property int PartOperation.TriangleCount [ReadOnly]
 	Property bool PartOperation.UsePartColor
+Class IntersectOperation : PartOperation
 Class NegateOperation : PartOperation
 Class UnionOperation : PartOperation
 Class TrussPart : BasePart

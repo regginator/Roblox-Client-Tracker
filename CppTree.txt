@@ -2501,6 +2501,7 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageLabel>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IncrementalPatchBuilder>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::InputObject>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::InsertService>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IntersectOperation>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::InventoryPages>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IXPService>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::JointsService>
@@ -3050,6 +3051,7 @@ RBX::Creator<class RBX::ImageLabel>
 RBX::Creator<class RBX::IncrementalPatchBuilder>
 RBX::Creator<class RBX::InputObject>
 RBX::Creator<class RBX::InsertService>
+RBX::Creator<class RBX::IntersectOperation>
 RBX::Creator<class RBX::IXPService>
 RBX::Creator<class RBX::Keyframe>
 RBX::Creator<class RBX::KeyframeMarker>
@@ -3756,6 +3758,7 @@ RBX::DescribedCreatable<class RBX::ImageLabel,class RBX::GuiLabel>
 RBX::DescribedCreatable<class RBX::IncrementalPatchBuilder,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::InputObject,class RBX::Instance>
 RBX::DescribedCreatable<class RBX::InsertService,class RBX::ServiceInstance>
+RBX::DescribedCreatable<class RBX::IntersectOperation,class RBX::PartOperation>
 RBX::DescribedCreatable<class RBX::IXPService,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::Keyframe,class RBX::Instance>
 RBX::DescribedCreatable<class RBX::KeyframeMarker,class RBX::Instance>
@@ -4510,6 +4513,7 @@ RBX::IntegrityCheckedProcessor::QueueBase<struct RBX::LocalizationTableAnalytics
 RBX::IntegrityCheckedProcessor::QueueBase<struct std::pair<struct RBX::LocalizationTableAnalyticsSender::Entry,class std::optional<struct RBX::IntegrityCheckedProcessor::PlayerMetadata> > >
 RBX::IntegrityCheckedProcessor::ServerQueueBase<struct RBX::LocalizationTableAnalyticsSender::Entry>
 RBX::IntegrityCheckedProcessor::ServerQueueBase<struct std::pair<struct RBX::LocalizationTableAnalyticsSender::Entry,class std::optional<struct RBX::IntegrityCheckedProcessor::PlayerMetadata> > >
+RBX::IntersectOperation
 RBX::IntHandler
 RBX::Intrusive::Set<class RBX::BasePart,class RBX::PhysicsService>::Hook
 RBX::Intrusive::Set<class RBX::BasePart,class RBX::PhysicsService>::NextRef
@@ -11502,8 +11506,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x07ed1e3f::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x2dd8ed09::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xb0e81995::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x9addeaa3::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -13870,6 +13874,7 @@ std::_Ref_count_resource<class RBX::ImageLabel * __ptr64,class RBX::Creatable<cl
 std::_Ref_count_resource<class RBX::IncrementalPatchBuilder * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IncrementalPatchBuilder> >
 std::_Ref_count_resource<class RBX::InputObject * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::InputObject> >
 std::_Ref_count_resource<class RBX::InsertService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::InsertService> >
+std::_Ref_count_resource<class RBX::IntersectOperation * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IntersectOperation> >
 std::_Ref_count_resource<class RBX::InventoryPages * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::InventoryPages> >
 std::_Ref_count_resource<class RBX::IXPService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IXPService> >
 std::_Ref_count_resource<class RBX::JointsService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::JointsService> >
@@ -15128,8 +15133,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x07ed1e3f::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x2dd8ed09::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xb0e81995::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0x9addeaa3::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter

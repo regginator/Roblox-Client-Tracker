@@ -83,7 +83,6 @@ AAF011E38B9D871882A8E559
 AAF111E38B9D871882A8E559
 AAF511E38B9D871882A8E559
 AAIS[^^^^aarrrz
-AassetPath
 AB0BF11E395B6E5DB6211F344
 AB0DC85B11
 ABAllUsers
@@ -788,6 +787,7 @@ AgentCanClimb
 AgentCanJump
 AgentHeight
 AgentRadius
+AGetLatestAssetVersionAsync
 AgeUnder13
 Aggiornamenti
 Aggiornamento
@@ -1753,6 +1753,7 @@ AsusStrixOSD.dll
 AsusU7MKIIOSD.dll
 ASWDepthDownsize
 ASYNC_init_thread
+ASYNC_INTERSECTION
 Async_Mesh
 ASYNC_pause_job
 ASYNC_start_job
@@ -4859,6 +4860,7 @@ AVInterp_final
 AVInterp_final_avx
 AVInterp_x86
 AVInterp_x86_avx
+AVIntersectOperation
 AVIntHandler
 AVIntPropertyItem
 AVinvalid_argument
@@ -10470,6 +10472,8 @@ COLLAB2482CheckDMExistsBeforeCallbackInLocalPlacePublishRequestMediator2
 COLLAB2609AddIsReconnectAndLaunchTaskToStudioopenplacemetricv2CrashFixed
 COLLAB2618DirectlySerializeInDatamodelEnabled
 COLLAB2695FixDeadlockOnError
+COLLAB2767UseUntranslatedErr
+COLLAB2767UseUntranslatedErrHundredthPercent
 COLLAB2781FixTeamCreateStatusChildPlaces
 COLLAB2784UsePlaceSessionToAccessDMEnabled
 CollabEditVersionHistory
@@ -11718,6 +11722,8 @@ CSG3_ASYNC_DATAMODEL_SHUTDOWN
 CSG3_ASYNC_DYNAMIC_DECOMP_ERROR
 CSG3_ASYNC_DYNAMIC_DECOMP_INPUT_TYPE
 CSG3_ASYNC_EMPTY_RESULT
+CSG3_ASYNC_INTERSECT
+CSG3_ASYNC_INTERSECTION_SUCCESS
 CSG3_ASYNC_MESH_EXTRACTION_ERROR
 CSG3_ASYNC_MESH_PROPAGATION_ERROR
 CSG3_ASYNC_MESH_UPDATE_ERROR
@@ -11725,6 +11731,7 @@ CSG3_ASYNC_NO_CHILD_DATA
 CSG3_ASYNC_OCTREE_ERROR
 CSG3_ASYNC_OUT_OF_MEMORY
 CSG3_ASYNC_PATCH_REMOVAL
+CSG3_ASYNC_POSTFETCHING_INTERSECT_ATTEMPT
 CSG3_ASYNC_POSTFETCHING_SUBTRACTION_ATTEMPT
 CSG3_ASYNC_POSTFETCHING_UNION_ATTEMPT
 CSG3_ASYNC_PRIMITIVE_ERROR
@@ -11760,12 +11767,15 @@ CSG3_LOCAL_ASYNC_DATAMODEL_SHUTDOWN
 CSG3_LOCAL_ASYNC_DYNAMIC_DECOMP_ERROR
 CSG3_LOCAL_ASYNC_DYNAMIC_DECOMP_INPUT_TYPE
 CSG3_LOCAL_ASYNC_EMPTY_RESULT
+CSG3_LOCAL_ASYNC_INTERSECT
+CSG3_LOCAL_ASYNC_INTERSECTION_SUCCESS
 CSG3_LOCAL_ASYNC_MESH_EXTRACTION_ERROR
 CSG3_LOCAL_ASYNC_MESH_PROPAGATION_ERROR
 CSG3_LOCAL_ASYNC_MESH_UPDATE_ERROR
 CSG3_LOCAL_ASYNC_NO_CHILD_DATA
 CSG3_LOCAL_ASYNC_OCTREE_ERROR
 CSG3_LOCAL_ASYNC_OUT_OF_MEMORY
+CSG3_LOCAL_ASYNC_POSTFETCHING_INTERSECTION_ATTEMPT
 CSG3_LOCAL_ASYNC_POSTFETCHING_SUBTRACTION_ATTEMPT
 CSG3_LOCAL_ASYNC_POSTFETCHING_UNION_ATTEMPT
 CSG3_LOCAL_ASYNC_PRIMITIVE_ERROR
@@ -15668,7 +15678,6 @@ ExperimentalSolverIsEnabled
 Experimentation
 Experimentation.ExposureTest.AccessLayer
 Experimentation.ExposureTest.ExposureLayer
-ExperimentationProtocolCor
 ExperimentationProtocolCore
 ExperimentationProtocolCore]
 ExperimentCache
@@ -16621,6 +16630,7 @@ FixSoundNetworkOwnership
 FixSpatialFilterCrash
 FixStrangerThingsIssueUsingAdditionalInvalidationSignal
 FixSurfaceGuisBreakingAfterRespawn
+FixSurfaceInputsCollapsing
 FixTextboxSinkingInputOfOverlappingButtons
 FixTextMismatchAndOverlap
 FixTextureCompositorFramebufferManagement2
@@ -17878,7 +17888,6 @@ GetLastErrorInfo
 GetLastForce
 GetLastInputType
 GetLastPoseForTrackedDeviceIndex
-GetLatestAssetVersionAsync
 GetLatestAssetVersionErrors
 GetLatestAssetVersionErrors]
 GetLayerCount
@@ -19581,7 +19590,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT
+HwngSmldAskhBcraMaweNegsOgnaTP
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -20517,7 +20526,10 @@ Interrompi
 Interrumpir
 Interrupci
 InterruptionDuration
+IntersectAsync
 IntersectingOthersCallsAllowedOnSpawn
+Intersection
+IntersectOperation
 Intervalle
 Intervallo
 Intervalos
@@ -21328,7 +21340,6 @@ LayerLoadingStatusChanged
 Layers.data
 LayersForBTID
 LayersForUserId
-LayerVariablesResponse
 LayoutChanged
 LayoutChangeHint
 LayoutDirection
@@ -21761,6 +21772,7 @@ LoadTransposeMatrixd
 LoadTransposeMatrixf
 LoadUserPlugins
 LoadVersionHistoryDetailsTask
+LOCAL_ASYNC_INTERSECTION
 LOCAL_ASYNC_SUBTRACTION
 LOCAL_ASYNC_UNION
 LocalAlloc
@@ -25981,6 +25993,7 @@ PEAVInputObject
 PEAVInsertService
 PEAVInstance
 PEAVInstanceSelectionTool
+PEAVIntersectOperation
 PEAVInventoryPages
 PEAVIVideoStream
 PEAVIXPService
@@ -28719,7 +28732,6 @@ QTStudioWinOtherCrashRecorded
 QTStudioWinRegistryErrorCrashRecorded
 QTypedArrayData
 QUAD_WIDTH
-QuadTreeUseGridInsteadOfTree
 QualityH9H
 QualityLevel
 QualityLevel1
@@ -30756,6 +30768,7 @@ Ripristino
 RiseVelocity
 Risoluzione
 Rj0isQcnqX
+RoamingAppData
 ROBLOSECURITY
 Roblox.Hybrid
 Roblox.Hybrid.Bridge.emitEvent
@@ -33176,6 +33189,7 @@ SimCSGV3IncrementalTriangulationPhase2
 SimCSGV3IncrementalTriangulationPhase3
 SimCSGV3InitializeVertexMapFix
 SimCSGV3Intersection
+SimCSGV3Intersection2
 SimCSGV3LastTryAtClosingMesh
 SimCSGV3LogCSGTreeForCrashNewOperator
 SimCSGV3OnBoundaryOfOtherFragments
@@ -33250,7 +33264,6 @@ Simplification
 Simplified
 Simplifier
 SimplifyProjectionMatrixBuilding
-SimplifyRotatedBoudingRectCalculation
 SimPreserveConstraintsAfterEditing
 SimRecordCFramesAfterDrag
 SimRemoveBroadphaseCollisionWake
@@ -38267,6 +38280,7 @@ Studio.Common.Action.Name
 Studio.Common.Action.New
 Studio.Common.Action.Next
 Studio.Common.Action.No
+Studio.Common.Action.O
 Studio.Common.Action.OK
 Studio.Common.Action.Okay
 Studio.Common.Action.Open
@@ -43837,6 +43851,7 @@ VInstancesQuickOpenProvider
 VInstancesQuickOpenProviderWorker
 VInstancesSearchResult
 VInternalOcclusionQuery
+VIntersectOperation
 VIntHandler
 Vinvalid_argument
 Vinvalid_bool_value
