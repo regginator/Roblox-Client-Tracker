@@ -661,6 +661,7 @@ DFFlagRemoveLegacyPackageAnalytics
 DFFlagRemoveLegacyRedundantPlayerCheck
 DFFlagRemoveMd5
 DFFlagRemovePerfInfluxProfileDataTypeEnum
+DFFlagRemoveReportAbuseIfCheck
 DFFlagRemoveStreamedRegionSetCheck
 DFFlagRemoveUnnecessaryKick
 DFFlagRemoveWhitelistForReturnPortals
@@ -2993,6 +2994,7 @@ FFlagBootcampCLI65715
 FFlagBootcampCLI66257
 FFlagBootcampCLI66722
 FFlagBootcampCLI66753
+FFlagBootcampCLI67152
 FFlagBootcampPT283
 FFlagBreakAccoutrementCycles
 FFlagBrowserTrackerIdRequestUseWebId2
