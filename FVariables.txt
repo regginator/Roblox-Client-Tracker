@@ -2992,6 +2992,7 @@ FFlagBootcampCLI65612
 FFlagBootcampCLI65711
 FFlagBootcampCLI65715
 FFlagBootcampCLI66257
+FFlagBootcampCLI66722
 FFlagBootcampCLI66753
 FFlagBootcampPT283
 FFlagBreakAccoutrementCycles
@@ -3895,6 +3896,7 @@ FFlagNLSMLogTypeTotalElapsedTimeinMicroSeconds
 FFlagNLSMPeriodicallyLogMetrics
 FFlagNoHardcodedStringInLuaKickMessage
 FFlagNotchSpaceSupportIOS
+FFlagOffCenterOriginImporter
 FFlagOldLastNull
 FFlagOnlyRecordRegistryResetWhenReset
 FFlagOnlySaveWhenNotCorrupt
@@ -4158,6 +4160,7 @@ FFlagShorelines_Tooling
 FFlagShowBasePartExtentsProp
 FFlagShowConnectionErrorCode
 FFlagShowHSRMissingAssetIdWarnings
+FFlagShowOffCenterOriginImporter
 FFlagShowPlaySessionIdForHelpTab
 FFlagShowSkinnedMeshIcons
 FFlagShowVerifiedBadgeOnDisplayNameBillboard

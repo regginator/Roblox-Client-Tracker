@@ -773,6 +773,7 @@ dependencies = [
     "React React 0.1.0",
     "ReactRoblox ReactRoblox 0.1.0",
     "RoactNavigation RoactNavigation 0.1.0",
+    "SharedFlags SharedFlags 0.1.0",
     "TestUtils TestUtils 0.1.0",
 ]
 

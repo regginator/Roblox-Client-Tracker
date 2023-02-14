@@ -8115,6 +8115,7 @@ BootcampCLI65612
 BootcampCLI65711
 BootcampCLI65715
 BootcampCLI66257
+BootcampCLI66722
 BootcampCLI66753
 BootcampPT283
 Bootstrapper
@@ -13026,7 +13027,6 @@ DebugVisualizationImprovements
 DebugVisualizeAllPropertyChanges
 DebugVisualizePropertyWhitelist
 DebugVisualizerTrackRotationPredictions
-DebugVoiceChatCust
 DebugVoiceChatCustomLogFile
 DebugVoiceChatDisablePublishPauseRequest
 DebugVoiceChatDisableSubscribePauseRequest
@@ -21582,7 +21582,6 @@ LinkEnabledLabel
 LinkEnabledPlainTextEdit
 LinkFromContextMenu
 LinkingProtocol
-LinkingProtocolCo
 LinkingProtocolCore
 LinkingProtocolCore]
 LinkingProtocolImpl
@@ -24604,6 +24603,7 @@ OfCompressedBytes
 OfCreation
 OfDelivery
 OfE9E0uHfE9E
+OffCenterOriginImporter
 Office2016Style
 OfficeStyle
 OffMeshConnections
@@ -32928,6 +32928,7 @@ ShowLodControllerDebugView
 ShowLoginPageRequested
 ShowNativeInput
 ShowNotification
+ShowOffCenterOriginImporter
 ShowOrientationVerb
 ShowPackageDetails
 ShowPermissibleJoints
@@ -42459,6 +42460,7 @@ UserVRApplyHeadScaleToHandPositions
 UserVRBottomBarWorksBehindObjects
 UserVRVignetteToggle
 UsesAssetInsertionDrag
+UseSceneOriginAsCFrame
 UseSceneOriginAsPivot
 UseShortVP8TL2Pattern
 UseShortVP8TL3Pattern

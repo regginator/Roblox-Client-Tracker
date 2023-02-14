@@ -40042,6 +40042,24 @@
                 {
                     "Category": "Data",
                     "MemberType": "Property",
+                    "Name": "UseSceneOriginAsCFrame",
+                    "Security": {
+                        "Read": "None",
+                        "Write": "None"
+                    },
+                    "Serialization": {
+                        "CanLoad": true,
+                        "CanSave": true
+                    },
+                    "ThreadSafety": "ReadSafe",
+                    "ValueType": {
+                        "Category": "Primitive",
+                        "Name": "bool"
+                    }
+                },
+                {
+                    "Category": "Data",
+                    "MemberType": "Property",
                     "Name": "UseSceneOriginAsPivot",
                     "Security": {
                         "Read": "None",

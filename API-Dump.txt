@@ -2147,6 +2147,7 @@ Class ImporterRootSettings : ImporterBaseSettings [NotCreatable] [NotReplicated]
 	Property float ImporterRootSettings.PolygonCount [ReadOnly]
 	Property Enum.RigType ImporterRootSettings.RigType
 	Property Enum.MeshScaleUnit ImporterRootSettings.ScaleUnit
+	Property bool ImporterRootSettings.UseSceneOriginAsCFrame
 	Property bool ImporterRootSettings.UseSceneOriginAsPivot
 	Property bool ImporterRootSettings.UsesCages
 	Property Enum.NormalId ImporterRootSettings.WorldForward
