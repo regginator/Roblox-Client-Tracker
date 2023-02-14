@@ -54,6 +54,7 @@ return {
 	getFStringSocialUserSearchResultsPageLayer = require(script.getFStringSocialUserSearchResultsPageLayer),
 	getFStringSocialAddFriendsPageLayer = require(script.getFStringSocialAddFriendsPageLayer),
 	getFStringSocialFriendsLayer = require(script.getFStringSocialFriendsLayer),
+	getFStringSocialProfileLayer = require(script.getFStringSocialProfileLayer),
 	GetFStringLoadingScreenIxpLayer = require(script.GetFStringLoadingScreenIxpLayer),
 	GetFStringLargerRobuxUpsellIxpLayer = require(script.GetFStringLargerRobuxUpsellIxpLayer),
 

@@ -152,6 +152,7 @@ export type QueryOmniFeedArgs = {
 	nextPageToken: InputMaybe<typeof((({} :: any) :: Scalars).String)>?,
 	pageType: typeof((({} :: any) :: Scalars).String),
 	sessionId: typeof((({} :: any) :: Scalars).String),
+	supportedTreatmentTypes: InputMaybe<Array<InputMaybe<typeof((({} :: any) :: Scalars).String)>>>?,
 }
 export type QueryUserArgs = { id: typeof((({} :: any) :: Scalars).ID) }
 export type QueryVirtualEventArgs = { id: typeof((({} :: any) :: Scalars).ID) }
