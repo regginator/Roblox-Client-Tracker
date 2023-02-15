@@ -3563,7 +3563,6 @@ AVChorusSoundEffect
 AVChunkBinding
 AVChunkerException
 AVChunkMeshShape
-AVCircleRadialN
 AVCircleRadialNormal
 AVClassDescriptor
 AVClassListWidget
@@ -8271,6 +8270,7 @@ BrowserServiceController
 BrowserServiceDiagnose
 BrowserServiceDiagnose]
 BrowserTracker
+BrowserTrackerApiDeviceInitializeRolloutPercentage
 BrowserTrackerId
 BrowserTrackerIdRequest
 BrowserTrackerIdRequestUseWebId2
@@ -29465,7 +29465,6 @@ RegisterComputerMovementMode
 RegisterDefaultEncryptionKey
 RegisterDefaultSessionKey
 RegisterDeviceEventEXT
-RegisterDeviceNotificati
 RegisterDeviceNotificationW
 RegisterDisplayEventEXT
 Registered
