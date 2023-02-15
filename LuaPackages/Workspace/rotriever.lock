@@ -346,6 +346,7 @@ dependencies = [
     "AppCommonLib AppCommonLib 0.1.0",
     "ArgCheck ArgCheck 0.1.0",
     "Cryo Cryo 0.1.0",
+    "Dash Dash 0.1.0",
     "Fetch Fetch 0.1.0",
     "GraphqlHttpArtifacts GraphqlHttpArtifacts 0.1.0",
     "JestGlobals JestGlobals 0.1.0",

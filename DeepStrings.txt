@@ -110,6 +110,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._
 ABCDEFGIJKLMNOPQRSTVWXYZ[\]^_`acdefghijklmnpqrstuvwxyz
 ABCDEFlibpng
 ABCDEFuuuuuuuubtnufruuuuuuuuuuuuuuuuuu
+ABCDEFxHVE
 ABCDEILMNORSTVYZ[]^_`abcdefghijklmnopqrstuvwxyz
 ABCDEQQQQFQQQQGHQQQQQIQQJKQQQQQLMQQQNNQQOQQQQQQQQQP
 AbdmDefaultBaseRetryTimeMs
@@ -8117,6 +8118,7 @@ BootcampCLI65715
 BootcampCLI66722
 BootcampCLI66753
 BootcampCLI67152
+BootcampCLI67212
 BootcampPT283
 Bootstrapper
 BootstrapperUpdate
@@ -9166,7 +9168,6 @@ CheckPVDifferencesForInterpolationMinRotVelThresholdRadsPerSecHundredth
 CheckPVDifferencesForInterpolationMinVelThresholdStudsPerSecHundredth
 CheckPVLinearVelocityIntegrateVsDeltaPositionThresholdPercent
 CheckResult
-CheckShaderTextureLod
 CheckState
 ChecksumAlgorithms
 CheckTeamCreateReplicatorQueue
@@ -10046,7 +10047,6 @@ CloudLocalizationTableVerbose
 CloudLocalizationTableVerbose]
 CloudPluginLoadTime_
 Clouds2dFS
-CloudsAdditionalFormatCheck
 CloudsBsmFS
 CloudsClearToSkyColorFS
 CloudsComp
@@ -10452,6 +10452,16 @@ COLLAB2332SetDataModelDirtyAtTCStart
 COLLAB2385TranslatedErrorMessagingNonTCEnabled
 COLLAB2387PlaceUploadTeamCreateMessagingEnabled
 COLLAB2391FilterArchivedFromRecentGames
+COLLAB2397PlaceLauncherErrorStatusRetriesEnabled
+COLLAB2397PlaceLauncherErrorStatusRetriesEnabledHundredthPercent
+COLLAB2397PlaceLauncherGameEndedStatusRetriesEnabled
+COLLAB2397PlaceLauncherGameEndedStatusRetriesEnabledHundredthPercent
+COLLAB2397PlaceLauncherRccConstraintsVerificationFailedStatusRetriesEnabled
+COLLAB2397PlaceLauncherRccConstraintsVerificationFailedStatusRetriesEnabledHundredthPercent
+COLLAB2397PlaceLauncherRestrictedStatusRetriesEnabled
+COLLAB2397PlaceLauncherRestrictedStatusRetriesEnabledHundredthPercent
+COLLAB2397PlaceLauncherUnknownStatusRetriesEnabled
+COLLAB2397PlaceLauncherUnknownStatusRetriesEnabledHundredthPercent
 COLLAB2429EnableOneMinuteStatCollection
 COLLAB2446MRUListCrash
 COLLAB2453FixErrorMessagePointingToPlaceSettings
@@ -10956,6 +10966,7 @@ Consentiamo
 CONSEQUENTIAL
 Consistencia
 Consistency
+Consoles.Xbox.Classic.UI
 ConstantBufferAllocator
 ConstantBuffers
 ConstantBufferSize
@@ -15963,6 +15974,7 @@ FACSRigCFrameProvider
 FacsRootFaceJointExtraCharsError1
 FacsRootFaceJointNotStringError
 FacsRootFaceJointNoValueError
+FacsRtpTran
 FacsRtpTransport
 FacsRtpTransportImpl
 FacsTagInRepAndServStats
@@ -18556,7 +18568,6 @@ GraphicsParticles
 GraphicsParticlesFlipbook
 GraphicsParticlesFlipbookCompatibleSize
 GraphicsParticlesFlipbookInvalidateEntity
-GraphicsParticlesFlipbookNoClamp
 GraphicsParticlesSoftZOffsetFix3
 GraphicsParticlesSoftZOffsetFixGLDep2
 GraphicsParts
@@ -19569,7 +19580,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaTp
+HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -21301,7 +21312,6 @@ LaunchTime_Luobu
 LaunchTime_Mobile
 LaunchTime_Mobile_Country_
 LaunchWithNoMatchingLocalCredential
-Lavf59.16.100
 LayerCageFittedToBase
 LayerCageFittedToPrev
 LayerCollector
@@ -25431,8 +25441,6 @@ ParticleCurveModulateFS
 ParticleCurveModulateFS_Soft
 ParticleCurveVS
 ParticleCurveVS_Soft
-ParticleCustomClampVS
-ParticleCustomClampVS_Soft
 ParticleCustomFS
 ParticleCustomFS_Soft
 ParticleCustomVS
@@ -29721,6 +29729,7 @@ RemoveUILibraryWrapper
 RemoveUnnecessaryKick
 RemoveVersionAsync
 RemoveVertex
+RemoveWaitForLongProcessInUnion
 RemoveWhitelistForReturnPortals
 Remplacement
 Remplacements
@@ -31482,13 +31491,13 @@ ScriptEditorEnableBlockFormat
 ScriptEditorHorizontalScrollBar
 ScriptEditorLiveEditing
 ScriptEditorMenuBorderColor
+ScriptEditorMult
 ScriptEditorMultiCursor
 ScriptEditorMultiCursorBetaFeature
 ScriptEditorMultiCursorBetaFeatureRoleSet
 ScriptEditorMultiCursorBetaFeatureRolloutPercent
 ScriptEditorMultiCursorBetaFeatureUrl
 ScriptEditorMultiCursorEventThrottleHundredthPercent
-ScriptEditorMultl
 ScriptEditorRemoved
 ScriptEditorService
 ScriptEditorSettingAutoCleanEmptyLine
@@ -39556,7 +39565,6 @@ Teiloberfl
 Teilungspr
 TelegrafHTTPTransportUrl
 TelegrafUseHttpHundredthsPercent
-TelemetryClientCheckToClientStates
 TelemetryData
 TelemetryJSON
 TelemetrySID
@@ -43604,7 +43612,6 @@ VideoFrame
 VideoFrame]
 VideoFrameAction
 VideoFrameTrace]
-VideoHandler
 VideoHighCpuThresholdMHz
 VideoHighMemAudioBufferHeadroomFactor
 VideoHighMemThresholdMB
@@ -45825,6 +45832,7 @@ Xbad_function_call
 XbbXXbbXGSSGGSS
 XboxAppBridgeRewrite5
 XboxAvatarPaneRefreshInterval
+XboxClassicUILayer
 XboxGameDetailsRefreshInterval
 XboxGameSortsUpdateInterval
 XBoxOneMemoryLimitPercentageEstimate12GB
