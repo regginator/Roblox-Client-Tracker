@@ -3775,6 +3775,9 @@ Class SessionService : Instance [NotCreatable] [Service]
 	Function bool SessionService:SessionExists(string sid) {RobloxScriptSecurity}
 	Function void SessionService:SetMetadata(string sid, string key, Variant value) {RobloxScriptSecurity}
 	Function void SessionService:SetSession(string parentSid, string childSid, string tag) {RobloxScriptSecurity}
+Class SharedTableRegistry : Instance [NotCreatable] [Service] [NotReplicated]
+	Function SharedTable SharedTableRegistry:GetSharedTable(string name) {🧬Safe}
+	Function void SharedTableRegistry:SetSharedTable(string name, SharedTable? st) {🧬Safe}
 Class ShorelineUpgraderService : Instance [NotCreatable] [Service] [NotReplicated]
 	Function void ShorelineUpgraderService:Cancel() {RobloxScriptSecurity}
 	Function void ShorelineUpgraderService:Start() {RobloxScriptSecurity}

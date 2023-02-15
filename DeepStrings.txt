@@ -110,7 +110,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._
 ABCDEFGIJKLMNOPQRSTVWXYZ[\]^_`acdefghijklmnpqrstuvwxyz
 ABCDEFlibpng
 ABCDEFuuuuuuuubtnufruuuuuuuuuuuuuuuuuu
-ABCDEFxHVE
 ABCDEILMNORSTVYZ[]^_`abcdefghijklmnopqrstuvwxyz
 ABCDEQQQQFQQQQGHQQQQQIQQJKQQQQQLMQQQNNQQOQQQQQQQQQP
 AbdmDefaultBaseRetryTimeMs
@@ -840,6 +839,10 @@ AICOMLAutocompleteKeyPressOther
 AICOMLAutocompleteKeyPressRightBracket
 AICOMLAutocompleteKeyPressWhitespace
 AICOMLAutocompleteResponseTime
+AICOMLCompletionAcceptanceTelemetry
+AICOMLCompletionAccepted
+AICOMLCompletionCleared
+AICOMLCompletionShown
 AICOMLContextFilterAssignment
 AICOMLContextFilterComment
 AICOMLContextFilterFunction
@@ -6424,6 +6427,8 @@ AVSharedNewInstanceItem
 AVSharedQueueItem
 AVSharedReferencePropertyChangedItem
 AVSharedString
+AVSharedTable
+AVSharedTableRegistry
 AVShareModalControllerBase
 AVShareModalItem
 AVShareModalRibbonController
@@ -12094,6 +12099,7 @@ CurveSize1
 CustomAnimationField
 CustomAnimations
 CustomAnimationTypeAllow
+CustomAudioDe
 CustomAudioDeviceModule
 CustomAudioMixer
 CustomAudioMixerTask
@@ -15974,7 +15980,6 @@ FACSRigCFrameProvider
 FacsRootFaceJointExtraCharsError1
 FacsRootFaceJointNotStringError
 FacsRootFaceJointNoValueError
-FacsRtpTran
 FacsRtpTransport
 FacsRtpTransportImpl
 FacsTagInRepAndServStats
@@ -18180,6 +18185,7 @@ GetShaderInfoAMD
 GetShaderInfoLog
 GetShaderiv
 GetShaderSource
+GetSharedTable
 GetShellWindow
 GetShortPathNameW
 GetShouldUseLuaChat
@@ -19175,6 +19181,7 @@ HPEAVVideoStream
 HPEAXHPEANNH
 HPEBVQMimeData
 HQEAPEAVQGraphicsItem
+Hqt.qml.connections.warning
 HSRAlwaysVisible
 HSRAssetId
 HSRClusterSymmetryDistancePercent
@@ -26214,6 +26221,7 @@ PEAVServerStorage
 PEAVSessionDescriptionInterface
 PEAVSessionService
 PEAVSettings
+PEAVSharedTableRegistry
 PEAVShirtGraphic
 PEAVShorelineUpgraderService
 PEAVSingleLocaleTableTranslatorInstance
@@ -32640,6 +32648,7 @@ SetSendParameters
 SetSensorsEnabled
 SetSession
 SetSetting
+SetSharedTable
 SetShutdownMessage
 SetSimulcastId
 SetSnapOnFrameMode
@@ -32794,6 +32803,7 @@ SharedStringsDistribute
 SharedSystemMemory
 SharedTable
 SharedTableIterator
+SharedTableRegistry
 ShareGameModalPromptEntryPoint
 ShareGameModalPromptInviteSent
 ShareGameSettingsHubEntryPoint
@@ -44714,6 +44724,7 @@ VSharedString
 VSharedTable
 VSharedTableData
 VSharedTableIterator
+VSharedTableRegistry
 VShareModalWindow
 VShirtGraphic
 VShorelineUpgrader

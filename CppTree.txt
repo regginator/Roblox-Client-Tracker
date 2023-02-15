@@ -2674,6 +2674,7 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::SelectionSphere>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ServerScriptService>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ServerStorage>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::SessionService>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::SharedTableRegistry>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Shirt>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ShirtGraphic>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ShorelineUpgraderService>
@@ -3168,6 +3169,7 @@ RBX::Creator<class RBX::SelectionSphere>
 RBX::Creator<class RBX::ServerScriptService>
 RBX::Creator<class RBX::ServerStorage>
 RBX::Creator<class RBX::SessionService>
+RBX::Creator<class RBX::SharedTableRegistry>
 RBX::Creator<class RBX::Shirt>
 RBX::Creator<class RBX::ShirtGraphic>
 RBX::Creator<class RBX::ShorelineUpgraderService>
@@ -3875,6 +3877,7 @@ RBX::DescribedCreatable<class RBX::SelectionSphere,class RBX::PVAdornment>
 RBX::DescribedCreatable<class RBX::ServerScriptService,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::ServerStorage,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::SessionService,class RBX::ServiceInstance>
+RBX::DescribedCreatable<class RBX::SharedTableRegistry,class RBX::ServiceInstance>
 RBX::DescribedCreatable<class RBX::Shirt,class RBX::Clothing>
 RBX::DescribedCreatable<class RBX::ShirtGraphic,class RBX::LegacyCharacterAppearance>
 RBX::DescribedCreatable<class RBX::ShorelineUpgraderService,class RBX::ServiceInstance>
@@ -5812,6 +5815,8 @@ RBX::Reflection::BoundFuncDesc<class RBX::SessionService,void __cdecl(class std:
 RBX::Reflection::BoundFuncDesc<class RBX::SessionService,void __cdecl(class std::string const & __ptr64,class std::string const & __ptr64),2>
 RBX::Reflection::BoundFuncDesc<class RBX::SessionService,void __cdecl(class std::string const & __ptr64,class std::string const & __ptr64,class RBX::Reflection::Variant const & __ptr64),3>
 RBX::Reflection::BoundFuncDesc<class RBX::SessionService,void __cdecl(class std::string const & __ptr64,class std::string const & __ptr64,class std::string const & __ptr64),3>
+RBX::Reflection::BoundFuncDesc<class RBX::SharedTableRegistry,class RBX::SharedTable __cdecl(class std::string const & __ptr64),1>
+RBX::Reflection::BoundFuncDesc<class RBX::SharedTableRegistry,void __cdecl(class std::string const & __ptr64,class std::optional<class RBX::SharedTable> const & __ptr64),2>
 RBX::Reflection::BoundFuncDesc<class RBX::ShorelineUpgraderService,void __cdecl(void),0>
 RBX::Reflection::BoundFuncDesc<class RBX::SkateboardPlatform,void __cdecl(class RBX::Vector3),1>
 RBX::Reflection::BoundFuncDesc<class RBX::Smoke,void __cdecl(int),1>
@@ -10627,6 +10632,7 @@ RBX::SetGridSizeToSixteen
 RBX::SetGridSizeToTwo
 RBX::SetSdpObserver
 RBX::Settings
+RBX::SharedTableRegistry
 RBX::Shirt
 RBX::ShirtGraphic
 RBX::ShorelineUpgraderService
@@ -11502,8 +11508,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x9bcd5976::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xb1f8aa40::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xe1b220d1::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xcb87d3e7::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -14043,6 +14049,7 @@ std::_Ref_count_resource<class RBX::SelectionSphere * __ptr64,class RBX::Creatab
 std::_Ref_count_resource<class RBX::ServerScriptService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ServerScriptService> >
 std::_Ref_count_resource<class RBX::ServerStorage * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ServerStorage> >
 std::_Ref_count_resource<class RBX::SessionService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::SessionService> >
+std::_Ref_count_resource<class RBX::SharedTableRegistry * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::SharedTableRegistry> >
 std::_Ref_count_resource<class RBX::Shirt * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Shirt> >
 std::_Ref_count_resource<class RBX::ShirtGraphic * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ShirtGraphic> >
 std::_Ref_count_resource<class RBX::ShorelineUpgraderService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ShorelineUpgraderService> >
@@ -15116,8 +15123,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x9bcd5976::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xb1f8aa40::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xe1b220d1::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xcb87d3e7::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter

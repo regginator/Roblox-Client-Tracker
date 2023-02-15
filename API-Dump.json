@@ -72084,6 +72084,63 @@
             "Members": [
                 {
                     "MemberType": "Function",
+                    "Name": "GetSharedTable",
+                    "Parameters": [
+                        {
+                            "Name": "name",
+                            "Type": {
+                                "Category": "Primitive",
+                                "Name": "string"
+                            }
+                        }
+                    ],
+                    "ReturnType": {
+                        "Category": "DataType",
+                        "Name": "SharedTable"
+                    },
+                    "Security": "None",
+                    "ThreadSafety": "Safe"
+                },
+                {
+                    "MemberType": "Function",
+                    "Name": "SetSharedTable",
+                    "Parameters": [
+                        {
+                            "Name": "name",
+                            "Type": {
+                                "Category": "Primitive",
+                                "Name": "string"
+                            }
+                        },
+                        {
+                            "Name": "st",
+                            "Type": {
+                                "Category": "DataType",
+                                "Name": "SharedTable?"
+                            }
+                        }
+                    ],
+                    "ReturnType": {
+                        "Category": "Primitive",
+                        "Name": "void"
+                    },
+                    "Security": "None",
+                    "ThreadSafety": "Safe"
+                }
+            ],
+            "MemoryCategory": "Instances",
+            "Name": "SharedTableRegistry",
+            "Superclass": "Instance",
+            "Tags": [
+                "NotCreatable",
+                "Service",
+                "NotReplicated"
+            ]
+        },
+        {
+            "Members": [
+                {
+                    "MemberType": "Function",
                     "Name": "Cancel",
                     "Parameters": [
                     ],
