@@ -8114,7 +8114,6 @@ BootcampCLI63919
 BootcampCLI65612
 BootcampCLI65711
 BootcampCLI65715
-BootcampCLI66257
 BootcampCLI66722
 BootcampCLI66753
 BootcampCLI67152
@@ -16925,6 +16924,7 @@ FpFramebuffer
 FpsDuringJoin
 FpsVariance
 FqCRakNetEarlyPublicKey
+Fqt.qml.connections.warning
 Fractional
 FRAGMENT_SCRIPT
 Fragmentos
@@ -19570,7 +19570,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaTp3oE
+HwngSmldAskhBcraMaweNegsOgnaTp
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -21302,6 +21302,7 @@ LaunchTime_Luobu
 LaunchTime_Mobile
 LaunchTime_Mobile_Country_
 LaunchWithNoMatchingLocalCredential
+Lavf59.16.100
 LayerCageFittedToBase
 LayerCageFittedToPrev
 LayerCollector
@@ -28807,7 +28808,6 @@ QWidgetPluginGui
 QWidgetWindow
 QWindowsEGLContext
 QWindowsEGLStaticContext
-QXmlStreamA
 QXmlStreamAttributes
 QXmlStreamReader
 R_YY9455Uo
@@ -31483,13 +31483,13 @@ ScriptEditorEnableBlockFormat
 ScriptEditorHorizontalScrollBar
 ScriptEditorLiveEditing
 ScriptEditorMenuBorderColor
-ScriptEditorMult
 ScriptEditorMultiCursor
 ScriptEditorMultiCursorBetaFeature
 ScriptEditorMultiCursorBetaFeatureRoleSet
 ScriptEditorMultiCursorBetaFeatureRolloutPercent
 ScriptEditorMultiCursorBetaFeatureUrl
 ScriptEditorMultiCursorEventThrottleHundredthPercent
+ScriptEditorMultl
 ScriptEditorRemoved
 ScriptEditorService
 ScriptEditorSettingAutoCleanEmptyLine
@@ -38964,8 +38964,6 @@ StudioUpdateScriptEditorTelemetry
 StudioUpdateUserActionTelemetry
 StudioUpdateViewportOnEmulatedDeviceChange
 StudioUpgradedCounter
-StudioUploadVideoAlwaysUseMp4Chunker
-StudioUploadVideoDetailedErrorMessage
 StudioUploadVideoWithEncryption
 StudioUseCommonGetCheckBoxIconCall
 StudioUseFilterResultsCmd
@@ -43607,6 +43605,7 @@ VideoFrame
 VideoFrame]
 VideoFrameAction
 VideoFrameTrace]
+VideoHandler
 VideoHighCpuThresholdMHz
 VideoHighMemAudioBufferHeadroomFactor
 VideoHighMemThresholdMB
@@ -43685,7 +43684,6 @@ VideoStreamMinImageWidth
 VideoStreamMonitor
 VideoStreamMonitorDurationMaxDroppedFrameCount
 VideoStreamMonitorThreadEnabled
-VideoStreamPortraitModeResolutionCheck
 VideoStreamTaskIntervalMs
 VideoStreamUpperSeekSlopMs
 VIDEOTEXSTRING
