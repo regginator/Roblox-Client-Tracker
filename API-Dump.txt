@@ -166,6 +166,7 @@ Class AssetImportSession : Instance [NotCreatable] [NotReplicated]
 	Function Instance AssetImportSession:GetInstance(int nodeId) {RobloxScriptSecurity}
 	Function Instance AssetImportSession:GetSettingsRoot() {RobloxScriptSecurity}
 	Function bool AssetImportSession:IsAvatar() {RobloxScriptSecurity}
+	Function bool AssetImportSession:IsR15() {RobloxScriptSecurity}
 	Function void AssetImportSession:Upload() {RobloxScriptSecurity}
 	Event AssetImportSession.UploadComplete(bool succeeded, Dictionary errorMap)
 	Event AssetImportSession.UploadProgress(float progressRatio)
@@ -314,34 +315,6 @@ Class AvatarImportService : Instance [NotCreatable] [Service] [NotReplicated]
 	Function Instance AvatarImportService:ImportLoadedFBXAnimation(bool useFBXModel) {RobloxScriptSecurity} [Yields]
 	Function Instance AvatarImportService:LoadRigAndDetectType(Function promptR15Callback) {RobloxScriptSecurity} [Yields]
 Class Backpack : Instance
-Class BackpackItem : Instance [NotCreatable]
-	Property Content BackpackItem.TextureId
-Class HopperBin : BackpackItem [Deprecated]
-	Property bool HopperBin.Active [Deprecated]
-	Property Enum.BinType HopperBin.BinType [Deprecated]
-	Function void HopperBin:Disable() {RobloxScriptSecurity} [Deprecated]
-	Function void HopperBin:ToggleSelect() {RobloxScriptSecurity} [Deprecated]
-	Event HopperBin.Deselected() [Deprecated]
-	Event HopperBin.Selected(Instance mouse) [Deprecated]
-Class Tool : BackpackItem
-	Property string Tool.ToolTip
-	Property bool Tool.CanBeDropped
-	Property bool Tool.ManualActivationOnly
-	Property bool Tool.RequiresHandle
-	Property bool Tool.Enabled
-	Property CFrame Tool.Grip
-	Property Vector3 Tool.GripForward [Hidden] [NotReplicated]
-	Property Vector3 Tool.GripPos [Hidden] [NotReplicated]
-	Property Vector3 Tool.GripRight [Hidden] [NotReplicated]
-	Property Vector3 Tool.GripUp [Hidden] [NotReplicated]
-	Function void Tool:Activate()
-	Function void Tool:Deactivate()
-	Event Tool.Activated()
-	Event Tool.Deactivated()
-	Event Tool.Equipped(Mouse mouse)
-	Event Tool.Unequipped()
-Class Flag : Tool [Deprecated]
-	Property BrickColor Flag.TeamColor [Deprecated]
 Class BadgeService : Instance [NotCreatable] [Service]
 	Function bool BadgeService:AwardBadge(int64 userId, int64 badgeId) [Yields]
 	Function Dictionary BadgeService:GetBadgeInfoAsync(int64 badgeId) [Yields]
@@ -1685,7 +1658,7 @@ Class SurfaceGui : SurfaceGuiBase
 	Property Vector2 SurfaceGui.CanvasSize
 	Property float SurfaceGui.PixelsPerStud
 	Property Enum.SurfaceGuiSizingMode SurfaceGui.SizingMode
-Class TextureGuiExperimental : LayerCollector [NotCreatable] [NotReplicated]
+Class TextureGuiExperimental : LayerCollector [NotCreatable]
 	Property Vector2 TextureGuiExperimental.Size
 	Property Content TextureGuiExperimental.TemporaryId [ReadOnly]
 Class GuiBase3d : GuiBase [NotCreatable]
@@ -2092,7 +2065,7 @@ Class IXPService : Instance [NotCreatable] [Service] [NotReplicated]
 	Function void IXPService:RegisterUserLayers(Variant userLayers) {LocalUserSecurity}
 	Event IXPService.OnBrowserTrackerLayerLoadingStatusChanged(Enum.IXPLoadingStatus status) {LocalUserSecurity}
 	Event IXPService.OnUserLayerLoadingStatusChanged(Enum.IXPLoadingStatus status) {LocalUserSecurity}
-Class ImageDataExperimental : Instance [NotCreatable] [NotReplicated]
+Class ImageDataExperimental : Instance [NotCreatable]
 	Property Vector2 ImageDataExperimental.Size
 	Property Content ImageDataExperimental.TemporaryId [ReadOnly]
 	Function void ImageDataExperimental:PopulateFromImageAsync(Content textureId) [Yields]
@@ -2145,6 +2118,7 @@ Class ImporterRootSettings : ImporterBaseSettings [NotCreatable] [NotReplicated]
 	Property bool ImporterRootSettings.InvertNegativeFaces
 	Property bool ImporterRootSettings.MergeMeshes
 	Property float ImporterRootSettings.PolygonCount [ReadOnly]
+	Property Enum.RigScale ImporterRootSettings.RigScale
 	Property Enum.RigType ImporterRootSettings.RigType
 	Property Enum.MeshScaleUnit ImporterRootSettings.ScaleUnit
 	Property bool ImporterRootSettings.UseSceneOriginAsCFrame
@@ -2878,6 +2852,34 @@ Class Model : PVInstance
 	Function void Model:TranslateBy(Vector3 delta)
 	Function void Model:move(Vector3 location) [Deprecated]
 Class Actor : Model
+Class BackpackItem : Model [NotCreatable]
+	Property Content BackpackItem.TextureId
+Class HopperBin : BackpackItem [Deprecated]
+	Property bool HopperBin.Active [Deprecated]
+	Property Enum.BinType HopperBin.BinType [Deprecated]
+	Function void HopperBin:Disable() {RobloxScriptSecurity} [Deprecated]
+	Function void HopperBin:ToggleSelect() {RobloxScriptSecurity} [Deprecated]
+	Event HopperBin.Deselected() [Deprecated]
+	Event HopperBin.Selected(Instance mouse) [Deprecated]
+Class Tool : BackpackItem
+	Property string Tool.ToolTip
+	Property bool Tool.CanBeDropped
+	Property bool Tool.ManualActivationOnly
+	Property bool Tool.RequiresHandle
+	Property bool Tool.Enabled
+	Property CFrame Tool.Grip
+	Property Vector3 Tool.GripForward [Hidden] [NotReplicated]
+	Property Vector3 Tool.GripPos [Hidden] [NotReplicated]
+	Property Vector3 Tool.GripRight [Hidden] [NotReplicated]
+	Property Vector3 Tool.GripUp [Hidden] [NotReplicated]
+	Function void Tool:Activate()
+	Function void Tool:Deactivate()
+	Event Tool.Activated()
+	Event Tool.Deactivated()
+	Event Tool.Equipped(Mouse mouse)
+	Event Tool.Unequipped()
+Class Flag : Tool [Deprecated]
+	Property BrickColor Flag.TeamColor [Deprecated]
 Class Status : Model [NotCreatable] [Deprecated]
 Class WorldRoot : Model [NotCreatable]
 	Function bool WorldRoot:ArePartsTouchingOthers(Objects partList, float overlapIgnored = 0.000199999995)
@@ -6667,6 +6669,10 @@ Enum RibbonTool
 	EnumItem RibbonTool.Group : 7
 	EnumItem RibbonTool.Ungroup : 8
 	EnumItem RibbonTool.None : 9
+Enum RigScale
+	EnumItem RigScale.Default : 0
+	EnumItem RigScale.Rthro : 1
+	EnumItem RigScale.RthroNarrow : 2
 Enum RigType
 	EnumItem RigType.R15 : 0
 	EnumItem RigType.Rthro : 1

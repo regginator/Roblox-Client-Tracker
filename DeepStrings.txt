@@ -1678,6 +1678,7 @@ AssetImporter
 AssetImporter.rbxm
 AssetImporter.rbxm_Mesh
 AssetImporterExpandExceptionReporting
+AssetImporterExtractRigScale
 AssetImportFacsSupport
 AssetImportFixPivotScaling
 AssetImportIntegration
@@ -2308,6 +2309,7 @@ AURequireTracer
 AUResourceAndReason
 AUResponse
 AUReturnVisitor
+AURobloxBeginLiveScriptingNotification
 AURobloxCloseScriptDocumentRequest
 AURobloxCloseScriptDocumentResponse
 AURobloxCursorMoveRequest
@@ -2316,6 +2318,7 @@ AURobloxFindColor3ConstructorRequest
 AURobloxFindColor3ConstructorResponse
 AURobloxFindExecutablePositionRequest
 AURobloxFindExecutablePositionResponse
+AURobloxLiveEditingOperation
 AURobloxOpenScriptDocumentRequest
 AURobloxOpenScriptDocumentResponse
 AURobloxPatchSnippetDataNotification
@@ -4760,6 +4763,7 @@ AVIJupiterCommunicationLayer
 AVIkControl
 AVIKeyValueStorage
 AVILearnedWeightProvider
+AVILiveScriptingService
 AVILocalizationServiceStatReporter
 AVILoginManager
 AVILSPClient
@@ -7396,6 +7400,7 @@ AW4ReservedHighlightId
 AW4ReturnKeyType
 AW4ReverbType
 AW4RibbonTool
+AW4RigScale
 AW4RigType
 AW4RollOffMode
 AW4RotationOrder
@@ -8529,6 +8534,7 @@ CAF633AAEA11E38B9D871882A8E559
 CAF636AAEA11E38B9D871882A8E559
 CAF637AAEA11E38B9D871882A8E559
 CageDeformer
+CagedHSRV17
 CagedHSRV17.rbxm
 CageHasMaterialWarning
 CageHoleNum
@@ -12099,7 +12105,6 @@ CurveSize1
 CustomAnimationField
 CustomAnimations
 CustomAnimationTypeAllow
-CustomAudioDe
 CustomAudioDeviceModule
 CustomAudioMixer
 CustomAudioMixerTask
@@ -15675,6 +15680,7 @@ ExperienceSettingsLocaleIdSetFromLuaSignalRateLimitCapacity
 ExperienceSettingsLocaleIdSetFromLuaSignalRateLimitDuration
 Experiment
 Experimental
+ExperimentalRuntimeTextureCreation
 ExperimentalSolverIsEnabled
 Experimentation
 Experimentation.ExposureTest.AccessLayer
@@ -16320,7 +16326,6 @@ FileSyncService
 FileSyncService.
 FileSyncServiceManager
 FileSyncStateDecorators
-FileSyncUtilsDepfile
 FileSyncValidation
 FileSystem
 FileSystemGetCacheDirectoryLikeAndroid
@@ -16559,6 +16564,7 @@ FixCursorUsingStrokeColorInsteadOfTextColor
 FixCutAndUndoAfterSavingCSGUnionToNewFile
 FixD3D11BufferMap
 FixDanglingPointer
+FixDefaultCharacterWrapTargets
 FixDeformerUpdateOnCageEdit
 FixDeserializeDecodeInstances
 FixDiscardHSRWithTempCageIdBug
@@ -16608,6 +16614,7 @@ FixMouseDriftFirstPerson
 FixMouseDriftGlobalPositioning
 FixNestedViewportFrame
 FixNPCStreamOut
+FixOffCenterOriginSelectionBox
 FixPlaceSizeReporting
 FixPluginRibbonIconScaling
 FixPurchasePromptInVR
@@ -19181,7 +19188,6 @@ HPEAVVideoStream
 HPEAXHPEANNH
 HPEBVQMimeData
 HQEAPEAVQGraphicsItem
-Hqt.qml.connections.warning
 HSRAlwaysVisible
 HSRAssetId
 HSRClusterSymmetryDistancePercent
@@ -19587,7 +19593,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT
+HwngSmldAskhBcraMaweNegsOgnaT`
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -25665,10 +25671,12 @@ PEAUrcCompactHeightfield
 PEAUrcContourSet
 PEAUrcHeightfield
 PEAUrcPolyMesh
+PEAURobloxBeginLiveScriptingNotification
 PEAURobloxFindColor3ConstructorRequest
 PEAURobloxFindColor3ConstructorResponse
 PEAURobloxFindExecutablePositionRequest
 PEAURobloxFindExecutablePositionResponse
+PEAURobloxLiveEditingOperation
 PEAURobloxPatchSnippetDataNotification
 PEAURobloxRegisterSyntaxCategoriesRequest
 PEAURobloxRegisterSyntaxCategoriesResponse
@@ -25965,6 +25973,7 @@ PEAVHumanoidController
 PEAVHumanoidDescription
 PEAVIkControl
 PEAVIKeyValueStorage
+PEAVImageDataExperimental
 PEAVImageHandleAdornment
 PEAVImageLabel
 PEAVImporterAnimationSettings
@@ -26296,6 +26305,7 @@ PEAVTextLabel
 PEAVTextSearcher
 PEAVTextService
 PEAVTextSource
+PEAVTextureGuiExperimental
 PEAVThreadState
 PEAVTimerService
 PEAVToastNotificationService
@@ -29958,7 +29968,6 @@ RepeatPixels
 Replace...
 ReplaceAbort
 ReplaceAllButtonEnabled
-ReplaceAllNeedleInReplace
 ReplaceBodyPartR15
 ReplaceButtonEnabled
 ReplaceButtons
@@ -30579,6 +30588,7 @@ ReturnToEngagement
 ReturnToJavaScript
 ReturnType
 RevealInExplorer
+RevealToolIsModel
 Revenue.RobuxUpsell.CatalogUI
 ReverbProperties
 ReverbSoundEffect
@@ -33242,6 +33252,7 @@ Simplifier
 SimplifyProjectionMatrixBuilding
 SimPreserveConstraintsAfterEditing
 SimRecordCFramesAfterDrag
+SimRefactorPhysicalConfigDataHeaderSerialization
 SimRemoveBroadphaseCollisionWake
 SimRemovedAssemblyCheckBeforeOverlapReport
 SimRenderXRayConstraints
@@ -33263,6 +33274,7 @@ SimSolverLargeWorkloadThreshold
 SimSolverLimitMaxMotorAcceleration
 SimSolverLimitVectorsWithL2Norm
 SimSolverOptimizedIslandizerIKBugFix
+SimSolverRefactorConstraintDescriptions
 SimSolverResponsiveness
 SimTimestepArbiterAccModel
 SimTimestepArbiterUpdates
@@ -39696,6 +39708,8 @@ Temp[i].index
 Temp[i].namezz
 TempAssetId
 TempCloudEditScript
+TempCreateImageData
+TempCreateTextureGui
 Temperature
 TempFileCreationFailure
 TemplateAsTC
@@ -42199,6 +42213,7 @@ URLRequest
 URLResponse
 UrlWithBrowser
 URobloxApiGame
+URobloxBeginLiveScriptingNotification
 URobloxCloseScriptDocumentRequest
 URobloxCloseScriptDocumentResponse
 URobloxCursorMoveRequest
@@ -42207,6 +42222,7 @@ URobloxFindColor3ConstructorRequest
 URobloxFindColor3ConstructorResponse
 URobloxFindExecutablePositionRequest
 URobloxFindExecutablePositionResponse
+URobloxLiveEditingOperation
 URobloxOpenScriptDocumentRequest
 URobloxOpenScriptDocumentResponse
 URobloxPatchSnippetDataNotification
@@ -42334,6 +42350,7 @@ UserDataResult
 UserDataStoreService
 UserDialog
 UserDynamicThumbstickMoveOverButtons
+UserDynamicThumbstickSafeAreaUpdate
 UserEmotesEnabled
 UserEmoteToRunThresholdChange
 UserEnableCameraToggleNotification
@@ -44289,7 +44306,7 @@ VoiceChatTokenRequest
 VoiceChatTokenThrottleMs
 VoiceChatUpdateSourcesIntervalMs
 VoiceChatUpdateSourcesOnSeparateThread
-VoiceChatUseCustomAudioDeviceProd5
+VoiceChatUseCustomAudioDeviceProd6
 VoiceChatV3BlockingForAll
 VoiceChatValidMgrSingletonUse
 VoiceChatVerifyUserUpdatesByMatching
@@ -45713,6 +45730,7 @@ WrapPuffinessDefaultPercent
 WrapTarget
 WrapTargetDebugMode
 WrapTargets
+WrapTargets.rbxm
 Write_Marshalled
 WriteArray
 WriteConsoleW

@@ -2494,6 +2494,7 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Humanoid>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::HumanoidController>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::HumanoidDescription>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IkControl>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageDataExperimental>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageHandleAdornment>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageLabel>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IncrementalPatchBuilder>
@@ -2798,6 +2799,7 @@ RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextFilterResultInstance
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextLabel>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextService>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextSource>
+RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextureGuiExperimental>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TimerService>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Tool>
 RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TouchInputService>
@@ -3403,7 +3405,7 @@ RBX::Described<class RBX::AssetImport::ImporterRootSettings,class RBX::AssetImpo
 RBX::Described<class RBX::AssetImportSession,class RBX::Instance>
 RBX::Described<class RBX::AssetService,class RBX::ServiceInstance>
 RBX::Described<class RBX::AssetSoundEffect,class RBX::Soundscape::CustomSoundEffect>
-RBX::Described<class RBX::BackpackItem,class RBX::Instance>
+RBX::Described<class RBX::BackpackItem,class RBX::ModelInstance>
 RBX::Described<class RBX::BasePart,class RBX::PVInstance>
 RBX::Described<class RBX::BasePlayerGui,class RBX::Instance>
 RBX::Described<class RBX::BaseScript,class RBX::LuaSourceContainer>
@@ -4597,6 +4599,7 @@ RBX::LineHandleAdornment
 RBX::LineHandleAdornmentProp
 RBX::LiveEditing::`anonymous namespace'::ServerCommunicationLayer
 RBX::LiveEditing::IJupiterCommunicationLayer
+RBX::LiveScriptingServices::ILiveScriptingService
 RBX::LiveScriptingServices::LiveScriptingService
 RBX::LMS::AnalyticsProvider
 RBX::LMS::AnalyticsProviderBase
@@ -6612,6 +6615,7 @@ RBX::Reflection::EnumDesc<enum RBX::RejectCharacterDeletions>
 RBX::Reflection::EnumDesc<enum RBX::RenderFidelity>
 RBX::Reflection::EnumDesc<enum RBX::RenderingTestComparisonMethod>
 RBX::Reflection::EnumDesc<enum RBX::RibbonTool>
+RBX::Reflection::EnumDesc<enum RBX::RigScale>
 RBX::Reflection::EnumDesc<enum RBX::RigType>
 RBX::Reflection::EnumDesc<enum RBX::RunService::RenderPriority>
 RBX::Reflection::EnumDesc<enum RBX::SafeAreaCompatMode>
@@ -6740,6 +6744,7 @@ RBX::Reflection::EnumPropDescriptor<class RBX::AnimationStreamTrack,enum RBX::An
 RBX::Reflection::EnumPropDescriptor<class RBX::AnimationTrack,enum RBX::AnimationPriority>
 RBX::Reflection::EnumPropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::MeshScaleUnit>
 RBX::Reflection::EnumPropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::NormalId>
+RBX::Reflection::EnumPropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::RigScale>
 RBX::Reflection::EnumPropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::RigType>
 RBX::Reflection::EnumPropDescriptor<class RBX::BasePart,enum RBX::MaterialType>
 RBX::Reflection::EnumPropDescriptor<class RBX::BasePart,enum RBX::NetworkOwnership>
@@ -7871,6 +7876,7 @@ RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,cla
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,class RBX::Vector3>::GetImpl<class RBX::Vector3 (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::MeshScaleUnit>::GetSetImpl<enum RBX::MeshScaleUnit (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64,void (__cdecl RBX::AssetImport::ImporterRootSettings::*)(enum RBX::MeshScaleUnit) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::NormalId>::GetSetImpl<enum RBX::NormalId (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64,void (__cdecl RBX::AssetImport::ImporterRootSettings::*)(enum RBX::NormalId) __ptr64>
+RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::RigScale>::GetSetImpl<enum RBX::RigScale (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64,void (__cdecl RBX::AssetImport::ImporterRootSettings::*)(enum RBX::RigScale) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,enum RBX::RigType>::GetSetImpl<enum RBX::RigType (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64,void (__cdecl RBX::AssetImport::ImporterRootSettings::*)(enum RBX::RigType) __ptr64>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,float>
 RBX::Reflection::PropDescriptor<class RBX::AssetImport::ImporterRootSettings,float>::GetImpl<float (__cdecl RBX::AssetImport::ImporterRootSettings::*)(void)const __ptr64>
@@ -10237,6 +10243,7 @@ RBX::Reflection::TypedPropertyDescriptor<enum RBX::Reflection::Metadata::Service
 RBX::Reflection::TypedPropertyDescriptor<enum RBX::RejectCharacterDeletions>::GetSet
 RBX::Reflection::TypedPropertyDescriptor<enum RBX::RenderFidelity>::GetSet
 RBX::Reflection::TypedPropertyDescriptor<enum RBX::RenderingTestComparisonMethod>::GetSet
+RBX::Reflection::TypedPropertyDescriptor<enum RBX::RigScale>::GetSet
 RBX::Reflection::TypedPropertyDescriptor<enum RBX::RigType>::GetSet
 RBX::Reflection::TypedPropertyDescriptor<enum RBX::SafeAreaCompatMode>::GetSet
 RBX::Reflection::TypedPropertyDescriptor<enum RBX::ScreenInsetsType>::GetSet
@@ -11508,8 +11515,8 @@ rtc::RefCountedObject<class webrtc::`anonymous namespace'::CreateSessionDescript
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::IdWithDirection>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedId>
 rtc::RefCountedObject<class webrtc::`anonymous namespace'::TypedIntId>
-rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xe1b220d1::NotAdvertised<struct webrtc::AudioDecoderL16> > >
-rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xcb87d3e7::NotAdvertised<struct webrtc::AudioEncoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x8ba9c81f::NotAdvertised<struct webrtc::AudioDecoderL16> > >
+rtc::RefCountedObject<class webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xa19c3b29::NotAdvertised<struct webrtc::AudioEncoderL16> > >
 rtc::RefCountedObject<class webrtc::AudioDeviceModuleImpl>
 rtc::RefCountedObject<class webrtc::AudioMixerImpl>
 rtc::RefCountedObject<class webrtc::AudioProcessingImpl>
@@ -12120,6 +12127,7 @@ std::_Func_base<void,class RBX::json::Value const & __ptr64>
 std::_Func_base<void,class RBX::JsonRpc::Invocation & __ptr64>
 std::_Func_base<void,class RBX::LocalizationService * __ptr64,struct RBX::Localization::LocaleManifest::LocaleIdOrSource>
 std::_Func_base<void,class RBX::LSP::ILSPClient * __ptr64>
+std::_Func_base<void,class RBX::LuaSourceContainer * __ptr64,class std::string >
 std::_Func_base<void,class RBX::LuaSourceContainer * __ptr64>
 std::_Func_base<void,class RBX::MeshId>
 std::_Func_base<void,class RBX::Network::Replicator * __ptr64,int,struct RBX::Network::MegaReplicationData * __ptr64>
@@ -12478,7 +12486,6 @@ std::_Func_base<void,unsigned int>
 std::_Func_base<void,unsigned long,class std::string const & __ptr64,class std::string const & __ptr64,enum FW::Action>
 std::_Func_base<void,void * __ptr64,int,enum RBX::EntityType * __ptr64,double * __ptr64,double * __ptr64,double * __ptr64>
 std::_Func_base<void,void * __ptr64,int>
-std::_Func_base<void,void * __ptr64>
 std::_Func_base<void>
 std::_Func_impl_no_alloc<bool (__cdecl*)(class QString const & __ptr64),bool,class QString const & __ptr64>
 std::_Func_impl_no_alloc<bool (__cdecl*)(class QTextCursor const & __ptr64,class QTextCursor const & __ptr64),bool,class QTextCursor const & __ptr64,class QTextCursor const & __ptr64>
@@ -13284,7 +13291,7 @@ std::_Ref_count_obj2<class RBX::Soundscape::FMODPlaybackChannelGroup>
 std::_Ref_count_obj2<class RBX::Soundscape::FMODPlaybackDSP>
 std::_Ref_count_obj2<class RBX::Soundscape::FMODSound>
 std::_Ref_count_obj2<class RBX::Soundscape::MonoMixDsp>
-std::_Ref_count_obj2<class RBX::Soundscape::RCU::Guarded<class RBX::DenseSet<void * __ptr64,struct RBX::DenseMapInfo<void * __ptr64> >,4> >
+std::_Ref_count_obj2<class RBX::Soundscape::RCU::Guarded<class RBX::DenseMap<void * __ptr64,class std::shared_ptr<void>,struct RBX::DenseMapInfo<void * __ptr64>,struct RBX::detail::DenseMapPair<void * __ptr64,class std::shared_ptr<void> > >,4> >
 std::_Ref_count_obj2<class RBX::Soundscape::RingBufferAudioSinkOutput>
 std::_Ref_count_obj2<class RBX::Soundscape::SoundEmitter>
 std::_Ref_count_obj2<class RBX::Soundscape::SoundObject>
@@ -13328,6 +13335,7 @@ std::_Ref_count_obj2<class RBX::TrackerData const >
 std::_Ref_count_obj2<class RBX::TrackerData>
 std::_Ref_count_obj2<class RBX::TrackerLodController>
 std::_Ref_count_obj2<class RBX::Typesetter>
+std::_Ref_count_obj2<class RBX::unique_function<void __cdecl(void)> >
 std::_Ref_count_obj2<class RBX::UnsecuredStudioGame>
 std::_Ref_count_obj2<class RBX::UserCertManager>
 std::_Ref_count_obj2<class RBX::UsernameHandler>
@@ -13859,6 +13867,7 @@ std::_Ref_count_resource<class RBX::HumanoidController * __ptr64,class RBX::Crea
 std::_Ref_count_resource<class RBX::HumanoidDescription * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::HumanoidDescription> >
 std::_Ref_count_resource<class RBX::IkControl * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IkControl> >
 std::_Ref_count_resource<class RBX::IKeyValueStorage * __ptr64,struct std::default_delete<class RBX::IKeyValueStorage> >
+std::_Ref_count_resource<class RBX::ImageDataExperimental * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageDataExperimental> >
 std::_Ref_count_resource<class RBX::ImageHandleAdornment * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageHandleAdornment> >
 std::_Ref_count_resource<class RBX::ImageLabel * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::ImageLabel> >
 std::_Ref_count_resource<class RBX::IncrementalPatchBuilder * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::IncrementalPatchBuilder> >
@@ -14173,6 +14182,7 @@ std::_Ref_count_resource<class RBX::TextFilterResultInstance * __ptr64,class RBX
 std::_Ref_count_resource<class RBX::TextLabel * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextLabel> >
 std::_Ref_count_resource<class RBX::TextService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextService> >
 std::_Ref_count_resource<class RBX::TextSource * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextSource> >
+std::_Ref_count_resource<class RBX::TextureGuiExperimental * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TextureGuiExperimental> >
 std::_Ref_count_resource<class RBX::TimerService * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::TimerService> >
 std::_Ref_count_resource<class RBX::Tool * __ptr64,class RBX::Creatable<class RBX::Instance>::Deleter<class RBX::Tool> >
 std::_Ref_count_resource<class RBX::ToolMouseCommand * __ptr64,class RBX::Creatable<class RBX::MouseCommand>::Deleter<class RBX::ToolMouseCommand> >
@@ -14265,10 +14275,12 @@ std::_Ref_count_resource<struct RBX::LSP::InitializeResponse * __ptr64,struct st
 std::_Ref_count_resource<struct RBX::LSP::MLCompletionRequest * __ptr64,struct std::default_delete<struct RBX::LSP::MLCompletionRequest> >
 std::_Ref_count_resource<struct RBX::LSP::MLCompletionResponse * __ptr64,struct std::default_delete<struct RBX::LSP::MLCompletionResponse> >
 std::_Ref_count_resource<struct RBX::LSP::PublishDiagnosticsNotification * __ptr64,struct std::default_delete<struct RBX::LSP::PublishDiagnosticsNotification> >
+std::_Ref_count_resource<struct RBX::LSP::RobloxBeginLiveScriptingNotification * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxBeginLiveScriptingNotification> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxFindColor3ConstructorRequest * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxFindColor3ConstructorRequest> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxFindColor3ConstructorResponse * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxFindColor3ConstructorResponse> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxFindExecutablePositionRequest * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxFindExecutablePositionRequest> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxFindExecutablePositionResponse * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxFindExecutablePositionResponse> >
+std::_Ref_count_resource<struct RBX::LSP::RobloxLiveEditingOperation * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxLiveEditingOperation> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxPatchSnippetDataNotification * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxPatchSnippetDataNotification> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxRegisterSyntaxCategoriesRequest * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxRegisterSyntaxCategoriesRequest> >
 std::_Ref_count_resource<struct RBX::LSP::RobloxRegisterSyntaxCategoriesResponse * __ptr64,struct std::default_delete<struct RBX::LSP::RobloxRegisterSyntaxCategoriesResponse> >
@@ -15123,8 +15135,8 @@ webrtc::AcknowledgedBitrateEstimatorInterface
 webrtc::AdaptiveModeLevelEstimatorAgc
 webrtc::Agc
 webrtc::AsyncResolverFactory
-webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0xe1b220d1::NotAdvertised<struct webrtc::AudioDecoderL16> >
-webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xcb87d3e7::NotAdvertised<struct webrtc::AudioEncoderL16> >
+webrtc::audio_decoder_factory_template_impl::AudioDecoderFactoryT<struct webrtc::AudioDecoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioDecoderMultiChannelOpus>,struct webrtc::AudioDecoderIsacFix,struct webrtc::AudioDecoderG722,struct webrtc::AudioDecoderIlbc,struct webrtc::AudioDecoderG711,struct webrtc::A0x8ba9c81f::NotAdvertised<struct webrtc::AudioDecoderL16> >
+webrtc::audio_encoder_factory_template_impl::AudioEncoderFactoryT<struct webrtc::AudioEncoderOpus,struct webrtc::`anonymous namespace'::NotAdvertised<struct webrtc::AudioEncoderMultiChannelOpus>,struct webrtc::AudioEncoderIsacFix,struct webrtc::AudioEncoderG722,struct webrtc::AudioEncoderIlbc,struct webrtc::AudioEncoderG711,struct webrtc::A0xa19c3b29::NotAdvertised<struct webrtc::AudioEncoderL16> >
 webrtc::AudioBuffer
 webrtc::AudioCodingModule
 webrtc::AudioConverter

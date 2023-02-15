@@ -7,7 +7,7 @@ BuiltInPlugins\DepFiles\AlignmentTool.d
 BuiltInPlugins\DepFiles\AnimationClipEditor.d
 34d9971e6671f1bfdead1ad3fe2bca32
 BuiltInPlugins\DepFiles\AssetImporter.d
-ad76571fe61eb9813cd92c5ca87e836f
+ab9c7cca63a6097033e744765bfbeb3a
 BuiltInPlugins\DepFiles\AssetManager.d
 39a39cbe6be00d9eab1f633ef11fdd10
 BuiltInPlugins\DepFiles\AudioDiscovery.d
@@ -95,7 +95,7 @@ bf2a4324013c5c88a2a6b6c4414f2d97
 BuiltInPlugins\Optimized_Embedded_Signature\AnimationClipEditor.rbxm
 23e3c4c546ccae392b053dc5ae82fb98
 BuiltInPlugins\Optimized_Embedded_Signature\AssetImporter.rbxm
-3c4bfa4840e3f98a17cfbe3740b545b2
+0fddbd2bd4d56047e5d9226e903f2677
 BuiltInPlugins\Optimized_Embedded_Signature\AssetManager.rbxm
 1ef10799be17527f14455a40de9abf7f
 BuiltInPlugins\Optimized_Embedded_Signature\AudioDiscovery.rbxm
@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-9f5c13ea41594e17a36c1b7678368f6c
+a744325a451c0765d53e9c5f517dc8c4
 QtitanDocking.dll
-dbe92a3ecb10fc647a0dcb52c0f21677
+88778e42b44c6ff99517861c4c387c38
 QtitanRibbon.dll
-022b40b2671856966184747584861d69
+410671382cd8ad38d7441929507c9494
 ReflectionMetadata.xml
 eb09f990f5c82e94733e75df4561c57e
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-880101e89db17a0a9ab5886d308180c9
+0b55b2e0f18a3c717fc5bd6ee59e3482
 RobloxStudioRibbon.xml
 00e9a3abf465d35ef42d13fcb9407518
 d3dcompiler_47.dll
@@ -1782,6 +1782,8 @@ content\avatar\characterCagedHSR.rbxm
 1246d73a9e29cb303dd6aabafc783b73
 content\avatar\characterCagedHSRV17.rbxm
 30b897f5e451808bb9fe87c118050ee9
+content\avatar\characterCagedHSRV17-fixed-WrapTargets.rbxm
+497e0cba316f502d3854f998f9243b69
 content\avatar\characterR15V2.rbxm
 7ad2691331d11551434c412fdb14a9c5
 content\avatar\characterR15V5.rbxm
@@ -1945,7 +1947,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-c472edbe0d967a8d415953e782fc777c
+a7a10b7b7c604da519f2b7e50e0c6ae2
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -31433,7 +31435,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-816a278145d902c7df047ab4b15c7cc9
+92c64b01cfe6e87f8b423fb5f7d6b75c
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png
