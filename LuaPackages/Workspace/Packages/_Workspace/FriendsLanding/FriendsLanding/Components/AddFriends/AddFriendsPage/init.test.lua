@@ -10,7 +10,8 @@ local getFFlagContactImporterWithPhoneVerification = dependencies.getFFlagContac
 local getFFlagAddFriendsSearchbarIXPEnabled = dependencies.getFFlagAddFriendsSearchbarIXPEnabled
 local getFFlagEnableContactInvitesForNonPhoneVerified = dependencies.getFFlagEnableContactInvitesForNonPhoneVerified
 local getFFlagAddFriendsNewEmptyStateAndBanners = dependencies.getFFlagAddFriendsNewEmptyStateAndBanners
-local getFFlagProfileQRCodeReducerEnabled = dependencies.getFFlagProfileQRCodeReducerEnabled
+local getFFlagProfileQRCodeCoreFeaturesEnabled = dependencies.getFFlagProfileQRCodeCoreFeaturesEnabled
+local getFFlagAddFriendsQRCodeAnalytics = dependencies.getFFlagAddFriendsQRCodeAnalytics
 
 local devDependencies = require(FriendsLanding.devDependencies)
 local RhodiumHelpers = devDependencies.RhodiumHelpers
@@ -48,6 +49,8 @@ local function createInstance(requests, extraProps: any)
 		fireContactImporterSeenEvent = Dash.noop,
 		isPhoneVerified = true,
 		isDiscoverabilityUnset = false,
+		fireProfileQRCodeBannerSeenEvent = if getFFlagAddFriendsQRCodeAnalytics() then Dash.noop else nil,
+		fireProfileQRCodeBannerPressedEvent = if getFFlagAddFriendsQRCodeAnalytics() then Dash.noop else nil,
 	}
 	extraProps = extraProps or {}
 	return createInstanceWithProviders(mockLocale)(AddFriendsPage, {
@@ -205,50 +208,77 @@ describe("showMore button behavior", function()
 	end)
 end)
 
-describe("QR code banner behavior", function()
-	local instance, cleanup, navigation
+if getFFlagAddFriendsNewEmptyStateAndBanners() then
+	describe("QR code banner behavior", function()
+		local instance, cleanup, navigation
+		local fireProfileQRCodeBannerPressedEventSpy = jest.fn()
+		local fireProfileQRCodeBannerSeenEventSpy = jest.fn()
 
-	beforeEach(function()
-		navigation = {
-			navigate = jest.fn(),
-		}
-		instance, cleanup = createInstance({}, {
-			navigation = navigation,
-		})
-	end)
+		beforeEach(function()
+			navigation = {
+				navigate = jest.fn(),
+			}
+			instance, cleanup = createInstance({}, {
+				navigation = navigation,
+				fireProfileQRCodeBannerPressedEvent = if getFFlagAddFriendsQRCodeAnalytics()
+					then function()
+						fireProfileQRCodeBannerPressedEventSpy()
+					end
+					else nil,
+				fireProfileQRCodeBannerSeenEvent = if getFFlagAddFriendsQRCodeAnalytics()
+					then function()
+						fireProfileQRCodeBannerSeenEventSpy()
+					end
+					else nil,
+			})
+		end)
 
-	afterEach(function()
-		cleanup()
-	end)
+		afterEach(function()
+			cleanup()
+		end)
 
-	it("SHOULD render QR code banner correctly", function()
-		testElement(instance, function()
-			return RhodiumHelpers.findFirstInstance(instance, {
+		if getFFlagAddFriendsQRCodeAnalytics() then
+			it("SHOULD fire QR Code analytic events", function()
+				local banner = RhodiumHelpers.findFirstInstance(instance, {
+					Name = "QRCodeBanner",
+				})
+
+				if getFFlagProfileQRCodeCoreFeaturesEnabled() then
+					expect(fireProfileQRCodeBannerSeenEventSpy).toHaveBeenCalledTimes(1)
+
+					RhodiumHelpers.clickInstance(banner)
+					expect(fireProfileQRCodeBannerPressedEventSpy).toHaveBeenCalledTimes(1)
+				end
+			end)
+		end
+
+		it("SHOULD render QR code banner correctly", function()
+			testElement(instance, function()
+				return RhodiumHelpers.findFirstInstance(instance, {
+					Name = "QRCodeBanner",
+				})
+			end, function(banner)
+				if getFFlagProfileQRCodeCoreFeaturesEnabled() then
+					expect(banner).never.toBeNil()
+				else
+					expect(banner).toBeNil()
+				end
+			end)
+		end)
+
+		it("SHOULD call navigate to QR Code Page when clicked", function()
+			local banner = RhodiumHelpers.findFirstInstance(instance, {
 				Name = "QRCodeBanner",
 			})
-		end, function(banner)
-			if getFFlagProfileQRCodeReducerEnabled() then
-				expect(banner).never.toBeNil()
-			else
-				expect(banner).toBeNil()
+
+			if getFFlagProfileQRCodeCoreFeaturesEnabled() then
+				RhodiumHelpers.clickInstance(banner)
+				expect(navigation.navigate).toHaveBeenCalledTimes(1)
+				expect(navigation.navigate).toHaveBeenCalledWith(EnumScreens.ProfileQRCodePage)
 			end
 		end)
 	end)
-
-	it("SHOULD call navigate to QR Code Page when clicked", function()
-		local banner = RhodiumHelpers.findFirstInstance(instance, {
-			Name = "QRCodeBanner",
-		})
-
-		if getFFlagProfileQRCodeReducerEnabled() then
-			RhodiumHelpers.clickInstance(banner)
-			expect(navigation.navigate).toHaveBeenCalledTimes(1)
-			expect(navigation.navigate).toHaveBeenCalledWith(EnumScreens.ProfileQRCodePage)
-		end
-	end)
-
-	--TODO SOCGRAPH-626: add tests for analytics
-end)
+end
 
 describe("Contact importer is visible", function()
 	local fireContactImporterAnalyticsEvents, fireContactImporterSeenEvent, navigation

@@ -27,10 +27,13 @@ local getFFlagShowContactImporterTooltipOnce = require(FriendsLanding.Flags.getF
 local getFFlagContactImporterUseNewTooltip = require(FriendsLanding.Flags.getFFlagContactImporterUseNewTooltip)
 local ImpressionEvents = require(FriendsLanding.FriendsLandingAnalytics.ImpressionEvents)
 local contactImporterTooltip = require(FriendsLanding.Utils.contactImporterTooltip)
+local SocialLuaAnalytics = dependencies.SocialLuaAnalytics
+local Contexts = SocialLuaAnalytics.Analytics.Enums.Contexts
 local getFFlagAddFriendsSearchbarIXPEnabled = dependencies.getFFlagAddFriendsSearchbarIXPEnabled
 local getFFlagAddFriendsFullSearchbarAnalytics = dependencies.getFFlagAddFriendsFullSearchbarAnalytics
 local getFStringSocialAddFriendsPageLayer = dependencies.getFStringSocialAddFriendsPageLayer
 local getFFlagAddFriendsNewEmptyStateAndBanners = dependencies.getFFlagAddFriendsNewEmptyStateAndBanners
+local getFFlagAddFriendsQRCodeAnalytics = dependencies.getFFlagAddFriendsQRCodeAnalytics
 
 local GET_FRIEND_REQUESTS_LIMIT_PER_PAGE = 25
 local GET_FRIEND_REQUESTS_LIMIT_PER_PAGE_WIDE = 50
@@ -275,7 +278,7 @@ function AddFriendsContainer:init()
 	self.fireContactImporterAnalyticsEvents = function()
 		self.props.analytics:navigate("ConnectWithFriends")
 		self.props.analytics:buttonClick(ButtonClickEvents.ConnectWithFriends, {
-			contextOverride = "addFriendsUniversal",
+			contextOverride = Contexts.AddFriends.rawValue(),
 		})
 	end
 
@@ -289,6 +292,19 @@ function AddFriendsContainer:init()
 				self.props.analytics,
 				{ formFactor = self.props.wideMode and FormFactor.WIDE or FormFactor.COMPACT }
 			)
+		end
+	end
+
+	if getFFlagAddFriendsQRCodeAnalytics() then
+		self.fireProfileQRCodeBannerSeenEvent = function()
+			self.props.analytics:impressionEvent(ImpressionEvents.ProfileQRCodeBannerSeen)
+		end
+
+		self.fireProfileQRCodeBannerPressedEvent = function()
+			self.props.analytics:navigate("ProfileQRCodePage")
+			self.props.analytics:buttonClick(ButtonClickEvents.ProfileQRCode, {
+				contextOverride = Contexts.AddFriends.rawValue(),
+			})
 		end
 	end
 end
@@ -356,6 +372,12 @@ function AddFriendsContainer:render()
 			then self.fireSearchbarPressedEvent
 			else nil,
 		openProfilePeekView = self.props.openProfilePeekView,
+		fireProfileQRCodeBannerSeenEvent = if getFFlagAddFriendsQRCodeAnalytics()
+			then self.fireProfileQRCodeBannerSeenEvent
+			else nil,
+		fireProfileQRCodeBannerPressedEvent = if getFFlagAddFriendsQRCodeAnalytics()
+			then self.fireProfileQRCodeBannerPressedEvent
+			else nil,
 	})
 end
 

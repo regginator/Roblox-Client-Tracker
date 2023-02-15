@@ -15,6 +15,7 @@ local compose = SocialLibraries.RoduxTools.compose
 local ImageSetButton = UIBlox.Core.ImageSet.Button
 
 local getFFlagSearchbarAndroidBackButton = require(FriendsLanding.Flags.getFFlagSearchbarAndroidBackButton)
+local getFFlagAddFriendsFixSocialTabSearchbar = require(FriendsLanding.Flags.getFFlagAddFriendsFixSocialTabSearchbar)
 local getFFlagAddFriendsSearchbarIXPEnabled = dependencies.getFFlagAddFriendsSearchbarIXPEnabled
 local getFFlagAddFriendsFullSearchbarAnalytics = dependencies.getFFlagAddFriendsFullSearchbarAnalytics
 
@@ -47,14 +48,20 @@ function HeaderBarCenterView:render()
 	return FriendsLandingContext.with(function(context)
 		local screenTopBar = context.getScreenTopBar(EnumScreens.FriendsLanding)
 
-		local navigation = if getFFlagSearchbarAndroidBackButton() then self.props.navigation else nil
-		local routeName = if getFFlagSearchbarAndroidBackButton()
+		local navigation = if getFFlagSearchbarAndroidBackButton() or getFFlagAddFriendsFixSocialTabSearchbar()
+			then self.props.navigation
+			else nil
+		local routeName = if getFFlagSearchbarAndroidBackButton() or getFFlagAddFriendsFixSocialTabSearchbar()
 			then navigation and navigation.state and navigation.state.routeName
 			else nil
 
 		local wideModeSearchbarButton
 		if getFFlagAddFriendsSearchbarIXPEnabled() and context.addFriendsPageSearchbarEnabled then
-			wideModeSearchbarButton = context.wideMode and self.props.shouldRenderSearchbarButtonInWideMode
+			if getFFlagAddFriendsFixSocialTabSearchbar() then
+				wideModeSearchbarButton = context.wideMode and (routeName == EnumScreens.AddFriends)
+			else
+				wideModeSearchbarButton = context.wideMode and self.props.shouldRenderSearchbarButtonInWideMode
+			end
 			if not (wideModeSearchbarButton or screenTopBar.shouldRenderCenter) then
 				return nil
 			elseif getFFlagSearchbarAndroidBackButton() then

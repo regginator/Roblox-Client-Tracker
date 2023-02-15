@@ -40,6 +40,8 @@ return {
 	GetFFlagGetMultiplePlaceInfosDeprecateWebApi = require(script.GetFFlagGetMultiplePlaceInfosDeprecateWebApi),
 	getFFlagSocialAddGameJoinSource = require(script.getFFlagSocialAddGameJoinSource),
 	getFFlagAddFriendsNewEmptyStateAndBanners = require(script.getFFlagAddFriendsNewEmptyStateAndBanners),
+	getFFlagAddFriendsQRCodeAnalytics = require(script.getFFlagAddFriendsQRCodeAnalytics),
+	getFFlagProfileQRCodeCoreFeaturesEnabled = require(script.getFFlagProfileQRCodeCoreFeaturesEnabled),
 
 	-- Notifications
 	getFFlagEnableNotificationExperienceInvite = require(script.getFFlagEnableNotificationExperienceInvite),
@@ -125,6 +127,7 @@ return {
 		script.GetFFlagPhoneVerificationWebviewShouldBeFullscreen
 	),
 	getFFlagSocialOnboardingExperimentEnabled = require(script.getFFlagSocialOnboardingExperimentEnabled),
+	GetFFlagApolloClientFetchThumbnails = require(script.GetFFlagApolloClientFetchThumbnails),
 	GetFFlagApiFetchThumbnailsKeyMapper = require(script.GetFFlagApiFetchThumbnailsKeyMapper),
 	getFFlagDebugLuaAppAlwaysUseGamepad = require(script.getFFlagDebugLuaAppAlwaysUseGamepad),
 }

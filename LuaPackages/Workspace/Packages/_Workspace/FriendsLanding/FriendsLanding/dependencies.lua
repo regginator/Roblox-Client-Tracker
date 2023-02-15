@@ -28,7 +28,8 @@ local getFFlagEnableContactInvitesForNonPhoneVerified =
 local getFFlagSocialAddGameJoinSource = require(Packages.SharedFlags).getFFlagSocialAddGameJoinSource
 local getFFlagAddFriendsNewEmptyStateAndBanners =
 	require(Packages.SharedFlags).getFFlagAddFriendsNewEmptyStateAndBanners
-local getFFlagProfileQRCodeReducerEnabled = require(Packages.SharedFlags).getFFlagProfileQRCodeReducerEnabled
+local getFFlagProfileQRCodeCoreFeaturesEnabled = require(Packages.SharedFlags).getFFlagProfileQRCodeCoreFeaturesEnabled
+local getFFlagAddFriendsQRCodeAnalytics = require(Packages.SharedFlags).getFFlagAddFriendsQRCodeAnalytics
 
 local HttpRequest = LuaSocialLibrariesDeps.httpRequest
 local myHttpRequest = HttpRequest.config({
@@ -138,7 +139,8 @@ return {
 	getFFlagProfileQRCodeFriendRequestContextInfoEnabled = getFFlagProfileQRCodeFriendRequestContextInfoEnabled,
 	getFFlagSocialAddGameJoinSource = getFFlagSocialAddGameJoinSource,
 	getFFlagAddFriendsNewEmptyStateAndBanners = getFFlagAddFriendsNewEmptyStateAndBanners,
-	getFFlagProfileQRCodeReducerEnabled = getFFlagProfileQRCodeReducerEnabled,
+	getFFlagProfileQRCodeCoreFeaturesEnabled = getFFlagProfileQRCodeCoreFeaturesEnabled,
+	getFFlagAddFriendsQRCodeAnalytics = getFFlagAddFriendsQRCodeAnalytics,
 
 	FindFriendsModal = ContactImporter.FindFriendsModal,
 	ContactsList = ContactImporter.ContactsList,

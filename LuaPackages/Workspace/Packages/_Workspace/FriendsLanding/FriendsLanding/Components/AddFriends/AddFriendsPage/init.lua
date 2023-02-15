@@ -37,7 +37,8 @@ local getFFlagAddFriendsSearchbarIXPEnabled = dependencies.getFFlagAddFriendsSea
 local getFFlagAddFriendsFullSearchbarAnalytics = dependencies.getFFlagAddFriendsFullSearchbarAnalytics
 local getFFlagEnableContactInvitesForNonPhoneVerified = dependencies.getFFlagEnableContactInvitesForNonPhoneVerified
 local getFFlagAddFriendsNewEmptyStateAndBanners = dependencies.getFFlagAddFriendsNewEmptyStateAndBanners
-local getFFlagProfileQRCodeReducerEnabled = dependencies.getFFlagProfileQRCodeReducerEnabled
+local getFFlagProfileQRCodeCoreFeaturesEnabled = dependencies.getFFlagProfileQRCodeCoreFeaturesEnabled
+local getFFlagAddFriendsQRCodeAnalytics = dependencies.getFFlagAddFriendsQRCodeAnalytics
 
 local AddFriendsContentFrame = require(script.Parent.AddFriendsContentFrame)
 
@@ -72,7 +73,6 @@ AddFriendsPage.validateProps = t.strictInterface({
 	handleRequestFriendship = t.optional(t.callback),
 	handleIgnoreAllFriendsRequests = t.optional(t.callback),
 	handleLoadMoreRequests = t.optional(t.callback),
-	handleOpenProfileQRCodePage = if getFFlagAddFriendsNewEmptyStateAndBanners() then t.optional(t.callback) else nil,
 	contactImporterAndPYMKEnabled = t.optional(t.boolean),
 	contactImporterExperimentVariant = t.optional(t.string),
 	navigation = t.optional(t.table),
@@ -91,6 +91,8 @@ AddFriendsPage.validateProps = t.strictInterface({
 	setScreenTopBar = if getFFlagAddFriendsSearchbarIXPEnabled() then t.optional(Dash.isCallable) else nil,
 	addFriendsPageSearchbarEnabled = if getFFlagAddFriendsSearchbarIXPEnabled() then t.optional(t.boolean) else nil,
 	originSourceType = t.optional(t.table),
+	fireProfileQRCodeBannerSeenEvent = if getFFlagAddFriendsQRCodeAnalytics() then t.optional(t.callback) else nil,
+	fireProfileQRCodeBannerPressedEvent = if getFFlagAddFriendsQRCodeAnalytics() then t.optional(t.callback) else nil,
 })
 
 AddFriendsPage.defaultProps = {
@@ -277,6 +279,10 @@ function AddFriendsPage:init()
 
 	self.openProfileQRCodePage = if getFFlagAddFriendsNewEmptyStateAndBanners()
 		then function()
+			if getFFlagAddFriendsQRCodeAnalytics() then
+				self.props.fireProfileQRCodeBannerPressedEvent()
+			end
+
 			self.props.navigation.navigate(EnumScreens.ProfileQRCodePage)
 		end
 		else nil
@@ -285,6 +291,14 @@ end
 function AddFriendsPage:didMount()
 	if self.showContactImporterBanner(self.props) then
 		self.props.fireContactImporterSeenEvent()
+	end
+
+	if getFFlagAddFriendsQRCodeAnalytics() then
+		local qrCodeBannerShown = getFFlagAddFriendsNewEmptyStateAndBanners()
+			and getFFlagProfileQRCodeCoreFeaturesEnabled()
+		if qrCodeBannerShown then
+			self.props.fireProfileQRCodeBannerSeenEvent()
+		end
 	end
 end
 
@@ -358,7 +372,7 @@ function AddFriendsPage:render()
 					})
 					else nil
 
-				qrCodeBanner = if getFFlagProfileQRCodeReducerEnabled()
+				qrCodeBanner = if getFFlagProfileQRCodeCoreFeaturesEnabled()
 					then Roact.createElement(AddFriendsGenericBanner, {
 						bannerIcon = Images["icons/graphic/scanqr_large"],
 						bannerTitle = localized.qrCodeBannerTitle,
