@@ -834,6 +834,7 @@ AICOInverseTrigger2
 AICOKeyPressEnter
 AICOKeyPressShiftEnter
 AICOMLAutocompleteEmptyResponse
+AICOMLAutocompleteKeyPressBackspace
 AICOMLAutocompleteKeyPressEquals
 AICOMLAutocompleteKeyPressOther
 AICOMLAutocompleteKeyPressRightBracket
@@ -846,6 +847,7 @@ AICOMLCompletionShown
 AICOMLContextFilterAssignment
 AICOMLContextFilterComment
 AICOMLContextFilterFunction
+AICOTriggerOnBackspace
 AimdRateControl
 AinCorrectExpectedRequestCount
 AinPointsThrottleValue
@@ -8127,6 +8129,7 @@ BootcampCLI65711
 BootcampCLI65715
 BootcampCLI66722
 BootcampCLI66753
+BootcampCLI67122
 BootcampCLI67152
 BootcampCLI67212
 BootcampPT283
@@ -15710,6 +15713,8 @@ Explorer...
 ExplorerFilterAnalyticsDelayMs
 ExplorerFiltering
 ExplorerFiltering]
+ExplorerFiltering_BetterColors_Beta
+ExplorerFiltering_BetterColors_Cloud
 ExplorerFilterThrottleHundredthsPercent
 ExplorerImageIndex
 ExplorerLeftRightNavigationButton
@@ -30107,6 +30112,7 @@ ReportAbuseDeadCodeHit
 ReportAbuseV2
 ReportAbuseV3
 ReportAnimationTrackSpamInfluxHundrethsPercent
+ReportAnythingScreenshot
 ReportAssetSale
 ReportAsyncHttpQueueFailedErase
 ReportAvatarAssetLoadTimesPerMyriad
@@ -31509,13 +31515,13 @@ ScriptEditorEnableBlockFormat
 ScriptEditorHorizontalScrollBar
 ScriptEditorLiveEditing
 ScriptEditorMenuBorderColor
-ScriptEditorMult
 ScriptEditorMultiCursor
 ScriptEditorMultiCursorBetaFeature
 ScriptEditorMultiCursorBetaFeatureRoleSet
 ScriptEditorMultiCursorBetaFeatureRolloutPercent
 ScriptEditorMultiCursorBetaFeatureUrl
 ScriptEditorMultiCursorEventThrottleHundredthPercent
+ScriptEditorMultlS
 ScriptEditorRemoved
 ScriptEditorService
 ScriptEditorSettingAutoCleanEmptyLine
@@ -34085,7 +34091,6 @@ StatusRemoved
 StatusSuccessIcon
 StatusType
 StdWString
-StealLeastAudibleSoundChannelOnMaxSurpassed3
 SteelSeries
 SteerFloat
 StencilBufferSize
@@ -38583,7 +38588,6 @@ StudioEnableLocalSaveReportSuccessHundredthPercentage
 StudioEnableMultiTouchGestureEmulation
 StudioEnableQtHiDpi
 StudioEnableStartPageTeamCreateToggle
-StudioEnableVideoImportM0
 StudioError
 StudioErrorReporterFilterJunkCallstacks
 StudioExplorerBetterDisabledScriptAppearance
@@ -42462,6 +42466,7 @@ UserTotalPluginLoadTime
 UserTransparencyControllerDeltaTime
 UseRuntimeConfigForFlipProfilerFrame
 UserUpdatePlayerScriptsTouchControlsEnabled
+UserUpdatesByMatching
 UServerSchemaInfo
 UserVRApplyHeadScaleToHandPositions
 UserVRBottomBarWorksBehindObjects

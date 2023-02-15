@@ -21,6 +21,7 @@ dependencies = [
     "ApolloClient ApolloClient 0.1.0",
     "JestGlobals JestGlobals 0.1.0",
     "LuauPolyfill LuauPolyfill 0.1.0",
+    "SharedFlags SharedFlags 0.1.0",
 ]
 
 [[package]]
@@ -319,6 +320,7 @@ version = "0.1.0"
 name = "GraphQLServer"
 version = "0.1.0"
 dependencies = [
+    "DataLoader DataLoader 0.1.0",
     "Fetch Fetch 0.1.0",
     "GraphQL GraphQL 0.1.0",
     "GraphqlHttpArtifacts GraphqlHttpArtifacts 0.1.0",
@@ -328,6 +330,7 @@ dependencies = [
     "LuauPolyfill LuauPolyfill 0.1.0",
     "Promise Promise 0.1.0",
     "RecordPlayback RecordPlayback 0.1.0",
+    "SharedFlags SharedFlags 0.1.0",
     "UrlBuilder UrlBuilder 0.1.0",
 ]
 
