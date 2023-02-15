@@ -110,6 +110,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._
 ABCDEFGIJKLMNOPQRSTVWXYZ[\]^_`acdefghijklmnpqrstuvwxyz
 ABCDEFlibpng
 ABCDEFuuuuuuuubtnufruuuuuuuuuuuuuuuuuu
+ABCDEFxEVE
 ABCDEILMNORSTVYZ[]^_`abcdefghijklmnopqrstuvwxyz
 ABCDEQQQQFQQQQGHQQQQQIQQJKQQQQQLMQQQNNQQOQQQQQQQQQP
 AbdmDefaultBaseRetryTimeMs
@@ -564,7 +565,6 @@ AEAIAEAHAEAI
 AEAPEAUAssetModuleInfo
 AEAPEAV567
 AEAUComparisonResult
-AEAUStartGameStatistics
 AEAUTypeChecker
 AEAV9boost
 AEAVHttpRequest
@@ -572,7 +572,6 @@ AEAVHttpResponse
 AEAVHttpServerResponse
 AEAVios_base
 AEAVMetadata
-AEAVProtectedString
 AEAVQByteArray
 AEAVQImage
 AEAVQString
@@ -1185,7 +1184,6 @@ AndShowIDEDoc
 AndShowIDEDocFromPlaceSessionConfigSuccess
 AndSuspend
 AndUpdateResultsCount
-AndValidateScript
 Anforderung.
 Angeforderter
 AngleSnapEnabled
@@ -1386,7 +1384,6 @@ ApolloServerUrl
 Apparition
 AppBridge]
 AppBridgePlaceLaunchExponentialBaseFraction
-AppBridgePlaceLaunchMaxRetries
 AppBridgePlaceLaunchMaxSleepBetweenRequests
 AppBridgePlaceLaunchMaxTotalSleepTime
 AppBridgePlaceLaunchRetryWaitInSec
@@ -1677,10 +1674,6 @@ AssetImportedSignal
 AssetImporter
 AssetImporter.rbxm
 AssetImporter.rbxm_Mesh
-AssetImporterBetaFeature
-AssetImporterBetaFeatureRoleSet
-AssetImporterBetaFeatureRolloutPercent
-AssetImporterBetaFeatureUrl
 AssetImporterExpandExceptionReporting
 AssetImportFacsSupport
 AssetImportFixPivotScaling
@@ -1698,8 +1691,6 @@ AssetManager.rbxm
 AssetManager.rbxm_assetManagerToolbar
 AssetManager.rbxm_assetManagerToolbar_assetManagerToolButton
 AssetManagerDockAction
-AssetManagerEnableModelAssets
-AssetManagerGeneralizeSignalAPI
 AssetManagerService
 AssetMapping
 AssetModified
@@ -3572,6 +3563,7 @@ AVChorusSoundEffect
 AVChunkBinding
 AVChunkerException
 AVChunkMeshShape
+AVCircleRadialN
 AVCircleRadialNormal
 AVClassDescriptor
 AVClassListWidget
@@ -5194,7 +5186,6 @@ AVMemoryStoreServiceProp
 AVMemoryStoreSortedMap
 AVMemoryStoreSortedMapProp
 AVMemoryTrackerCategoryStatsItem
-AVMemoryWatchdogJob
 AVMemProfStorage
 AVMemStorageConnection
 AVMemStorageConnectionProp
@@ -5531,7 +5522,6 @@ AVPingItem
 AVPingJob_deprecated
 AVPitchShiftSoundEffect
 AVplaceholder
-AVPlaceLauncherImpl
 AVPlaceMemoryStatsItem
 AVPlaceOpenException
 AVPlaceResourceController
@@ -6326,7 +6316,6 @@ AVSctpTransportInternalFactory
 AVSearchContextHandler
 AVSearchGroupHandle
 AVSearchResult
-AVSecurePlayerGame
 AVSecureRandomGenerator
 AVSeekHeadParser
 AVSeekParser
@@ -6752,7 +6741,6 @@ AVTeamCreatePublishService
 AVTeamCreateService
 AVTeamsProp
 AVTeleportAsyncResult
-AVTeleportCallback_DEPRECATED
 AVTeleportOptions
 AVTeleportOptionsProp
 AVTeleportService
@@ -8591,10 +8579,8 @@ CallbackCount
 CallbackDsp
 CallbackLambdaWhenDeleted
 CallFunction
-CallGameJoin
 CallGameJoinApi
 CallInContext
-CallLoginNegotiate
 CallNextHookEx
 CallNtPowerInformation
 CalloutAnalytics
@@ -9838,7 +9824,6 @@ ClientDisconnectReasons
 ClientDisconnectReasons2
 ClientDisconnectWithCode_
 ClientExternalBrowserUserAgent
-ClientFireEventPlaceLauncherFail3
 ClientFPS_
 ClientFPS_Country_
 ClientGitHash
@@ -13269,7 +13254,6 @@ DeleteSync
 DeleteTextures
 DELETETOSTARTOFLINE
 DeleteVertexArrays
-DeliverLowMemoryWarningsViaPolling
 DeliverRtcp
 DeliverRtp
 DeliveryMethod
@@ -14515,7 +14499,6 @@ EAAXW45234
 EAAXW4GuiType
 EAAXW4LegacyPartType
 EAAXW4LogState
-EAAXW4MarshallerType
 EAAXW4StreamingPauseMode
 EAAXW4UserInputType
 EAAXXZAEAPEAV345
@@ -14977,7 +14960,6 @@ EnableAnimatorRetargetingMode
 EnableAppPolicyDefaultsFile
 EnableAppTracing3
 EnableAssetFailedEvent
-EnableAssetImporter
 EnableAudioChannelCountProperty
 EnableAudioChannelSelector
 EnableAuthV2Login
@@ -15369,7 +15351,6 @@ ErrorCode401
 ErrorConnection
 ErrorCount
 ErrorCountLabel
-ErrorDescription
 ErrorDetailed
 ErrorDetected
 ErrorDialog
@@ -17076,7 +17057,6 @@ FreeFallOrientationP
 FreeLength
 FreeLibrary
 FreeMemory
-FreeMemoryKB
 FreeMemoryMBytes
 FreeMemoryNV
 FreeOsMemDelta
@@ -17179,7 +17159,6 @@ FunctionBreakpoints
 FunctionDescriptor
 FunctionH9
 FunctionIds
-FunctionMarshaller
 FunctionName
 FunctionScriptSlotImpl
 FunctionUnused
@@ -17247,7 +17226,6 @@ GameJoinFailure
 GameJoinFlowTelemetryThrottle
 GameJoinLoadTime
 GameJoinLoadTime]
-GameJoinResponse
 GameJoinStart
 GameJoinSuccess
 GameJoinSuccess_
@@ -17384,7 +17362,6 @@ GamesPageController.getGamesPageModel
 GamesPageController.onGameClicked
 GamesPageModel
 GameStartInfo
-GameStartScript
 GameStateChanged
 GameStateTypeAboutToChange
 GameStateTypeChanged
@@ -18425,7 +18402,6 @@ Giocabilit
 GivenByTargetSpeedKBps
 GizmoRaycast
 GizmoScaleAction
-GjkConvexCast
 GL_ARB_copy_image
 GL_ARB_half_float_vertex
 GL_ARB_pixel_buffer_object
@@ -19596,7 +19572,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaTP
+HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -21017,7 +20993,6 @@ JoinPlaySession
 JoinRate.ashx
 JoinReport
 JoinRequestType
-JoinScriptStatus
 JoinSendExtraItemCount
 JoinSnapShotTime
 JoinStructureMismatchReport
@@ -21028,7 +21003,6 @@ JointCreationMode
 JoinTelemetryInfluxHundredthsPercentage
 JoinTime_Case1_
 JoinTime_Case1_Attempt_
-JoinTime_executeUrlJoinScript
 JoinTime_LocalUserClusterPriority
 JoinTime_LocalUserMeshPriority
 JoinTime_USA_
@@ -21404,8 +21378,6 @@ LeaveEvent
 LeaveFromDestination
 LeaveFromSource
 LeaveReportAllMultistreamSubscriptionsTimings
-LeaveStartingCoreScriptsToPlaceLauncher
-LeaveUGCGame_
 Left_key.png
 Left_key_dn.png
 Left_old.png
@@ -22000,7 +21972,6 @@ LoginFailureStudio
 LoginFailureStudioInfluxDbHundredthsPercentage
 LoginManager
 LoginManager]
-LoginNegotiateResponse
 LoginOther
 LoginPageOpenTime
 LoginPageRequested
@@ -22096,7 +22067,6 @@ LowerLipSuck
 LowerTorso
 LowerTorso_Geo
 LowerTorso_OuterCage
-LowMemoryWarning
 LowPassTimeFilter
 LowQGlassFS
 LowQMaterialDetiledFS_
@@ -22152,7 +22122,6 @@ LuaAppsDiagPageLoadTimeGames
 LuaAppsDiagPageLoadTimeHome
 LuaAppsDiagRateLimitedErrorsCount
 LuaAppsDiagRateLimitedErrorsCounter
-LuaAppSendDeviceInfoInOmniPrefetch
 LuaAppsErrorCount
 LuaAppSiteMessageBannerEnabled
 LuaAppSizesWithValidDefaults
@@ -22997,7 +22966,6 @@ MemoryUtilityCurvePenaltyBuffer
 MemoryUtilityCurveSlopeMultiplierHundreths
 MemoryUtilityCurveStartingSlopeHundreths
 MemoryUtilityCurveTotalMemoryReserve
-MemoryWatchdogJob
 MemStorage
 MemStorageConnection
 MemStorageService
@@ -23776,7 +23744,6 @@ Nachrichten
 Nachrichtenfenster
 NackListSizeLimitLocal
 NackPacketsReceivedPerMinute
-NAEAUStartGameStatistics
 NAEAVHttpResponse
 NAEAVInstance
 NAEBUDataBuffer
@@ -25089,7 +25056,6 @@ OutlineSelection1
 OutlineTransparency
 OutMenuAction
 OutOfMemory
-OutOfMemory_EarlyExit
 OutOfRange
 OutPhysics
 OutPhysicsCFrameOnly
@@ -25521,7 +25487,6 @@ PartTexturePackTable2022
 PartTexturePackTablePre2022
 PartyCannotFit
 PartyDataKey
-PartyLeader
 Pass3dAdorn
 PassDataModelDPIScale
 PassGetProductRollout
@@ -26513,8 +26478,6 @@ PerfFilterPlatform
 PerfFilterReportIntervalMs
 PerfFilterSummaryReportIntervalMs
 PerfHistogram
-PerfHistogram]
-PerfHistogramReportHundrethsPercentage
 PerfHudMode
 Performance
 Performance.
@@ -26896,10 +26859,6 @@ PKIResponse
 PktDropReportFor
 PktDropStatsRecordWindowInMillisecond
 PktDropStatsReportThreshold
-PL_TeleportBackoffBaseMs
-PL_TeleportMaxBackoffMs
-PL_TeleportMaxElapsedTimeMs
-PL_TeleportPlaceLauncherExpBackoffRollout
 Place_Prims_PercDynamicAssemblies
 PlaceAction
 PlaceChangesFailed
@@ -26930,11 +26889,8 @@ PlacelaunchCustomMessage
 PlacelaunchDisabled
 PlaceLaunched
 Placelauncher
-PlaceLauncher
 PlaceLauncher.ashx
-PlaceLauncher]
 PlaceLauncherDuration
-PlaceLauncherExceptionInfluxHundredthsPercentage
 PlaceLauncherPayload
 PlaceLauncherRequestDuration
 PlaceLauncherRequestErrorMessage
@@ -26952,7 +26908,6 @@ PlaceLauncherStartToFetchedScriptTime_Country_
 PlaceLauncherStartToFetchedScriptTime_Luobu
 PlacelauncherStartToJoinScript
 PlacelauncherStats
-PlaceLauncherTeleportLog
 PlacelaunchFlooded
 PlacelaunchGameEnded
 PlacelaunchGameFull
@@ -27161,7 +27116,6 @@ PlayerRemoved
 PlayerRemoveRequested
 PlayerRemoving
 PlayerReplicated
-PlayErrors
 PlayersAndServers
 PlayersColorCollection
 PlayerScript
@@ -29511,6 +29465,7 @@ RegisterComputerMovementMode
 RegisterDefaultEncryptionKey
 RegisterDefaultSessionKey
 RegisterDeviceEventEXT
+RegisterDeviceNotificati
 RegisterDeviceNotificationW
 RegisterDisplayEventEXT
 Registered
@@ -30350,7 +30305,6 @@ RequestHttpResultApproved
 RequestHttpResultApprovedSignal
 Requesting
 RequestInternal
-RequestJoinScriptUrl
 RequestLimitedAsync
 RequestLock
 RequestMessage.
@@ -30917,7 +30871,6 @@ RobloxVersion
 RobloxView
 RobloxViewStudio
 RobloxWndInit
-RobloxWndInit]
 Roboto.json
 RobotoCondensed
 RobotoCondensed.json
@@ -32419,7 +32372,6 @@ SessionPauseStatsInfluxHundredthsPercentage
 SessionPrevEventTimeStamp
 SessionRemoveSessionsOnGameLeave
 SessionRemoveSessionsWithMetadataKey
-SessionReport
 SessionReportSuccessThrottleHundredthsPercent
 SessionResult
 SessionsEnded
@@ -34150,7 +34102,6 @@ StopPlaying
 StopPlayout
 StopQueryingMouseLockLabelForPlayer
 StopRecording
-StopRenderingForBackgroundMode
 StopRoundingGlyphRect
 StopRtcEventLog
 StopSaveOnInvokeMethod
@@ -38483,7 +38434,6 @@ StudioAppSettings
 StudioAppSettings.
 StudioAppSettings.json
 StudioAssertMainThread
-StudioAssetImportService
 StudioAssetManagerAddRecentlyImportedView
 StudioAssetPublishAPI
 StudioAssetService
@@ -38852,7 +38802,6 @@ StudioRecentActionCacheSize
 StudioReEnableNetworkProxy_Dev
 StudioRefactorShareModalController
 StudioRemoveAuthenticator
-StudioRemovePlacelauncher
 StudioRemoveStudioSettingsGoogleAnalyticsOnStart
 StudioRemoveTeamCreateOffSetting
 StudioRemoveUserIdFromEvent
@@ -40240,7 +40189,6 @@ TimeBetweenJoinRequestAndJoinProcessingCompleteInMs
 TimeBetweenSendConnectionAttemptsMS
 TimeDeltaExclusive
 TimeDeltaMs
-TimeExceedsRange
 TimeFilter
 TimeFormat
 TimeFragment
@@ -40418,7 +40366,6 @@ TimeToMsString
 TimeToPrepare
 TimeToString
 TimeTotalLuau
-TimeUnder_
 TimeVariance
 TimeVertex
 TipAttachment
@@ -41321,8 +41268,6 @@ UAWAVATVWSH
 UAWAVAUATVWS
 UAWAVAUATVWSH
 UAWAVVWSPH
-UAWebLoginErrorHundredthsPercentage
-UAWebLoginErrorPriorityHundredthsPercentage
 Ubad_adjustment
 Ubad_alloc_
 Ubad_day_of_month
@@ -42303,7 +42248,6 @@ UseDeprecatedTrackEvent
 UsedHideHudShortcut
 UseDifferentiatedCellularCosts
 UsedMemory
-UsedMemoryKB
 UsedOsMemDelta
 UsedServerMemoryKB
 UseEarlyLossDetection
@@ -44074,7 +44018,6 @@ VMemoryStoreQueue
 VMemoryStoreService
 VMemoryStoreSortedMap
 VMemoryTrackerCategoryStatsItem
-VMemoryWatchdogJob
 VMemProfStorage
 VMemStorage
 VMemStorageConnection
@@ -44733,7 +44676,6 @@ VSearchContext
 VSearchContextHandler
 VSearchGroupHandle
 VSearchResult
-VSecurePlayerGame
 Vselect_reactor
 VSelection
 VSelectionBox
@@ -45203,7 +45145,6 @@ WebChatFiltering]
 WebDocAddressBarEnabled
 WebLaunchTelemetry
 WebLaunchWithNoLocalCredential
-WebLoginController
 WebParserInfluxWriteNanInfPerMyriad
 WebParserWriteNanInf
 WebPluginInstall
