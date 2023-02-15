@@ -829,6 +829,7 @@ AICOCompletionResponseHttpError5XX
 AICOCompletionResponseHttpErrorOther
 AICOCompletionResponseParseError
 AICOCompletionResponseSuccess
+AICOContextFilterTelemetry
 AICOFunctionContextFilter
 AICOInputDebounceTimeMs
 AICOInverseTrigger2
@@ -840,6 +841,9 @@ AICOMLAutocompleteKeyPressOther
 AICOMLAutocompleteKeyPressRightBracket
 AICOMLAutocompleteKeyPressWhitespace
 AICOMLAutocompleteResponseTime
+AICOMLContextFilterAssignment
+AICOMLContextFilterComment
+AICOMLContextFilterFunction
 AimdRateControl
 AinCorrectExpectedRequestCount
 AinPointsThrottleValue
@@ -1783,7 +1787,7 @@ AsyncNotApiRequest
 AsyncPlayerCallbackQueueHandler
 AsyncResolver
 AsyncResolverFactory
-AsyncStreamingNoBlockGC2
+AsyncStreamingNoBlockGC3
 AsyncStreamingNoBlockGCVis
 AsyncTask.
 AsyncTaskThreadCount
@@ -10471,6 +10475,8 @@ COLLAB2453FixErrorMessagePointingToPlaceSettings
 COLLAB2482CheckDMExistsBeforeCallbackInLocalPlacePublishRequestMediator2
 COLLAB2609AddIsReconnectAndLaunchTaskToStudioopenplacemetricv2CrashFixed
 COLLAB2618DirectlySerializeInDatamodelEnabled
+COLLAB2632UpdatePlaceLauncherRequestStatusEnum
+COLLAB2632UpdatePlaceLauncherRequestStatusEnumHundredthPercent
 COLLAB2695FixDeadlockOnError
 COLLAB2767UseUntranslatedErr
 COLLAB2767UseUntranslatedErrHundredthPercent
@@ -12188,7 +12194,6 @@ Data.elideMode
 Data.length
 Data[MouseGraphX]
 DATA_CHANNEL_FAILURE
-DatabankMultiFilter
 DataBase_.DeregisterExternalDecoder
 DataBlobsHelper
 DataBreakpoints
@@ -15013,6 +15018,7 @@ EnableDynamicHeadByDefault
 EnableDynamicHeads
 EnableEscForScriptsAndOutput
 EnableEvaluateStateMachine
+EnableExcludeDeletedForListKeys
 EnableExperienceInviteOptions
 EnableExtension
 EnableFindFirstDescendant2
@@ -16687,7 +16693,6 @@ FlexfecConfig
 FlexfecReceiveStream
 FlexfecReceiveStreamImpl
 FlexfecSender
-FlexibleRolloutStrings
 FlightStick
 FlipbookFramerate
 FlipbookIncompatible
@@ -18420,6 +18425,7 @@ Giocabilit
 GivenByTargetSpeedKBps
 GizmoRaycast
 GizmoScaleAction
+GjkConvexCast
 GL_ARB_copy_image
 GL_ARB_half_float_vertex
 GL_ARB_pixel_buffer_object
@@ -23683,6 +23689,8 @@ MultiCursorEditType
 MultiCursorMimeData
 MultiDrawArrays
 MultiDrawElements
+MultiFilterWarning
+MultiFilterWarning]
 MultiGetTeamCreateStatusesBatchSize
 MultiImagePickerModerationChanges
 MultiLineStatement
@@ -32126,6 +32134,7 @@ SendThresholdCallback
 SendTouchEvent
 SendUnarchiveUniverseAsync
 SendUnarchiveUniverseWithReasonAsync
+SendUniverseIdHeaderOnClient
 Sensibilit
 SensitiveText
 SensorDataParallelBatchSize
@@ -38280,7 +38289,6 @@ Studio.Common.Action.Name
 Studio.Common.Action.New
 Studio.Common.Action.Next
 Studio.Common.Action.No
-Studio.Common.Action.O
 Studio.Common.Action.OK
 Studio.Common.Action.Okay
 Studio.Common.Action.Open

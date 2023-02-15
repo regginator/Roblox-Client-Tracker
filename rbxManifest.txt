@@ -95,7 +95,7 @@ bf2a4324013c5c88a2a6b6c4414f2d97
 BuiltInPlugins\Optimized_Embedded_Signature\AnimationClipEditor.rbxm
 23e3c4c546ccae392b053dc5ae82fb98
 BuiltInPlugins\Optimized_Embedded_Signature\AssetImporter.rbxm
-3b8d495be77aea198b89961211c032d6
+ae0b9c8fd388e4ed4849d910091446e3
 BuiltInPlugins\Optimized_Embedded_Signature\AssetManager.rbxm
 010cddc5079532ff37d3e95b1d749e3e
 BuiltInPlugins\Optimized_Embedded_Signature\AudioDiscovery.rbxm
@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-167c9a7ee3939534bc1cdc50baef824c
+238e4af91fbb17657dee687211077c06
 QtitanDocking.dll
-2eb492a78c3539e3aafbe538e19c4f5f
+84a559aa67b5ca8168f2c894f1ad5c39
 QtitanRibbon.dll
-e62d3c852a2efc6a850cdd8ac712f9d5
+87d86554a64aa8ce64d76129a0ba6e9a
 ReflectionMetadata.xml
 eb09f990f5c82e94733e75df4561c57e
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-c3e0e21fc8a8fa2b89b8329b52f48268
+cd1b2e004d10a44db95a5199e18460ba
 RobloxStudioRibbon.xml
 067e1f9d7fb77b5b99db943437a03b59
 d3dcompiler_47.dll
@@ -1945,7 +1945,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-8a5aa8e600a8b5d96b96e2ace42fbcb0
+9a28ef43a5ff2754eafb23e7b3c4bace
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -25765,7 +25765,7 @@ ExtraContent\LuaPackages\Workspace\Packages\_Workspace\ContactImporter\ContactIm
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\ContactImporter\ContactImporter\ContactsList\Components\ContactsList\init.test.lua
 fc9eaddf4e9676f563b78add1de73baa
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\ContactImporter\ContactImporter\ContactsList\Components\ContactsListEntry\ContactsListEntry.lua
-8241d644201e7dabdb7ea6c145929269
+7657f07276ba8267565453900e5f1204
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\ContactImporter\ContactImporter\ContactsList\Components\ContactsListEntry\ContactsListEntry.story.lua
 a2734c33ac004032b42fd61ca05ea63e
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\ContactImporter\ContactImporter\ContactsList\Components\ContactsListEntry\ContactsListEntry.test.lua
@@ -31427,7 +31427,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-b7acd84549fedbc88a0b1e30500f0f1b
+4c6ce9766ca58b9169e32a7ec4d6d2af
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png
