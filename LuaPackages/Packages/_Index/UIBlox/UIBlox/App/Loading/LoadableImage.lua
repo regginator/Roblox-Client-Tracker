@@ -26,6 +26,7 @@ local ImageSetComponent = require(UIBlox.Core.ImageSet.ImageSetComponent)
 local validateImageSetData = require(Core.ImageSet.Validator.validateImageSetData)
 
 local ContentProviderContext = require(UIBlox.App.Context.ContentProvider)
+local GetEngineFeatureSafe = require(Core.Utility.GetEngineFeatureSafe)
 
 local devOnly = require(UIBlox.Utility.devOnly)
 
@@ -40,7 +41,7 @@ local inf = math.huge
 local loadableImageResponsiveThumbnails = UIBloxConfig.loadableImageResponsiveThumbnails
 -- This can never be on without the supporting engine feature.
 loadableImageResponsiveThumbnails = loadableImageResponsiveThumbnails
-	and game:GetEngineFeature("EnableResponsiveThumbnails")
+	and GetEngineFeatureSafe("EnableResponsiveThumbnails")
 
 -- Remove with loadableImageResponsiveThumbnails.
 -- Also note, this is an incorrect name: we index this by props.Image, which could be

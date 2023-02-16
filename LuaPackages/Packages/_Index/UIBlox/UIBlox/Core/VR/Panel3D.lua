@@ -13,19 +13,12 @@ local Roact = require(Packages.Roact)
 local LuauPolyfill = require(Packages.LuauPolyfill)
 local Object = LuauPolyfill.Object
 local UIBloxConfig = require(UIBlox.UIBloxConfig)
+local GetEngineFeatureSafe = require(UIBlox.Core.Utility.GetEngineFeatureSafe)
 
 -- Storybooks
-local EngineFeatureCurvedSurfaceGuisEnabled
-do
-	local success, value = pcall(function()
-		return game:GetEngineFeature("CurvedSurfaceGuisEnabled")
-	end)
-	EngineFeatureCurvedSurfaceGuisEnabled = success and value
-end
-
 local DEFAULT_VR_PANEL_SIZE_X = 10
 local DEFAULT_VR_PANEL_SIZE_Y = 10
-local useCurvedPanel = EngineFeatureCurvedSurfaceGuisEnabled and UIBloxConfig.useCurvedPanel3D
+local useCurvedPanel = GetEngineFeatureSafe("CurvedSurfaceGuisEnabled") and UIBloxConfig.useCurvedPanel3D
 
 type Props = Constants.Panel3DProps
 

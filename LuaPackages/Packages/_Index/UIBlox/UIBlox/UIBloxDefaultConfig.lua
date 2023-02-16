@@ -154,4 +154,10 @@ return {
 
 	-- Inject padding for right content for HeaderBar
 	headerBarInjectContentPaddingRight = false,
+
+	-- Indicate whether the IconSize support in AppStyleProvider is enabled
+	enableAppStyleIconSizeSupport = false,
+
+	-- Enables VerticalTiles to accept render props for contents
+	updateVerticalTile = false,
 }
