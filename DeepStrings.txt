@@ -10528,7 +10528,6 @@ CollectionServiceUseFindTagName
 CollectionServiceUseForEachTagName
 CollectMaterialServiceUsageMetrics
 CollectNumOfPrimitivesRate
-CollectParticleFlipbookUsageMetrics
 CollectSounds
 CollectWithDescendantsAndSetsMissingSet
 Collegamenti
@@ -26548,7 +26547,6 @@ PerformanceControlPlanner]
 PerformanceControlReportingPeriodInMs
 PerformanceControlSimpleMPLogic
 PerformanceControlSoundCacheUpdatePeriodSeconds
-PerformanceControlTextureQuality
 PerformanceControlTextureQualityHardcodeWeight
 PerformanceControlTunables
 PerformanceControlUseTunableIdContext
@@ -40988,7 +40986,6 @@ TPoseBlockyElbowBendMin
 TPoseBlockyMeshAlignedAdjustmentPercent
 TPoserBlockyAdjustment2
 TQQQQQQ1Tq
-Tqt.qml.connections.warning
 Tracciamento
 TraceMessage
 TracerService
