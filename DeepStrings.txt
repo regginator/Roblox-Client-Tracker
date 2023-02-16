@@ -329,11 +329,13 @@ Actualiser
 Actualizaci
 Actualizaciones
 Actualizado
+Actualizamos
 Actualizando
 Actualizar
 ActualType
 ActuatorRelativeTo
 ActuatorType
+Acuisizione
 Acutesmall
 AdaptChangesPerMinute.Cpu
 AdaptChangesPerMinute.Quality
@@ -15099,6 +15101,7 @@ EnablePlacementInformation
 EnablePlayerNetworkPing2
 EnablePlayerOwnsBundleApi
 EnablePlugin
+EnablePocoTesting
 EnablePointsHardwareBitDepth
 EnablePointsPlaceVersionNumber2
 EnablePrefetchProtocol
@@ -19598,7 +19601,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT`
+HwngSmldAskhBcraMaweNegsOgnaT
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -31521,7 +31524,7 @@ ScriptEditorMultiCursorBetaFeatureRoleSet
 ScriptEditorMultiCursorBetaFeatureRolloutPercent
 ScriptEditorMultiCursorBetaFeatureUrl
 ScriptEditorMultiCursorEventThrottleHundredthPercent
-ScriptEditorMultlS
+ScriptEditorMultlc
 ScriptEditorRemoved
 ScriptEditorService
 ScriptEditorSettingAutoCleanEmptyLine
@@ -39596,6 +39599,9 @@ TelemetryJSON
 TelemetrySID
 TelemetryThrottleHundredthPercent
 TelephoneNumber
+TeleportAbuseDashboard
+TeleportAbuseEvent
+TeleportAbuseEventThrottleHundredthPercent
 TeleportAddRootPlaceId
 TeleportAllErrors
 TeleportAllErrorsLogging
@@ -39897,6 +39903,7 @@ TextChatServiceCallReadWhenIterating
 TextChatServiceChatVersionEnum
 TextChatServiceCheckCommandSize
 TextChatServiceEscapeSendAsync
+TextChatServiceFixYieldingOnIncomingMessage
 TextChatServiceIncludesColon
 TextChatServiceInsertedByDefault
 TextChatServiceMaxMessageLength
@@ -42466,7 +42473,6 @@ UserTotalPluginLoadTime
 UserTransparencyControllerDeltaTime
 UseRuntimeConfigForFlipProfilerFrame
 UserUpdatePlayerScriptsTouchControlsEnabled
-UserUpdatesByMatching
 UServerSchemaInfo
 UserVRApplyHeadScaleToHandPositions
 UserVRBottomBarWorksBehindObjects
@@ -43867,6 +43873,7 @@ VirtualInputEventsProcessed
 VirtualInputManager
 VirtualInputManagerEnableRecording
 VirtualInputManagerEnableStudioPlayback
+VirtualInputManagerFixInputObjectPositio
 VirtualInputManagerFixInputObjectPosition
 VirtualInputMode
 VirtualProtect
@@ -46003,6 +46010,7 @@ XPEBVGImage
 XPEBVInstance
 XPEBVIStatus
 XQColorDialog
+Xqt.qml.connections.warning
 Xregex_error
 XResolution
 Xtime_get_ticks
