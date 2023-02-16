@@ -390,7 +390,6 @@ Additional
 AdditionalBlacklistHeaders
 AdditionalLuaState
 AddKeyframe
-AddLayoutSegments6
 AddMaterial
 AddMessageBusService
 AddModelToInventory
@@ -412,7 +411,7 @@ AddressChoice
 AddRestrictedRegisterEvent
 AddReverseListingToGridStyleLayout
 AddRomarkAnalyticsForPathfinding
-AddRtlTextSupportOption
+AddRtlTextSupportOption2
 AddRttToPlayoutDelay
 AddSctpDataStream
 AddSelectionParent
@@ -523,6 +522,8 @@ AdServiceAdditionalDataModelChecksEnabled
 AdServiceBackendAdsProviderPeriodInSecond
 AdServiceEnabled
 AdServiceMaxAllowedEventsPerInterval
+AdServiceReportAdTelemetryImmediately
+AdServiceUseTeleportTrusted
 AdTeleportEnded
 AdTeleportInitiated
 AdTrackingData
@@ -1335,7 +1336,6 @@ AnimatorAndADFRefactorInternal
 AnimatorAnywhere
 AnimatorEnableNewAdornments
 AnimatorHideCoreScriptTracks
-AnimatorJoinTimeGracePeriod
 AnimatorLodControllerDebugViewEnabled
 AnimatorLodModelInstanceOwnershipFix
 AnimatorLodOptOutPhase
@@ -2014,7 +2014,7 @@ AudioDevicesImpl
 AudioDeviceTelemetry
 AudioDeviceWindowsCore
 AudioDiscoveryPermCheckMaxAssetIdsPerRequest
-AudioDownloaVideoFrameTrace
+AudioDownloa
 AudioDrift
 AudioDriftLowerThresholdMs
 AudioDriftSampleRateRatio
@@ -8314,8 +8314,6 @@ BrushStyle
 BrutalLegendTest
 BruteForceAllSlow
 BStudio.App.FBXAnimatedHeadImporter.FailureException1
-BtextContext
-BTextureMode
 BtnBackground.png
 BtPoolAllocatorInitFailure
 BtYovqVKoHMDMoDd0u9Mc5CIyRqyu0IGS99A0jeEXRj7aofQ
@@ -11377,7 +11375,6 @@ Covariance
 CoverageInfo
 CoverageRef
 CPGSConstraintAlign2AxesCompliantCacheFix
-CPlayAudioVideoInPlugins
 CpuArchitecture
 CpuLimitedResolutionInPercent
 CpuLoadEstimator
@@ -12101,7 +12098,6 @@ CursorPositionChanged
 CursorPositionDidChange
 CursorRetryDelayMs
 CursorShape
-CursorSupportForRtl2
 CursorTimeToLiveMs
 CursorToBeginningOfSelection
 CursorVisible
@@ -14013,7 +14009,6 @@ DisplayAdOnscreenCheckEnabled
 DisplayAdRandomizedRaycastEnabled
 DisplayAdRaycastBruteForceAllSlowEnabled
 DisplayAdRaycastingDisabled
-DisplayAdRaycastToSurfaceEnabled
 DisplayAdVisibilityCheckIntervalMS
 DisplayCurrentScriptCheckbox
 DisplayDescription
@@ -15184,6 +15179,7 @@ EncodedORAddress
 EncodePointer
 Encoder.ForcedSwFallbackChangesPerMinute.Vp8
 Encoder.ForcedSwFallbackTimeInPercent.Vp8
+EncoderFactory
 EncoderInfo
 EncoderInit
 EncodeRotationCurvesWithTangentFlags
@@ -17456,7 +17452,6 @@ GenerateDataBlobsCacheable
 GenerateDataBlobsCharacterModelRoots
 GenerateDataBlobsNotCacheable
 GenerateDataBlobsParts
-GenerateDirectedSegments4
 GeneratedLocalizationTable
 GenerateGUID
 GenerateHSRData
@@ -23404,6 +23399,7 @@ ModelPivotVisual
 ModelPluginLoadTime_
 ModelReplicatedTime
 ModelScale
+ModelScaleAnimations
 ModelScaleBetaFeature
 ModelScaleBetaFeatureRoleSet
 ModelScaleBetaFeatureRolloutPercent
@@ -27047,6 +27043,7 @@ Platzhalter
 Platzierung
 Playability
 PlayAction
+PlayAudioVideoInPlugins
 PlaybackCompleted
 PlaybackControls
 PlaybackErrors
@@ -27869,7 +27866,6 @@ PropertyDescriptor
 PropertyEditor
 PropertyEnum
 PropertyItem
-PropertyItemDelegate
 PropertyName
 PropertyNames
 PropertyOrder
@@ -28483,6 +28479,7 @@ QEBAPEAXXZ
 QEBAPEBDPEADPEBD
 QEBAPEBDXZ
 QEBAPEBEXZ
+QEBAPEBUSG
 QEBAPEBUSG_ALL_TRIANGLES
 QEBAPEBV12
 QEBAPEBVFbxLayer
@@ -30166,7 +30163,6 @@ ReportDeveloperEventIngestHttpErrorByInfluxDbTenThousandth
 ReportDeviceInfoRate
 ReportDeviceInfoRollout
 ReportDropPktStatsToInflux_HundredthsPercentage
-ReporterRequ
 ReporterRequest
 ReportEventW
 ReportExplicitAutoJointsJoinAll
@@ -31539,13 +31535,13 @@ ScriptEditorEnableBlockFormat
 ScriptEditorHorizontalScrollBar
 ScriptEditorLiveEditing
 ScriptEditorMenuBorderColor
+ScriptEditorMult\
 ScriptEditorMultiCursor
 ScriptEditorMultiCursorBetaFeature
 ScriptEditorMultiCursorBetaFeatureRoleSet
 ScriptEditorMultiCursorBetaFeatureRolloutPercent
 ScriptEditorMultiCursorBetaFeatureUrl
 ScriptEditorMultiCursorEventThrottleHundredthPercent
-ScriptEditorMultl
 ScriptEditorRemoved
 ScriptEditorService
 ScriptEditorSettingAutoCleanEmptyLine
@@ -33330,6 +33326,7 @@ SimulationAction
 SimulationActionActivated
 SimulationRadius
 SimulationRadiusChanged
+SimulatorAddressToPlayers
 Simulatore
 SimulcastEncoderAdapter
 SimulcastScreenshareUpswitchHysteresisPercent
@@ -34328,6 +34325,7 @@ StreamRegion
 StreamSize
 StreamStats.
 StreamSyncRequest
+StreamSyncRequest2
 StreamTerrainLod
 StreamTimingUpdate
 StreamToMinimumScale
@@ -39045,6 +39043,7 @@ StudioUtilities
 StudioValidateSaveMaxSizeKb
 StudioVersion
 StudioVideoErrorIfParsingFail
+StudioVideoFixChunkerCrash
 StudioVideoImportHundredthsPercentage
 StudioVideoImportSupportedMaxDurationSeconds
 StudioVideoUploadUseSuperSet
@@ -43677,6 +43676,7 @@ VideoExtrapolationMode
 VideoFrame
 VideoFrame]
 VideoFrameAction
+VideoFrameTrace
 VideoFrameTrace]
 VideoHighCpuThresholdMHz
 VideoHighMemAudioBufferHeadroomFactor
