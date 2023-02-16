@@ -943,6 +943,7 @@ return{
 	["Feature.Catalog.Label.Ios"] = [[iOS]],
 	["Feature.Catalog.Label.Sale"] = [[Распродажа]],
 	["Feature.Catalog.Label.New"] = [[Новое]],
+	["Feature.Catalog.Label.Bundles"] = [[Комплекты]],
 	["Feature.Catalog.Label.Bundle"] = [[Комплект]],
 	["Feature.Catalog.Label.Owned"] = [[В наличии]],
 	["Feature.Catalog.Label.Favorites"] = [[Избранные]],

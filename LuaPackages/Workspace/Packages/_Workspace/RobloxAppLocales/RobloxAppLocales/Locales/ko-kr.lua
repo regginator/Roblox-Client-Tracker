@@ -987,6 +987,7 @@ return{
 	["Feature.Catalog.Label.Ios"] = [[iOS]],
 	["Feature.Catalog.Label.Sale"] = [[판매]],
 	["Feature.Catalog.Label.New"] = [[신규]],
+	["Feature.Catalog.Label.Bundles"] = [[번들]],
 	["Feature.Catalog.Label.Bundle"] = [[번들]],
 	["Feature.Catalog.Label.Owned"] = [[보유 중]],
 	["Feature.Catalog.Label.Favorites"] = [[즐겨찾기]],

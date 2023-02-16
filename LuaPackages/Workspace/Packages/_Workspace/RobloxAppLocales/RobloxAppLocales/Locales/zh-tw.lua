@@ -986,6 +986,7 @@ return{
 	["Feature.Catalog.Label.Ios"] = [[iOS]],
 	["Feature.Catalog.Label.Sale"] = [[促銷]],
 	["Feature.Catalog.Label.New"] = [[新增]],
+	["Feature.Catalog.Label.Bundles"] = [[組合包]],
 	["Feature.Catalog.Label.Bundle"] = [[組合包]],
 	["Feature.Catalog.Label.Owned"] = [[已擁有]],
 	["Feature.Catalog.Label.Favorites"] = [[設為最愛]],

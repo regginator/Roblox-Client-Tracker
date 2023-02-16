@@ -984,6 +984,7 @@ return{
 	["Feature.Catalog.Label.Ios"] = [[iOS]],
 	["Feature.Catalog.Label.Sale"] = [[セール]],
 	["Feature.Catalog.Label.New"] = [[新着]],
+	["Feature.Catalog.Label.Bundles"] = [[バンドル]],
 	["Feature.Catalog.Label.Bundle"] = [[バンドル]],
 	["Feature.Catalog.Label.Owned"] = [[所有しています]],
 	["Feature.Catalog.Label.Favorites"] = [[お気に入り]],

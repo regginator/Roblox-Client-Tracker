@@ -950,6 +950,7 @@ return{
 	["Feature.Catalog.Label.Ios"] = [[iOS]],
 	["Feature.Catalog.Label.Sale"] = [[المبيعات]],
 	["Feature.Catalog.Label.New"] = [[جديد]],
+	["Feature.Catalog.Label.Bundles"] = [[Bundles]],
 	["Feature.Catalog.Label.Bundle"] = [[حزمة]],
 	["Feature.Catalog.Label.Owned"] = [[مملوك]],
 	["Feature.Catalog.Label.Favorites"] = [[المفضلة]],

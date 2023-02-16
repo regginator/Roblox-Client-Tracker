@@ -950,6 +950,7 @@ return{
 	["Feature.Catalog.Label.Ios"] = [[iOS]],
 	["Feature.Catalog.Label.Sale"] = [[促销]],
 	["Feature.Catalog.Label.New"] = [[新增]],
+	["Feature.Catalog.Label.Bundles"] = [[套装]],
 	["Feature.Catalog.Label.Bundle"] = [[套装]],
 	["Feature.Catalog.Label.Owned"] = [[已拥有]],
 	["Feature.Catalog.Label.Favorites"] = [[最爱]],
