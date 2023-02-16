@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-b9d73a5451e620612d2d01c9580d2053
+59846dc9afb26c24ba4a30a1e7d66cf5
 QtitanDocking.dll
-274bc7b26dd8383b491a8e967cfd2bbb
+a5baafc9bc2e6fa82184d2f074371dcb
 QtitanRibbon.dll
-1c7508e4d0155707d6cf4795d4b77075
+e41f7858b74cdf191f7726f41d0817db
 ReflectionMetadata.xml
 eb09f990f5c82e94733e75df4561c57e
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-0eabca5ee72b1e15a0b0942559e3b99c
+4b354fb911c60e20a64676240cf0218a
 RobloxStudioRibbon.xml
 00e9a3abf465d35ef42d13fcb9407518
 d3dcompiler_47.dll
@@ -1947,7 +1947,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-100b0f9bcf4ea1f05cb26664837d08fd
+2ed02d545b32cba21ae2d258311190b6
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -9691,7 +9691,7 @@ ee84a4f236ab00d8c845384b74fbe33c
 ExtraContent\scripts\CoreScripts\Modules\Common\Flags\GetIXPServiceWrapperWaitRefactor.lua
 729d941a91b86b41d148a809386c676e
 ExtraContent\scripts\CoreScripts\Modules\Common\GetDefaultQualityLevel.lua
-4926c94b9eecd1b479ed03150d64f239
+68d61a84c4c18a6a7342e62f656a07ad
 ExtraContent\scripts\CoreScripts\Modules\Common\GetGameNameAndDescription.lua
 0634123059623bd8bf22575ff3161c65
 ExtraContent\scripts\CoreScripts\Modules\Common\GetGameNameAndDescription.spec.lua
@@ -10566,6 +10566,8 @@ ExtraContent\scripts\CoreScripts\Modules\Flags\GetFFlagVoiceCheckLocalNetworkSet
 672d94d8e7152444ee962213606f0948
 ExtraContent\scripts\CoreScripts\Modules\Flags\GetFFlagVoiceRecordingIndicatorsEnabled.lua
 d425bd32bd613713d00175393c4d530d
+ExtraContent\scripts\CoreScripts\Modules\Flags\GetFFlagXboxEnableGraphicsQuality.lua
+a807b3f24e7b76464e7f43cf80cd1841
 ExtraContent\scripts\CoreScripts\Modules\Flags\GetFIntCanHideGuiGroupId.lua
 8d6169a30e7496cc7c2bd228b3cb46c2
 ExtraContent\scripts\CoreScripts\Modules\Flags\GetFIntEducationalPopupDisplayMaxCount.lua
@@ -13599,7 +13601,7 @@ e149bcfda73281f8f9bc6eada84f58a0
 ExtraContent\scripts\CoreScripts\Modules\Settings\Pages\ExitModal.lua
 04c9a3d6b9c690700f52a7928a88cf42
 ExtraContent\scripts\CoreScripts\Modules\Settings\Pages\GameSettings.lua
-8bfc8eb5e5854182f6ba64af425d1619
+0750ea5cc0f1f043ff90e427431d5781
 ExtraContent\scripts\CoreScripts\Modules\Settings\Pages\Help.lua
 a24c4ecffb5ae847fec1f9a6eebb6bad
 ExtraContent\scripts\CoreScripts\Modules\Settings\Pages\Home.lua
@@ -31481,7 +31483,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-5f799570624ec6e759ca22a85e1f3e9c
+085e5649700cdd73e0d32f08d6eb5253
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png

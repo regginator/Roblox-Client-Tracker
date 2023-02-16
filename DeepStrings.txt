@@ -93,7 +93,7 @@ AbBcdHIjmMpSUwWxXyYzZ
 ABBF60C2168118C14FDE5E01E7934
 Abbigliamento
 ABCCDEFGHIJKKLMNOPQRSTUVVWXYZ[\]^_`abcd
-ABCDEF8ZWE
+ABCDEF8zWE
 ABCDEFBokehNearCoCFS
 ABCDEFCodeSnippet_Alpha3
 ABCDEFGABCDEFGABCDEFGABCDEFGABCDEFGABCDEFGAHIIIIIIIIJJJJJJJJJJJJJJJJJJJJJJJJJ4KLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqqqrstlllllllllluuvwxlllllllllllllllyz
@@ -15006,7 +15006,7 @@ EnableCancelInputEvent
 EnableChatInputBarConfigurationStyleCustomizations
 EnableChildrenLockFromLua
 EnableClicked
-EnableClickToMoveUsageTelemetry
+EnableClickToMoveUsageTelemetry2
 EnableClientAnimatorThrottlingMode
 EnableCoarseShading
 EnableContentIdLengthCheck
@@ -23856,6 +23856,7 @@ NavigationAgentJumpHeight
 NavigationAgentMaxDrop
 NavigationAgentRadius
 NavigationAgentWalkableClimb
+NavigationAnalyticsSessionId
 NavigationClimbableTruss2
 NavigationClimbBoundingBoxDepth
 NavigationClimbBoundingBoxOffsetTenth
@@ -24206,6 +24207,7 @@ NfwlTracking
 NfwlTrackingPermyriad
 NfXf`fhfzf
 NH_NHHVStringView
+NHHAEBVQModelIndex
 NHVVariant
 NinjaMask.mesh
 NLSF_mu_Q20
@@ -27667,7 +27669,6 @@ Processing
 Processing...
 ProcessingAvg
 ProcessingConfigPerDC
-ProcessingError
 ProcessingFinished
 ProcessingMax
 ProcessingReportGroup
@@ -28229,7 +28230,6 @@ QEAAXPEAVQAbstractAnimation
 QEAAXPEAVQAbstractButton
 QEAAXPEAVQAbstractItemDelegate
 QEAAXPEAVQAbstractItemModel
-QEAAXPEAVQAbstractNativeEventF
 QEAAXPEAVQAbstractNativeEventFilter
 QEAAXPEAVQAction
 QEAAXPEAVQCompleter
@@ -29770,7 +29770,7 @@ RemoveUnnecessaryKick
 RemoveVersionAsync
 RemoveVertex
 RemoveWaitForLongProcessInUnion
-RemoveWhitelistForReturnPortals
+RemoveWhitelistForReturnPortals2
 Remplacement
 Remplacements
 Remplacer...
@@ -33141,14 +33141,15 @@ SimACPDynmicAssemblyVolumeLengthCap
 SimACPParallelProcessMidPhaseBatchCount
 SimACPParallelProcessMidPhaseSerialCutoff
 SimAdaptiveBodyMoverBugfix
-SimAdaptiveBodyPositionBandaid
 SimAdaptiveCapMaxTimestepMultiplier2
 SimAdaptiveEnableEightDt
 SimAdaptiveFuzzyExtentFix
+SimAdaptiveHumanoidPDControllerSubstepMultiplier
 SimAdaptiveIntegrationErrorModel
 SimAdaptiveIslandizerThrottlingFix2
 SimAdaptivePreContactReorder
 SimAdaptiveRestPastPvBugFix
+SimAdaptiveStablePDControl
 SimAdaptiveTimesteppingDefault2
 SimAdaptiveTimesteppingFlagRemovalPatch
 SimAdaptiveTimesteppingUpdate
@@ -33157,7 +33158,6 @@ SimAlwaysUseAdaptiveWorldStep
 SimAnimationConstraint
 SimBasePartUIUpdateFix
 SimBlockLargeLocalToolWeldManipulationsThreshold
-SimBodyPositionTweaks
 SimCanNotTriggerTouchEvents2
 SimCheckTouchNoMutex
 SimCollectConstraintInfo3
@@ -44295,7 +44295,6 @@ VoiceChatSessionJoinStageWaitForSignalR
 VoiceChatSessionJoinSuccess
 VoiceChatSessionJoinTimeout
 VoiceChatSessionMultiSubFailedTooManyRetries
-VoiceChatSessionMultiSubFailu
 VoiceChatSessionMultiSubFailure
 VoiceChatSessionMultiSubRetry
 VoiceChatSessionPubFailure
