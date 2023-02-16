@@ -47,4 +47,5 @@ return {
 	emptyStateTitleAndIconSize = SharedFlags.getFFlagSocialOnboardingExperimentEnabled(),
 	headerBarInjectMargin = UIBloxFlags.FFlagUIBloxInjectHeaderBarProps,
 	headerBarInjectContentPaddingRight = UIBloxFlags.FFlagUIBloxInjectHeaderBarProps,
+	updateVerticalTile = UIBloxFlags.GetFFlagUIBloxUpdateVerticalTile(),
 }
