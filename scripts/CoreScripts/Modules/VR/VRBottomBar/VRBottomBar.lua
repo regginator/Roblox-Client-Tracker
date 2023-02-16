@@ -52,6 +52,7 @@ local GetFFlagUIBloxVRApplyHeadScale =
 local FFlagFixPurchasePromptInVR = game:GetEngineFeature("FixPurchasePromptInVR")
 local GetFFlagBottomBarButtonBehaviorFixVR = require(RobloxGui.Modules.Flags.GetFFlagBottomBarButtonBehaviorFixVR)
 local GetFFlagBottomBarInitialStateFixVR = require(RobloxGui.Modules.Flags.GetFFlagBottomBarInitialStateFixVR)
+local GetFFlagBottomBarSortOrderFixVR = require(RobloxGui.Modules.Flags.GetFFlagBottomBarSortOrderFixVR)
 
 -- each individual icon can either be definied as a table entry with icon and onActivate, or as a item component
 local MainMenu =
@@ -400,6 +401,7 @@ function VRBottomBar:render()
 				roundCorners = true,
 				buttonStroke = true,
 				bgTransparency = 0,
+				sortOrder = if GetFFlagBottomBarSortOrderFixVR() then Enum.SortOrder.LayoutOrder else nil,
 			}),
 
 			ShowTopBarChanged = Roact.createElement(ExternalEventConnection, {

@@ -1,7 +1,7 @@
-local getFFlagAddFriendsNewEmptyStateAndBanners = require(script.Parent.getFFlagAddFriendsNewEmptyStateAndBanners)
+local getFFlagSocialOnboardingExperimentEnabled = require(script.Parent.getFFlagSocialOnboardingExperimentEnabled)
 
 game:DefineFastFlag("AddFriendsQRCodeAnalytics", false)
 
 return function()
-	return getFFlagAddFriendsNewEmptyStateAndBanners() and game:GetFastFlag("AddFriendsQRCodeAnalytics")
+	return getFFlagSocialOnboardingExperimentEnabled() and game:GetFastFlag("AddFriendsQRCodeAnalytics")
 end

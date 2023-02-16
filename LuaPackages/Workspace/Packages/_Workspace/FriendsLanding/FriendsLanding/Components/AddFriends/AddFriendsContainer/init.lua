@@ -27,12 +27,14 @@ local getFFlagShowContactImporterTooltipOnce = require(FriendsLanding.Flags.getF
 local getFFlagContactImporterUseNewTooltip = require(FriendsLanding.Flags.getFFlagContactImporterUseNewTooltip)
 local ImpressionEvents = require(FriendsLanding.FriendsLandingAnalytics.ImpressionEvents)
 local contactImporterTooltip = require(FriendsLanding.Utils.contactImporterTooltip)
+local getShowNewAddFriendsPageVariant = require(FriendsLanding.Utils.getShowNewAddFriendsPageVariant)
 local SocialLuaAnalytics = dependencies.SocialLuaAnalytics
 local Contexts = SocialLuaAnalytics.Analytics.Enums.Contexts
 local getFFlagAddFriendsSearchbarIXPEnabled = dependencies.getFFlagAddFriendsSearchbarIXPEnabled
 local getFFlagAddFriendsFullSearchbarAnalytics = dependencies.getFFlagAddFriendsFullSearchbarAnalytics
 local getFStringSocialAddFriendsPageLayer = dependencies.getFStringSocialAddFriendsPageLayer
-local getFFlagAddFriendsNewEmptyStateAndBanners = dependencies.getFFlagAddFriendsNewEmptyStateAndBanners
+local getFStringSocialFriendsLayer = dependencies.getFStringSocialFriendsLayer
+local getFFlagSocialOnboardingExperimentEnabled = dependencies.getFFlagSocialOnboardingExperimentEnabled
 local getFFlagAddFriendsQRCodeAnalytics = dependencies.getFFlagAddFriendsQRCodeAnalytics
 
 local GET_FRIEND_REQUESTS_LIMIT_PER_PAGE = 25
@@ -318,6 +320,9 @@ function AddFriendsContainer:render()
 	local addFriendsPageSearchbarEnabled = if getFFlagAddFriendsSearchbarIXPEnabled()
 		then self.props.addFriendsPageSearchbarEnabled
 		else nil
+	local showNewAddFriendsPageVariant = if getFFlagSocialOnboardingExperimentEnabled()
+		then self.props.showNewAddFriendsPageVariant
+		else nil
 	return Roact.createElement(AddFriendsPage, {
 		screenSize = self.props.screenSize,
 		friendRecommendations = self.props.friendRecommendations,
@@ -341,7 +346,7 @@ function AddFriendsContainer:render()
 		handleOpenLearnMoreLink = if contactImporterAndPYMKEnabled then self.handleOpenLearnMore else nil,
 		navigation = if contactImporterAndPYMKEnabled
 				or getFFlagAddFriendsSearchbarIXPEnabled()
-				or getFFlagAddFriendsNewEmptyStateAndBanners()
+				or getFFlagSocialOnboardingExperimentEnabled()
 			then self.props.navigation
 			else nil,
 		contactImporterAndPYMKEnabled = contactImporterAndPYMKEnabled,
@@ -372,6 +377,9 @@ function AddFriendsContainer:render()
 			then self.fireSearchbarPressedEvent
 			else nil,
 		openProfilePeekView = self.props.openProfilePeekView,
+		showNewAddFriendsPageVariant = if getFFlagSocialOnboardingExperimentEnabled()
+			then showNewAddFriendsPageVariant
+			else nil,
 		fireProfileQRCodeBannerSeenEvent = if getFFlagAddFriendsQRCodeAnalytics()
 			then self.fireProfileQRCodeBannerSeenEvent
 			else nil,
@@ -386,7 +394,7 @@ function AddFriendsContainer:willUnmount()
 end
 
 if getFFlagAddFriendsSearchbarIXPEnabled() then
-	return compose(
+	AddFriendsContainer = compose(
 		RoactRodux.connect(mapStateToProps, mapDispatchToProps),
 		FriendsLandingAnalytics.connect(function(analytics)
 			return {
@@ -410,7 +418,7 @@ if getFFlagAddFriendsSearchbarIXPEnabled() then
 		end)
 	)(AddFriendsContainer)
 else
-	return compose(
+	AddFriendsContainer = compose(
 		RoactRodux.connect(mapStateToProps, mapDispatchToProps),
 		FriendsLandingAnalytics.connect(function(analytics)
 			return {
@@ -419,3 +427,17 @@ else
 		end)
 	)(AddFriendsContainer)
 end
+
+if getFFlagSocialOnboardingExperimentEnabled() then
+	AddFriendsContainer = compose(RoactAppExperiment.connectUserLayer({
+		getFStringSocialFriendsLayer(),
+	}, function(layerVariables, props)
+		local socialFriendsLayer = layerVariables[getFStringSocialFriendsLayer()] or {}
+		local showNewAddFriendsPageVariant = getShowNewAddFriendsPageVariant(socialFriendsLayer)
+		return {
+			showNewAddFriendsPageVariant = showNewAddFriendsPageVariant,
+		}
+	end))(AddFriendsContainer)
+end
+
+return AddFriendsContainer

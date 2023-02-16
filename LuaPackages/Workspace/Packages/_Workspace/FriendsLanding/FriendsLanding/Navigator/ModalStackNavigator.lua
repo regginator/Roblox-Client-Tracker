@@ -12,7 +12,7 @@ local FriendsLandingContext = require(FriendsLanding.FriendsLandingContext)
 local ProfileQRCodePageWrapper = require(FriendsLanding.Navigator.ProfileQRCodePageWrapper)
 local ContactImporterNavigator = CINavigatorInFL
 
-local getFFlagAddFriendsNewEmptyStateAndBanners = dependencies.getFFlagAddFriendsNewEmptyStateAndBanners
+local getFFlagSocialOnboardingExperimentEnabled = dependencies.getFFlagSocialOnboardingExperimentEnabled
 
 local DiscoverabilityWrapped = Roact.PureComponent:extend("DiscoverabilityWrapped")
 
@@ -45,7 +45,7 @@ local routeArray = {
 	},
 }
 
-if getFFlagAddFriendsNewEmptyStateAndBanners() then
+if getFFlagSocialOnboardingExperimentEnabled() then
 	table.insert(routeArray, {
 		[EnumScreens.ProfileQRCodePage] = ProfileQRCodePageWrapper,
 	})

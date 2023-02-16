@@ -38,7 +38,6 @@ return {
 	getFFlagEnableContactInvitesForNonPhoneVerified = require(script.getFFlagEnableContactInvitesForNonPhoneVerified),
 	GetFFlagGetMultiplePlaceInfosDeprecateWebApi = require(script.GetFFlagGetMultiplePlaceInfosDeprecateWebApi),
 	getFFlagSocialAddGameJoinSource = require(script.getFFlagSocialAddGameJoinSource),
-	getFFlagAddFriendsNewEmptyStateAndBanners = require(script.getFFlagAddFriendsNewEmptyStateAndBanners),
 	getFFlagAddFriendsQRCodeAnalytics = require(script.getFFlagAddFriendsQRCodeAnalytics),
 	getFFlagProfileQRCodeCoreFeaturesEnabled = require(script.getFFlagProfileQRCodeCoreFeaturesEnabled),
 
@@ -62,11 +61,6 @@ return {
 	-- Misc
 	FFlagLuaAppFixMessageBusUnsubscribe = require(script.FFlagLuaAppFixMessageBusUnsubscribe),
 	FFlagAXCatalogSearchSizeGamepad = require(script.FFlagAXCatalogSearchSizeGamepad),
-	FFlagCatalogRecommendationsV2RolloutEnabledForAll = require(
-		script.FFlagCatalogRecommendationsV2RolloutEnabledForAll
-	),
-	GetEnableCatalogRecommendationsV2 = require(script.GetEnableCatalogRecommendationsV2),
-	GetFFlagEnableCatalogRecommendationsV2 = require(script.GetFFlagEnableCatalogRecommendationsV2),
 	GetFFlagAvatarEditorServiceInUniversalApp = require(script.GetFFlagAvatarEditorServiceInUniversalApp),
 	GetEngineFeatureIxpUserAppLayersPrefetchEnabled = require(script.GetEngineFeatureIxpUserAppLayersPrefetchEnabled),
 	GetFFlagEnableUnifiedWebViews = require(script.GetFFlagEnableUnifiedWebViews),
