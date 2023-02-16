@@ -2691,7 +2691,7 @@ Class BasePart : PVInstance [NotCreatable] [NotBrowsable]
 	Function void BasePart:ApplyAngularImpulse(Vector3 impulse)
 	Function void BasePart:ApplyImpulse(Vector3 impulse)
 	Function void BasePart:ApplyImpulseAtPosition(Vector3 impulse, Vector3 position)
-	Function void BasePart:BreakJoints()
+	Function void BasePart:BreakJoints() [Deprecated]
 	Function bool BasePart:CanCollideWith(BasePart part) {🧬Safe}
 	Function Tuple BasePart:CanSetNetworkOwnership()
 	Function Objects BasePart:GetConnectedParts(bool recursive = false) {🧬Safe}
@@ -2705,7 +2705,7 @@ Class BasePart : PVInstance [NotCreatable] [NotBrowsable]
 	Function Vector3 BasePart:GetVelocityAtPosition(Vector3 position) {🧬Safe}
 	Function Instance BasePart:IntersectAsync(Objects parts, Enum.CollisionFidelity collisionfidelity = "Default", Enum.RenderFidelity renderFidelity = "Automatic") [Yields]
 	Function bool BasePart:IsGrounded() {🧬Safe}
-	Function void BasePart:MakeJoints()
+	Function void BasePart:MakeJoints() [Deprecated]
 	Function bool BasePart:Resize(Enum.NormalId normalId, int deltaAmount)
 	Function void BasePart:SetNetworkOwner(Player playerInstance = nil)
 	Function void BasePart:SetNetworkOwnershipAuto()
@@ -2836,14 +2836,14 @@ Class Model : PVInstance
 	Property float Model.Scale [NotReplicated] [NotScriptable]
 	Property CFrame Model.WorldPivot [NotReplicated]
 	Function void Model:AddPersistentPlayer(Player playerInstance = nil)
-	Function void Model:BreakJoints()
+	Function void Model:BreakJoints() [Deprecated]
 	Function Tuple Model:GetBoundingBox()
 	Function Vector3 Model:GetExtentsSize()
 	Function CFrame Model:GetModelCFrame() [Deprecated]
 	Function Vector3 Model:GetModelSize() [Deprecated]
 	Function CFrame Model:GetPrimaryPartCFrame() [Deprecated]
 	Function float Model:GetScale()
-	Function void Model:MakeJoints()
+	Function void Model:MakeJoints() [Deprecated]
 	Function void Model:MoveTo(Vector3 position)
 	Function void Model:RemovePersistentPlayer(Player playerInstance = nil)
 	Function void Model:ResetOrientationToIdentity() [Deprecated]
@@ -2927,7 +2927,7 @@ Class Workspace : WorldRoot [NotCreatable] [Service]
 	Property Enum.StreamingIntegrityMode Workspace.StreamingIntegrityMode [NotScriptable]
 	Property int Workspace.StreamingMinRadius [NotScriptable]
 	Property int Workspace.StreamingTargetRadius [NotScriptable]
-	Function void Workspace:BreakJoints(Objects objects) {PluginSecurity}
+	Function void Workspace:BreakJoints(Objects objects) {PluginSecurity} [Deprecated]
 	Function float Workspace:CalculateJumpDistance(float gravity, float jumpPower, float walkSpeed) {RobloxScriptSecurity}
 	Function float Workspace:CalculateJumpHeight(float gravity, float jumpPower) {RobloxScriptSecurity}
 	Function float Workspace:CalculateJumpPower(float gravity, float jumpHeight) {RobloxScriptSecurity}
@@ -2937,7 +2937,7 @@ Class Workspace : WorldRoot [NotCreatable] [Service]
 	Function double Workspace:GetRealPhysicsFPS() {🧬Safe}
 	Function double Workspace:GetServerTimeNow()
 	Function void Workspace:JoinToOutsiders(Objects objects, Enum.JointCreationMode jointType)
-	Function void Workspace:MakeJoints(Objects objects) {PluginSecurity}
+	Function void Workspace:MakeJoints(Objects objects) {PluginSecurity} [Deprecated]
 	Function bool Workspace:PGSIsEnabled()
 	Function void Workspace:SetMeshPartHeadsAndAccessories(Enum.MeshPartHeadsAndAccessories value) {RobloxScriptSecurity}
 	Function void Workspace:SetPhysicsThrottleEnabled(bool value) {LocalUserSecurity}
