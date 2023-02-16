@@ -33221,6 +33221,7 @@ SimCSGV3TreeSerializationCrashFix
 SimDefaultHumanoidTimestepMultiplier
 SimDefaultTimestepMultiplier
 SimDeprecateConstraintLegacyAngularVelocity
+SimDeprecateIsKernelJoint
 SimDontReportHumanoidFloorTouchDuringStep
 SimDontReportHumanoidFloorTouchDuringStep2
 SimDontResetImpulseAccumulator
@@ -44180,6 +44181,8 @@ VoiceChatExposeVoiceExperienceId
 VoiceChatFailToGetTurnAuthInfo
 VoiceChatFixJoinRetry
 VoiceChatFixWorkerThreadName
+VoiceChatFmodOutputDroppedBytes
+VoiceChatFmodOutputUnderrunErrorsCount
 VoiceChatFmodToWebrtcMinBufferMs
 VoiceChatGetUsers2SubscriptionsStartMs
 VoiceChatHttpResultBodyEmptyTelemetry
@@ -44334,6 +44337,7 @@ VoiceChatTaskStatsTelemetry
 VoiceChatTaskStatsTelemetryThrottleHundrethsPercent
 VoiceChatTokenRequest
 VoiceChatTokenThrottleMs
+VoiceChatUnderrunErrorsTelemetry
 VoiceChatUpdateSourcesIntervalMs
 VoiceChatUpdateSourcesOnSeparateThread
 VoiceChatUseCustomAudioDeviceProd6
@@ -44977,6 +44981,7 @@ VUIListLayout
 VUIMetrics
 VUIPadding
 VUIPageLayout
+VUISizeConstr
 VUISizeConstraint
 VUITableLayout
 VUITextSizeConstraint
