@@ -93,6 +93,7 @@ AbBcdHIjmMpSUwWxXyYzZ
 ABBF60C2168118C14FDE5E01E7934
 Abbigliamento
 ABCCDEFGHIJKKLMNOPQRSTUVVWXYZ[\]^_`abcd
+ABCDEF8ZWE
 ABCDEFBokehNearCoCFS
 ABCDEFCodeSnippet_Alpha3
 ABCDEFGABCDEFGABCDEFGABCDEFGABCDEFGABCDEFGAHIIIIIIIIJJJJJJJJJJJJJJJJJJJJJJJJJ4KLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqqqrstlllllllllluuvwxlllllllllllllllyz
@@ -2330,6 +2331,7 @@ AURobloxRegisterSyntaxCategoriesRequest
 AURobloxRegisterSyntaxCategoriesResponse
 AURobloxSignalQuiescenceRequest
 AURobloxSignalQuiescenceResponse
+AURobloxSourceResponse
 AURobloxSuggestExtraSelectionsRequest
 AURobloxSuggestExtraSelectionsResponse
 AURobloxSyntaxHighlightNotification
@@ -4049,7 +4051,6 @@ AVDEPRECATED_RobloxCustomEventWithArg
 AVDEPRECATED_RobloxUser
 AVDEPRECATED_ScriptBreakpointsComponent
 AVDEPRECATED_ScriptRecoveryWidget
-AVDEPRECATED_ShareModalController
 AVDEPRECATED_SplineEditor
 AVDEPRECATED_StudioGalleryItem
 AVDEPRECATED_TaskController
@@ -4300,6 +4301,7 @@ AVExplorerTreeWidgetItem
 AVExplorerWidget
 AVExplosion
 AVExplosionEmitter
+AVExponentialDecaySmoothing
 AVExportPlaceVerb
 AVExportSelectionVerb
 AVExtendedReports
@@ -6466,6 +6468,7 @@ AVSignatureHelpScrollContainer
 AVSignatureHelpTooltip
 AVSignerSodium
 AVSimpleJSON
+AVSimpleLinearSmoothing
 AVSimpleTagParser
 AVSimulatedNetwork
 AVSimulatedNetworkInterface
@@ -6872,6 +6875,7 @@ AVTracingTransport
 AVTrackEntriesCallback
 AVTrackEntryParser
 AVTrackerAnimationStreamSource
+AVTrackerDataSmoothingStrategy
 AVTrackerLodController
 AVTrackerPostProcessor
 AVTrackerStreamAnimation
@@ -7619,6 +7623,7 @@ BackgroundMode
 BackgroundTransparency
 BackingAssetId
 BacklogDetectorEnable
+BacklogDetectorEventIngest
 BacklogDetectorLatencyThresholdMs
 BacklogDetectorMovingAvgThresholdMs
 BacklogDetectorReportInfluxHundredthsPercentage
@@ -13386,7 +13391,6 @@ DEPRECATED_ScriptRecoveryWidget
 DEPRECATED_ServerConfigCloudEditServerSaveUrl
 DEPRECATED_setBranchIcon
 DEPRECATED_setResultLocation
-DEPRECATED_ShareModalController
 DEPRECATED_showToolTip
 DEPRECATED_signalBreakpointAddedInternal
 DEPRECATED_SplineEditor
@@ -15737,6 +15741,7 @@ ExplosionType
 Explosives
 Exponential
 ExponentialAverageTrackingFactor
+ExponentialDecay
 ExponentialNackBackoff
 ExponentialProbing
 Exportando
@@ -16591,7 +16596,6 @@ FixedWidth
 FixEmptyFolderContributesToTrackweight
 FixErrorSessionThrottling
 FixExtraContentLookup
-FixFirstPersonMouseCursorSnapping_CenterPo
 FixFirstPersonMouseCursorSnapping_CenterPos
 FixFirstPersonMouseCursorSnapping_ForceCursor
 FixForBulkPresenceNotifications
@@ -16671,6 +16675,7 @@ FlagAPICaching
 FlagCaptured
 FlagCreated
 FlagCursor.png
+FlagDeferredTrackerDataHandling
 FlagEditor
 FlagEditorDelegate
 FlagInterlaced
@@ -23607,6 +23612,7 @@ MovementCallbacks
 MovementMode
 MovementRelative
 MoveOutThumbnailController3
+MovePrerender
 MoveProxyPartHitboxes
 MoveSpeedFactor
 MoveStateChanged
@@ -25690,6 +25696,7 @@ PEAURobloxPatchSnippetDataNotification
 PEAURobloxRegisterSyntaxCategoriesRequest
 PEAURobloxRegisterSyntaxCategoriesResponse
 PEAURobloxSignalQuiescenceResponse
+PEAURobloxSourceResponse
 PEAURobloxSuggestExtraSelectionsRequest
 PEAURobloxSuggestExtraSelectionsResponse
 PEAURobloxSyntaxHighlightNotification
@@ -27660,6 +27667,7 @@ Processing
 Processing...
 ProcessingAvg
 ProcessingConfigPerDC
+ProcessingError
 ProcessingFinished
 ProcessingMax
 ProcessingReportGroup
@@ -28221,6 +28229,7 @@ QEAAXPEAVQAbstractAnimation
 QEAAXPEAVQAbstractButton
 QEAAXPEAVQAbstractItemDelegate
 QEAAXPEAVQAbstractItemModel
+QEAAXPEAVQAbstractNativeEventF
 QEAAXPEAVQAbstractNativeEventFilter
 QEAAXPEAVQAction
 QEAAXPEAVQCompleter
@@ -29605,6 +29614,10 @@ RemapArray[OldStart]
 RemoteAbandonReportingThreshold
 RemoteAbandonReportMyriad
 RemoteActiveDisconnect
+RemoteAnimationFacsSmoothing
+RemoteAnimationRYPSmoothing
+RemoteAnimationSmoothing
+RemoteAnimationSmoothingStrategy
 RemoteAnimationStreamSource
 RemoteAnimationStreamSource]
 RemoteAnimationStreamSourceTrace
@@ -30778,6 +30791,7 @@ Roblox_openDocument
 Roblox_patchSnippetData
 Roblox_registerSyntaxCategories
 Roblox_signalQuiescence
+Roblox_source
 Roblox_suggestExtraSelections
 Roblox_textCursorPositionDidChange
 Roblox_viewportDidChange
@@ -31525,7 +31539,7 @@ ScriptEditorMultiCursorBetaFeatureRoleSet
 ScriptEditorMultiCursorBetaFeatureRolloutPercent
 ScriptEditorMultiCursorBetaFeatureUrl
 ScriptEditorMultiCursorEventThrottleHundredthPercent
-ScriptEditorMultlc
+ScriptEditorMultl
 ScriptEditorRemoved
 ScriptEditorService
 ScriptEditorSettingAutoCleanEmptyLine
@@ -33254,6 +33268,7 @@ SimOptimizeInterpolationReturnPreviousIfSmallMovement2
 SimOwnedNOUCountThresholdMillionth
 SimPhysicsReportingStuff
 SimpleJson
+SimpleLinear
 SimpleTimer
 Simplificar
 Simplification
@@ -38618,7 +38633,6 @@ StudioFixPlaceIdInSessionTracker
 StudioFixPluginCorruptionOnListenChangeVisibility
 StudioFixSameVersionChannelUpdateProblem
 StudioFixSecondaryScreenMaxSizeBug
-StudioFixShareModalTextCutOff
 StudioFixStartApplicationLocationReporting
 StudioFixToastVisualBugs
 StudioFlagEditor
@@ -38835,7 +38849,6 @@ StudioQtitanSendCloseEventToPanelWhenClosedByUser
 StudioQtSVGIcons
 StudioRecentActionCacheSize
 StudioReEnableNetworkProxy_Dev
-StudioRefactorShareModalController
 StudioRemoveAuthenticator
 StudioRemoveStudioSettingsGoogleAnalyticsOnStart
 StudioRemoveTeamCreateOffSetting
@@ -42241,6 +42254,7 @@ URobloxPatchSnippetDataNotification
 URobloxRegisterSyntaxCategoriesRequest
 URobloxRegisterSyntaxCategoriesResponse
 URobloxSignalQuiescenceResponse
+URobloxSourceResponse
 URobloxSuggestExtraSelectionsRequest
 URobloxSuggestExtraSelectionsResponse
 URobloxSyntaxHighlightNotification
@@ -43409,6 +43423,7 @@ VExperienceInviteOptions
 VExperimentationProtocolCore
 VExplorerFilter
 VExplosion
+VExponentialDecaySmoothing
 VExportSelectionForUploadVerbHelper
 VExpression
 VExternalContentSharingProtocol
@@ -44280,6 +44295,7 @@ VoiceChatSessionJoinStageWaitForSignalR
 VoiceChatSessionJoinSuccess
 VoiceChatSessionJoinTimeout
 VoiceChatSessionMultiSubFailedTooManyRetries
+VoiceChatSessionMultiSubFailu
 VoiceChatSessionMultiSubFailure
 VoiceChatSessionMultiSubRetry
 VoiceChatSessionPubFailure
@@ -44760,6 +44776,7 @@ VShorelineUpgrader
 VShorelineUpgraderService
 VSignalrConnection
 VSignalrControl
+VSimpleLinearSmoothing
 VSimpleTagParser
 VSIndexBufferMaxCount
 Vsingle_threaded
