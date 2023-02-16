@@ -93,7 +93,6 @@ AbBcdHIjmMpSUwWxXyYzZ
 ABBF60C2168118C14FDE5E01E7934
 Abbigliamento
 ABCCDEFGHIJKKLMNOPQRSTUVVWXYZ[\]^_`abcd
-ABCDEF8zWE
 ABCDEFBokehNearCoCFS
 ABCDEFCodeSnippet_Alpha3
 ABCDEFGABCDEFGABCDEFGABCDEFGABCDEFGABCDEFGAHIIIIIIIIJJJJJJJJJJJJJJJJJJJJJJJJJ4KLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqqqrstlllllllllluuvwxlllllllllllllllyz
@@ -413,6 +412,7 @@ AddressChoice
 AddRestrictedRegisterEvent
 AddReverseListingToGridStyleLayout
 AddRomarkAnalyticsForPathfinding
+AddRtlTextSupportOption
 AddRttToPlayoutDelay
 AddSctpDataStream
 AddSelectionParent
@@ -7413,6 +7413,7 @@ AW4RigType
 AW4RollOffMode
 AW4RotationOrder
 AW4RotationType
+AW4RtlTextSupport
 AW4RunContext
 AW4RuntimeUndoBehavior
 AW4SafeAreaCompatMode
@@ -24207,7 +24208,6 @@ NfwlTracking
 NfwlTrackingPermyriad
 NfXf`fhfzf
 NH_NHHVStringView
-NHHAEBVQModelIndex
 NHVVariant
 NinjaMask.mesh
 NLSF_mu_Q20
@@ -30262,6 +30262,7 @@ ReportReplicatorStatsToInfluxHundredthsPercent
 ReportRetargetingStats
 ReportRobuxUpsellEnabled
 ReportRobuxUpsellStarted
+ReportRTLSupportThrottleHundrethsPercent
 ReportRuntimeJoinCount
 ReportServerVariance
 ReportSessionTrackingWithoutBlocking
@@ -31085,6 +31086,8 @@ RtlCaptureContext
 RtlCaptureStackBackTrace
 RtlDisownModuleHeapAllocation
 RtlLookupFunctionEntry
+RtlTextSupport
+RtlTextSupportDefaultIsEnabled
 RtlVirtualUnwind
 RtMessaging
 RtMessagingEnvelopeOf

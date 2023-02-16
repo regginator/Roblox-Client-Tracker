@@ -343,6 +343,7 @@ Class PlayerGui : BasePlayerGui [NotCreatable] [PlayerReplicated]
 	Event PlayerGui.TopbarTransparencyChangedSignal(float transparency) [Deprecated]
 Class StarterGui : BasePlayerGui [NotCreatable] [Service]
 	Property bool StarterGui.ProcessUserInput {PluginSecurity} [Hidden] [NotReplicated]
+	Property Enum.RtlTextSupport StarterGui.RtlTextSupport [NotScriptable]
 	Property Enum.VirtualCursorMode StarterGui.VirtualCursorMode [NotScriptable]
 	Property bool StarterGui.ResetPlayerGuiOnSpawn [Deprecated]
 	Property Enum.ScreenOrientation StarterGui.ScreenOrientation
@@ -6694,6 +6695,10 @@ Enum RotationOrder
 Enum RotationType
 	EnumItem RotationType.MovementRelative : 0
 	EnumItem RotationType.CameraRelative : 1
+Enum RtlTextSupport
+	EnumItem RtlTextSupport.Default : 0
+	EnumItem RtlTextSupport.Disabled : 1
+	EnumItem RtlTextSupport.Enabled : 2
 Enum RunContext
 	EnumItem RunContext.Legacy : 0
 	EnumItem RunContext.Server : 1
