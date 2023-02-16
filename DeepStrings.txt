@@ -16591,6 +16591,7 @@ FixedWidth
 FixEmptyFolderContributesToTrackweight
 FixErrorSessionThrottling
 FixExtraContentLookup
+FixFirstPersonMouseCursorSnapping_CenterPo
 FixFirstPersonMouseCursorSnapping_CenterPos
 FixFirstPersonMouseCursorSnapping_ForceCursor
 FixForBulkPresenceNotifications
@@ -43873,7 +43874,6 @@ VirtualInputEventsProcessed
 VirtualInputManager
 VirtualInputManagerEnableRecording
 VirtualInputManagerEnableStudioPlayback
-VirtualInputManagerFixInputObjectPositio
 VirtualInputManagerFixInputObjectPosition
 VirtualInputMode
 VirtualProtect
@@ -46010,7 +46010,6 @@ XPEBVGImage
 XPEBVInstance
 XPEBVIStatus
 XQColorDialog
-Xqt.qml.connections.warning
 Xregex_error
 XResolution
 Xtime_get_ticks
