@@ -382,6 +382,10 @@ local function initializeLibrary(configs)
 		}),
 	})
 
+	UIBlox.UnitTestHelpers = {
+		MockContentProvider = require(script.UnitTestHelpers.MockContentProvider),
+	}
+
 	UIBlox.Style = {
 		-- These redirect to Core, which ultimately redirect back to original.
 		-- If we do it this, switching to `UIBlox.Core.Style` is a separate step
