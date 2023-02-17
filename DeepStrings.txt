@@ -2014,7 +2014,7 @@ AudioDevicesImpl
 AudioDeviceTelemetry
 AudioDeviceWindowsCore
 AudioDiscoveryPermCheckMaxAssetIdsPerRequest
-AudioDownloa`x
+AudioDownloa
 AudioDrift
 AudioDriftLowerThresholdMs
 AudioDriftSampleRateRatio
@@ -7645,6 +7645,7 @@ BackSurface
 BackSurfaceInput
 BackToMinimumRadius
 BadCallError
+BADCONNECTION
 BadDistanceScale
 BADDSPCONNECTION
 BadFieldOfViewDeg
@@ -10500,6 +10501,7 @@ COLLAB2767UseUntranslatedErr
 COLLAB2767UseUntranslatedErrHundredthPercent
 COLLAB2781FixTeamCreateStatusChildPlaces
 COLLAB2784UsePlaceSessionToAccessDMEnabled
+COLLAB2966ConnectionIndicatorOnYellowTelemetry
 CollabEditVersionHistory
 Collaborate
 Collaboration
@@ -12303,12 +12305,6 @@ DataPing_CN_to_DC_
 DataPing_Country_
 DataPing_DataCenter_
 DataPing_Platform_
-DataPing2Breakdown
-DataPing2ReportByIPInfluxHundredthsPercentage
-DataPing2ReportByRPRInfluxHundredthsPercentage
-DataPing2ReportInfluxHundredthsPercentage
-DataPing2ReportThresholdMs
-DataPing2ReportThrottleSeconds
 DataPingBack
 DataPingBreakdown
 DataPingBreakdownEstTotal
@@ -13951,6 +13947,7 @@ DisconnectDevMaintenance
 DisconnectDuplicatePlayer
 DisconnectDuplicateTicket
 Disconnected
+DISCONNECTED
 DisconnectedWhilePaused
 DisconnectErrors
 DisconnectEvicted
@@ -24246,6 +24243,7 @@ NoCollisionConstraintAction
 NoCollisionConstraintInUse
 NoCollisionConstraintTool
 NoCollisions
+NOCONNECTION
 NoContentProvider
 NoCookieFound
 NoCoreScripts
@@ -29689,9 +29687,7 @@ RemoteOnInvokeError
 RemoteOnInvokeServer
 RemoteOnInvokeSuccess
 RemotePlayer
-RemotePopToReadOverThreshold
 RemotePopToReadTime
-RemotePopToReadTimeReportingThresholdMS
 RemoteQueueToSerializeTime
 RemoteRecvToPopTime
 RemoteSdpSet
@@ -30135,7 +30131,6 @@ ReportAssetSale
 ReportAsyncHttpQueueFailedErase
 ReportAvatarAssetLoadTimesPerMyriad
 ReportAvatarRequestTimesPerMyriad
-ReportByIP
 ReportCharacterLoadTimeMetricsInverseProbability
 ReportChildrenResetCostAtNIIProcessEveryXSeconds
 ReportChildrenResetCostAtNIIProcessInfluxHundredthsPercentage
@@ -30152,11 +30147,6 @@ ReportControllerManagerPercent
 ReportControllerManagerUse
 ReportCounter
 ReportCSGMeshVersionOnce
-ReportDataPing2
-ReportDataPing2ByIP
-ReportDataPing2ByRPR
-ReportDataPing2ByRPRAndIPPointFix
-ReportDataPing2GameId
 ReportDeadKickCodeUsage
 ReportDeadKickCodeUsageHundredthsPercentage
 ReportDefaultLoadingGuiRemovalTimeWithChildrenCheck
@@ -31538,7 +31528,7 @@ ScriptEditorEnableBlockFormat
 ScriptEditorHorizontalScrollBar
 ScriptEditorLiveEditing
 ScriptEditorMenuBorderColor
-ScriptEditorMult\
+ScriptEditorMult
 ScriptEditorMultiCursor
 ScriptEditorMultiCursorBetaFeature
 ScriptEditorMultiCursorBetaFeatureRoleSet
@@ -32276,8 +32266,6 @@ ServerInfoFile
 SERVERINFOV2
 ServerInstanceId
 ServerInvoke
-ServerIPAddressDataPingSelectionModuloValue
-ServerIPAddressDataPingSelectionNumUnits
 ServerItemTimeLimitMs
 ServerJoinReject
 ServerJoinRejectCountHundredthPercentageSent
@@ -38552,6 +38540,8 @@ StudioColorVerb
 StudioConnectionIndicatorConditionalTelemetry
 StudioConnectionIndicatorConditionalTelemetryThrottleHundrethsPercent
 StudioConnectionIndicatorHearbeatTimeout
+StudioConnectionIndicatorSwitchTelemetry
+StudioConnectionIndicatorSwitchTelemetryThrottleHundrethsPercent
 StudioConnectionIndicatorTelemetry
 StudioConnectionIndicatorTelemetryThrottleHundrethsPercent
 StudioCookieManager
@@ -39556,6 +39546,7 @@ TeamCreateBetaEnabled
 TeamCreateCancel
 TeamCreateConnectionAborted
 TeamCreateConnectionDialog
+TeamCreateConnectionIndicator
 TeamCreateConnectionMonitor
 TeamCreateConnectionMonitor]
 TeamCreateData
@@ -45597,7 +45588,7 @@ WilError_03
 WillReturn
 Win32CrashUploadRobloxTelemetry
 Win32HardwareSleepListener
-Win64.564.4310
+Win64.565.14364
 WinChannelCrashCounter
 WinchEnabled
 WinchForce
