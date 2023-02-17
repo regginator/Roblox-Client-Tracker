@@ -24942,6 +24942,8 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\lerp.lua
 a0054e3560396d4ba599ac41ab516b08
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\memoize.lua
 fed9b54c952b31b043d57318d977c225
+ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\MockContentProvider.lua
+ecae4129badaecc2bf726bac4849c399
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\mockStyleComponent.lua
 1f7c7e66ab28c29d1cee10a64dfd7a30
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\setDefault.lua
