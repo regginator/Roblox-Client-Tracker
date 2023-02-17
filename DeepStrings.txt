@@ -11380,7 +11380,6 @@ Covariance
 CoverageInfo
 CoverageRef
 CPGSConstraintAlign2AxesCompliantCacheFix
-CPlayAudioVideoInPlugins
 CpuArchitecture
 CpuLimitedResolutionInPercent
 CpuLoadEstimator
@@ -14221,7 +14220,6 @@ DPERF_GetStatus
 DPOLY1305_ASM
 DpRpPpPALl
 Dqlqlqlqlql
-Dqt.qml.connections.warning
 DraftAdded
 DraftCommitted
 DraftOutdated
@@ -27046,6 +27044,7 @@ Platzhalter
 Platzierung
 Playability
 PlayAction
+PlayAudioVideoInPlugins
 PlaybackCompleted
 PlaybackControls
 PlaybackErrors
