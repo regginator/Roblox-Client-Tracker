@@ -833,6 +833,7 @@ AICOCompletionResponseParseError
 AICOCompletionResponseSuccess
 AICOContextFilterTelemetry
 AICOFunctionContextFilter
+AICOInputCommentDebounceTimeMs
 AICOInputDebounceTimeMs
 AICOInverseTrigger2
 AICOKeyPressEnter
@@ -8135,6 +8136,7 @@ BootcampCLI57567
 BootcampCLI58696
 BootcampCLI59824
 BootcampCLI59866
+BootcampCLI6018
 BootcampCLI63919
 BootcampCLI65612
 BootcampCLI65711
@@ -8536,6 +8538,7 @@ CacheEntry
 CacheInitialized
 CachePluginOTADataFailed
 CachePolicy
+CacheRequestedMaxSize
 CacheResourceInfo
 CacheResult
 CacheStatusOnline
@@ -15226,6 +15229,7 @@ EndTransformFeedback
 EnemyOcclusion
 Engagement
 Engine.Harmony
+Engine.Interactivity.UICreation.NotchScreenSupport
 Engine.Network
 ENGINE_add
 ENGINE_by_id
@@ -16798,6 +16802,7 @@ FmodManager
 FmodManagerImpl
 FMODPlaybackChannel
 FMODPlaybackDSP
+FmodRecordingLatencyMs
 FmodRelease
 FMODReportDeviceInfo
 FmodSoftwareChannels
@@ -19604,7 +19609,7 @@ HW4MatchType
 HW4Orientation
 HW4PacketPriority
 HW4TransformationMode
-HwngSmldAskhBcraMaweNegsOgnaT
+HwngSmldAskhBcraMaweNegsOgnaTP
 HwngSmldAskhBcraMegsOgnaTaweNmnoGuhsNoyoSbnaZrgoDgnoGghoRakaMfdeMogoSdgoSmylEdnaNpnmHohcWsrhCkaiDstiKizeY
 HWYGOTH.ttf
 HxLPNxRpTxX9
@@ -20934,6 +20939,7 @@ IXMLHTTPRequest2
 IxpController
 IXPController
 IxpController]
+IXPEnableNotchSupportExperiment
 IxpExperimentRegister
 IXPLoadingScreenLayerName
 IXPLoadingStatus
@@ -26725,6 +26731,7 @@ PhysicsSenderRootPVSize
 PhysicsSenderRotationSize
 PhysicsSenders
 PhysicsSenderS2
+PhysicsSenderT
 PhysicsSenderTranslationSize
 PhysicsSenderVelocitySize
 PhysicsSendKbps
@@ -41699,6 +41706,7 @@ UMeshSizeWarning
 UMessageAndSenderId
 UMetalnessBadFileFormatError
 UMissingChildInfo
+UMLCompletionData
 UMLCompletionRequest
 UMLCompletionResponse
 UMouseDownCaptureInfo
@@ -42330,7 +42338,6 @@ UseLocalSpace
 UseMaxAnalogAgcChannelLevel
 UseMediumpSamplers
 UseMinCanvasSizeForScollingFrame
-UseNewGuidGenerator
 UseNewInvitePermissionsForSocialServiceRollout
 UseNewVersionFormat
 UseNewVoiceChatService
