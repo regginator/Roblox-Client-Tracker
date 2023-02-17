@@ -8,7 +8,7 @@ type ExperienceMedia {
   assetTypeId: ID
   assetType: MediaAssetType
   approved: Boolean
-  imageId: Int
+  imageId: ID
   videoHash: String
   videoTitle: String
   altText: String
@@ -24,7 +24,7 @@ type ExperienceCreator {
 
 type ExperienceDetails {
   id: ID!
-  rootPlaceId: Int
+  rootPlaceId: ID
   name: String
   description: String
   sourceName: String
@@ -35,8 +35,8 @@ type ExperienceDetails {
   allowedGearCategories: [String]
   isGenreEnforced: Boolean
   copyingAllowed: Boolean
-  playing: Int
-  visits: Int
+  playing: Float
+  visits: Float
   maxPlayers: Int
   created: String
   updated: String
@@ -46,7 +46,7 @@ type ExperienceDetails {
   genre: String
   isAllGenre: Boolean
   isFavoritedByUser: Boolean
-  favoritedCount: Int
+  favoritedCount: Float
 }
 
 type Experience {
@@ -140,10 +140,10 @@ type Rsvp {
 }
 
 type RsvpCounters {
-  none: Int
-  going: Int
-  maybeGoing: Int
-  notGoing: Int
+  none: Float
+  going: Float
+  maybeGoing: Float
+  notGoing: Float
 }
 
 type VirtualEvent {

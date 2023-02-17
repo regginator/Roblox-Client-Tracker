@@ -1,4 +1,4 @@
--- ROBLOX upstream: https://github.com/Roblox/lua-apps/blob/dfec4ecb4f/modules/graphql/graphql-server-ts/src/graphql/generatedTypes.ts
+-- ROBLOX upstream: https://github.com/Roblox/lua-apps/blob/eed5f312fc/modules/graphql/graphql-server-ts/src/graphql/generatedTypes.ts
 local Packages = script:FindFirstAncestor("GraphQLServer").Parent
 local LuauPolyfill = require(Packages.LuauPolyfill)
 type Array<T> = LuauPolyfill.Array<T>
@@ -54,7 +54,7 @@ export type ExperienceDetails = {
 	created: Maybe<typeof((({} :: any) :: Scalars).String)>?,
 	creator: Maybe<ExperienceCreator>?,
 	description: Maybe<typeof((({} :: any) :: Scalars).String)>?,
-	favoritedCount: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
+	favoritedCount: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
 	genre: Maybe<typeof((({} :: any) :: Scalars).String)>?,
 	id: typeof((({} :: any) :: Scalars).ID),
 	isAllGenre: Maybe<typeof((({} :: any) :: Scalars).Boolean)>?,
@@ -62,15 +62,15 @@ export type ExperienceDetails = {
 	isGenreEnforced: Maybe<typeof((({} :: any) :: Scalars).Boolean)>?,
 	maxPlayers: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
 	name: Maybe<typeof((({} :: any) :: Scalars).String)>?,
-	playing: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
+	playing: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
 	price: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
-	rootPlaceId: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
+	rootPlaceId: Maybe<typeof((({} :: any) :: Scalars).ID)>?,
 	sourceDescription: Maybe<typeof((({} :: any) :: Scalars).String)>?,
 	sourceName: Maybe<typeof((({} :: any) :: Scalars).String)>?,
 	studioAccessToApisAllowed: Maybe<typeof((({} :: any) :: Scalars).Boolean)>?,
 	universeAvatarType: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
 	updated: Maybe<typeof((({} :: any) :: Scalars).String)>?,
-	visits: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
+	visits: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
 }
 export type ExperienceMedia = {
 	__typename: "ExperienceMedia"?,
@@ -78,7 +78,7 @@ export type ExperienceMedia = {
 	approved: Maybe<typeof((({} :: any) :: Scalars).Boolean)>?,
 	assetType: Maybe<MediaAssetType>?,
 	assetTypeId: Maybe<typeof((({} :: any) :: Scalars).ID)>?,
-	imageId: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
+	imageId: Maybe<typeof((({} :: any) :: Scalars).ID)>?,
 	videoHash: Maybe<typeof((({} :: any) :: Scalars).String)>?,
 	videoTitle: Maybe<typeof((({} :: any) :: Scalars).String)>?,
 }
@@ -167,10 +167,10 @@ export type Rsvp = {
 }
 export type RsvpCounters = {
 	__typename: "RsvpCounters"?,
-	going: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
-	maybeGoing: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
-	none: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
-	notGoing: Maybe<typeof((({} :: any) :: Scalars).Int)>?,
+	going: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
+	maybeGoing: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
+	none: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
+	notGoing: Maybe<typeof((({} :: any) :: Scalars).Float)>?,
 }
 export type RsvpResponse = {
 	__typename: "RsvpResponse"?,
