@@ -95,7 +95,7 @@ BuiltInPlugins\Optimized_Embedded_Signature\AlignmentTool.rbxm
 BuiltInPlugins\Optimized_Embedded_Signature\AnimationClipEditor.rbxm
 8275d36ad96bec01e124b4bde5344558
 BuiltInPlugins\Optimized_Embedded_Signature\AssetImporter.rbxm
-7e9413c3273825fde90574928db704e5
+6dd4adbbb955e0f391918c48ce803834
 BuiltInPlugins\Optimized_Embedded_Signature\AssetManager.rbxm
 705896719ea0d0994f5f79b00b8668c6
 BuiltInPlugins\Optimized_Embedded_Signature\AudioDiscovery.rbxm
@@ -125,7 +125,7 @@ fc24740f43d5d6ce25533039df575eb9
 BuiltInPlugins\Optimized_Embedded_Signature\EventEmulator.rbxm
 f40e495c1af1c5b1a4d8494701ebd372
 BuiltInPlugins\Optimized_Embedded_Signature\GameSettings.rbxm
-9cdadf2f60264551e06de610fe80b469
+1cc2f1b46f4a47693bd6457e9ae7c579
 BuiltInPlugins\Optimized_Embedded_Signature\GuiDevEnv.rbxm
 5b7dbe4982eedf88764536d807aeae32
 BuiltInPlugins\Optimized_Embedded_Signature\InternalAvatarTools.rbxm
@@ -163,7 +163,7 @@ b0ab327d4c47ebb6b41425975a5d0fa6
 BuiltInPlugins\Optimized_Embedded_Signature\StyleEditor.rbxm
 8dbb7d88655f847165618fdda5bd6b27
 BuiltInPlugins\Optimized_Embedded_Signature\TagEditor.rbxm
-0b2a0f32003edcdf8bf55ba4a3487d0b
+84d8c4a0f9c9a7d451e1e29b5572d2d4
 BuiltInPlugins\Optimized_Embedded_Signature\TerrainEditor.rbxm
 0329acaa12fd5b8d2dc2d1001d473a63
 BuiltInPlugins\Optimized_Embedded_Signature\TerrainToolsV2.rbxm
@@ -1725,17 +1725,17 @@ b355e8ece0f1947a5c13894cf370d2e4
 MicrosoftEdgeWebview2Setup.exe
 610b1b60dc8729bad759c92f82ee2804
 QtitanBase.dll
-55a2b066084a338f32ae000a18f56414
+6057375e3ea7aba5f324e75baf2920db
 QtitanDocking.dll
-8a538b7151b1303a46108625eb0444ce
+a48065729ba37d338203c92d9c577ce1
 QtitanRibbon.dll
-491e24a1496452f0123424fa321b2457
+6d2f376d5ea90baf7a92f8f8cc96b93b
 ReflectionMetadata.xml
 eb09f990f5c82e94733e75df4561c57e
 RobloxStudio_license.html
 dac8646a23beb351db2b6514d1c9222f
 RobloxStudioBeta.exe
-89334dd0e1230d6a5a79fd7e8f815931
+ad8b305e714e2b3b4d6e76e69d345f7d
 RobloxStudioRibbon.xml
 00e9a3abf465d35ef42d13fcb9407518
 d3dcompiler_47.dll
@@ -1947,7 +1947,7 @@ e6312e813f3514d0714a1245d0bba980
 content\avatar\unification\UnificationServerScript.lua
 583b8b5edde77db48a623fa00598b72f
 content\configs\DataModelPatchConfig\DataModelPatchConfig.json
-b94bd1d118c4b74df74cd41563c6db2d
+d1ab5046a179de67bef57ea87abc4ae7
 content\configs\DateTimeLocaleConfigs\de-de.json
 70838582dc54066f9e86b7c98237cf19
 content\configs\DateTimeLocaleConfigs\en-au.json
@@ -16177,7 +16177,7 @@ ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\Experi
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\llama.lua
 33c34f93b5aaf07466901a4c6c69f432
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\lock.toml
-4f2e9600bac63eb766ac5d22c0180afe
+e5595ca3eb848db5690956263bf580f7
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\Lumberyak.lua
 30e200bf53f25240f653a6ba2ed6b0cc
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-09990ed6-a147b962\Otter.lua
@@ -16739,7 +16739,7 @@ ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\Experi
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\llama.lua
 33c34f93b5aaf07466901a4c6c69f432
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\lock.toml
-1a9c06b36b1f06c26a630d98a1715dbc
+24e2e53e005d1ea7f4f805b96b2870fe
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\Lumberyak.lua
 30e200bf53f25240f653a6ba2ed6b0cc
 ExtraContent\LuaPackages\Packages\_Index\ExperienceChat-5e199548-ff27333b\Otter.lua
@@ -17579,7 +17579,7 @@ ExtraContent\LuaPackages\Packages\_Index\IAPExperience\IAPExperience\Utility\moc
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\IAPExperience\Utility\StoryMiddleware.lua
 cb0682505faf867357bd24f53e34e572
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\lock.toml
-fce0259c33933512d61c315631ca87a2
+06f099aa49827c4a631289f326cbff53
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\Otter.lua
 1ca2b34086fc8eb7b9485c282da7c9cd
 ExtraContent\LuaPackages\Packages\_Index\IAPExperience\Roact.lua
@@ -17633,7 +17633,7 @@ ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\Cryo.lua
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\InGameMenuDependencies\init.lua
 41a0e9fd5ceb1af80726a10a4532f3ab
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\lock.toml
-eabfc020785c6c956cc4bc7feed4297f
+53cbeca7bba6c6598b454a767059bfb3
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\Mock.lua
 1f355faeb2070a2a34e05bdaaaf1c2f6
 ExtraContent\LuaPackages\Packages\_Index\InGameMenuDependencies\Otter.lua
@@ -18837,7 +18837,7 @@ ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\AssetCard.lua
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\InfiniteScroller.lua
 5d1c9568317aabf56df9f6707df07802
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\lock.toml
-0daa468caf7cf19c423d490a6c545030
+3cb7cf50dadc3bb8d3b98f481b287501
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\LuaChatDeps\init.lua
 e6e8b42ef0d4cbdedc27db9bae5c7de5
 ExtraContent\LuaPackages\Packages\_Index\LuaChatDeps\RoduxNetworking.lua
@@ -18851,7 +18851,7 @@ abdb50dcc274c79b9f91cfeaf0c468cf
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\HttpRequest.lua
 4a9de254bdbee60d243f0824471d153e
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\lock.toml
-323a335b67ed26f9a73a1cd0f764dfeb
+af72cf5df90234db124ac9a05e15e2a8
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\LuaProfileDeps\init.lua
 c698d3fe3ffce31bcd96ff54919e8a55
 ExtraContent\LuaPackages\Packages\_Index\LuaProfileDeps\NetworkingBlocking.lua
@@ -20169,7 +20169,7 @@ ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\FitFrame.lua
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\IAPExperience.lua
 a85a4079e43842b395ac58d503896530
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\lock.toml
-5c2b4def53ccaa49b019a562e1f18759
+5b7d94ffaf5f286e4fa8a280d85cb927
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\Otter.lua
 1ca2b34086fc8eb7b9485c282da7c9cd
 ExtraContent\LuaPackages\Packages\_Index\PurchasePromptDeps\PolicyProvider.lua
@@ -21345,7 +21345,7 @@ ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\asset-card\asset-card
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\asset-card\asset-card\init.lua
 cfc3a1bfe92eb55706d4fae0d0beebad
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\lock.toml
-2cec0165a1a55049f76624f0ce3273c7
+ae17b09cf9797054020ab6acc6531816
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\Roact.lua
 bc20e7dc42f88580d602119eabdd8c14
 ExtraContent\LuaPackages\Packages\_Index\roblox_asset-card\Rodux.lua
@@ -23485,7 +23485,7 @@ ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\GenericPagination.lua
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\llama.lua
 33c34f93b5aaf07466901a4c6c69f432
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\lock.toml
-569ea035c32631c8e2ecfdbbfb682727
+01d969a860840f4774ecaaeb613994d3
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\LuauPolyfill.lua
 6fe4ab4b393c2d0df63575488d70dd17
 ExtraContent\LuaPackages\Packages\_Index\SocialLibraries\Lumberyak.lua
@@ -24125,7 +24125,7 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\FitFrame.lua
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\InfiniteScroller.lua
 5d1c9568317aabf56df9f6707df07802
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\lock.toml
-8b03e6ee2fc154cf0fe94798682b0f11
+0ea8188cef002cebd2b5008a95d5217b
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\LuauPolyfill.lua
 3522656c7252df46aad524835e9264a2
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\Otter.lua
@@ -24877,7 +24877,7 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Core\VR\PointerOverlay.lu
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Core\VR\usePanel3DRenderStep.lua
 f2bc29886c42197b1dedc9440c9af356
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\init.lua
-e4dd06d7f9c2b7862104fcf5c013b2cf
+9baf5216434ba66aa5f247235d10ffae
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\ModalBottomSheet\ModalBottomSheet.lua
 c02cb959962d2fb9e646d52a7f90bd6d
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\ModalBottomSheet\ModalBottomSheetButton.lua
@@ -24914,6 +24914,8 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\UIBloxConfig.lua
 0574e280c53e0b5fe35b520dc57b315c
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\UIBloxDefaultConfig.lua
 f8da0f8b17cbfadcccdc93e723b7425d
+ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\UnitTestHelpers\MockContentProvider.lua
+425ac30da9c6fc80d16eb6339d519c68
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\__snapshots__\isReactTagProp.snap.lua
 85df9f75a9973fbd45c7e7f7de0b07e8
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\bind.lua
@@ -24940,8 +24942,6 @@ ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\lerp.lua
 a0054e3560396d4ba599ac41ab516b08
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\memoize.lua
 fed9b54c952b31b043d57318d977c225
-ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\MockContentProvider.lua
-ecae4129badaecc2bf726bac4849c399
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\mockStyleComponent.lua
 1f7c7e66ab28c29d1cee10a64dfd7a30
 ExtraContent\LuaPackages\Packages\_Index\UIBlox\UIBlox\Utility\setDefault.lua
@@ -24969,7 +24969,7 @@ dae2ab54e746fa41a84b25bdb9bed6cb
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\DebugUtils.lua
 abdb50dcc274c79b9f91cfeaf0c468cf
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\lock.toml
-c76b49aef7906f6e53306c2224a1eeb3
+7c3b55068133d1dff7d49044f0254756
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\Roact.lua
 bc20e7dc42f88580d602119eabdd8c14
 ExtraContent\LuaPackages\Packages\_Index\UnitTestHelpers\RoactNavigation.lua
@@ -25401,7 +25401,7 @@ a8be76dbf4c427c4e6d302a784edb7f2
 ExtraContent\LuaPackages\Rodux.lua
 c29c2a795fe0422d41ff208a7946fb1c
 ExtraContent\LuaPackages\rotriever.lock
-0d20050104921049914fb198f60db759
+5c10ef2f36ec521f047e13fd2a4e9d1b
 ExtraContent\LuaPackages\rotriever.toml
 fd6c1dd304e88440919c51cb7049572b
 ExtraContent\LuaPackages\Symbol.lua
@@ -27575,7 +27575,7 @@ ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServ
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\dataLoaders\makeThumbnailsDataLoader.lua
 ff03fe5c950b863bb4bbf6c2112a5b87
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\generatedTypes.lua
-821fb9d4211d68929f0e7fe1598297e8
+803610167f69695805ff350d61029d68
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\init.lua
 ed3233928559b2763073be439ef86d40
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\luaTypeDefs\init.lua
@@ -27603,7 +27603,7 @@ a5c2869b3f5ea3d4b4162bb96564c39c
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\resolvers\VirtualEventResolver.lua
 395c3f3b5a4b8092abb5c04320e1812e
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\typeDefs.lua
-0725fbbff63c2c7e16f3bede82961869
+7124c36ca4cf3185b447d8d601127047
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\utils\GraphQLJSONType.lua
 e07328583f463990a72bfc61b6f59840
 ExtraContent\LuaPackages\Workspace\Packages\_Workspace\GraphQLServer\GraphQLServer\graphql\utils\GraphQLJSONType.spec.lua
@@ -31495,7 +31495,7 @@ ExtraContent\translations\CoreScriptLocalization.csv
 ExtraContent\models\AvatarContextMenu\AvatarContextArrow.rbxm
 09946e9ea0c1145e399c6adccede8e7f
 ExtraContent\models\DataModelPatch\DataModelPatch.rbxm
-217eff5f17ab2f7e68288322b50524f0
+7bccca4540ce7ec7676fc9e94b4f7594
 ExtraContent\textures\sky\white.png
 a96838807ab3610260919a4be87821e5
 ExtraContent\textures\ui\AvatarExperience\Avatar1_PPEButton.png

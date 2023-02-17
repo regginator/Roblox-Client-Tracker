@@ -2014,7 +2014,7 @@ AudioDevicesImpl
 AudioDeviceTelemetry
 AudioDeviceWindowsCore
 AudioDiscoveryPermCheckMaxAssetIdsPerRequest
-AudioDownloa
+AudioDownloa`x
 AudioDrift
 AudioDriftLowerThresholdMs
 AudioDriftSampleRateRatio
@@ -3661,6 +3661,9 @@ AVCmdSelect
 AVCmdSelectAllOccurrences
 AVCmdSelectPreviousOccurrence
 AVCmdSelectWord
+AVCmdSetMatchCase
+AVCmdSetMatchWholeWord
+AVCmdSetRegEx
 AVCmdSnippetAdd
 AVCmdSnippetAddUserPack
 AVCmdSnippetDelete
@@ -15179,7 +15182,6 @@ EncodedORAddress
 EncodePointer
 Encoder.ForcedSwFallbackChangesPerMinute.Vp8
 Encoder.ForcedSwFallbackTimeInPercent.Vp8
-EncoderFactory
 EncoderInfo
 EncoderInit
 EncodeRotationCurvesWithTangentFlags
@@ -16267,7 +16269,6 @@ FFlagStudioEnableStartPageTeamCreateToggle
 FFlagStudioEnableTeachingCallouts
 FFlagStudioFixExtraTitleBarSpacing
 FFlagStudioFixSecondaryScreenMaxSizeBug
-FFlagStudioMacDockPanelOpaquePaintEvent
 FFlagStudioNewTemplatesAreTC
 FFlagStudioPreventCentralVerticalSplit
 FFlagStudioQtitanSendCloseEventToPanelWhenClosedByUser
@@ -16450,6 +16451,7 @@ FinalizeDeformerImplNonUnitFix
 FinalLocallyThrottled
 FinalQOgreWrapperWidgetResized
 Find_Replace_All
+Find_Replace_All_Options
 FindAudioTrack
 FindChild_helper
 FindChildOption
@@ -20052,6 +20054,7 @@ INDEXMODE_ALPHA_IS_3BITS
 IndexOverflow
 IndexStart
 IndexTypeFromTypeHelper
+Indicateur
 INDICATION
 IndicatorAction
 IndicatorAction.
@@ -28479,7 +28482,6 @@ QEBAPEAXXZ
 QEBAPEBDPEADPEBD
 QEBAPEBDXZ
 QEBAPEBEXZ
-QEBAPEBUSG
 QEBAPEBUSG_ALL_TRIANGLES
 QEBAPEBV12
 QEBAPEBVFbxLayer
@@ -30677,6 +30679,7 @@ Ricomincia
 Riconnetti
 Ridimensiona
 Ridimensionamento
+Rielaborazione
 RigAttachment
 RigAttachment.
 RigBuilder.rbxm
@@ -32592,6 +32595,8 @@ SetLocalDescription.
 SetLocalPlayerInfo
 SetLocalSource
 SetLocalSsrc
+SetMatchCase
+SetMatchWholeWord
 SetMaterial
 SetMaterialColor
 SetMaxPayloadSize
@@ -38540,6 +38545,7 @@ StudioClose.Paused
 StudioClose.Start
 StudioCloseMode
 StudioCmdBase
+StudioCmdForFindReplaceOptions
 StudioCmds
 StudioCmds]
 StudioColorVerb
@@ -38728,7 +38734,6 @@ StudioLowMemoryThresholdMB
 StudioLuaAppDeployment
 StudioLuauLints
 StudioLuauNonStrictByDefault
-StudioMacDockPanelOpaquePaintEvent
 StudioMainWindowLowMemoryThresholdMB
 StudioMarketplace
 StudioMassUpdate
@@ -42983,6 +42988,9 @@ VCmdSelect
 VCmdSelectAllOccurrences
 VCmdSelectPreviousOccurrence
 VCmdSelectWord
+VCmdSetMatchCase
+VCmdSetMatchWholeWord
+VCmdSetRegEx
 VCmdSnippetAdd
 VCmdSnippetAddUserPack
 VCmdSnippetDelete
