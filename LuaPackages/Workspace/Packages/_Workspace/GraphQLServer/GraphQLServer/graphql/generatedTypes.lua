@@ -177,11 +177,6 @@ export type RsvpResponse = {
 	isUserFirstRsvp: Maybe<typeof((({} :: any) :: Scalars).Boolean)>?,
 	rsvpStatus: Maybe<RsvpStatus>?,
 }
-export type RsvpResponse = {
-	__typename: "RsvpResponse"?,
-	isUserFirstRsvp: Maybe<typeof((({} :: any) :: Scalars).Boolean)>?,
-	rsvpStatus: Maybe<RsvpStatus>?,
-}
 local RsvpStatus = { Going = "going", MaybeGoing = "maybeGoing", None = "none", NotGoing = "notGoing" }
 -- ROBLOX deviation START: convert RsvpStatus enum to type union
 export type RsvpStatus = "going" | "none" | "maybeGoing" | "notGoing"
