@@ -25315,7 +25315,6 @@ PartFallback
 PartFallback.png
 PartialMips
 PartialThread
-Participant
 ParticipantActive
 ParticipantId
 ParticipantModeratedFromVoice
